@@ -1,0 +1,7 @@
+SMILES,TITLE,SMILES (OpenEye),NrHvyAtom,NrHetAtom,MolWt,MF,PSA,IUPAC name (OpenEye)
+CC(=O)Oc1ccccc1C(=O)O,acetsali,CC(=O)Oc1ccccc1C(=O)O,13,4,180.16,C9H8O4,63.60,"2-acetoxybenzoic acid"
+c1nc2c(=O)[nH]c(nc2n1COCCO)N,acyclovi,c1nc2c(=O)[nH]c(nc2n1COCCO)N,16,8,225.20,C8H11N5O3,119.05,"2-amino-9-(2-hydroxyethoxymethyl)-1H-purin-6-one"
+CC(C)NCC(COc1ccccc1CC=C)O,alprenol,CC(C)NCC(COc1ccccc1CC=C)O,18,3,249.35,C15H23NO2,41.49,"1-(2-allylphenoxy)-3-(isopropylamino)propan-2-ol"
+Cc1c(c(=O)n(n1C)c2ccccc2)N(C)C,aminopy,Cc1c(c(=O)n(n1C)c2ccccc2)N(C)C,17,4,231.29,C13H17N3O,30.17,"4-(dimethylamino)-1,5-dimethyl-2-phenyl-pyrazol-3-one"
+CC(C)NCC(COc1ccc(cc1)CC(=O)N)O,atenolol,CC(C)NCC(COc1ccc(cc1)CC(=O)N)O,19,5,266.34,C14H22N2O3,84.58,"2-[4-[2-hydroxy-3-(isopropylamino)propoxy]phenyl]acetamide"
+Cn1cnc2c1c(=O)n(c(=O)n2C)C,caffeine,Cn1cnc2c1c(=O)n(c(=O)n2C)C,14,6,194.19,C8H10N4O2,61.82,"1,3,7-trimethylpurine-2,6-dione"

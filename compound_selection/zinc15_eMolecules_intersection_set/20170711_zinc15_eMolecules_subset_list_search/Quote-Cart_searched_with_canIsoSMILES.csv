@@ -1,0 +1,1086 @@
+eMolecules_Order_Number,NAME,PO_Number,ORIG_ROWNUM,MATCH_TYPE,MWT,SMILES,SUPPLIER_NAME,CATALOG_NUMBER,SHIPPED_AMOUNT,SHIPPED_UNITS,BARCODE,PLATE_BARCODE,LOCATION,Text 1,EMOLECULES_ID
+350029254,Mehtap Isik,,1,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,2,exact,269.73,Clc1ccc(cc1)CNc1ncnc2c1cccc2,,,,mg,,,,,30719859
+350029254,Mehtap Isik,,3,exact,253.3,COc1ccccc1NC(=O)/C=C/c1ccccc1,,,,mg,,,,,1852896
+350029254,Mehtap Isik,,4,exact,298.34,n1ccc(cc1)Nc1nc(nc2c1cccc2)c1ccccc1,,,,mg,,,,,49856653
+350029254,Mehtap Isik,,5,exact,240.26,Oc1ccc(cc1)NCn1nnc2c1cccc2,,,,mg,,,,,2334168
+350029254,Mehtap Isik,,6,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,7,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,8,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,9,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,10,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,11,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,12,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,13,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,14,exact,347.37,COc1ccc(cc1)c1oc2c(c1c1ccc(cc1)OC)c(N)ncn2,,,,mg,,,,,1990422
+350029254,Mehtap Isik,,15,exact,342.41,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1cccc(c1)OC,,,,mg,,,,,3590441
+350029254,Mehtap Isik,,16,exact,396.95,Ic1cc(I)c2c(c1O)nccc2,,,,mg,,,,,536848
+350029254,Mehtap Isik,,17,exact,234.3,Cc1cc2ncc(nc2cc1C)c1ccccc1,,,,mg,,,,,594835
+350029254,Mehtap Isik,,18,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,19,exact,314.4,Cc1cccc(c1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1278243
+350029254,Mehtap Isik,,20,exact,418.29,Brc1ccc(cc1)NC(=O)c1cn(nc1c1ccccc1)c1ccccc1,,,,mg,,,,,2401109
+350029254,Mehtap Isik,,21,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,22,exact,221.26,c1ccc(cc1)Nc1ncnc2c1cccc2,,,,mg,,,,,1327893
+350029254,Mehtap Isik,,23,exact,229.21,Fc1ccc(cc1)Nc1ncnc2c1nc[nH]2,,,,mg,,,,,4934115
+350029254,Mehtap Isik,,24,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,25,exact,343.44,c1ccc(cc1)c1csc2c1c(ncn2)N1CCc2c(C1)cccc2,,,,mg,,,,,688047
+350029254,Mehtap Isik,,26,exact,293.32,OC(=O)Cc1c(=O)[nH]c2c(c1c1ccccc1)cc(cc2)C,,,,mg,,,,,1367649
+350029254,Mehtap Isik,,27,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,28,exact,287.32,O=C1Nc2c(/C/1=C/c1c[nH]nc1c1ccccc1)cccc2,,,,mg,,,,,26484953
+350029254,Mehtap Isik,,29,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,30,exact,469.66,O=C(c1ccc(cc1)C(C)(C)C)CCCN1CCC(CC1)OC(c1ccccc1)c1ccccc1,,,,mg,,,,,901816
+350029254,Mehtap Isik,,31,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,32,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,33,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,34,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,35,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,36,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,37,exact,340.18,Clc1c(cccc1Cl)c1ccc(o1)/C=C\1/SC(=O)NC1=O,,,,mg,,,,,25775213
+350029254,Mehtap Isik,,38,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,39,exact,350.19,O=C1S/C(=C/c2ccc(o2)c2ccc(cc2)Br)/C(=O)N1,,,,mg,,,,,25775227
+350029254,Mehtap Isik,,40,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,41,exact,309.36,COc1cc2c(ncnc2cc1OC)Nc1ccc(cc1C)C,,,,mg,,,,,4862451
+350029254,Mehtap Isik,,42,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,43,exact,300.26,COc1c(O)cc2c(c1O)c(=O)c(co2)c1ccc(cc1)O,,,,mg,,,,,5757342
+350029254,Mehtap Isik,,44,exact,246.28,O=C(c1ccccc1)Nc1sccc1C(=O)N,,,,mg,,,,,2266007
+350029254,Mehtap Isik,,45,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,46,exact,219.31,Nc1ncnc2c1c1CCCCCc1s2,,,,mg,,,,,1339083
+350029254,Mehtap Isik,,47,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,48,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,49,exact,252.33,CCC(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1289161
+350029254,Mehtap Isik,,50,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,51,isomeric,416.13,Clc1ccc(c(c1)Cl)COC(c1ccc(cc1Cl)Cl)Cn1cncc1,,,,mg,,,,,902133
+350029254,Mehtap Isik,,52,exact,237.26,NC(=O)c1ccc2c(c1)nc([nH]2)c1ccccc1,,,,mg,,,,,37053191
+350029254,Mehtap Isik,,53,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,54,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,55,exact,318.39,O=C(c1cccs1)Nc1ncc(s1)Cc1ccccc1F,,,,mg,,,,,2483403
+350029254,Mehtap Isik,,56,exact,379.86,Fc1cccc(c1)CSc1nnc(s1)NC(=O)c1ccccc1Cl,,,,mg,,,,,2259473
+350029254,Mehtap Isik,,57,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,58,exact,297.31,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)O,,,,mg,,,,,32232846
+350029254,Mehtap Isik,,59,exact,130.15,c1ccc2c(c1)ncnc2,,,,mg,,,,,479644
+350029254,Mehtap Isik,,60,exact,380.46,O=C(c1ccc(cc1)S(=O)(=O)Nc1ccccc1)N(Cc1ccccc1)C,,,,mg,,,,,76003299
+350029254,Mehtap Isik,,61,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,62,exact,301.36,O=C(c1ccncc1)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1335659
+350029254,Mehtap Isik,,63,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,64,isomeric,311.33,COc1cc(OC)cc(c1/C=C\1/C(=O)Nc2c1cccc2)OC,,,,mg,,,,,23031422
+350029254,Mehtap Isik,,65,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,66,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,67,exact,391.42,OCCNc1ncnc2c1c(c1ccc(cc1)OC)c(o2)c1ccc(cc1)OC,,,,mg,,,,,1415746
+350029254,Mehtap Isik,,68,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,69,exact,350.2,COc1cc2c(ncnc2cc1OC)Nc1ccc(cc1Cl)Cl,,,,mg,,,,,4862465
+350029254,Mehtap Isik,,70,exact,304.34,CCNc1c(=O)n(C)c2c3c1c1ccccc1c(=O)c3ccc2,,,,mg,,,,,5497209
+350029254,Mehtap Isik,,71,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,72,exact,395.88,CN1CCN(CC1)c1ccc(cc1)NC(=O)c1ccc(o1)c1ccc(cc1)Cl,,,,mg,,,,,1750984
+350029254,Mehtap Isik,,73,exact,318.33,Oc1cccc(c1)Oc1ncnc2c1cc([nH]2)c1cccc(c1)N,,,,mg,,,,,11326021
+350029254,Mehtap Isik,,74,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,75,exact,215.21,Cn1c(nc2c1cccc2)c1nonc1N,,,,mg,,,,,1400224
+350029254,Mehtap Isik,,76,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,77,exact,312.39,COc1ccccc1CC(=O)Nc1nc2c(s1)cc(cc2)C,,,,mg,,,,,1412934
+350029254,Mehtap Isik,,78,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,79,exact,335.47,C1CCC(CC1)/N=c/1\nc(n(s1)c1ccccc1)c1ccccc1,,,,mg,,,,,46344575
+350029254,Mehtap Isik,,80,exact,346.83,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(cc1)Cl,,,,mg,,,,,1782302
+350029254,Mehtap Isik,,81,exact,300.4,O=C(c1cccs1)Nc1ncc(s1)Cc1ccccc1,,,,mg,,,,,1303385
+350029254,Mehtap Isik,,82,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,83,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,84,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,85,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,86,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,87,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,88,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,89,exact,339.39,O=C(c1cn(nc1c1ccccc1)c1ccccc1)Nc1ccccc1,,,,mg,,,,,14371658
+350029254,Mehtap Isik,,90,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,91,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,92,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,93,exact,278.67,Nc1nc(Nc2ccc(c(c2)Cl)F)c2c(n1)[nH]cn2,,,,mg,,,,,13586950
+350029254,Mehtap Isik,,94,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,95,exact,401.48,O=C(c1scnc1CCc1ccncc1)Nc1ccc(cc1)Oc1ccccc1,,,,mg,,,,,44160569
+350029254,Mehtap Isik,,96,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,97,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,98,exact,319.4,O=C(c1c[nH]c2c1cccc2)N1CCN(CC1)Cc1ccccc1,,,,mg,,,,,36798830
+350029254,Mehtap Isik,,99,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,100,exact,330.4,Cc1ccc(o1)/C=C/C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,25901441
+350029254,Mehtap Isik,,101,exact,368.49,O=C(Nc1sc2c(c1C(=O)N)CCCC2)/C=C/c1ccc(cc1)C(C)C,,,,mg,,,,,662777
+350029254,Mehtap Isik,,102,exact,340.18,O=C1S/C(=C/c2ccc(o2)c2ccc(cc2Cl)Cl)/C(=O)N1,,,,mg,,,,,25775229
+350029254,Mehtap Isik,,103,exact,282.36,CSc1cccc(c1)N/C=C/1\C(=O)Nc2c1cccc2,,,,mg,,,,,2366470
+350029254,Mehtap Isik,,104,exact,487.55,COc1cc2c(cc1OC)ncn2c1cc(c(s1)C(=O)N)OCc1ccc(cc1)S(=O)(=O)C,,,,mg,,,,,17720583
+350029254,Mehtap Isik,,105,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,106,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,107,exact,221.28,Cc1cc(C)c2c(n1)sc(c2N)C(=O)N,,,,mg,,,,,827004
+350029254,Mehtap Isik,,108,exact,301.77,COc1cc2c(cc1OC)CCN=C2c1cccc(c1)Cl,,,,mg,,,,,5837205
+350029254,Mehtap Isik,,109,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,110,exact,364.42,COc1ccc(c(c1)Sc1ccc2n(n1)c(nn2)c1ccccc1)OC,,,,mg,,,,,5847064
+350029254,Mehtap Isik,,111,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,112,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,113,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,114,exact,374.32,OC(=O)c1ccccc1Nc1ccnc(n1)Nc1ccc(cc1)C(F)(F)F,,,,mg,,,,,185254147
+350029254,Mehtap Isik,,115,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,116,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,117,exact,304.36,CCOc1ccc(cc1)CC(=O)Nc1sccc1C(=O)N,,,,mg,,,,,30140055
+350029254,Mehtap Isik,,118,exact,235.28,c1ccc(cc1)CNc1ncnc2c1cccc2,,,,mg,,,,,1327878
+350029254,Mehtap Isik,,119,salt/solvate,287.77,NCCNS(=O)(=O)c1cccc2c1ccnc2.Cl,,,,mg,,,,,8830330
+350029254,Mehtap Isik,,120,exact,294.76,O=C(Nc1sccc1C(=O)N)Cc1ccccc1Cl,,,,mg,,,,,2266103
+350029254,Mehtap Isik,,121,exact,319.38,Oc1cccc(c1)Nc1ncnc2c1cc(s2)c1ccccc1,,,,mg,,,,,179187955
+350029254,Mehtap Isik,,122,exact,358.45,COc1ccc(cc1)CCC(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,3565625
+350029254,Mehtap Isik,,123,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,124,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,125,exact,354.4,Cc1cccc(c1)Nc1nnc(c2c1cccc2)c1ccc(cc1)C(=O)N,,,,mg,,,,,2157519
+350029254,Mehtap Isik,,126,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,127,exact,331.37,OCCNc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1,,,,mg,,,,,1415762
+350029254,Mehtap Isik,,128,exact,218.27,NC(=O)c1sc(cc1N)c1ccccc1,,,,mg,,,,,932359
+350029254,Mehtap Isik,,129,exact,224.3,NC(=O)c1sc(cc1N)c1cscc1,,,,mg,,,,,1934441
+350029254,Mehtap Isik,,130,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,131,exact,335.38,NC(=O)c1sc2c(c1N)c(cc(n2)c1ccccc1)c1ccco1,,,,mg,,,,,1129902
+350029254,Mehtap Isik,,132,exact,493.6,CN1CCN(CC1)Cc1ccc(cc1)C(=O)Nc1ccc(c(c1)Nc1nccc(n1)c1cccnc1)C,,,,mg,,,,,876446
+350029254,Mehtap Isik,,133,exact,370.4,COc1cc2nccc(c2cc1OC)Nc1cc(OC)c(c(c1)OC)OC,,,,mg,,,,,42976292
+350029254,Mehtap Isik,,134,exact,225.25,Nc1nccc(n1)c1c(C)nc2n1cccc2,,,,mg,,,,,44673603
+350029254,Mehtap Isik,,135,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,136,exact,349.22,Brc1ccc(o1)C(=O)Nc1ccccc1N1CCCCC1,,,,mg,,,,,1716329
+350029254,Mehtap Isik,,137,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,138,exact,330.42,COc1ccc(cc1)Cc1cnc(s1)NC(=O)c1cccs1,,,,mg,,,,,1303365
+350029254,Mehtap Isik,,139,exact,420.51,O=C(c1onc(n1)c1cccnc1)NCCCN1CCN(CC1)c1ccc(c(c1)C)C,,,,mg,,,,,37139364
+350029254,Mehtap Isik,,140,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,141,exact,234.2,COc1ccc2c(c1)oc(=O)cc2CC(=O)O,,,,mg,,,,,490595
+350029254,Mehtap Isik,,142,exact,191.25,Cc1cnc(s1)Nc1ccccn1,,,,mg,,,,,44750813
+350029254,Mehtap Isik,,143,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,144,exact,457.43,COc1ccc(cc1)C(=O)COC(=O)c1ccc2c(c1)C(=O)N(C2=O)c1ccc(cc1)C(=O)C,,,,mg,,,,,2759864
+350029254,Mehtap Isik,,145,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,146,exact,242.24,Nc1nc(Nc2ccccc2O)c2c(n1)[nH]cn2,,,,mg,,,,,27459608
+350029254,Mehtap Isik,,147,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,148,exact,282.72,O=C(c1ccccc1Cl)Nc1cccc2c1nccc2,,,,mg,,,,,1573146
+350029254,Mehtap Isik,,149,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,150,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,151,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,152,exact,237.25,Oc1ccc(cc1)/C=C/1\C(=O)Nc2c1cccc2,,,,mg,,,,,27210622
+350029254,Mehtap Isik,,153,exact,330.18,COc1ccc2c(c1)ncnc2Nc1cccc(c1)Br,,,,mg,,,,,179667432
+350029254,Mehtap Isik,,154,exact,287.32,Nc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1,,,,mg,,,,,840416
+350029254,Mehtap Isik,,155,exact,274.34,O=C(Nc1sccc1C(=O)N)Cc1ccc(cc1)C,,,,mg,,,,,7891599
+350029254,Mehtap Isik,,156,exact,319.28,FC(c1ccc(cc1)c1nnc2n1nc(cc2)NC1CC1)(F)F,,,,mg,,,,,5784088
+350029254,Mehtap Isik,,157,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,158,exact,324.31,Fc1cnc(nc1Nc1ccccc1C(=O)O)Nc1ccccc1,,,,mg,,,,,50892030
+350029254,Mehtap Isik,,159,exact,236.27,Fc1ccc(cc1)c1cc(c(s1)C(=O)N)N,,,,mg,,,,,45491413
+350029254,Mehtap Isik,,160,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,161,exact,284.13,O=C1NC(=O)/C(=C/c2cccc(c2)Br)/S1,,,,mg,,,,,25849195
+350029254,Mehtap Isik,,162,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,163,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,164,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,165,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,166,exact,325.38,COC(=O)c1sccc1NC(=O)Cc1ccc2c(c1)cccc2,,,,mg,,,,,43969324
+350029254,Mehtap Isik,,167,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,168,exact,284.13,O=C1NC(=O)S/C/1=C\c1ccc(cc1)Br,,,,mg,,,,,26089200
+350029254,Mehtap Isik,,169,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,170,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,171,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,172,exact,321.37,Fc1ccc(cc1)Nc1ncnc2c1c(cs2)c1ccccc1,,,,mg,,,,,688294
+350029254,Mehtap Isik,,173,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,174,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,175,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,176,exact,360.43,OC(=O)CCCC(=O)Nc1scc(c1C(=O)N)c1ccc(c(c1)C)C,,,,mg,,,,,4038159
+350029254,Mehtap Isik,,177,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,178,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,179,exact,400.28,Clc1cccc(c1c1c(=O)ncn2c1ccc(n2)Sc1ccccc1)Cl,,,,mg,,,,,5867038
+350029254,Mehtap Isik,,180,exact,347.41,O=C(c1ccc(cc1)C(C)(C)C)Nc1cc(c[nH]c1=O)c1ccncc1,,,,mg,,,,,181274151
+350029254,Mehtap Isik,,181,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,182,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,183,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,184,exact,337.8,O=C(c1ccccc1Oc1ccccc1)NCc1ccccc1Cl,,,,mg,,,,,2243257
+350029254,Mehtap Isik,,185,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,186,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,187,exact,374.45,COc1cc(ccc1OC)C(=O)Nc1sc2c(c1C(=O)N)CCCCC2,,,,mg,,,,,2358480
+350029254,Mehtap Isik,,188,exact,340.35,COc1ccc(cc1)Nc1ncc(c(n1)Nc1ccc(cc1)OC)F,,,,mg,,,,,1288411
+350029254,Mehtap Isik,,189,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,190,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,191,exact,237.26,O=C(c1n[nH]c2c1cccc2)Nc1ccccc1,,,,mg,,,,,13419113
+350029254,Mehtap Isik,,192,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,193,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,194,exact,372.81,COc1cc2c(Nc3ccc(cc3)NC(=O)C)nc(nc2cc1OC)Cl,,,,mg,,,,,14820295
+350029254,Mehtap Isik,,195,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,196,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,197,exact,300.15,Brc1cccc(c1)Nc1ncnc2c1cccc2,,,,mg,,,,,33404805
+350029254,Mehtap Isik,,198,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,199,exact,332.8,COc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(cc1)Cl,,,,mg,,,,,2393398
+350029254,Mehtap Isik,,200,exact,321.37,Fc1ccc(cc1)Nc1ncnc2c1cc(s2)c1ccccc1,,,,mg,,,,,684258
+350029254,Mehtap Isik,,201,exact,265.31,COc1ccc(cc1)CNc1ncnc2c1cccc2,,,,mg,,,,,3560787
+350029254,Mehtap Isik,,202,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,203,exact,237.26,c1ccc(cc1)Nc1nnc(o1)c1ccccc1,,,,mg,,,,,37308
+350029254,Mehtap Isik,,204,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,205,exact,209.25,Nc1ccc2c(c1)ncn2c1ccccc1,,,,mg,,,,,31653344
+350029254,Mehtap Isik,,206,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,207,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,208,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,209,exact,353.83,Clc1ccc(cc1)c1csc2c1c(ncn2)Nc1cccc(c1)O,,,,mg,,,,,33404180
+350029254,Mehtap Isik,,210,exact,402.4,O=C(Nc1cccc(n1)C)COc1cc(O)c2c(c1)oc(cc2=O)c1ccccc1,,,,mg,,,,,13592443
+350029254,Mehtap Isik,,211,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,212,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,213,exact,296.39,Nc1ncnc2c1c1CCN(Cc1s2)Cc1ccccc1,,,,mg,,,,,17664876
+350029254,Mehtap Isik,,214,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,215,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,216,exact,440.77,Brc1ccc(cc1)CSc1nnc(s1)NC(=O)c1ccccc1Cl,,,,mg,,,,,5428718
+350029254,Mehtap Isik,,217,exact,330.4,COc1ccc(cc1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1090098
+350029254,Mehtap Isik,,218,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,219,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,220,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,221,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,222,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,223,exact,232.67,O=C(c1ccccc1Cl)Nc1ccncc1,,,,mg,,,,,677420
+350029254,Mehtap Isik,,224,exact,446.9,COc1cc2ncnc(c2cc1OCCCN1CCOCC1)Nc1ccc(c(c1)Cl)F,,,,mg,,,,,876432
+350029254,Mehtap Isik,,225,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,226,exact,328.19,O=C(Nc1cccc(c1Cl)Cl)Nc1noc(c1)C(C)(C)C,,,,mg,,,,,4009733
+350029254,Mehtap Isik,,227,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,228,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,229,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,230,exact,293.4,Cc1ccccc1C(=O)N1CCC(CC1)Cc1ccccc1,,,,mg,,,,,1260546
+350029254,Mehtap Isik,,231,exact,293.3,CCOc1cc2OCOc2cc1/C=C/1\SC(=O)NC1=O,,,,mg,,,,,45945033
+350029254,Mehtap Isik,,232,isomeric,400.46,COc1cc2CC(C)C(C)Cc3c(c2c(c1OC)OC)c(OC)c1c(c3)OCO1,,,,mg,,,,,1936133
+350029254,Mehtap Isik,,233,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,234,exact,268.33,O=C(Nc1nc2c(s1)cccc2)Cc1ccccc1,,,,mg,,,,,1171893
+350029254,Mehtap Isik,,235,exact,360.43,COc1cc(ccc1OC)C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1452944
+350029254,Mehtap Isik,,236,exact,257.31,Oc1ccc(cc1)Nc1ncnc2c1cc(s2)C,,,,mg,,,,,11000277
+350029254,Mehtap Isik,,237,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,238,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,239,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,240,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,241,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,242,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,243,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,244,exact,350.33,OC(=O)c1ccc(cc1)Nc1ccnc(n1)Nc1ccc(cc1)C(=O)O,,,,mg,,,,,4547062
+350029254,Mehtap Isik,,245,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,246,exact,383.44,COc1ccc(cc1)NC(=O)c1cn(nc1c1ccc(cc1)C)c1ccccc1,,,,mg,,,,,2397757
+350029254,Mehtap Isik,,247,exact,586.18,OC(=O)CC1(CS[C@@H](c2cccc(c2)/C=C/c2ccc3c(n2)cc(cc3)Cl)CCc2ccccc2C(O)(C)C)CC1,,,,mg,,,,,32453029
+350029254,Mehtap Isik,,248,exact,305.13,Brc1cccc(c1)Nc1nc(N)nc2c1nc[nH]2,,,,mg,,,,,13580801
+350029254,Mehtap Isik,,249,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,250,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,251,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,252,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,253,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,254,exact,206.27,Nc1nccc(n1)c1sc(nc1C)C,,,,mg,,,,,5823246
+350029254,Mehtap Isik,,255,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,256,exact,319.35,COC(=O)c1ccccc1NC(=O)Cc1cccc2c1cccc2,,,,mg,,,,,9868497
+350029254,Mehtap Isik,,257,isomeric,400.46,COc1cc2CC(C)C(C)Cc3c(c2c(c1OC)OC)c(OC)c1c(c3)OCO1,,,,mg,,,,,1936133
+350029254,Mehtap Isik,,258,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,259,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,260,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,261,exact,287.31,Fc1cccc(c1)CSc1nnc(o1)c1ccncc1,,,,mg,,,,,5616156
+350029254,Mehtap Isik,,262,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,263,exact,356.48,O=C(c1ccc(cc1)C(C)(C)C)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,639114
+350029254,Mehtap Isik,,264,exact,388.48,CCOc1ccc2c(c1)sc(n2)NC(=O)C(c1ccccc1)c1ccccc1,,,,mg,,,,,2382204
+350029254,Mehtap Isik,,265,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,266,exact,280.3,Fc1cnc(nc1Nc1ccccc1)Nc1ccccc1,,,,mg,,,,,1242054
+350029254,Mehtap Isik,,267,exact,482.19,OC[C@H](CONC(=O)c1ccc(c(c1Nc1ccc(cc1F)I)F)F)O,,,,mg,,,,,31507606
+350029254,Mehtap Isik,,268,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,269,exact,449.92,Brc1ccc(cc1)NC(=O)c1cc(Br)cc(c1O)Br,,,,mg,,,,,629390
+350029254,Mehtap Isik,,270,exact,371.39,COc1ccc(cc1)C(=O)Nc1ccccc1c1nc2ccccc2[nH]c1=O,,,,mg,,,,,17484267
+350029254,Mehtap Isik,,271,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,272,exact,161.16,O=c1[nH]nc(c2c1cccc2)N,,,,mg,,,,,49398053
+350029254,Mehtap Isik,,273,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,274,exact,264.28,Cc1cccc(c1)C1=N/C(=C\c2cccnc2)/C(=O)O1,,,,mg,,,,,25792607
+350029254,Mehtap Isik,,275,exact,147.17,O=C1CCc2c(N1)cccc2,,,,mg,,,,,506221
+350029254,Mehtap Isik,,276,exact,346.4,COc1ccc(cc1OC)C(=O)Nc1sc2c(c1C(=O)N)CCC2,,,,mg,,,,,2319765
+350029254,Mehtap Isik,,277,exact,363.4,Fc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1cccc(c1)F,,,,mg,,,,,5428828
+350029254,Mehtap Isik,,278,exact,270.24,Oc1ccc(cc1)c1cc(=O)c2c(o1)cc(cc2O)O,,,,mg,,,,,478202
+350029254,Mehtap Isik,,279,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,280,exact,241.26,O=C(Nc1ccccc1F)/C=C/c1ccccc1,,,,mg,,,,,17837989
+350029254,Mehtap Isik,,281,exact,334.82,Clc1cccc(c1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,2126243
+350029254,Mehtap Isik,,282,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,283,exact,218.27,NC(=O)c1cc(sc1N)c1ccccc1,,,,mg,,,,,859659
+350029254,Mehtap Isik,,284,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,285,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,286,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,287,isomeric,314.79,NCCN1C(=O)S/C(=C/c2ccc(cc2)OC)/C1=O.Cl,,,,mg,,,,,45772500
+350029254,Mehtap Isik,,288,exact,441.5,COc1ccccc1NC(=O)c1ccc(cc1)CSc1nnc2c(n1)[nH]c1c2cccc1,,,,mg,,,,,1518526
+350029254,Mehtap Isik,,289,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,290,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,291,exact,192.23,Oc1ccc2c(c1)cc(s2)C(=O)C,,,,mg,,,,,50500629
+350029254,Mehtap Isik,,292,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,293,exact,349.19,Clc1cccc(c1)Nc1ncc(c(n1)Nc1cccc(c1)Cl)F,,,,mg,,,,,1422051
+350029254,Mehtap Isik,,294,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,295,exact,354.4,Cc1ccc(cc1)Nc1nnc(c2c1cccc2)c1ccc(cc1)C(=O)N,,,,mg,,,,,1411042
+350029254,Mehtap Isik,,296,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,297,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,298,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,299,exact,291.37,O=S(=O)(c1cccc2c1ccnc2)N1CCNCCC1,,,,mg,,,,,901874
+350029254,Mehtap Isik,,300,exact,245.66,Clc1ccc2c(c1)/C(=C\c1ccco1)/C(=O)N2,,,,mg,,,,,72985551
+350029254,Mehtap Isik,,301,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,302,exact,389.88,OCCNS(=O)(=O)c1cc(ccc1Cl)c1sc(nc1C)NC(=O)C,,,,mg,,,,,31507624
+350029254,Mehtap Isik,,303,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,304,exact,295.34,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)C,,,,mg,,,,,5828805
+350029254,Mehtap Isik,,305,exact,313.27,Cn1nc(nc2c1nc(=O)n(c2=O)C)c1ccc2c(c1)OCO2,,,,mg,,,,,742162
+350029254,Mehtap Isik,,306,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,307,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,308,exact,284.7,Clc1cccc(c1)C1=N/C(=C\c2cccnc2)/C(=O)O1,,,,mg,,,,,207007178
+350029254,Mehtap Isik,,309,exact,328.41,COc1ccc2c(c1)Cc1c2nc(s1)NC(=O)c1cccs1,,,,mg,,,,,1465556
+350029254,Mehtap Isik,,310,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,311,exact,310.37,O=C(Cc1cccc2c1cccc2)Nc1sccc1C(=O)N,,,,mg,,,,,5490817
+350029254,Mehtap Isik,,312,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,313,exact,300.44,C/C(=C\C=C\C(=C\C(=O)O)\C)/C=C/C1=C(C)CCCC1(C)C,,,,mg,,,,,206842990
+350029254,Mehtap Isik,,314,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,315,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,316,exact,426.44,O=C(Nc1ncc(s1)Cc1ccc(c(c1)F)F)CCc1nc2ccccc2c(=O)[nH]1,,,,mg,,,,,18897105
+350029254,Mehtap Isik,,317,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,318,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,319,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,320,exact,260.68,Clc1cccc(c1)Nc1nc(N)nc2c1nc[nH]2,,,,mg,,,,,13594970
+350029254,Mehtap Isik,,321,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,322,exact,277.32,Nc1ccc(c(c1)Nc1nccc(n1)c1cccnc1)C,,,,mg,,,,,2727697
+350029254,Mehtap Isik,,323,exact,254.25,NC(=O)c1ccc(cc1)Nc1ncnc2c1nc[nH]2,,,,mg,,,,,2581573
+350029254,Mehtap Isik,,324,exact,378.37,O=C(c1nscc1NCc1ccncc1)Nc1cccc(c1)C(F)(F)F,,,,mg,,,,,6697792
+350029254,Mehtap Isik,,325,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,326,exact,292.35,NCCN1C(=O)S/C(=C\c2ccc(cc2)OCC)/C1=O,,,,mg,,,,,25915218
+350029254,Mehtap Isik,,327,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,328,salt/solvate,396.67,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)Br.Cl,,,,mg,,,,,8318309
+350029254,Mehtap Isik,,329,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,330,exact,337.37,O=C1N(CNc2ccc(cc2)N2CCOCC2)C(=O)c2c1cccc2,,,,mg,,,,,1067536
+350029254,Mehtap Isik,,331,exact,250.66,O=C(c1c(F)cccc1Cl)Nc1ccncc1,,,,mg,,,,,17004732
+350029254,Mehtap Isik,,332,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,333,exact,239.24,Fc1ccc(cc1)/C=C/1\C(=O)Nc2c1cccc2,,,,mg,,,,,45793317
+350029254,Mehtap Isik,,334,exact,255.7,Clc1ccc2c(c1)/C(=C\c1ccccc1)/C(=O)N2,,,,mg,,,,,44844471
+350029254,Mehtap Isik,,335,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,336,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,337,exact,281.35,COC(=O)c1sccc1NC(=O)Cc1cccs1,,,,mg,,,,,5808531
+350029254,Mehtap Isik,,338,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,339,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,340,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,341,exact,313.35,c1ccc(cc1)Oc1ccc(cc1)Nc1ncnc2c1cccc2,,,,mg,,,,,1875598
+350029254,Mehtap Isik,,342,exact,328.43,O=C(Nc1sc2c(c1C(=O)N)CCCC2)CCc1ccccc1,,,,mg,,,,,1557075
+350029254,Mehtap Isik,,343,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,344,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,345,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,346,exact,333.41,Cc1ccc(cc1)c1csc2c1c(ncn2)Nc1cccc(c1)O,,,,mg,,,,,31653710
+350029254,Mehtap Isik,,347,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,348,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,349,exact,278.33,c1ccc(cc1)Nc1ncnc2c1sc1c2cccn1,,,,mg,,,,,5773333
+350029254,Mehtap Isik,,350,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,351,exact,211.22,Nc1n[nH]c2c1cc(nn2)c1ccccc1,,,,mg,,,,,45957213
+350029254,Mehtap Isik,,352,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,353,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,354,exact,341.36,COc1ccc(cc1OC)Nc1ncnc2c1cc(OC)c(c2)OC,,,,mg,,,,,32259068
+350029254,Mehtap Isik,,355,exact,340.18,O=C1S/C(=C/c2ccc(o2)c2ccc(c(c2)Cl)Cl)/C(=O)N1,,,,mg,,,,,25857006
+350029254,Mehtap Isik,,356,exact,352.37,O=C(Nc1ccc(cc1)n1cnnn1)CSc1nc2c(o1)cccc2,,,,mg,,,,,30149417
+350029254,Mehtap Isik,,357,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,358,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,359,exact,241.04,Brc1ccc2c(c1)cc(o2)C(=O)O,,,,mg,,,,,724767
+350029254,Mehtap Isik,,360,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,361,exact,76.12,NC(=S)N,,,,mg,,,,,484431
+350029254,Mehtap Isik,,362,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,363,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,364,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,365,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,366,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,367,exact,329.35,Oc1ccc(cc1)Nc1nc(nc2c1cccc2)c1ccccc1O,,,,mg,,,,,4518504
+350029254,Mehtap Isik,,368,exact,323.73,O=C1S/C(=C/c2ccc(o2)c2ccc(c(c2)Cl)F)/C(=O)N1,,,,mg,,,,,25775231
+350029254,Mehtap Isik,,369,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,370,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,371,exact,234.25,c1ccc(cc1)c1n[nH]c2c1oc1c2cccc1,,,,mg,,,,,15798517
+350029254,Mehtap Isik,,372,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,373,exact,351.01,Clc1cc(Cl)c(c(c1)C(=O)Nc1ccc(c(c1)Cl)Cl)O,,,,mg,,,,,718480
+350029254,Mehtap Isik,,374,exact,445.92,Clc1ccc(cc1)c1nn2c(c1)ncc(c2c1ccccc1)S(=O)(=O)c1ccccc1,,,,mg,,,,,8239734
+350029254,Mehtap Isik,,375,exact,306.11,Brc1cc2c(/C=C/3\NC(=O)NC3=O)c[nH]c2cc1,,,,mg,,,,,26328012
+350029254,Mehtap Isik,,376,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,377,exact,290.36,Cc1cc(C)c2c(n1)sn(c2=O)C(=O)c1cccs1,,,,mg,,,,,5840978
+350029254,Mehtap Isik,,378,exact,248.28,c1ccc(cc1)Nc1nccc(n1)c1cccnc1,,,,mg,,,,,36025841
+350029254,Mehtap Isik,,379,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,380,exact,328.43,O=C(c1ccc(c(c1)C)C)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,5393098
+350029254,Mehtap Isik,,381,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,382,exact,330.4,COc1cccc(c1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1452942
+350029254,Mehtap Isik,,383,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,384,exact,526.51,O=C(C(O)(C)C)N1CCN(CC1)c1ccc(c(c1)C1=C(C(=O)NC1=O)c1c[nH]c2c1cccc2)C(F)(F)F,,,,mg,,,,,43552362
+350029254,Mehtap Isik,,385,exact,381.28,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(c(c1)Cl)Cl,,,,mg,,,,,3365457
+350029254,Mehtap Isik,,386,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,387,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,388,exact,420.46,CCOC(=O)c1ccc(cc1)Nc1cc(C)nc(n1)Nc1ccc(cc1)C(=O)OCC,,,,mg,,,,,4375254
+350029254,Mehtap Isik,,389,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,390,exact,286.33,CCCCNc1nccc(n1)Nc1ccccc1C(=O)O,,,,mg,,,,,185253940
+350029254,Mehtap Isik,,391,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,392,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,393,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,394,exact,328.39,COc1ccc2c(c1)s/c(=N/C(=O)Cc1ccccc1OC)/[nH]2,,,,mg,,,,,46497635
+350029254,Mehtap Isik,,395,exact,201.22,O=C(c1ccccc1)Nc1n[nH]c(c1)C,,,,mg,,,,,33489755
+350029254,Mehtap Isik,,396,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,397,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,398,exact,510.92,O=C(c1ccc(cc1)c1nnc(c2c1cccc2)Nc1ccc(cc1)OC(Cl)(F)F)N1CCOCC1,,,,mg,,,,,6774203
+350029254,Mehtap Isik,,399,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,400,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,401,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,402,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,403,exact,341.36,O=C(c1ccccc1)Nc1ccccc1c1nc2ccccc2[nH]c1=O,,,,mg,,,,,2285322
+350029254,Mehtap Isik,,404,exact,248.28,O=C(c1ccccc1)Nc1cccc2c1nccc2,,,,mg,,,,,8258619
+350029254,Mehtap Isik,,405,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,406,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,407,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,408,exact,235.28,Cc1cccc(c1)Nc1ncnc2c1cccc2,,,,mg,,,,,1327897
+350029254,Mehtap Isik,,409,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,410,exact,440.83,NC(=O)c1ccc(cc1)c1nnc(c2c1cccc2)Nc1ccc(cc1)OC(Cl)(F)F,,,,mg,,,,,6775995
+350029254,Mehtap Isik,,411,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,412,exact,249.29,CCOc1ccc(cc1)/C=C/1\SC(=O)NC1=O,,,,mg,,,,,26089236
+350029254,Mehtap Isik,,413,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,414,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,415,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,416,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,417,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,418,exact,364.46,O=C(c1csc(n1)c1cccnc1)Nc1ccc(cc1)N1CCCCC1,,,,mg,,,,,180065629
+350029254,Mehtap Isik,,419,exact,286.29,COc1ccc(cc1Nc1nc(N)nc2c1nc[nH]2)OC,,,,mg,,,,,13591161
+350029254,Mehtap Isik,,420,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,421,exact,301.39,O=C(c1cccs1)Nc1nnc(s1)Cc1ccccc1,,,,mg,,,,,1228629
+350029254,Mehtap Isik,,422,exact,234.2,O=C(c1c(F)cccc1F)Nc1ccncc1,,,,mg,,,,,2042282
+350029254,Mehtap Isik,,423,exact,421.45,CCOC(=O)c1cnc2c(c1Nc1ccc(cc1)NC(=O)C)cc(cc2)C(=O)OCC,,,,mg,,,,,1440277
+350029254,Mehtap Isik,,424,exact,270.31,O=C(c1n[nH]c(c1)c1ccccc1)Nc1nccs1,,,,mg,,,,,13487892
+350029254,Mehtap Isik,,425,exact,290.34,O=C(c1ccco1)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1852544
+350029254,Mehtap Isik,,426,exact,295.13,Nc1nc(Nc2ccc(c(c2)Cl)Cl)c2c(n1)[nH]cn2,,,,mg,,,,,13590943
+350029254,Mehtap Isik,,427,exact,316.32,COc1cc(cc(c1OC)OC)Nc1nc(N)nc2c1nc[nH]2,,,,mg,,,,,13589942
+350029254,Mehtap Isik,,428,exact,369.42,COc1ccc(cc1)c1nn(cc1C(=O)Nc1ccccc1)c1ccccc1,,,,mg,,,,,1356211
+350029254,Mehtap Isik,,429,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,430,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,431,exact,379.86,Clc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1cccc(c1)F,,,,mg,,,,,5428814
+350029254,Mehtap Isik,,432,exact,290.36,Cc1cc(C)nc(n1)SCC(=O)c1ccc(c(c1)C)F,,,,mg,,,,,1477944
+350029254,Mehtap Isik,,433,exact,227.26,O=C(c1n[nH]c(c1)c1ccccc1)NC1CC1,,,,mg,,,,,31855157
+350029254,Mehtap Isik,,434,exact,381.27,OC(=O)CSc1ncnc2c1sc(c2)c1ccc(cc1)Br,,,,mg,,,,,2867948
+350029254,Mehtap Isik,,435,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,436,exact,297.37,Fc1ccccc1C(=O)N1CCC(CC1)Cc1ccccc1,,,,mg,,,,,1214596
+350029254,Mehtap Isik,,437,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,438,exact,368.4,O=C(c1cccs1)Nc1ncc(s1)Cc1cccc(c1)C(F)(F)F,,,,mg,,,,,1406839
+350029254,Mehtap Isik,,439,exact,313.39,Fc1ccccc1Nc1ncnc2c1c1CCCCCc1s2,,,,mg,,,,,3064336
+350029254,Mehtap Isik,,440,exact,378.2,COc1cc2c(ncnc2cc1OC)Nc1ccc(cc1F)Br,,,,mg,,,,,32259063
+350029254,Mehtap Isik,,441,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,442,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,443,exact,317.39,O=C(c1cccs1)Nc1nnc(s1)COc1ccccc1,,,,mg,,,,,1472238
+350029254,Mehtap Isik,,444,exact,403.86,COc1ccc(cc1)NC(=O)c1cn(nc1c1ccc(cc1)Cl)c1ccccc1,,,,mg,,,,,1749044
+350029254,Mehtap Isik,,445,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,446,exact,322.32,Oc1cccc(c1)Nc1nccc(n1)Nc1ccccc1C(=O)O,,,,mg,,,,,50892016
+350029254,Mehtap Isik,,447,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,448,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,449,exact,333.41,COc1cccc(c1)Nc1ncnc2c1c(cs2)c1ccccc1,,,,mg,,,,,33404168
+350029254,Mehtap Isik,,450,exact,406.9,Clc1cc(Cl)c(c(c1O)Cc1c(O)c(Cl)cc(c1Cl)Cl)Cl,,,,mg,,,,,496659
+350029254,Mehtap Isik,,451,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,452,exact,394.49,O=C(c1ccc(cc1)S(=O)(=O)N(c1ccccc1)C)N(Cc1ccccc1)C,,,,mg,,,,,3563294
+350029254,Mehtap Isik,,453,exact,334.82,Clc1ccc(cc1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1022286
+350029254,Mehtap Isik,,454,exact,277.28,O=c1[nH]c2ccccc2c(c1c1nc2c([nH]1)cccc2)O,,,,mg,,,,,1102350
+350029254,Mehtap Isik,,455,exact,314.4,O=C(Nc1sc2c(c1C(=O)N)CCCC2)Cc1ccccc1,,,,mg,,,,,1108650
+350029254,Mehtap Isik,,456,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,457,exact,274.12,O=C1NC(=O)/C(=C\c2ccc(c(c2)Cl)Cl)/S1,,,,mg,,,,,25775241
+350029254,Mehtap Isik,,458,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,459,exact,249.31,c1ccc(cc1)CCNc1ncnc2c1cccc2,,,,mg,,,,,1427450
+350029254,Mehtap Isik,,460,exact,319.4,O=C(c1ccc2c(c1)cc[nH]2)N1CCN(CC1)Cc1ccccc1,,,,mg,,,,,4762361
+350029254,Mehtap Isik,,461,exact,326.41,O=C(Nc1sc2c(c1C(=O)N)CCCC2)/C=C/c1ccccc1,,,,mg,,,,,640814
+350029254,Mehtap Isik,,462,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,463,exact,194.23,c1ccc(cc1)c1n[nH]c2c1cccc2,,,,mg,,,,,2711684
+350029254,Mehtap Isik,,464,exact,352.45,O=C(/N=c/1\sc2c([nH]1)ccc(c2)S(=O)(=O)C)Cc1cccs1,,,,mg,,,,,33644856
+350029254,Mehtap Isik,,465,exact,347.37,O=C(c1ccccc1C(F)(F)F)N1CCC(CC1)Cc1ccccc1,,,,mg,,,,,180998255
+350029254,Mehtap Isik,,466,exact,381.37,Cc1ccc(cc1)c1cc(nn1c1ccc(cc1)S(=O)(=O)N)C(F)(F)F,,,,mg,,,,,901601
+350029254,Mehtap Isik,,467,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,468,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,469,exact,327.36,COc1cccc(c1)NC(=O)Nc1nnc(s1)c1ccncc1,,,,mg,,,,,1456962
+350029254,Mehtap Isik,,470,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,471,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,472,exact,387.86,Cc1ccc(cc1)c1nn(cc1C(=O)Nc1ccc(cc1)Cl)c1ccccc1,,,,mg,,,,,2400468
+350029254,Mehtap Isik,,473,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,474,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,475,exact,275.32,COC(=O)c1sccc1NC(=O)Cc1ccccc1,,,,mg,,,,,2440057
+350029254,Mehtap Isik,,476,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,477,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,478,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,479,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,480,exact,321.39,COc1cc(ccc1OC)c1csc(c1C(=O)OC(C)C)N,,,,mg,,,,,837243
+350029254,Mehtap Isik,,481,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,482,exact,165.15,Oc1ccc(cc1)/C=C/[N+](=O)[O-],,,,mg,,,,,18599552
+350029254,Mehtap Isik,,483,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,484,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,485,exact,343.35,NC(=O)c1sc2c(c1N)c(cc(n2)c1cccs1)C(F)(F)F,,,,mg,,,,,37117785
+350029254,Mehtap Isik,,486,exact,294.24,Nc1nc(Nc2cccc(c2)C(F)(F)F)c2c(n1)[nH]cn2,,,,mg,,,,,13595158
+350029254,Mehtap Isik,,487,exact,229.24,CCn1c(nc2c1cccc2)c1nonc1N,,,,mg,,,,,1360661
+350029254,Mehtap Isik,,488,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,489,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,490,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,491,exact,314.43,Cc1cccc(c1)Cc1cnc(s1)NC(=O)c1cccs1,,,,mg,,,,,6458515
+350029254,Mehtap Isik,,492,exact,361.87,O=C(c1ccccc1Cl)Nc1nnc(s1)SCc1ccccc1,,,,mg,,,,,5432942
+350029254,Mehtap Isik,,493,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,494,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,495,exact,457.96,O=C(Nc1nc2c(s1)cc(cc2)C)Cc1csc(n1)NC(=O)Nc1cccc(c1)Cl,,,,mg,,,,,5551808
+350029254,Mehtap Isik,,496,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,497,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,498,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,499,exact,306.18,Brc1cccc(c1)Nc1ncnc2c1ccs2,,,,mg,,,,,3211470
+350029254,Mehtap Isik,,500,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,501,exact,432.31,Cc1ccc(cc1)c1nn(cc1C(=O)Nc1ccc(cc1)Br)c1ccccc1,,,,mg,,,,,2398705
+350029254,Mehtap Isik,,502,exact,369.42,COc1ccc(cc1)NC(=O)c1cn(nc1c1ccccc1)c1ccccc1,,,,mg,,,,,1753242
+350029254,Mehtap Isik,,503,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,504,exact,223.22,O=C1NC(=O)/C(=C/c2ccccc2F)/S1,,,,mg,,,,,26320237
+350029254,Mehtap Isik,,505,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,506,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,507,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,508,exact,265.29,COc1cc(ccc1OC)/C=C/1\SC(=O)NC1=O,,,,mg,,,,,26089210
+350029254,Mehtap Isik,,509,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,510,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,511,exact,306.32,OC(=O)c1ccccc1Nc1ccnc(n1)Nc1ccccc1,,,,mg,,,,,4989759
+350029254,Mehtap Isik,,512,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,513,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,514,exact,205.23,O=C1NC(=O)S/C/1=C\c1ccccc1,,,,mg,,,,,832043
+350029254,Mehtap Isik,,515,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,516,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,517,exact,328.39,COc1cccc(c1)CC(=O)Nc1nc2c(s1)cc(cc2)OC,,,,mg,,,,,12272961
+350029254,Mehtap Isik,,518,exact,239.68,O=C1NC(=O)/C(=C/c2cccc(c2)Cl)/S1,,,,mg,,,,,46568821
+350029254,Mehtap Isik,,519,exact,299.28,COc1cc(ccc1OC(=O)c1ccccc1)/C=C/[N+](=O)[O-],,,,mg,,,,,26807249
+350029254,Mehtap Isik,,520,exact,306.34,COc1cc(ccc1OC)C(=O)Nc1sccc1C(=O)N,,,,mg,,,,,5490783
+350029254,Mehtap Isik,,521,exact,347.39,O=C(c1cccs1)Nc1ccccc1c1nc2ccccc2[nH]c1=O,,,,mg,,,,,1536105
+350029254,Mehtap Isik,,522,exact,128.15,OC(=O)c1cscc1,,,,mg,,,,,491595
+350029254,Mehtap Isik,,523,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,524,exact,458.57,COc1ccc(cc1)CCN1CCC(CC1)Nc1nc2c(n1Cc1ccc(cc1)F)cccc2,,,,mg,,,,,534476
+350029254,Mehtap Isik,,525,exact,420.85,CCOC(=O)c1ccc(cc1)Nc1nc(Nc2ccc(cc2)Cl)c2c(n1)nccn2,,,,mg,,,,,16850249
+350029254,Mehtap Isik,,526,exact,360.43,COc1ccc(cc1)OCC(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1088722
+350029254,Mehtap Isik,,527,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,528,exact,324.16,O=C(Nc1ccccc1C(=O)N)Nc1ccc(c(c1)Cl)Cl,,,,mg,,,,,2388562
+350029254,Mehtap Isik,,529,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,530,exact,403.86,COc1ccc(cc1)c1nn(cc1C(=O)Nc1ccc(cc1)Cl)c1ccccc1,,,,mg,,,,,43825034
+350029254,Mehtap Isik,,531,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,532,exact,259.3,NC(=O)c1nc(oc1N)c1ccc(cc1)C(C)(C)C,,,,mg,,,,,8868126
+350029254,Mehtap Isik,,533,exact,325.38,O=C(Cc1ccccc1)NCC(=O)Nc1nc2c(s1)cccc2,,,,mg,,,,,11880412
+350029254,Mehtap Isik,,534,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,535,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,536,exact,244.32,Cc1nc2sc3c(c2c(c1C)C)ncnc3N,,,,mg,,,,,4380347
+350029254,Mehtap Isik,,537,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,538,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,539,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,540,exact,358.84,Clc1cnc(c(c1)c1ccc(cc1)S(=O)(=O)C)c1ccc(nc1)C,,,,mg,,,,,5758581
+350029254,Mehtap Isik,,541,exact,191.25,Nc1ncnc2c1c1CCCc1s2,,,,mg,,,,,2867544
+350029254,Mehtap Isik,,542,exact,415.71,Brc1ccc(c(c1)N)Nc1ccc(c(c1)Cl)C(=O)c1ccccc1C,,,,mg,,,,,24587949
+350029254,Mehtap Isik,,543,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,544,exact,238.31,c1csc(c1)c1n[nH]c2c1Cc1c2cccc1,,,,mg,,,,,29488902
+350029254,Mehtap Isik,,545,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,546,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,547,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,548,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,549,exact,342.41,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(cc1)OC,,,,mg,,,,,1421743
+350029254,Mehtap Isik,,550,exact,262.31,c1ccc(cc1)Nc1ccnc(n1)Nc1ccccc1,,,,mg,,,,,4482950
+350029254,Mehtap Isik,,551,exact,289.28,O=C1S/C(=C/c2ccc(o2)c2ccc(cc2)F)/C(=O)N1,,,,mg,,,,,206843336
+350029254,Mehtap Isik,,552,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,553,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,554,exact,368.4,CCOc1ccc(cc1)Nc1ncc(c(n1)Nc1ccc(cc1)OCC)F,,,,mg,,,,,1267281
+350029254,Mehtap Isik,,555,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,556,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,557,exact,243.27,C(Nc1ncnc2c1nc[nH]2)CCn1cncc1,,,,mg,,,,,4934141
+350029254,Mehtap Isik,,558,exact,484.88,OCCNC(=O)c1ccc(cc1)c1nnc(c2c1cccc2)Nc1ccc(cc1)OC(Cl)(F)F,,,,mg,,,,,6775991
+350029254,Mehtap Isik,,559,exact,347.37,Cc1ccc(cc1)C(=O)Nc1nccc(n1)c1ccc2c(c1)OCCO2,,,,mg,,,,,5805584
+350029254,Mehtap Isik,,560,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,561,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,562,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,563,exact,386.46,COc1cc(/C=C/C(=O)Nc2sc3c(c2C(=O)N)CCCC3)ccc1OC,,,,mg,,,,,642134
+350029254,Mehtap Isik,,564,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,565,exact,438.09,Brc1cccc(c1)Nc1ncc(c(n1)Nc1cccc(c1)Br)F,,,,mg,,,,,1574612
+350029254,Mehtap Isik,,566,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,567,exact,265.29,CCOc1cc(ccc1O)/C=C/1\SC(=O)NC1=O,,,,mg,,,,,206904455
+350029254,Mehtap Isik,,568,exact,401.48,O=C(c1ccccc1)Nc1ccc(cc1)Oc1ncnc2c1c1CCCCc1s2,,,,mg,,,,,3064762
+350029254,Mehtap Isik,,569,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,570,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,571,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,572,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,573,exact,347.43,COc1ccc(cc1)Nc1ncnc2c1c(cs2)c1ccc(cc1)C,,,,mg,,,,,33404125
+350029254,Mehtap Isik,,574,exact,356.38,COc1cc(ccc1OC)Nc1nc(N2CCOCC2)c2c(n1)[nH]cn2,,,,mg,,,,,29925813
+350029254,Mehtap Isik,,575,exact,360.36,COc1ccc(cc1F)CSc1nnc(o1)c1ccc2c(c1)OCO2,,,,mg,,,,,3244952
+350029254,Mehtap Isik,,576,exact,388.44,c1ccc(cc1)c1ccc(cc1)CSc1nnc(o1)c1ccc2c(c1)OCO2,,,,mg,,,,,19358826
+350029254,Mehtap Isik,,577,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,578,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,579,exact,337.37,COc1cc(CNC(=O)c2n[nH]c(c2)c2ccccc2)ccc1OC,,,,mg,,,,,23991783
+350029254,Mehtap Isik,,580,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,581,exact,583.7,COc1c(NC(=O)C(=O)c2ccc(c3c2cccc3)OCCN2CCOCC2)cc(cc1NS(=O)(=O)C)C(C)(C)C,,,,mg,,,,,44161090
+350029254,Mehtap Isik,,582,exact,237.25,Oc1ccccc1/C=C/1\C(=O)Nc2c1cccc2,,,,mg,,,,,46568548
+350029254,Mehtap Isik,,583,exact,319.38,Nc1nccc(n1)/C=C/c1c(nc2n1ccs2)c1ccccc1,,,,mg,,,,,45789486
+350029254,Mehtap Isik,,584,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,585,exact,379.27,Brc1ccc(cc1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1243584
+350029254,Mehtap Isik,,586,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,587,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,588,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,589,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,590,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,591,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,592,exact,260.74,Clc1ccc2c(c1)SNC(=N2)c1ccccc1,,,,mg,,,,,8241969
+350029254,Mehtap Isik,,593,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,594,exact,348.4,COc1ccccc1CNC(=O)c1[nH]cc(c1)C(=O)c1ccccc1C,,,,mg,,,,,27504361
+350029254,Mehtap Isik,,595,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,596,exact,377.15,COc1cc(/C=C\2/SC(=O)NC2=O)cc(c1O)I,,,,mg,,,,,45945887
+350029254,Mehtap Isik,,597,exact,267.28,O=C(c1n[nH]c(c1)c1ccccc1)NCc1ccco1,,,,mg,,,,,35149447
+350029254,Mehtap Isik,,598,exact,487.55,COc1cc2c(cc1OC)ncn2c1cc(c(s1)C(=O)N)OCc1ccccc1S(=O)(=O)C,,,,mg,,,,,17722738
+350029254,Mehtap Isik,,599,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,600,exact,359.17,COc1ccc(c(c1)Br)C1=N/C(=C\c2cccnc2)/C(=O)O1,,,,mg,,,,,27198800
+350029254,Mehtap Isik,,601,exact,309.12,CCn1c(nc2c1c(Br)cnc2)c1nonc1N,,,,mg,,,,,48551555
+350029254,Mehtap Isik,,602,exact,319.38,Oc1cccc(c1)Nc1ncnc2c1c(cs2)c1ccccc1,,,,mg,,,,,31653711
+350029254,Mehtap Isik,,603,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,604,exact,204.23,CCCC(=O)Nc1n[nH]c2c1cccn2,,,,mg,,,,,181272581
+350029254,Mehtap Isik,,605,exact,269.32,NC(=O)c1sc2c(c1N)ccc(n2)c1ccccc1,,,,mg,,,,,824388
+350029254,Mehtap Isik,,606,exact,328.37,Oc1ccc2c(c1)nccc2c1c2CCCn2nc1c1ccccn1,,,,mg,,,,,30151569
+350029254,Mehtap Isik,,607,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,608,exact,278.3,O=C(Nc1sccc1C(=O)N)Cc1ccc(cc1)F,,,,mg,,,,,12046018
+350029254,Mehtap Isik,,609,exact,244.23,Fc1cccc(c1)Nc1nc(N)nc2c1nc[nH]2,,,,mg,,,,,13586548
+350029254,Mehtap Isik,,610,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,611,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,612,exact,251.28,COc1ccc(cc1)/C=C\1/C(=O)Nc2c1cccc2,,,,mg,,,,,207082074
+350029254,Mehtap Isik,,613,exact,332.8,COc1ccc2c(c1)sc(n2)NC(=O)Cc1ccccc1Cl,,,,mg,,,,,23551065
+350029254,Mehtap Isik,,614,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,615,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,616,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,617,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,618,exact,370.4,COc1ccc(cc1)Nc1nnc(c2c1cccc2)c1ccc(cc1)C(=O)N,,,,mg,,,,,1411040
+350029254,Mehtap Isik,,619,exact,401.42,n1ccc(cc1)CNc1ccccc1c1nnc(o1)Nc1ccc2c(c1)OCCO2,,,,mg,,,,,6697810
+350029254,Mehtap Isik,,620,exact,398.47,CCN(CCNC(=O)c1c(C)[nH]c(c1C)/C=C/1\C(=O)Nc2c1cc(F)cc2)CC,,,,mg,,,,,23296409
+350029254,Mehtap Isik,,621,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,622,exact,382.36,COc1ccccc1CC(=O)Nc1nc2c(s1)cc(cc2)OC(F)(F)F,,,,mg,,,,,17211030
+350029254,Mehtap Isik,,623,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,624,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,625,exact,379.48,CN1CCN(CC1)c1ccc(cc1)NC(=O)c1csc(n1)c1cccnc1,,,,mg,,,,,180065839
+350029254,Mehtap Isik,,626,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,627,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,628,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,629,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,630,exact,345.84,COc1ccc2c(c1)sc(c2Cl)C(=O)N(Cc1ccccc1)C,,,,mg,,,,,1464977
+350029254,Mehtap Isik,,631,exact,262.26,O=C(c1cc2c(o1)cccc2)c1cc2c(o1)cccc2,,,,mg,,,,,6263924
+350029254,Mehtap Isik,,632,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,633,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,634,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,635,exact,304.77,Clc1ccc(o1)C(=O)Nc1ccccc1N1CCCCC1,,,,mg,,,,,18908671
+350029254,Mehtap Isik,,636,exact,452.73,Clc1ccc(cc1)c1nn(cc1C(=O)Nc1ccc(cc1)Br)c1ccccc1,,,,mg,,,,,43360388
+350029254,Mehtap Isik,,637,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,638,exact,351.23,Clc1cccc(c1C(=O)c1c[nH]c(c1)C(=O)NC1CCCC1)Cl,,,,mg,,,,,4873300
+350029254,Mehtap Isik,,639,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,640,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,641,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,642,exact,322.77,Clc1ccc(cc1)Cn1c(S)nc2c1c(=O)[nH]c(=O)n2C,,,,mg,,,,,1242692
+350029254,Mehtap Isik,,643,exact,217.22,Oc1cc2c3CCCNC(=O)c3oc2cc1,,,,mg,,,,,6679830
+350029254,Mehtap Isik,,644,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,645,exact,437.52,CN(c1ccc2c(c1)nn(c2C)C)c1ccnc(n1)Nc1ccc(c(c1)S(=O)(=O)N)C,,,,mg,,,,,30151586
+350029254,Mehtap Isik,,646,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,647,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,648,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,649,exact,248.28,O=C(c1ccccc1)Nc1cnc2c(c1)cccc2,,,,mg,,,,,180599800
+350029254,Mehtap Isik,,650,isomeric,424.44,COC(=O)[C@]1(Cc2ccc(c(c2)CC=C(C)C)O)OC(=O)C(=C1c1ccc(cc1)O)O,,,,mg,,,,,1934936
+350029254,Mehtap Isik,,651,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,652,exact,303.77,Clc1cccc(c1)CSc1nnc(o1)c1ccncc1,,,,mg,,,,,8687115
+350029254,Mehtap Isik,,653,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,654,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,655,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,656,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,657,exact,286.24,Oc1ccc(cc1)c1oc2cc(O)cc(c2c(=O)c1O)O,,,,mg,,,,,524531
+350029254,Mehtap Isik,,658,exact,269.26,COC(=O)c1ccc(cc1)Nc1ncnc2c1nc[nH]2,,,,mg,,,,,4934119
+350029254,Mehtap Isik,,659,exact,385.5,COc1cc(SC)ccc1C(=O)Nc1nnc(s1)CCc1ccccc1,,,,mg,,,,,1514401
+350029254,Mehtap Isik,,660,salt/solvate,448.41,O[C@@H]1[C@H](O)[C@H](O[C@H]1n1cnc2c1ncnc2N)COP(=O)(O)O.CCN(CC)CC,,,,mg,,,,,49241821
+350029254,Mehtap Isik,,661,exact,263.29,O=C(c1[nH]nc(c1)c1ccccc1)Nc1ccccc1,,,,mg,,,,,49411273
+350029254,Mehtap Isik,,662,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,663,exact,300.36,CNc1ncnc2c1c(cn2c1ccccc1)c1ccccc1,,,,mg,,,,,32326698
+350029254,Mehtap Isik,,664,exact,263.31,CCCOc1ccc(cc1)/C=C/1\SC(=O)NC1=O,,,,mg,,,,,45791907
+350029254,Mehtap Isik,,665,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,666,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,667,exact,329.37,CCOC(=O)c1sc2c(c1C)c(ncn2)Nc1cccc(c1)O,,,,mg,,,,,5642011
+350029254,Mehtap Isik,,668,exact,328.14,Brc1cc2OCOc2cc1/C=C\1/SC(=O)NC1=O,,,,mg,,,,,25857338
+350029254,Mehtap Isik,,669,exact,319.31,CCOC(=O)c1c(=O)[nH]c2c3c1c1ccccc1c(=O)c3ccc2,,,,mg,,,,,1470412
+350029254,Mehtap Isik,,670,exact,426.69,CC(=O)N1CCN(CC1)c1c(cccc1Cl)NC(=O)c1ccc(o1)Br,,,,mg,,,,,13582141
+350029254,Mehtap Isik,,671,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,672,exact,466.28,O=C(Nc1ccc(cc1)Br)COc1cc(O)c2c(c1)oc(cc2=O)c1ccccc1,,,,mg,,,,,4817649
+350029254,Mehtap Isik,,673,exact,281.28,COc1cc(/C=C\2/SC(=O)NC2=O)cc(c1O)OC,,,,mg,,,,,25776721
+350029254,Mehtap Isik,,674,exact,299.17,Brc1cccc(c1)Nc1ccnc2c1cccc2,,,,mg,,,,,49211125
+350029254,Mehtap Isik,,675,exact,440.77,Clc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1ccc(cc1)Br,,,,mg,,,,,2183015
+350029254,Mehtap Isik,,676,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,677,exact,409.27,NC(=O)c1ccc(cc1)c1nnc(c2c1cccc2)Nc1ccc(c(c1)Cl)Cl,,,,mg,,,,,4424334
+350029254,Mehtap Isik,,678,exact,356.05,Clc1cc(Sc2cc(Cl)cc(c2O)Cl)c(c(c1)Cl)O,,,,mg,,,,,510833
+350029254,Mehtap Isik,,679,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,680,exact,229.21,Fc1cccc(c1)Nc1ncnc2c1cn[nH]2,,,,mg,,,,,9997213
+350029254,Mehtap Isik,,681,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,682,exact,421.5,Cc1ccc(c(c1)C)N1CCN(CC1)CCCNC(=O)c1onc(n1)c1cncnc1,,,,mg,,,,,37139384
+350029254,Mehtap Isik,,683,exact,359.35,Fc1ccc(cc1)C(=O)Nc1ccccc1c1nc2ccccc2[nH]c1=O,,,,mg,,,,,3513384
+350029254,Mehtap Isik,,684,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,685,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,686,exact,280.12,Brc1ccc(cc1)C(=O)Nc1n[nH]c(c1)C,,,,mg,,,,,186781383
+350029254,Mehtap Isik,,687,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,688,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,689,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,690,exact,311.34,COc1cccc(c1)Nc1ncnc2c1cc(OC)c(c2)OC,,,,mg,,,,,1026999
+350029254,Mehtap Isik,,691,exact,388.44,CCOC(=O)CSc1nc2c(n1Cc1cccc(c1)C)c(=O)[nH]c(=O)n2C,,,,mg,,,,,1281962
+350029254,Mehtap Isik,,692,exact,373.83,Clc1ccc(cc1)c1nn(cc1C(=O)Nc1ccccc1)c1ccccc1,,,,mg,,,,,2960605
+350029254,Mehtap Isik,,693,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,694,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,695,exact,374.32,OC(=O)c1ccccc1Nc1ccnc(n1)Nc1cccc(c1)C(F)(F)F,,,,mg,,,,,185254144
+350029254,Mehtap Isik,,696,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,697,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,698,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,699,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,700,exact,372.41,COc1cc(ccc1OC)C[C@H]1COC(=O)[C@@H]1Cc1ccc(c(c1)OC)O,,,,mg,,,,,533902
+350029254,Mehtap Isik,,701,exact,210.23,Nc1nccc(n1)c1c[nH]c2c1cccc2,,,,mg,,,,,31627771
+350029254,Mehtap Isik,,702,exact,345.41,Fc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1ccccc1,,,,mg,,,,,6766101
+350029254,Mehtap Isik,,703,exact,322.36,COc1cccc(c1)n1c(=O)c2CCCCc2c2c1ncnc2N,,,,mg,,,,,13586656
+350029254,Mehtap Isik,,704,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,705,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,706,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,707,exact,398.68,CN1CCN(CC1)c1c(cccc1Cl)NC(=O)c1ccc(o1)Br,,,,mg,,,,,17664146
+350029254,Mehtap Isik,,708,exact,267.11,Clc1ccc(c(c1)C(=O)Nc1ccncc1)Cl,,,,mg,,,,,2253464
+350029254,Mehtap Isik,,709,exact,383.44,CCOc1ccc(cc1)NC(=O)c1cn(nc1c1ccccc1)c1ccccc1,,,,mg,,,,,14371604
+350029254,Mehtap Isik,,710,exact,291.3,Cn1c(=O)c(c2nc3c([nH]2)cccc3)c(c2c1cccc2)O,,,,mg,,,,,1098120
+350029254,Mehtap Isik,,711,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,712,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,713,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,714,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,715,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,716,exact,300.38,O=C(c1ccccc1)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1557067
+350029254,Mehtap Isik,,717,exact,179.24,Cc1sc2c(c1C)c(N)ncn2,,,,mg,,,,,738783
+350029254,Mehtap Isik,,718,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,719,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,720,exact,267.28,COc1ccc(cc1)NC(=O)c1n[nH]c2c1cccc2,,,,mg,,,,,13421143
+350029254,Mehtap Isik,,721,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,722,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,723,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,724,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,725,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,726,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,727,exact,369.29,Clc1ccc(c(c1)Cc1cnc(s1)NC(=O)c1cccs1)Cl,,,,mg,,,,,1406847
+350029254,Mehtap Isik,,728,exact,356.44,COc1ccc(cc1)/C=C/C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,649412
+350029254,Mehtap Isik,,729,exact,421.24,Brc1ccc2c(c1)c(cn2C)C1=C(C(=O)NC1=O)c1coc2c1cccc2,,,,mg,,,,,44840225
+350029254,Mehtap Isik,,730,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,731,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,732,exact,261.28,c1ccc2c(c1)cc(cc2)Nc1ncnc2c1cn[nH]2,,,,mg,,,,,4455260
+350029254,Mehtap Isik,,733,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,734,exact,301.36,O=C(c1cccnc1)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1243518
+350029254,Mehtap Isik,,735,exact,315.75,COc1cc2c(ncnc2cc1OC)Nc1ccc(cc1)Cl,,,,mg,,,,,36728327
+350029254,Mehtap Isik,,736,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,737,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,738,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,739,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,740,exact,334.84,Clc1ccc(cc1)Cc1cnc(s1)NC(=O)c1cccs1,,,,mg,,,,,5424622
+350029254,Mehtap Isik,,741,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,742,exact,351.4,CCOc1ccc(cc1)Nc1cnnc(n1)Nc1ccc(cc1)OCC,,,,mg,,,,,2638682
+350029254,Mehtap Isik,,743,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,744,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,745,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,746,exact,209.25,[nH]1cc2c(n1)c1[nH]c3c(c1CC2)cccc3,,,,mg,,,,,1368861
+350029254,Mehtap Isik,,747,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,748,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,749,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,750,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,751,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,752,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,753,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,754,exact,194.23,c1ccc(cc1)n1cnc2c1cccc2,,,,mg,,,,,1202048
+350029254,Mehtap Isik,,755,exact,314.69,O=C(Nc1ccccc1Cl)Nc1cccc(c1)C(F)(F)F,,,,mg,,,,,1121016
+350029254,Mehtap Isik,,756,exact,238.24,OC(=O)c1ccc2c(c1)ncn2c1ccccc1,,,,mg,,,,,8765039
+350029254,Mehtap Isik,,757,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,758,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,759,exact,313.33,COc1cc2c(ncnc2cc1OC)NCc1ccc(cc1)F,,,,mg,,,,,4862507
+350029254,Mehtap Isik,,760,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,761,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,762,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,763,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,764,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,765,exact,267.11,O=C(c1c(Cl)cccc1Cl)Nc1ccncc1,,,,mg,,,,,1284691
+350029254,Mehtap Isik,,766,exact,304.34,O=C(c1ccc(cc1)Oc1ccccc1)NCc1ccccn1,,,,mg,,,,,3647680
+350029254,Mehtap Isik,,767,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,768,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,769,exact,380.62,COc1cc(/C=C/2\C(=O)Nc3c2cc(Br)cc3)cc(c1O)Cl,,,,mg,,,,,27017427
+350029254,Mehtap Isik,,770,exact,424.31,Fc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1ccc(cc1)Br,,,,mg,,,,,5428734
+350029254,Mehtap Isik,,771,exact,317.29,COc1cc2c(ncnc2cc1OC)Nc1ccc(cc1F)F,,,,mg,,,,,4862437
+350029254,Mehtap Isik,,772,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,773,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,774,exact,324.31,Fc1cccc(c1)Nc1nccc(n1)Nc1ccccc1C(=O)O,,,,mg,,,,,50891777
+350029254,Mehtap Isik,,775,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,776,exact,314.4,Cc1ccc(cc1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1557065
+350029254,Mehtap Isik,,777,exact,306.32,OC(=O)c1ccc(cc1)Nc1nccc(n1)Nc1ccccc1,,,,mg,,,,,50892014
+350029254,Mehtap Isik,,778,exact,303.32,Nc1ncnc2c1c(n[nH]2)c1ccc(cc1)Oc1ccccc1,,,,mg,,,,,49863829
+350029254,Mehtap Isik,,779,exact,234.27,CSc1ccc(cc1)/C=C/1\NC(=O)NC1=O,,,,mg,,,,,25929959
+350029254,Mehtap Isik,,780,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,781,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,782,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,783,exact,344.18,CCOc1cc(/C=C\2/SC(=O)NC2=O)cc(c1O)Br,,,,mg,,,,,1195935
+350029254,Mehtap Isik,,784,exact,290.12,Brc1ccc(cc1)Nc1ncnc2c1cn[nH]2,,,,mg,,,,,4451611
+350029254,Mehtap Isik,,785,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,786,exact,421.5,O=C(c1onc(n1)c1cncnc1)NCCCN1CCN(CC1)c1ccc(c(c1)C)C,,,,mg,,,,,37139374
+350029254,Mehtap Isik,,787,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,788,isomeric,219.26,O=C1NC(=O)S/C/1=C/c1ccc(cc1)C,,,,mg,,,,,1178968
+350029254,Mehtap Isik,,789,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,790,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,791,exact,292.35,NCCN1C(=O)S/C(=C/c2ccc(cc2)OCC)/C1=O,,,,mg,,,,,26816148
+350029254,Mehtap Isik,,792,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,793,exact,295.36,Nc1nc(sc1C(=O)c1ccccc1)Nc1ccccc1,,,,mg,,,,,825740
+350029254,Mehtap Isik,,794,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,795,exact,281.31,COc1cc2c(ncnc2cc1OC)Nc1ccccc1,,,,mg,,,,,1987313
+350029254,Mehtap Isik,,796,exact,188.18,NC(=O)c1ccc2c(n1)c(O)ccc2,,,,mg,,,,,986004
+350029254,Mehtap Isik,,797,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,798,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,799,exact,255.28,Nc1nonc1c1nc2c(n1CC1CC1)cccc2,,,,mg,,,,,8332960
+350029254,Mehtap Isik,,800,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,801,exact,245.67,Clc1ccc(cc1)Nc1ncnc2c1cn[nH]2,,,,mg,,,,,4987297
+350029254,Mehtap Isik,,802,exact,350.19,O=C1NC(=O)/C(=C\c2ccc(o2)c2cccc(c2)Br)/S1,,,,mg,,,,,25824419
+350029254,Mehtap Isik,,803,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,804,exact,347.15,Ic1cccc(c1)Nc1ncnc2c1cccc2,,,,mg,,,,,33404806
+350029254,Mehtap Isik,,805,exact,352.39,Cc1cccc(n1)c1nc(Nc2ccc3c(c2)cn[nH]3)c2c(n1)cccc2,,,,mg,,,,,50891899
+350029254,Mehtap Isik,,806,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,807,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,808,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,809,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,810,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,811,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,812,exact,395.36,NC(=O)c1sc2c(c1N)c(cc(n2)c1ccc2c(c1)OCCO2)C(F)(F)F,,,,mg,,,,,1488552
+350029254,Mehtap Isik,,813,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,814,isomeric,276.29,O=C1OC(=NC1=Cc1cccnc1)C=Cc1ccccc1,,,,mg,,,,,33333567
+350029254,Mehtap Isik,,815,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,816,exact,264.27,OCCNC(=S)Nc1ccc(cc1)C(F)(F)F,,,,mg,,,,,188162713
+350029254,Mehtap Isik,,817,exact,379.86,Fc1ccc(cc1)CSc1nnc(s1)NC(=O)c1ccccc1Cl,,,,mg,,,,,3044617
+350029254,Mehtap Isik,,818,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,819,exact,380.53,O=C(C1CCNCC1)Nc1ncc(s1)SCc1ncc(o1)C(C)(C)C,,,,mg,,,,,10705199
+350029254,Mehtap Isik,,820,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,821,exact,344.43,O=C(C(c1ccccc1)c1ccccc1)/N=c/1\sc2c([nH]1)cccc2,,,,mg,,,,,46505631
+350029254,Mehtap Isik,,822,exact,405.96,CCN(CCOc1ccc(cc1)/C(=C(\c1ccccc1)/Cl)/c1ccccc1)CC,,,,mg,,,,,46479064
+350029254,Mehtap Isik,,823,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,824,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,825,exact,304.34,O=C(c1ccc(cc1)Oc1ccccc1)NCc1ccncc1,,,,mg,,,,,3374919
+350029254,Mehtap Isik,,826,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,827,exact,489.92,CCCS(=O)(=O)Nc1ccc(c(c1F)C(=O)c1c[nH]c2c1cc(cn2)c1ccc(cc1)Cl)F,,,,mg,,,,,32176418
+350029254,Mehtap Isik,,828,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,829,exact,210.23,O=C1Nc2c(/C/1=C\c1[nH]ccc1)cccc2,,,,mg,,,,,54874382
+350029254,Mehtap Isik,,830,exact,282.36,Cc1ccccc1c1nnc(o1)SCc1ccccc1,,,,mg,,,,,2210636
+350029254,Mehtap Isik,,831,exact,318.39,Fc1ccc(cc1)Cc1cnc(s1)NC(=O)c1cccs1,,,,mg,,,,,1406835
+350029254,Mehtap Isik,,832,exact,314.4,Cc1ccccc1C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1557073
+350029254,Mehtap Isik,,833,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,834,exact,277.29,O=C(Nc1noc(c1)C(C)(C)C)Nc1ccc(cc1)F,,,,mg,,,,,2546448
+350029254,Mehtap Isik,,835,exact,301.36,O=C(c1ccccn1)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,13107218
+350029254,Mehtap Isik,,836,isomeric,237.25,Oc1ccc(cc1)C=C1C(=O)Nc2c1cccc2,,,,mg,,,,,26090546
+350029254,Mehtap Isik,,837,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,838,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,839,exact,264.34,O=C(C1CC1)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1448525
+350029254,Mehtap Isik,,840,exact,333.74,COc1cc2c(ncnc2cc1OC)Nc1ccc(c(c1)Cl)F,,,,mg,,,,,37177823
+350029254,Mehtap Isik,,841,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,842,exact,255.7,Clc1cccc(c1)Nc1ncnc2c1cccc2,,,,mg,,,,,49411311
+350029254,Mehtap Isik,,843,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,844,exact,210.23,Oc1ccc(cc1)n1cnc2c1cccc2,,,,mg,,,,,37095168
+350029254,Mehtap Isik,,845,exact,316.28,Fc1ccc(cc1)Nc1ncc(c(n1)Nc1ccc(cc1)F)F,,,,mg,,,,,1698122
+350029254,Mehtap Isik,,846,exact,270.24,Oc1ccc(cc1)c1coc2c(c1=O)c(O)cc(c2)O,,,,mg,,,,,532754
+350029254,Mehtap Isik,,847,exact,372.37,FC(c1cccc(c1)Sc1ccc2n(n1)c(nn2)c1ccccc1)(F)F,,,,mg,,,,,5783305
+350029254,Mehtap Isik,,848,exact,450.51,Fc1cnc(nc1Nc1ccc(cc1)N1CCOCC1)Nc1ccc(cc1)N1CCOCC1,,,,mg,,,,,1830909
+350029254,Mehtap Isik,,849,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,850,exact,488.01,OCCN1CCN(CC1)c1cc(nc(n1)C)Nc1ncc(s1)C(=O)Nc1c(C)cccc1Cl,,,,mg,,,,,10748986
+350029254,Mehtap Isik,,851,isomeric,416.13,Clc1ccc(c(c1)Cl)COC(c1ccc(cc1Cl)Cl)Cn1cncc1,,,,mg,,,,,902133
+350029254,Mehtap Isik,,852,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,853,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,854,exact,379.86,Fc1ccc(cc1)CSc1nnc(s1)NC(=O)c1ccc(cc1)Cl,,,,mg,,,,,35679514
+350029254,Mehtap Isik,,855,exact,267.11,Clc1ccc(c(c1)Cl)C(=O)Nc1ccncc1,,,,mg,,,,,647498
+350029254,Mehtap Isik,,856,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,857,exact,361.87,Clc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1ccccc1,,,,mg,,,,,9878061
+350029254,Mehtap Isik,,858,exact,211.22,Nc1ncnc2c1cnn2c1ccccc1,,,,mg,,,,,719540
+350029254,Mehtap Isik,,859,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,860,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,861,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,862,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,863,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,864,exact,373.83,Clc1ccc(cc1)NC(=O)c1cn(nc1c1ccccc1)c1ccccc1,,,,mg,,,,,16142091
+350029254,Mehtap Isik,,865,exact,315.75,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)Cl,,,,mg,,,,,594850
+350029254,Mehtap Isik,,866,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,867,exact,347.84,Clc1cc(ccc1F)Nc1ncnc2c1c1CCCCCc1s2,,,,mg,,,,,3026185
+350029254,Mehtap Isik,,868,exact,265.31,COc1ccc2c(c1)ncnc2NCc1ccccc1,,,,mg,,,,,50891472
+350029254,Mehtap Isik,,869,exact,237.25,Oc1cccc(c1)/C=C/1\C(=O)Nc2c1cccc2,,,,mg,,,,,48556631
+350029254,Mehtap Isik,,870,exact,193.23,NC(=O)c1sc2c(c1N)cccn2,,,,mg,,,,,7616001
+350029254,Mehtap Isik,,871,exact,315.31,Cc1ccc(cc1)S(=O)(=O)Nc1cccc(c1)C(F)(F)F,,,,mg,,,,,1377874
+350029254,Mehtap Isik,,872,exact,290.34,COc1ccc(cc1)CC(=O)Nc1sccc1C(=O)N,,,,mg,,,,,3045462
+350029254,Mehtap Isik,,873,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,874,exact,217.22,Cc1ccccc1c1oc(c(n1)C(=O)N)N,,,,mg,,,,,859729
+350029254,Mehtap Isik,,875,exact,286.29,COc1cc(Nc2nc(N)nc3c2nc[nH]3)cc(c1)OC,,,,mg,,,,,13597816
+350029254,Mehtap Isik,,876,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,877,exact,231.28,Nc1ccc(cc1)c1nn2c(s1)nnc2C,,,,mg,,,,,1503405
+350029254,Mehtap Isik,,878,salt/solvate,301.79,CNCCNS(=O)(=O)c1cccc2c1ccnc2.Cl,,,,mg,,,,,51021579
+350029254,Mehtap Isik,,879,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,880,exact,211.22,O=C1Nc2c(/C/1=C/c1ccco1)cccc2,,,,mg,,,,,26709683
+350029254,Mehtap Isik,,881,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,882,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,883,exact,198.22,O=C(c1ccccc1)Nc1ccncc1,,,,mg,,,,,45490344
+350029254,Mehtap Isik,,884,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,885,exact,318.37,Cc1ccc(cc1)Oc1ccc(cc1)C(=O)NCc1ccncc1,,,,mg,,,,,27507344
+350029254,Mehtap Isik,,886,exact,329.42,c1ccc(cc1)/N=c/1\nc(n(s1)c1ccccc1)c1ccccc1,,,,mg,,,,,25885262
+350029254,Mehtap Isik,,887,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,888,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,889,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,890,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,891,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,892,exact,395.05,O=C1Nc2c(/C/1=C/c1cc(Br)c(c(c1)Br)O)cccc2,,,,mg,,,,,27338300
+350029254,Mehtap Isik,,893,exact,263.33,O=C1Nc2c(/C/1=C\c1ccc(cc1)C(C)C)cccc2,,,,mg,,,,,43443847
+350029254,Mehtap Isik,,894,exact,380.25,O=C1NC(=O)/C(=C/c2cccc(c2)OCc2ccc(cc2Cl)Cl)/S1,,,,mg,,,,,25785783
+350029254,Mehtap Isik,,895,exact,346.81,Clc1ccc(cc1)Nc1nnc(c2c1cccc2)Cc1ccncc1,,,,mg,,,,,8781495
+350029254,Mehtap Isik,,896,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,897,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,898,exact,286.29,COc1cc(ccc1OC)Nc1nc(N)nc2c1nc[nH]2,,,,mg,,,,,13582829
+350029254,Mehtap Isik,,899,exact,267.11,O=C(c1cccc(c1Cl)Cl)Nc1ccncc1,,,,mg,,,,,2266357
+350029254,Mehtap Isik,,900,exact,347.8,Clc1ccc(cc1)Nc1nc(nc2c1cccc2)c1ccccc1O,,,,mg,,,,,4441448
+350029254,Mehtap Isik,,901,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,902,exact,282.72,Clc1ccc(cc1)C(=O)Nc1cccc2c1nccc2,,,,mg,,,,,1570822
+350029254,Mehtap Isik,,903,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,904,exact,263.27,COC(=O)c1ccc(cc1)/C=C/1\SC(=O)NC1=O,,,,mg,,,,,620265
+350029254,Mehtap Isik,,905,exact,295.34,COc1cc2c(ncnc2cc1OC)NCc1ccccc1,,,,mg,,,,,4862503
+350029254,Mehtap Isik,,906,exact,298.3,CCOC(=O)c1cccc(c1)Nc1nc(N)nc2c1nc[nH]2,,,,mg,,,,,13582607
+350029254,Mehtap Isik,,907,exact,464.82,CNC(=O)c1nccc(c1)Oc1ccc(cc1)NC(=O)Nc1ccc(c(c1)C(F)(F)F)Cl,,,,mg,,,,,902486
+350029254,Mehtap Isik,,908,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,909,exact,299.3,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)F,,,,mg,,,,,4862515
+350029254,Mehtap Isik,,910,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,911,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,912,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,913,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,914,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,915,exact,271.06,COc1cc(Br)cc2c1oc(c2)C(=O)O,,,,mg,,,,,1772854
+350029254,Mehtap Isik,,916,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,917,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,918,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,919,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,920,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,921,exact,313.82,Clc1ccccc1C(=O)N1CCC(CC1)Cc1ccccc1,,,,mg,,,,,2066225
+350029254,Mehtap Isik,,922,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,923,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,924,exact,319.4,O=C(c1ccc2c(c1)[nH]cc2)N1CCN(CC1)Cc1ccccc1,,,,mg,,,,,4760368
+350029254,Mehtap Isik,,925,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,926,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,927,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,928,exact,231.25,O=c1cc(N2CCOCC2)c2c(o1)cccc2,,,,mg,,,,,1323532
+350029254,Mehtap Isik,,929,exact,366.86,COC(=O)c1sc(cc1NC(=O)Nc1ccc(cc1)Cl)C(C)(C)C,,,,mg,,,,,5808501
+350029254,Mehtap Isik,,930,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,931,exact,377.42,O=c1[nH]c2ccccc2nc1c1ccccc1NS(=O)(=O)c1ccccc1,,,,mg,,,,,3513280
+350029254,Mehtap Isik,,932,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,933,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,934,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,935,exact,267.11,O=C(c1ccncc1)Nc1c(Cl)cccc1Cl,,,,mg,,,,,3605943
+350029254,Mehtap Isik,,936,exact,275.37,NC(=O)c1sc2c(c1N)cc1c(n2)CCCCCC1,,,,mg,,,,,827307
+350029254,Mehtap Isik,,937,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,938,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,939,exact,299.3,Fc1ccc(cc1)c1nnc2n1nc(cc2)N1CCOCC1,,,,mg,,,,,16054015
+350029254,Mehtap Isik,,940,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,941,exact,387.39,COc1ccccc1n1c(cn2c1nc1c2c(=O)[nH]c(=O)n1C)c1ccccc1,,,,mg,,,,,4670932
+350029254,Mehtap Isik,,942,exact,368.43,Cc1ccc(c(c1)C)Nc1nnc(c2c1cccc2)c1ccc(cc1)C(=O)N,,,,mg,,,,,4420386
+350029254,Mehtap Isik,,943,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,944,exact,400.47,O1CCN(CC1)CCNc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1,,,,mg,,,,,2010194
+350029254,Mehtap Isik,,945,exact,202.64,Clc1ccc2c(c1)c1ccncc1[nH]2,,,,mg,,,,,36799532
+350029254,Mehtap Isik,,946,exact,309.4,COc1ccccc1C(=O)N1CCC(CC1)Cc1ccccc1,,,,mg,,,,,1422178
+350029254,Mehtap Isik,,947,exact,294.31,CC(=O)Nc1nccc(n1)c1c(C)onc1c1ccccc1,,,,mg,,,,,30157201
+350029254,Mehtap Isik,,948,exact,316.37,O=C(Nc1sc2c(c1C(=O)N)CCCC2)/C=C/c1ccco1,,,,mg,,,,,26455740
+350029254,Mehtap Isik,,949,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,950,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,951,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,952,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,953,exact,237.64,Clc1ccccc1c1oc(c(n1)C(=O)N)N,,,,mg,,,,,8868702
+350029254,Mehtap Isik,,954,exact,239.25,Fc1cccc(c1)Nc1ncnc2c1cccc2,,,,mg,,,,,33404804
+350029254,Mehtap Isik,,955,exact,376.43,Fc1ccc(cc1)S(=O)(=O)Nc1cc(sc1C(=O)N)c1ccccc1,,,,mg,,,,,5809584
+350029254,Mehtap Isik,,956,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,957,exact,412.5,COc1cc(ccc1OCCCOc1cc(C)cc(c1)C)/C=C/1\SC(=N)NC1=O,,,,mg,,,,,44850901
+350029254,Mehtap Isik,,958,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,959,exact,354.18,OC(=O)COC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl,,,,mg,,,,,901322
+350029254,Mehtap Isik,,960,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,961,exact,202.26,C1CCN(CC1)c1ncnc2c1cc[nH]2,,,,mg,,,,,106521077
+350029254,Mehtap Isik,,962,exact,328.16,Brc1cncc(c1)C(=O)Nc1cccc2c1nccc2,,,,mg,,,,,18893169
+350029254,Mehtap Isik,,963,exact,187.2,NC(=O)c1cc2ccccc2nc1N,,,,mg,,,,,2720837
+350029254,Mehtap Isik,,964,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,965,exact,252.33,c1ccc(cc1)Nc1ncc(s1)c1ccccc1,,,,mg,,,,,190369312
+350029254,Mehtap Isik,,966,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,967,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,968,isomeric,300.44,C/C(=C\C=C\C(=C\C(=O)O)\C)/C=C/C1=C(C)CCCC1(C)C,,,,mg,,,,,206842990
+350029254,Mehtap Isik,,969,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,970,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,971,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,972,exact,195.17,COc1cc(ccc1O)/C=C/[N+](=O)[O-],,,,mg,,,,,43443700
+350029254,Mehtap Isik,,973,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,974,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,975,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,976,exact,369.29,Clc1ccc(c(c1)Cl)Cc1cnc(s1)NC(=O)c1cccs1,,,,mg,,,,,2483389
+350029254,Mehtap Isik,,977,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,978,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,979,exact,308.33,COc1ccc(cc1)c1ocnc1C(=O)NCc1ccccc1,,,,mg,,,,,16322214
+350029254,Mehtap Isik,,980,exact,251.28,COc1cccc(c1)Nc1ncnc2c1cccc2,,,,mg,,,,,1427438
+350029254,Mehtap Isik,,981,exact,353.42,Cc1ccc(cc1)c1nn(cc1C(=O)Nc1ccccc1)c1ccccc1,,,,mg,,,,,2397745
+350029254,Mehtap Isik,,982,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,983,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,984,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,985,exact,238.31,CC(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,878115
+350029254,Mehtap Isik,,986,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,987,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,988,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,989,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,990,exact,243.26,Nc1nonc1c1nc2c(n1C(C)C)cccc2,,,,mg,,,,,1273386
+350029254,Mehtap Isik,,991,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,992,exact,257.71,O=C(Nc1ccccc1Cl)/C=C/c1ccccc1,,,,mg,,,,,206906100
+350029254,Mehtap Isik,,993,exact,364.21,O=C1S/C(=C/c2ccc(o2)c2ccc(cc2Br)C)/C(=O)N1,,,,mg,,,,,25884764
+350029254,Mehtap Isik,,994,exact,230.29,Cc1cc(C)c2c(n1)sc1c2ncnc1N,,,,mg,,,,,6762283
+350029254,Mehtap Isik,,995,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,996,exact,386.49,CN(C(=O)c1ccc(cc1)NS(=O)(=O)c1cccs1)Cc1ccccc1,,,,mg,,,,,14291559
+350029254,Mehtap Isik,,997,exact,315.35,O=C1Nc2c(/C/1=C/Nc1ccc(cc1)S(=O)(=O)N)cccc2,,,,mg,,,,,25830577
+350029254,Mehtap Isik,,998,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,999,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1000,exact,321.35,O=C(Nc1sc2c(c1C(=O)N)CCC2)CN1C(=O)CCC1=O,,,,mg,,,,,3153048
+350029254,Mehtap Isik,,1001,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1002,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1003,exact,223.22,O=C1NC(=O)S/C/1=C\c1ccc(cc1)F,,,,mg,,,,,1078483
+350029254,Mehtap Isik,,1004,exact,254.24,Oc1cc(O)c2c(c1)oc(cc2=O)c1ccccc1,,,,mg,,,,,493608
+350029254,Mehtap Isik,,1005,exact,225.25,CN(c1ncnc2c1cn[nH]2)c1ccccc1,,,,mg,,,,,7601117
+350029254,Mehtap Isik,,1006,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1007,exact,422.5,OCCSc1nc2c(n1Cc1ccccc1)c(=O)n(c(=O)n2C)Cc1ccccc1,,,,mg,,,,,1216560
+350029254,Mehtap Isik,,1008,exact,253.3,CCc1nc(c([nH]1)/C=C/1\C(=O)Nc2c1cccc2)C,,,,mg,,,,,26484926
+350029254,Mehtap Isik,,1009,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1010,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1011,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1012,exact,301.14,Brc1cccc(c1)Nc1ncnc2c1cccn2,,,,mg,,,,,179670084
+350029254,Mehtap Isik,,1013,exact,266.34,O=C(Nc1sccc1C(=O)N)Cc1cccs1,,,,mg,,,,,29604795
+350029254,Mehtap Isik,,1014,exact,333.41,COc1ccc(cc1)Nc1ncnc2c1c(cs2)c1ccccc1,,,,mg,,,,,2116328
+350029254,Mehtap Isik,,1015,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1016,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1017,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1018,exact,368.86,COc1cc(CNCc2ccncc2)ccc1OCc1ccc(cc1)Cl,,,,mg,,,,,1536673
+350029254,Mehtap Isik,,1019,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1020,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1021,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1022,exact,308.33,Cc1ccccc1C(=O)c1c[nH]c(c1)C(=O)NCc1ccco1,,,,mg,,,,,27504343
+350029254,Mehtap Isik,,1023,salt/solvate,510.04,Oc1ccc2c(c1)sc(c2C(=O)c1ccc(cc1)OCCN1CCCCC1)c1ccc(cc1)O.Cl,,,,mg,,,,,594043
+350029254,Mehtap Isik,,1024,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1025,exact,360.43,COc1cc(OC)cc(c1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2,,,,mg,,,,,1452950
+350029254,Mehtap Isik,,1026,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1027,exact,426.53,CCCc1c(cnn1c1ccccc1)C(=O)Nc1cc(ccc1C)S(=O)(=O)N(C)C,,,,mg,,,,,1030591
+350029254,Mehtap Isik,,1028,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1029,exact,393.1,Ic1ccc(c(c1)F)Nc1c(ccc(c1F)F)C(=O)O,,,,mg,,,,,13184531
+350029254,Mehtap Isik,,1030,exact,350.33,OC(=O)c1cccc(c1)Nc1nccc(n1)Nc1ccccc1C(=O)O,,,,mg,,,,,50001621
+350029254,Mehtap Isik,,1031,exact,319.38,Oc1ccc(cc1)Nc1ncnc2c1cc(s2)c1ccccc1,,,,mg,,,,,33404384
+350029254,Mehtap Isik,,1032,exact,235.26,COc1ccc(cc1)/C=C/1\SC(=O)NC1=O,,,,mg,,,,,832041
+350029254,Mehtap Isik,,1033,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1034,exact,220.18,OC(=O)Cc1cc(=O)oc2c1ccc(c2)O,,,,mg,,,,,498764
+350029254,Mehtap Isik,,1035,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1036,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1037,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1038,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1039,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1040,exact,253.3,COc1ccc(cc1)NC(=O)/C=C/c1ccccc1,,,,mg,,,,,1155596
+350029254,Mehtap Isik,,1041,exact,265.29,CCOc1cccc(c1O)/C=C\1/SC(=O)NC1=O,,,,mg,,,,,44858563
+350029254,Mehtap Isik,,1042,exact,513.64,CS(=O)(=O)N1CCN(CC1)Cc1cc2c(s1)c(nc(n2)c1cccc2c1cn[nH]2)N1CCOCC1,,,,mg,,,,,30156208
+350029254,Mehtap Isik,,1043,exact,305.76,Clc1ncnc2c1c(cn2c1ccccc1)c1ccccc1,,,,mg,,,,,831334
+350029254,Mehtap Isik,,1044,exact,418.41,C1COc2c(O1)ccc(c2)Nc1nc(Nc2ccc3c(c2)OCCO3)c2c(n1)[nH]cn2,,,,mg,,,,,13595428
+350029254,Mehtap Isik,,1045,exact,461.82,CNC(=O)c1nccc(c1)Oc1ccc2c(c1)[nH]c(n2)Nc1ccc(c(c1)C(F)(F)F)Cl,,,,mg,,,,,44162556
+350029254,Mehtap Isik,,1046,exact,455.84,COC(=O)c1ccc(cc1)c1nnc(c2c1cccc2)Nc1ccc(cc1)OC(Cl)(F)F,,,,mg,,,,,6775999
+350029254,Mehtap Isik,,1047,isomeric,482.19,OC[C@H](CONC(=O)c1ccc(c(c1Nc1ccc(cc1F)I)F)F)O,,,,mg,,,,,31507606
+350029254,Mehtap Isik,,1048,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1049,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1050,exact,328.34,Oc1ccc(c(c1)O)c1csc(n1)Nc1cccc(c1)C(=O)O,,,,mg,,,,,1457396
+350029254,Mehtap Isik,,1051,exact,318.86,CN(CCCN1c2ccccc2Sc2c1cc(Cl)cc2)C,,,,mg,,,,,730270
+350029254,Mehtap Isik,,1052,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1053,exact,358.46,O=C(CC(c1ccccc1)c1ccccc1)Nc1nc2c(s1)cccc2,,,,mg,,,,,2099134
+350029254,Mehtap Isik,,1054,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1055,exact,359.44,COc1ccc(cc1)c1n/c(=N\c2ccccc2)/sn1c1ccccc1,,,,mg,,,,,46343365
+350029254,Mehtap Isik,,1056,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1057,exact,293.16,Brc1cc(C(=O)N)c2c(c1)c1CCCCc1[nH]2,,,,mg,,,,,4391446
+350029254,Mehtap Isik,,1058,exact,334.84,O=C(c1cccs1)Nc1ncc(s1)Cc1ccccc1Cl,,,,mg,,,,,1303359
+350029254,Mehtap Isik,,1059,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1060,exact,371.39,COc1cc2ncnc(c2cc1OC)Nc1cc(OC)c(c(c1)OC)OC,,,,mg,,,,,30510876
+350029254,Mehtap Isik,,1061,exact,299.35,O=C(Cc1c[nH]c2c1cccc2)Nc1sccc1C(=O)N,,,,mg,,,,,3239037
+350029254,Mehtap Isik,,1062,exact,329.15,Brc1cccc(c1)C1=N/C(=C\c2cccnc2)/C(=O)O1,,,,mg,,,,,5224220
+350029254,Mehtap Isik,,1063,exact,327.76,CCOC(=O)c1c(=O)[nH]c2c(c1c1ccccc1)cc(cc2)Cl,,,,mg,,,,,703997
+350029254,Mehtap Isik,,1064,exact,251.28,COc1ccc(cc1)/C=C/1\C(=O)Nc2c1cccc2,,,,mg,,,,,48357952
+350029254,Mehtap Isik,,1065,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1066,exact,372.46,Cc1ccc(cc1)c1c[nH]c(n1)[C@@H]1COCCN1Cc1c[nH]c2c1cccc2,,,,mg,,,,,36557187
+350029254,Mehtap Isik,,1067,exact,239.25,Fc1cccc(c1)c1ccc2c(c1)c(N)ncn2,,,,mg,,,,,177450507
+350029254,Mehtap Isik,,1068,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1069,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1070,exact,234.3,O=c1[nH]cnc2c1c(cs2)c1cccs1,,,,mg,,,,,1210593
+350029254,Mehtap Isik,,1071,exact,328.39,COc1ccc(cc1)CC(=O)Nc1nc2c(s1)cc(cc2)OC,,,,mg,,,,,3192230
+350029254,Mehtap Isik,,1072,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1073,exact,205.28,Nc1ncnc2c1c1CCCCc1s2,,,,mg,,,,,827097
+350029254,Mehtap Isik,,1074,exact,299.37,Fc1ccc(cc1)Nc1ncnc2c1c1CCCCc1s2,,,,mg,,,,,1856737
+350029254,Mehtap Isik,,1075,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1076,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1077,exact,323.41,NC(=O)c1sc2c(c1N)c1CCCCc1c(n2)c1ccccc1,,,,mg,,,,,4383301
+350029254,Mehtap Isik,,1078,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1079,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1080,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1081,not found,0,,,,,mg,,,,,
+350029254,Mehtap Isik,,1082,exact,235.26,COc1cccc(c1)/C=C/1\SC(=O)NC1=O,,,,mg,,,,,46518204
+350029254,Mehtap Isik,,1083,exact,270.31,NC(=O)c1sc2c(c1N)ccc(n2)c1cccnc1,,,,mg,,,,,827068
+350029254,Mehtap Isik,,1084,exact,233.29,CCc1ccc(cc1)/C=C/1\SC(=O)NC1=O,,,,mg,,,,,25801503
+350029254,Mehtap Isik,,1085,not found,0,,,,,mg,,,,,

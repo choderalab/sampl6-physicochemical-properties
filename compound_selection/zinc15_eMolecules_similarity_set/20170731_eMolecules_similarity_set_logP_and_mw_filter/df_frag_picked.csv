@@ -1,0 +1,4 @@
+,eMolecules SKU,canonical isomeric SMILES,"pKas in [3,11]",XlogP,MolWt,group,N_Rot,N_UV_chrom,Selection
+0,143204456,c1ccc(cc1)CC(=O)Nc2nc3ccccc3s2,[9.045],3.685000419616699,268.3335799999999,fragment-like,4,28,picked
+2,153698825,c1ccc(cc1)CC(=O)Nc2nc3ccccc3s2,[9.045],3.685000419616699,268.3335799999999,fragment-like,4,28,picked
+3,138902653,c1ccc(cc1)CC(=O)Nc2nc3ccccc3s2,[9.045],3.685000419616699,268.3335799999999,fragment-like,4,28,picked

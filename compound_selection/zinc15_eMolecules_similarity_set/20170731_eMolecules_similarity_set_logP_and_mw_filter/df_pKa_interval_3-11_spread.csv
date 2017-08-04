@@ -1,0 +1,7 @@
+,eMolecules SKU,predicted pKas,"pKas in [3,11]","pKa count in [3,11]",pKas closer than 1 unit,canonical isomeric SMILES
+0,143204456,"[0.192, 2.134, 9.045]",[9.045],1.0,False,c1ccc(cc1)CC(=O)Nc2nc3ccccc3s2
+1,133190549,"[1.555, 6.069, 8.134, 14.754]","[6.069, 8.134]",2.0,False,c1ccc2c(c1)N(c3cc(ccc3S2)C(F)(F)F)CCCN4CCN(CC4)CCO
+2,103864712,"[1.152, 4.231, 11.29, 11.964, 13.609]",[4.231],1.0,False,c1cc(cc(c1)Cl)Nc2c3c([nH]cn3)nc(n2)N
+3,153698825,"[0.192, 2.134, 9.045]",[9.045],1.0,False,c1ccc(cc1)CC(=O)Nc2nc3ccccc3s2
+4,138902653,"[0.192, 2.134, 9.045]",[9.045],1.0,False,c1ccc(cc1)CC(=O)Nc2nc3ccccc3s2
+5,177271519,"[1.555, 6.069, 8.134, 14.754]","[6.069, 8.134]",2.0,False,c1ccc2c(c1)N(c3cc(ccc3S2)C(F)(F)F)CCCN4CCN(CC4)CCO

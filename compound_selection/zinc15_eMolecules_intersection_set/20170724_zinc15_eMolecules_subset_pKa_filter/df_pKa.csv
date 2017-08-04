@@ -1,0 +1,286 @@
+,eMolecules ID,predicted pKas,"pKas in [3,11]","pKa count in [3,11]",pKas closer than 1 unit,canonical isomeric SMILES,eMolecules SMILES
+0,7616001,"[-2.982, 0.414, 3.454, 10.685, 13.943]","[3.454, 10.685]",2.0,False,c1cc2c(c(sc2nc1)C(=O)N)N,NC(=O)c1sc2c(c1N)cccn2
+1,1260546,[-0.831],[],0.0,False,Cc1ccccc1C(=O)N2CCC(CC2)Cc3ccccc3,Cc1ccccc1C(=O)N1CCC(CC1)Cc1ccccc1
+2,1178116,"[-1.464, 0.334, 0.438, 12.397, 14.553]",[],0.0,False,c1cc2c(cc1C(=O)Nc3c(c4c(s3)CCCC4)C(=O)N)OCO2,O=C(c1ccc2c(c1)OCO2)Nc1sc2c(c1C(=O)N)CCCC2
+3,1570822,"[0.636, 3.95, 11.576]",[3.95],1.0,False,c1cc2cccnc2c(c1)NC(=O)c3ccc(cc3)Cl,Clc1ccc(cc1)C(=O)Nc1cccc2c1nccc2
+4,44750813,"[0.435, 3.718, 6.011, 13.583]","[3.718, 6.011]",2.0,False,Cc1cnc(s1)Nc2ccccn2,Cc1cnc(s1)Nc1ccccn1
+5,859659,"[-1.464, 1.397, 9.967, 14.623]",[9.967],1.0,False,c1ccc(cc1)c2cc(c(s2)N)C(=O)N,NC(=O)c1cc(sc1N)c1ccccc1
+6,1155596,"[5.1, 13.807]",[5.1],1.0,False,COc1ccc(cc1)NC(=O)/C=C/c2ccccc2,COc1ccc(cc1)NC(=O)/C=C/c1ccccc1
+7,4038159,"[-1.464, 0.867, 4.663, 13.619, 14.227]",[4.663],1.0,False,Cc1ccc(cc1C)c2csc(c2C(=O)N)NC(=O)CCCC(=O)O,OC(=O)CCCC(=O)Nc1scc(c1C(=O)N)c1ccc(c(c1)C)C
+8,1067536,"[-0.68, 2.104, 14.282]",[],0.0,False,c1ccc2c(c1)C(=O)N(C2=O)CNc3ccc(cc3)N4CCOCC4,O=C1N(CNc2ccc(cc2)N2CCOCC2)C(=O)c2c1cccc2
+9,2259473,"[-0.417, -0.375, 6.525]",[6.525],1.0,False,c1ccc(c(c1)C(=O)Nc2nnc(s2)SCc3cccc(c3)F)Cl,Fc1cccc(c1)CSc1nnc(s1)NC(=O)c1ccccc1Cl
+10,6766101,"[-0.417, -0.375, 7.202]",[7.202],1.0,False,c1ccc(cc1)CSc2nnc(s2)NC(=O)c3ccc(cc3)F,Fc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1ccccc1
+11,4541974,"[-2.469, 1.009, 2.508, 10.208, 15.706]",[10.208],1.0,False,Cn1c2c(c(=O)[nH]c1=O)n3cc(n(c3n2)CCCCO)c4ccccc4,OCCCCn1c(cn2c1nc1c2c(=O)[nH]c(=O)n1C)c1ccccc1
+12,31653344,"[0.278, 6.348, 15.31]",[6.348],1.0,False,c1ccc(cc1)n2cnc3c2ccc(c3)N,Nc1ccc2c(c1)ncn2c1ccccc1
+13,5784088,"[2.1, 4.394, 13.772]",[4.394],1.0,False,c1cc(ccc1c2nnc3n2nc(cc3)NC4CC4)C(F)(F)F,FC(c1ccc(cc1)c1nnc2n1nc(cc2)NC1CC1)(F)F
+14,1421743,"[0.15, 2.037, 9.167]",[9.167],1.0,False,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc3ccc(cc3)OC,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(cc1)OC
+15,5616156,[4.902],[4.902],1.0,False,c1cc(cc(c1)F)CSc2nnc(o2)c3ccncc3,Fc1cccc(c1)CSc1nnc(o1)c1ccncc1
+16,1782302,"[0.15, 2.037, 9.167]",[9.167],1.0,False,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc3ccc(cc3)Cl,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(cc1)Cl
+17,5639199,"[4.05, 13.051]",[4.05],1.0,False,c1ccc(cc1)Nc2c3ccccc3ncn2.Cl,c1ccc(cc1)Nc1ncnc2c1cccc2.Cl
+18,878115,"[-1.464, -1.34, 13.469, 14.549]",[],0.0,False,CC(=O)Nc1c(c2c(s1)CCCC2)C(=O)N,CC(=O)Nc1sc2c(c1C(=O)N)CCCC2
+19,3513384,"[-1.032, -0.943, -0.719, 0.768, 8.46, 12.58]",[8.46],1.0,False,c1ccc(c(c1)c2c(=O)[nH]c3ccccc3n2)NC(=O)c4ccc(cc4)F,Fc1ccc(cc1)C(=O)Nc1ccccc1c1nc2ccccc2[nH]c1=O
+20,832041,[8.112],[8.112],1.0,False,COc1ccc(cc1)/C=C\2/C(=O)NC(=O)S2,COc1ccc(cc1)/C=C/1\SC(=O)NC1=O
+21,1532460,"[-0.029, 0.003, 5.184, 8.99, 16.674]","[5.184, 8.99]",2.0,False,Cc1ccc2c(c1)oc(n2)c3cc(cc(c3O)C)N,Nc1cc(C)c(c(c1)c1oc2c(n1)ccc(c2)C)O
+22,27013168,"[-0.36, -0.141, 1.824, 8.74]",[8.74],1.0,False,CSc1ccc(cc1)/C=C/2\C(=O)NC(=O)N2,CSc1ccc(cc1)/C=C\1/NC(=O)NC1=O
+23,2397745,"[-0.068, 1.294, 13.452]",[],0.0,False,Cc1ccc(cc1)c2c(cn(n2)c3ccccc3)C(=O)Nc4ccccc4,Cc1ccc(cc1)c1nn(cc1C(=O)Nc1ccccc1)c1ccccc1
+24,1090098,"[-1.464, 0.334, 0.438, 12.513, 14.553]",[],0.0,False,COc1ccc(cc1)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,COc1ccc(cc1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+25,1749044,"[0.004, 1.435, 2.037, 13.562]",[],0.0,False,COc1ccc(cc1)NC(=O)c2cn(nc2c3ccc(cc3)Cl)c4ccccc4,COc1ccc(cc1)NC(=O)c1cn(nc1c1ccc(cc1)Cl)c1ccccc1
+26,31855157,"[0.091, 1.703, 12.579, 13.471]",[],0.0,False,c1ccc(cc1)c2cc(n[nH]2)C(=O)NC3CC3,O=C(c1n[nH]c(c1)c1ccccc1)NC1CC1
+27,1267281,"[3.892, 12.676, 16.374]",[3.892],1.0,False,CCOc1ccc(cc1)Nc2c(cnc(n2)Nc3ccc(cc3)OCC)F,CCOc1ccc(cc1)Nc1ncc(c(n1)Nc1ccc(cc1)OCC)F
+28,3044617,"[-0.417, -0.375, 6.525]",[6.525],1.0,False,c1ccc(c(c1)C(=O)Nc2nnc(s2)SCc3ccc(cc3)F)Cl,Fc1ccc(cc1)CSc1nnc(s1)NC(=O)c1ccccc1Cl
+29,3565625,"[-1.464, 0.896, 13.461, 14.53]",[],0.0,False,COc1ccc(cc1)CCC(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,COc1ccc(cc1)CCC(=O)Nc1sc2c(c1C(=O)N)CCCC2
+30,10748986,"[0.29, 2.054, 6.992, 8.185, 12.397, 13.498, 14.818]","[6.992, 8.185]",2.0,False,Cc1cccc(c1NC(=O)c2cnc(s2)Nc3cc(nc(n3)C)N4CCN(CC4)CCO)Cl,OCCN1CCN(CC1)c1cc(nc(n1)C)Nc1ncc(s1)C(=O)Nc1c(C)cccc1Cl
+31,2397757,"[0.095, 1.435, 2.987, 13.562]",[],0.0,False,Cc1ccc(cc1)c2c(cn(n2)c3ccccc3)C(=O)Nc4ccc(cc4)OC,COc1ccc(cc1)NC(=O)c1cn(nc1c1ccc(cc1)C)c1ccccc1
+32,2726975,[8.369],[8.369],1.0,False,CCCCc1c(c2ccccc2o1)C(=O)c3cc(c(c(c3)I)OCCN(CC)CC)I.Cl,CCCCc1oc2c(c1C(=O)c1cc(I)c(c(c1)I)OCCN(CC)CC)cccc2.Cl
+33,1415746,"[0.942, 4.829, 13.371, 16.055]",[4.829],1.0,False,COc1ccc(cc1)c2c3c(ncnc3oc2c4ccc(cc4)OC)NCCO,OCCNc1ncnc2c1c(c1ccc(cc1)OC)c(o2)c1ccc(cc1)OC
+34,8687115,[4.902],[4.902],1.0,False,c1cc(cc(c1)Cl)CSc2nnc(o2)c3ccncc3,Clc1cccc(c1)CSc1nnc(o1)c1ccncc1
+35,1242692,"[-2.35, 5.556, 10.973]","[5.556, 10.973]",2.0,False,Cn1c2c(c(=O)[nH]c1=O)n(c(n2)S)Cc3ccc(cc3)Cl,Clc1ccc(cc1)Cn1c(S)nc2c1c(=O)[nH]c(=O)n2C
+36,2720837,"[4.03, 12.801, 14.25]",[4.03],1.0,False,c1ccc2c(c1)cc(c(n2)N)C(=O)N,NC(=O)c1cc2ccccc2nc1N
+37,1557065,"[-1.464, 0.02, 0.159, 12.357, 14.553]",[],0.0,False,Cc1ccc(cc1)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,Cc1ccc(cc1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+38,491595,[4.913],[4.913],1.0,False,c1cscc1C(=O)O,OC(=O)c1cscc1
+39,498764,"[-1.14, 3.62, 8.794]","[3.62, 8.794]",2.0,False,c1cc2c(cc(=O)oc2cc1O)CC(=O)O,OC(=O)Cc1cc(=O)oc2c1ccc(c2)O
+40,1448525,"[-1.464, 1.424, 13.648, 14.541]",[],0.0,False,C1CCc2c(c(c(s2)NC(=O)C3CC3)C(=O)N)C1,O=C(C1CC1)Nc1sc2c(c1C(=O)N)CCCC2
+41,5428814,"[-0.417, -0.375, 6.888]",[6.888],1.0,False,c1cc(cc(c1)F)CSc2nnc(s2)NC(=O)c3ccc(cc3)Cl,Clc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1cccc(c1)F
+42,484431,"[1.5, 12.687, 16.681]",[],0.0,False,C(=S)(N)N,NC(=S)N
+43,3365457,"[0.15, 2.037, 9.167]",[9.167],1.0,False,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc3ccc(c(c3)Cl)Cl,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(c(c1)Cl)Cl
+44,2388562,"[-1.75, -1.57, -1.128, 2.595, 13.651, 14.072, 14.751]",[],0.0,False,c1ccc(c(c1)C(=O)N)NC(=O)Nc2ccc(c(c2)Cl)Cl,O=C(Nc1ccccc1C(=O)N)Nc1ccc(c(c1)Cl)Cl
+45,1284691,"[4.714, 9.847]","[4.714, 9.847]",2.0,False,c1cc(c(c(c1)Cl)C(=O)Nc2ccncc2)Cl,O=C(c1c(Cl)cccc1Cl)Nc1ccncc1
+46,54874382,"[-0.348, 2.296, 13.329, 14.825]",[],0.0,False,c1ccc2c(c1)/C(=C\c3ccc[nH]3)/C(=O)N2,O=C1Nc2c(/C/1=C\c1[nH]ccc1)cccc2
+47,3045462,"[-1.464, 0.324, 13.258, 14.173]",[],0.0,False,COc1ccc(cc1)CC(=O)Nc2c(ccs2)C(=O)N,COc1ccc(cc1)CC(=O)Nc1sccc1C(=O)N
+48,2069689,[8.015],[8.015],1.0,False,c1cc(cc(c1)F)/C=C/2\C(=O)NC(=O)S2,O=C1NC(=O)/C(=C\c2cccc(c2)F)/S1
+49,5428828,"[-0.417, -0.375, 7.202]",[7.202],1.0,False,c1cc(cc(c1)F)CSc2nnc(s2)NC(=O)c3ccc(cc3)F,Fc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1cccc(c1)F
+50,5490783,"[-1.464, -0.133, 0.438, 12.435, 14.195]",[],0.0,False,COc1ccc(cc1OC)C(=O)Nc2c(ccs2)C(=O)N,COc1cc(ccc1OC)C(=O)Nc1sccc1C(=O)N
+51,1367649,"[0.307, 4.109, 11.746]",[4.109],1.0,False,Cc1ccc2c(c1)c(c(c(=O)[nH]2)CC(=O)O)c3ccccc3,OC(=O)Cc1c(=O)[nH]c2c(c1c1ccccc1)cc(cc2)C
+52,490595,"[-1.137, 3.621]",[3.621],1.0,False,COc1ccc2c(cc(=O)oc2c1)CC(=O)O,COc1ccc2c(c1)oc(=O)cc2CC(=O)O
+53,46568548,"[3.158, 7.89, 13.733]","[3.158, 7.89]",2.0,False,c1ccc(c(c1)/C=C\2/c3ccccc3NC2=O)O,Oc1ccccc1/C=C/1\C(=O)Nc2c1cccc2
+54,5830013,"[-0.539, 0.074]",[],0.0,False,c1cc(c(c(c1)Cl)OCc2nc(on2)CSc3nncn3c4ccc(cc4)C(F)(F)F)Cl,Clc1cccc(c1OCc1noc(n1)CSc1nncn1c1ccc(cc1)C(F)(F)F)Cl
+55,1934441,"[-2.982, 4.474, 10.895, 14.071]","[4.474, 10.895]",2.0,False,c1cscc1c2cc(c(s2)C(=O)N)N,NC(=O)c1sc(cc1N)c1cscc1
+56,19358826,[],[],0.0,False,c1ccc(cc1)c2ccc(cc2)CSc3nnc(o3)c4ccc5c(c4)OCO5,c1ccc(cc1)c1ccc(cc1)CSc1nnc(o1)c1ccc2c(c1)OCO2
+57,2183015,"[-0.417, -0.375, 6.888]",[6.888],1.0,False,c1cc(ccc1CSc2nnc(s2)NC(=O)c3ccc(cc3)Cl)Br,Clc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1ccc(cc1)Br
+58,5432942,"[-0.417, -0.375, 6.36]",[6.36],1.0,False,c1ccc(cc1)CSc2nnc(s2)NC(=O)c3ccccc3Cl,O=C(c1ccccc1Cl)Nc1nnc(s1)SCc1ccccc1
+59,8765039,"[3.213, 5.772]","[3.213, 5.772]",2.0,False,c1ccc(cc1)n2cnc3c2ccc(c3)C(=O)O,OC(=O)c1ccc2c(c1)ncn2c1ccccc1
+60,13489929,"[0.063, 1.412, 12.474, 12.856]",[],0.0,False,c1ccc(cc1)c2cc(n[nH]2)C(=O)NCc3ccc(cc3)F,Fc1ccc(cc1)CNC(=O)c1n[nH]c(c1)c1ccccc1
+61,6263924,[],[],0.0,False,c1ccc2c(c1)cc(o2)C(=O)c3cc4ccccc4o3,O=C(c1cc2c(o1)cccc2)c1cc2c(o1)cccc2
+62,5758581,"[0.739, 4.15]",[4.15],1.0,False,Cc1ccc(cn1)c2c(cc(cn2)Cl)c3ccc(cc3)S(=O)(=O)C,Clc1cnc(c(c1)c1ccc(cc1)S(=O)(=O)C)c1ccc(nc1)C
+63,13419113,"[0.665, 0.829, 8.398, 12.248, 13.452]",[8.398],1.0,False,c1ccc(cc1)NC(=O)c2c3ccccc3[nH]n2,O=C(c1n[nH]c2c1cccc2)Nc1ccccc1
+64,3374919,"[5.124, 13.404]",[5.124],1.0,False,c1ccc(cc1)Oc2ccc(cc2)C(=O)NCc3ccncc3,O=C(c1ccc(cc1)Oc1ccccc1)NCc1ccncc1
+65,594043,"[8.681, 8.877, 9.719]","[8.681, 8.877, 9.719]",3.0,True,c1cc(ccc1c2c(c3ccc(cc3s2)O)C(=O)c4ccc(cc4)OCCN5CCCCC5)O.Cl,Oc1ccc2c(c1)sc(c2C(=O)c1ccc(cc1)OCCN1CCCCC1)c1ccc(cc1)O.Cl
+66,827004,"[-2.982, 2.198, 4.423, 10.789, 14.112]","[4.423, 10.789]",2.0,False,Cc1cc(nc2c1c(c(s2)C(=O)N)N)C,Cc1cc(C)c2c(n1)sc(c2N)C(=O)N
+67,3239037,"[-2.403, -1.464, 0.145, 13.194, 14.178, 16.233]",[],0.0,False,c1ccc2c(c1)c(c[nH]2)CC(=O)Nc3c(ccs3)C(=O)N,O=C(Cc1c[nH]c2c1cccc2)Nc1sccc1C(=O)N
+68,5773333,"[-1.53, 1.601, 12.806]",[],0.0,False,c1ccc(cc1)Nc2c3c(c4cccnc4s3)ncn2,c1ccc(cc1)Nc1ncnc2c1sc1c2cccn1
+69,1852544,"[-1.464, 0.473, 0.768, 10.893, 14.954]",[10.893],1.0,False,c1cc(oc1)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,O=C(c1ccco1)Nc1sc2c(c1C(=O)N)CCCC2
+70,5490817,"[-1.464, -0.05, 13.125, 14.174]",[],0.0,False,c1ccc2c(c1)cccc2CC(=O)Nc3c(ccs3)C(=O)N,O=C(Cc1cccc2c1cccc2)Nc1sccc1C(=O)N
+71,1415762,"[0.942, 4.294, 13.146, 16.055]",[4.294],1.0,False,c1ccc(cc1)c2c3c(ncnc3oc2c4ccccc4)NCCO,OCCNc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1
+72,1214596,[-0.831],[],0.0,False,c1ccc(cc1)CC2CCN(CC2)C(=O)c3ccccc3F,Fc1ccccc1C(=O)N1CCC(CC1)Cc1ccccc1
+73,1990422,"[4.245, 13.271]",[4.245],1.0,False,COc1ccc(cc1)c2c3c(ncnc3oc2c4ccc(cc4)OC)N,COc1ccc(cc1)c1oc2c(c1c1ccc(cc1)OC)c(N)ncn2
+74,35149447,"[0.066, 1.441, 12.488, 13.062]",[],0.0,False,c1ccc(cc1)c2cc(n[nH]2)C(=O)NCc3ccco3,O=C(c1n[nH]c(c1)c1ccccc1)NCc1ccco1
+75,639114,"[-1.464, 0.086, 0.187, 12.369, 14.553]",[],0.0,False,CC(C)(C)c1ccc(cc1)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,O=C(c1ccc(cc1)C(C)(C)C)Nc1sc2c(c1C(=O)N)CCCC2
+76,46518204,[8.05],[8.05],1.0,False,COc1cccc(c1)/C=C\2/C(=O)NC(=O)S2,COc1cccc(c1)/C=C/1\SC(=O)NC1=O
+77,4424334,"[-1.75, -1.015, 5.578, 13.511, 14.077]",[5.578],1.0,False,c1ccc2c(c1)c(nnc2Nc3ccc(c(c3)Cl)Cl)c4ccc(cc4)C(=O)N,NC(=O)c1ccc(cc1)c1nnc(c2c1cccc2)Nc1ccc(c(c1)Cl)Cl
+78,718480,"[-2.751, 0.13, 4.538, 12.854]",[4.538],1.0,False,c1cc(c(cc1NC(=O)c2cc(cc(c2O)Cl)Cl)Cl)Cl,Clc1cc(Cl)c(c(c1)C(=O)Nc1ccc(c(c1)Cl)Cl)O
+79,5846040,"[0.436, 2.28, 2.78, 11.416, 14.543]",[],0.0,False,CC(C)(C)c1cc(n(n1)C)NC(=O)Nc2ccc(cc2)Cl,O=C(Nc1cc(nn1C)C(C)(C)C)Nc1ccc(cc1)Cl
+80,17664146,"[1.012, 1.494, 7.773, 14.1]",[7.773],1.0,False,CN1CCN(CC1)c2c(cccc2Cl)NC(=O)c3ccc(o3)Br,CN1CCN(CC1)c1c(cccc1Cl)NC(=O)c1ccc(o1)Br
+81,6458515,"[0.122, 0.934, 9.839]",[9.839],1.0,False,Cc1cccc(c1)Cc2cnc(s2)NC(=O)c3cccs3,Cc1cccc(c1)Cc1cnc(s1)NC(=O)c1cccs1
+82,49863829,"[-1.27, -0.494, 3.904, 9.842, 12.95]","[3.904, 9.842]",2.0,False,c1ccc(cc1)Oc2ccc(cc2)c3c4c(ncnc4[nH]n3)N,Nc1ncnc2c1c(n[nH]2)c1ccc(cc1)Oc1ccccc1
+83,5805584,"[-0.293, 1.252, 11.393]",[],0.0,False,Cc1ccc(cc1)C(=O)Nc2nccc(n2)c3ccc4c(c3)OCCO4,Cc1ccc(cc1)C(=O)Nc1nccc(n1)c1ccc2c(c1)OCCO2
+84,2253464,"[-2.532, 4.714, 10.167]","[4.714, 10.167]",2.0,False,c1cc(c(cc1Cl)C(=O)Nc2ccncc2)Cl,Clc1ccc(c(c1)C(=O)Nc1ccncc1)Cl
+85,1753242,"[0.011, 1.435, 2.235, 13.562]",[],0.0,False,COc1ccc(cc1)NC(=O)c2cn(nc2c3ccccc3)c4ccccc4,COc1ccc(cc1)NC(=O)c1cn(nc1c1ccccc1)c1ccccc1
+86,32176495,"[-2.128, 3.928, 8.582, 13.427]","[3.928, 8.582]",2.0,False,Cc1ccc(cc1)S(=O)(=O)O.Cc1ccc(cc1)S(=O)(=O)O.CS(=O)(=O)CCNCc1ccc(o1)c2ccc3c(c2)c(ncn3)Nc4ccc(c(c4)Cl)OCc5cccc(c5)F,Fc1cccc(c1)COc1ccc(cc1Cl)Nc1ncnc2c1cc(cc2)c1ccc(o1)CNCCS(=O)(=O)C.Cc1ccc(cc1)S(=O)(=O)O.Cc1ccc(cc1)S(=O)(=O)O
+87,35679514,"[-0.417, -0.375, 6.888]",[6.888],1.0,False,c1cc(ccc1CSc2nnc(s2)NC(=O)c3ccc(cc3)Cl)F,Fc1ccc(cc1)CSc1nnc(s1)NC(=O)c1ccc(cc1)Cl
+88,25876127,[8.073],[8.073],1.0,False,c1cc(cc(c1)C(F)(F)F)/C=C/2\C(=O)NC(=O)S2,O=C1NC(=O)/C(=C\c2cccc(c2)C(F)(F)F)/S1
+89,8332960,"[1.04, 4.082, 12.042]",[4.082],1.0,False,c1ccc2c(c1)nc(n2CC3CC3)c4c(non4)N,Nc1nonc1c1nc2c(n1CC1CC1)cccc2
+90,45791907,[8.112],[8.112],1.0,False,CCCOc1ccc(cc1)/C=C\2/C(=O)NC(=O)S2,CCCOc1ccc(cc1)/C=C/1\SC(=O)NC1=O
+91,2196757,"[-1.464, 0.267, 0.438, 12.435, 14.498]",[],0.0,False,Cc1c(sc(c1C(=O)N)NC(=O)c2ccc(c(c2)OC)OC)C,COc1ccc(cc1OC)C(=O)Nc1sc(c(c1C(=O)N)C)C
+92,688294,"[2.968, 12.596]",[],0.0,False,c1ccc(cc1)c2csc3c2c(ncn3)Nc4ccc(cc4)F,Fc1ccc(cc1)Nc1ncnc2c1c(cs2)c1ccccc1
+93,45490344,"[-1.872, 4.714, 11.672]",[4.714],1.0,False,c1ccc(cc1)C(=O)Nc2ccncc2,O=C(c1ccccc1)Nc1ccncc1
+94,1108650,"[-1.464, 0.324, 13.258, 14.532]",[],0.0,False,c1ccc(cc1)CC(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,O=C(Nc1sc2c(c1C(=O)N)CCCC2)Cc1ccccc1
+95,1503405,"[2.174, 3.49, 5.213, 14.457]","[3.49, 5.213]",2.0,False,Cc1nnc2n1nc(s2)c3ccc(cc3)N,Nc1ccc(cc1)c1nn2c(s1)nnc2C
+96,46568819,[8.05],[8.05],1.0,False,c1cc(cc(c1)OCc2ccc(cc2Cl)Cl)/C=C/3\C(=O)NC(=O)S3,O=C1NC(=O)/C(=C\c2cccc(c2)OCc2ccc(cc2Cl)Cl)/S1
+97,719540,"[-0.877, -0.719, 3.869, 13.107]",[3.869],1.0,False,c1ccc(cc1)n2c3c(cn2)c(ncn3)N,Nc1ncnc2c1cnn2c1ccccc1
+98,2759864,[],[],0.0,False,CC(=O)c1ccc(cc1)N2C(=O)c3ccc(cc3C2=O)C(=O)OCC(=O)c4ccc(cc4)OC,COc1ccc(cc1)C(=O)COC(=O)c1ccc2c(c1)C(=O)N(C2=O)c1ccc(cc1)C(=O)C
+99,2243257,"[-2.344, 13.244]",[],0.0,False,c1ccc(cc1)Oc2ccccc2C(=O)NCc3ccccc3Cl,O=C(c1ccccc1Oc1ccccc1)NCc1ccccc1Cl
+100,45945887,"[6.235, 8.024]","[6.235, 8.024]",2.0,False,COc1cc(cc(c1O)I)/C=C/2\C(=O)NC(=O)S2,COc1cc(/C=C\2/SC(=O)NC2=O)cc(c1O)I
+101,17004732,"[-2.532, 4.714, 10.192]","[4.714, 10.192]",2.0,False,c1cc(c(c(c1)Cl)C(=O)Nc2ccncc2)F,O=C(c1c(F)cccc1Cl)Nc1ccncc1
+102,5393098,"[-1.464, 0.02, 0.159, 12.429, 14.553]",[],0.0,False,Cc1ccc(cc1C)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,O=C(c1ccc(c(c1)C)C)Nc1sc2c(c1C(=O)N)CCCC2
+103,2546448,"[-0.958, -0.945, 2.295, 3.417, 11.518, 14.676]",[3.417],1.0,False,CC(C)(C)c1cc(no1)NC(=O)Nc2ccc(cc2)F,O=C(Nc1noc(c1)C(C)(C)C)Nc1ccc(cc1)F
+104,46568821,[8.009],[8.009],1.0,False,c1cc(cc(c1)Cl)/C=C\2/C(=O)NC(=O)S2,O=C1NC(=O)/C(=C/c2cccc(c2)Cl)/S1
+105,5551808,"[0.197, 1.516, 2.23, 2.658, 8.865, 10.738, 14.545]","[8.865, 10.738]",2.0,False,Cc1ccc2c(c1)sc(n2)NC(=O)Cc3csc(n3)NC(=O)Nc4cccc(c4)Cl,O=C(Nc1nc2c(s1)cc(cc2)C)Cc1csc(n1)NC(=O)Nc1cccc(c1)Cl
+106,44858563,"[7.156, 8.05]","[7.156, 8.05]",2.0,True,CCOc1cccc(c1O)/C=C/2\C(=O)NC(=O)S2,CCOc1cccc(c1O)/C=C\1/SC(=O)NC1=O
+107,5828805,"[-2.07, 4.267, 13.106]",[4.267],1.0,False,Cc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)C
+108,1278243,"[-1.464, -0.046, 0.131, 12.261, 14.553]",[],0.0,False,Cc1cccc(c1)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,Cc1cccc(c1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+109,45945033,[8.112],[8.112],1.0,False,CCOc1cc2c(cc1/C=C\3/C(=O)NC(=O)S3)OCO2,CCOc1cc2OCOc2cc1/C=C/1\SC(=O)NC1=O
+110,901322,"[-2.201, 3.399, 16.84]",[3.399],1.0,False,c1ccc(c(c1)CC(=O)OCC(=O)O)Nc2c(cccc2Cl)Cl,OC(=O)COC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl
+111,1339083,"[4.064, 13.926]",[4.064],1.0,False,c1nc(c2c3c(sc2n1)CCCCC3)N,Nc1ncnc2c1c1CCCCCc1s2
+112,2358480,"[-1.464, 0.337, 0.438, 12.435, 14.555]",[],0.0,False,COc1ccc(cc1OC)C(=O)Nc2c(c3c(s2)CCCCC3)C(=O)N,COc1cc(ccc1OC)C(=O)Nc1sc2c(c1C(=O)N)CCCCC2
+113,18897105,"[0.212, 1.373, 2.475, 9.381, 10.773]","[9.381, 10.773]",2.0,False,c1ccc2c(c1)c(=O)[nH]c(n2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F,O=C(Nc1ncc(s1)Cc1ccc(c(c1)F)F)CCc1nc2ccccc2c(=O)[nH]1
+114,1088722,"[-1.464, -0.996, 12.789, 14.459]",[],0.0,False,COc1ccc(cc1)OCC(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,COc1ccc(cc1)OCC(=O)Nc1sc2c(c1C(=O)N)CCCC2
+115,1078483,[8.039],[8.039],1.0,False,c1cc(ccc1/C=C\2/C(=O)NC(=O)S2)F,O=C1NC(=O)S/C/1=C\c1ccc(cc1)F
+116,45772500,[8.43],[8.43],1.0,False,COc1ccc(cc1)/C=C/2\C(=O)N(C(=O)S2)CCN.Cl,NCCN1C(=O)S/C(=C/c2ccc(cc2)OC)/C1=O.Cl
+117,1026999,"[-2.434, 4.267, 13.106]",[4.267],1.0,False,COc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC,COc1cccc(c1)Nc1ncnc2c1cc(OC)c(c2)OC
+118,4375254,"[6.336, 13.339, 15.265]",[6.336],1.0,False,CCOC(=O)c1ccc(cc1)Nc2cc(nc(n2)Nc3ccc(cc3)C(=O)OCC)C,CCOC(=O)c1ccc(cc1)Nc1cc(C)nc(n1)Nc1ccc(cc1)C(=O)OCC
+119,5497209,"[2.819, 15.404]",[],0.0,False,CCNc1c-2c3c(cccc3n(c1=O)C)C(=O)c4c2cccc4,CCNc1c(=O)n(C)c2c3c1c1ccccc1c(=O)c3ccc2
+120,26484953,"[0.164, 2.296, 2.461, 13.051, 13.329]",[],0.0,False,c1ccc(cc1)c2c(c[nH]n2)/C=C\3/c4ccccc4NC3=O,O=C1Nc2c(/C/1=C/c1c[nH]nc1c1ccccc1)cccc2
+121,2960605,"[0.004, 0.665, 2.037, 13.452]",[],0.0,False,c1ccc(cc1)NC(=O)c2cn(nc2c3ccc(cc3)Cl)c4ccccc4,Clc1ccc(cc1)c1nn(cc1C(=O)Nc1ccccc1)c1ccccc1
+122,840416,"[3.711, 13.045]",[3.711],1.0,False,c1ccc(cc1)c2c3c(ncnc3oc2c4ccccc4)N,Nc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1
+123,1856737,"[3.306, 13.078]",[3.306],1.0,False,c1cc(ccc1Nc2c3c4c(sc3ncn2)CCCC4)F,Fc1ccc(cc1)Nc1ncnc2c1c1CCCCc1s2
+124,684258,"[2.941, 12.689]",[],0.0,False,c1ccc(cc1)c2cc3c(ncnc3s2)Nc4ccc(cc4)F,Fc1ccc(cc1)Nc1ncnc2c1cc(s2)c1ccccc1
+125,837243,"[0.633, 10.184]",[10.184],1.0,False,CC(C)OC(=O)c1c(csc1N)c2ccc(c(c2)OC)OC,COc1cc(ccc1OC)c1csc(c1C(=O)OC(C)C)N
+126,2436839,"[-1.464, -0.233, 0.438, 11.973, 14.075]",[],0.0,False,c1ccc(cc1)c2cc(c(s2)NC(=O)c3ccc(cc3)OC(F)F)C(=O)N,FC(Oc1ccc(cc1)C(=O)Nc1sc(cc1C(=O)N)c1ccccc1)F
+127,2116328,"[2.968, 12.668]",[],0.0,False,COc1ccc(cc1)Nc2c3c(csc3ncn2)c4ccccc4,COc1ccc(cc1)Nc1ncnc2c1c(cs2)c1ccccc1
+128,23031420,"[2.969, 13.602]",[],0.0,False,c1ccc2c(c1)/C(=C\c3ccco3)/C(=O)N2,O=C1Nc2c(/C/1=C\c1ccco1)cccc2
+129,591595,"[-1.201, -0.63, 5.749, 6.351]","[5.749, 6.351]",2.0,True,c1ccc2c(c1)c(c(c(=O)o2)Cc3c(c4ccccc4oc3=O)O)O,O=c1oc2ccccc2c(c1Cc1c(=O)oc2c(c1O)cccc2)O
+130,2867948,"[2.144, 2.748]",[],0.0,False,c1cc(ccc1c2cc3c(s2)c(ncn3)SCC(=O)O)Br,OC(=O)CSc1ncnc2c1sc(c2)c1ccc(cc1)Br
+131,1472238,"[-0.288, -0.169, 6.921]",[6.921],1.0,False,c1ccc(cc1)OCc2nnc(s2)NC(=O)c3cccs3,O=C(c1cccs1)Nc1nnc(s1)COc1ccccc1
+132,25775229,[8.052],[8.052],1.0,False,c1cc(c(cc1Cl)Cl)c2ccc(o2)/C=C/3\C(=O)NC(=O)S3,O=C1S/C(=C/c2ccc(o2)c2ccc(cc2Cl)Cl)/C(=O)N1
+133,26089200,[8.031],[8.031],1.0,False,c1cc(ccc1/C=C\2/C(=O)NC(=O)S2)Br,O=C1NC(=O)S/C/1=C\c1ccc(cc1)Br
+134,493608,"[-1.287, 8.416, 10.823]","[8.416, 10.823]",2.0,False,c1ccc(cc1)c2cc(=O)c3c(cc(cc3o2)O)O,Oc1cc(O)c2c(c1)oc(cc2=O)c1ccccc1
+135,901874,"[4.092, 8.862]","[4.092, 8.862]",2.0,False,c1cc2cnccc2c(c1)S(=O)(=O)N3CCCNCC3,O=S(=O)(c1cccc2c1ccnc2)N1CCNCCC1
+136,1457396,"[0.357, 2.226, 4.157, 9.093, 11.092, 14.458]","[4.157, 9.093]",2.0,False,c1cc(cc(c1)Nc2nc(cs2)c3ccc(cc3O)O)C(=O)O,Oc1ccc(c(c1)O)c1csc(n1)Nc1cccc(c1)C(=O)O
+137,2266357,"[-2.532, 4.714, 10.167]","[4.714, 10.167]",2.0,False,c1cc(c(c(c1)Cl)Cl)C(=O)Nc2ccncc2,O=C(c1cccc(c1Cl)Cl)Nc1ccncc1
+138,1452950,"[-1.464, -0.332, 0.011, 12.033, 14.553]",[],0.0,False,COc1cc(cc(c1)OC)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,COc1cc(OC)cc(c1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+139,3590441,"[0.151, 2.037, 9.167]",[9.167],1.0,False,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc3cccc(c3)OC,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1cccc(c1)OC
+140,2400468,"[-0.068, 1.294, 13.349]",[],0.0,False,Cc1ccc(cc1)c2c(cn(n2)c3ccccc3)C(=O)Nc4ccc(cc4)Cl,Cc1ccc(cc1)c1nn(cc1C(=O)Nc1ccc(cc1)Cl)c1ccccc1
+141,25775231,[8.052],[8.052],1.0,False,c1cc(c(cc1c2ccc(o2)/C=C/3\C(=O)NC(=O)S3)Cl)F,O=C1S/C(=C/c2ccc(o2)c2ccc(c(c2)Cl)F)/C(=O)N1
+142,10794751,"[-0.128, 0.482, 2.188, 4.113, 11.2, 13.948]",[4.113],1.0,False,CC(C)(C)c1cc(n(n1)c2ccccc2)NC(=O)Nc3cccc(c3Cl)Cl,O=C(Nc1cccc(c1Cl)Cl)Nc1cc(nn1c1ccccc1)C(C)(C)C
+143,37095168,"[5.82, 8.709]","[5.82, 8.709]",2.0,False,c1ccc2c(c1)ncn2c3ccc(cc3)O,Oc1ccc(cc1)n1cnc2c1cccc2
+144,1021824,"[3.357, 3.606, 15.067]","[3.357, 3.606]",2.0,True,CCc1nc2c(c(c(s2)C)C)c(=O)n1N,CCc1nc2sc(c(c2c(=O)n1N)C)C
+145,4009733,"[-0.958, -0.945, 2.235, 3.417, 11.518, 14.004]",[3.417],1.0,False,CC(C)(C)c1cc(no1)NC(=O)Nc2cccc(c2Cl)Cl,O=C(Nc1cccc(c1Cl)Cl)Nc1noc(c1)C(C)(C)C
+146,1327878,"[5.564, 13.766]",[5.564],1.0,False,c1ccc(cc1)CNc2c3ccccc3ncn2,c1ccc(cc1)CNc1ncnc2c1cccc2
+147,37053191,"[-1.75, 6.342, 11.745, 13.055]",[6.342],1.0,False,c1ccc(cc1)c2[nH]c3ccc(cc3n2)C(=O)N,NC(=O)c1ccc2c(c1)nc([nH]2)c1ccccc1
+148,5783305,"[1.894, 2.356]",[],0.0,False,c1ccc(cc1)c2nnc3n2nc(cc3)Sc4cccc(c4)C(F)(F)F,FC(c1cccc(c1)Sc1ccc2n(n1)c(nn2)c1ccccc1)(F)F
+149,1444229,[4.902],[4.902],1.0,False,c1ccc(cc1)CSc2nnc(o2)c3ccncc3,c1ccc(cc1)CSc1nnc(o1)c1ccncc1
+150,3026185,"[3.308, 13.08]",[3.308],1.0,False,c1cc(c(cc1Nc2c3c4c(sc3ncn2)CCCCC4)Cl)F,Clc1cc(ccc1F)Nc1ncnc2c1c1CCCCCc1s2
+151,2199309,"[1.842, 14.107]",[],0.0,False,COc1ccc(cc1)CC(=O)Nc2ccsc2C(=O)OC,COc1ccc(cc1)CC(=O)Nc1ccsc1C(=O)OC
+152,5823246,"[0.244, 1.759, 2.823, 12.83]",[],0.0,False,Cc1c(sc(n1)C)c2ccnc(n2)N,Nc1nccc(n1)c1sc(nc1C)C
+153,536848,"[3.511, 6.794]","[3.511, 6.794]",2.0,False,c1cc2c(cc(c(c2nc1)O)I)I,Ic1cc(I)c2c(c1O)nccc2
+154,2727697,"[-1.888, 2.436, 3.887, 4.98, 15.409]","[3.887, 4.98]",2.0,False,Cc1ccc(cc1Nc2nccc(n2)c3cccnc3)N,Nc1ccc(c(c1)Nc1nccc(n1)c1cccnc1)C
+155,532754,"[-1.387, 8.584, 9.84, 10.869]","[8.584, 9.84, 10.869]",3.0,False,c1cc(ccc1c2coc3cc(cc(c3c2=O)O)O)O,Oc1ccc(cc1)c1coc2c(c1=O)c(O)cc(c2)O
+156,13487892,"[0.084, 1.502, 9.041, 13.418]",[9.041],1.0,False,c1ccc(cc1)c2cc(n[nH]2)C(=O)Nc3nccs3,O=C(c1n[nH]c(c1)c1ccccc1)Nc1nccs1
+157,1360661,"[1.04, 4.082, 12.042]",[4.082],1.0,False,CCn1c2ccccc2nc1c3c(non3)N,CCn1c(nc2c1cccc2)c1nonc1N
+158,492822,"[2.05, 9.638]",[9.638],1.0,False,CN(C)CCCN1c2ccccc2Sc3c1cc(cc3)Cl.Cl,CN(CCCN1c2ccccc2Sc2c1cc(Cl)cc2)C.Cl
+159,827097,"[4.062, 13.924]",[4.062],1.0,False,c1nc(c2c3c(sc2n1)CCCC3)N,Nc1ncnc2c1c1CCCCc1s2
+160,43360388,"[0.004, 0.423, 2.037, 13.361]",[],0.0,False,c1ccc(cc1)n2cc(c(n2)c3ccc(cc3)Cl)C(=O)Nc4ccc(cc4)Br,Clc1ccc(cc1)c1nn(cc1C(=O)Nc1ccc(cc1)Br)c1ccccc1
+161,1573146,"[0.24, 3.95, 11.063]",[3.95],1.0,False,c1ccc(c(c1)C(=O)Nc2cccc3c2nccc3)Cl,O=C(c1ccccc1Cl)Nc1cccc2c1nccc2
+162,1368861,"[-0.561, 2.646, 13.846, 16.247]",[],0.0,False,c1ccc2c(c1)c3c([nH]2)-c4c(c[nH]n4)CC3,[nH]1cc2c(n1)c1[nH]c3c(c1CC2)cccc3
+163,3563294,[-2.344],[],0.0,False,CN(Cc1ccccc1)C(=O)c2ccc(cc2)S(=O)(=O)N(C)c3ccccc3,O=C(c1ccc(cc1)S(=O)(=O)N(c1ccccc1)C)N(Cc1ccccc1)C
+164,724767,[2.613],[],0.0,False,c1cc2c(cc1Br)cc(o2)C(=O)O,Brc1ccc2c(c1)cc(o2)C(=O)O
+165,25801505,[8.112],[8.112],1.0,False,CCOc1ccc(cc1)/C=C/2\C(=O)NC(=O)S2,CCOc1ccc(cc1)/C=C\1/SC(=O)NC1=O
+166,1327907,"[4.05, 13.208]",[4.05],1.0,False,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)C(F)(F)F,FC(c1cccc(c1)Nc1ncnc2c1cccc2)(F)F
+167,49398053,"[1.183, 11.465, 15.591]",[],0.0,False,c1ccc2c(c1)c(n[nH]c2=O)N,O=c1[nH]nc(c2c1cccc2)N
+168,30149417,"[-0.985, 0.015, 0.549, 13.355]",[],0.0,False,c1ccc2c(c1)nc(o2)SCC(=O)Nc3ccc(cc3)n4cnnn4,O=C(Nc1ccc(cc1)n1cnnn1)CSc1nc2c(o1)cccc2
+169,9868497,"[1.182, 12.968]",[],0.0,False,COC(=O)c1ccccc1NC(=O)Cc2cccc3c2cccc3,COC(=O)c1ccccc1NC(=O)Cc1cccc2c1cccc2
+170,18908671,"[2.0, 5.346, 14.192]",[5.346],1.0,False,c1ccc(c(c1)NC(=O)c2ccc(o2)Cl)N3CCCCC3,Clc1ccc(o1)C(=O)Nc1ccccc1N1CCCCC1
+171,43969324,"[1.842, 14.107]",[],0.0,False,COC(=O)c1c(ccs1)NC(=O)Cc2ccc3ccccc3c2,COC(=O)c1sccc1NC(=O)Cc1ccc2c(c1)cccc2
+172,640814,"[-1.464, 3.098, 13.0, 14.444]",[3.098],1.0,False,c1ccc(cc1)/C=C/C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,O=C(Nc1sc2c(c1C(=O)N)CCCC2)/C=C/c1ccccc1
+173,1574612,"[3.892, 12.676, 15.146]",[3.892],1.0,False,c1cc(cc(c1)Br)Nc2c(cnc(n2)Nc3cccc(c3)Br)F,Brc1cccc(c1)Nc1ncc(c(n1)Nc1cccc(c1)Br)F
+174,2066225,[-1.491],[],0.0,False,c1ccc(cc1)CC2CCN(CC2)C(=O)c3ccccc3Cl,Clc1ccccc1C(=O)N1CCC(CC1)Cc1ccccc1
+175,1772854,[2.53],[],0.0,False,COc1cc(cc2c1oc(c2)C(=O)O)Br,COc1cc(Br)cc2c1oc(c2)C(=O)O
+176,1477944,[0.999],[],0.0,False,Cc1cc(ccc1F)C(=O)CSc2nc(cc(n2)C)C,Cc1cc(C)nc(n1)SCC(=O)c1ccc(c(c1)C)F
+177,10510651,"[0.062, 5.767, 5.9, 14.961]","[5.767, 5.9]",2.0,True,c1ccc2c(c1)c(nnc2Nc3ccc(cc3)Cl)Cc4ccncc4.C(CC(=O)O)C(=O)O,Clc1ccc(cc1)Nc1nnc(c2c1cccc2)Cc1ccncc1.OC(=O)CCC(=O)O
+178,5847064,"[1.918, 2.594]",[],0.0,False,COc1ccc(c(c1)Sc2ccc3nnc(n3n2)c4ccccc4)OC,COc1ccc(c(c1)Sc1ccc2n(n1)c(nn2)c1ccccc1)OC
+179,6697792,"[-0.106, 1.186, 2.261, 3.551, 6.338, 10.666, 13.274]","[3.551, 6.338, 10.666]",3.0,False,c1cc(cc(c1)NC(=O)c2c(csn2)NCc3ccncc3)C(F)(F)F,O=C(c1nscc1NCc1ccncc1)Nc1cccc(c1)C(F)(F)F
+180,1852896,"[4.33, 13.876]",[4.33],1.0,False,COc1ccccc1NC(=O)/C=C/c2ccccc2,COc1ccccc1NC(=O)/C=C/c1ccccc1
+181,18914628,"[1.468, 13.974]",[],0.0,False,COC(=O)c1c(ccs1)NC(=O)Cc2cccc3c2cccc3,COC(=O)c1sccc1NC(=O)Cc1cccc2c1cccc2
+182,2393398,"[0.171, 2.089, 9.2]",[9.2],1.0,False,COc1ccc2c(c1)sc(n2)NC(=O)Cc3ccc(cc3)Cl,COc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(cc1)Cl
+183,1412934,"[0.209, 2.176, 9.143]",[9.143],1.0,False,Cc1ccc2c(c1)sc(n2)NC(=O)Cc3ccccc3OC,COc1ccccc1CC(=O)Nc1nc2c(s1)cc(cc2)C
+184,1210593,"[1.96, 9.573]",[9.573],1.0,False,c1cc(sc1)c2csc3c2c(=O)[nH]cn3,O=c1[nH]cnc2c1c(cs2)c1cccs1
+185,1865544,"[-2.434, 4.05, 13.051]",[4.05],1.0,False,COc1cccc(c1)Nc2c3ccccc3ncn2.Cl,COc1cccc(c1)Nc1ncnc2c1cccc2.Cl
+186,1698122,"[3.892, 12.676, 15.786]",[3.892],1.0,False,c1cc(ccc1Nc2c(cnc(n2)Nc3ccc(cc3)F)F)F,Fc1ccc(cc1)Nc1ncc(c(n1)Nc1ccc(cc1)F)F
+187,1022286,"[-1.464, -0.596, -0.1, 11.889, 14.553]",[],0.0,False,c1cc(ccc1C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N)Cl,Clc1ccc(cc1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+188,26484926,"[0.685, 6.938, 12.865, 14.238]",[6.938],1.0,False,CCc1[nH]c(c(n1)C)/C=C\2/c3ccccc3NC2=O,CCc1nc(c([nH]1)/C=C/1\C(=O)Nc2c1cccc2)C
+189,44160850,"[-2.902, -2.796, -0.815, 1.873, 6.21, 11.161, 12.7]",[6.21],1.0,False,Cn1cnc(c1C(=O)Nc2ccc(cc2)Cl)NCc3ccncc3,Clc1ccc(cc1)NC(=O)c1c(NCc2ccncc2)ncn1C
+190,3560787,"[5.564, 13.766]",[5.564],1.0,False,COc1ccc(cc1)CNc2c3ccccc3ncn2,COc1ccc(cc1)CNc1ncnc2c1cccc2
+191,2401109,"[-0.152, 0.543, 13.361]",[],0.0,False,c1ccc(cc1)c2c(cn(n2)c3ccccc3)C(=O)Nc4ccc(cc4)Br,Brc1ccc(cc1)NC(=O)c1cn(nc1c1ccccc1)c1ccccc1
+192,902486,"[0.303, 2.595, 5.419, 12.828, 14.078, 14.972]",[5.419],1.0,False,CNC(=O)c1cc(ccn1)Oc2ccc(cc2)NC(=O)Nc3ccc(c(c3)C(F)(F)F)Cl,CNC(=O)c1nccc(c1)Oc1ccc(cc1)NC(=O)Nc1ccc(c(c1)C(F)(F)F)Cl
+193,44160569,"[0.114, 1.574, 5.689, 12.728]",[5.689],1.0,False,c1ccc(cc1)Oc2ccc(cc2)NC(=O)c3c(ncs3)CCc4ccncc4,O=C(c1scnc1CCc1ccncc1)Nc1ccc(cc1)Oc1ccccc1
+194,2867544,"[4.048, 13.91]",[4.048],1.0,False,c1nc(c2c3c(sc2n1)CCC3)N,Nc1ncnc2c1c1CCCc1s2
+195,1452944,"[-1.464, 0.334, 0.438, 12.435, 14.553]",[],0.0,False,COc1ccc(cc1OC)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,COc1cc(ccc1OC)C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+196,831334,[1.373],[],0.0,False,c1ccc(cc1)c2cn(c3c2c(ncn3)Cl)c4ccccc4,Clc1ncnc2c1c(cn2c1ccccc1)c1ccccc1
+197,1464977,[],[],0.0,False,CN(Cc1ccccc1)C(=O)c2c(c3ccc(cc3s2)OC)Cl,COc1ccc2c(c1)sc(c2Cl)C(=O)N(Cc1ccccc1)C
+198,23354217,"[0.186, 1.836, 8.672, 14.128]",[8.672],1.0,False,c1ccc(cc1)C(=O)NCC(=O)Nc2nc3ccccc3s2,O=C(Nc1nc2c(s1)cccc2)CNC(=O)c1ccccc1
+199,25849195,[7.999],[7.999],1.0,False,c1cc(cc(c1)Br)/C=C\2/C(=O)NC(=O)S2,O=C1NC(=O)/C(=C/c2cccc(c2)Br)/S1
+200,1470412,"[-1.947, 7.834]",[7.834],1.0,False,CCOC(=O)c1c-2c3c(cccc3[nH]c1=O)C(=O)c4c2cccc4,CCOC(=O)c1c(=O)[nH]c2c3c1c1ccccc1c(=O)c3ccc2
+201,506221,"[2.128, 14.461]",[],0.0,False,c1ccc2c(c1)CCC(=O)N2,O=C1CCc2c(N1)cccc2
+202,13582141,"[-1.336, 1.494, 1.853, 13.976]",[],0.0,False,CC(=O)N1CCN(CC1)c2c(cccc2Cl)NC(=O)c3ccc(o3)Br,CC(=O)N1CCN(CC1)c1c(cccc1Cl)NC(=O)c1ccc(o1)Br
+203,18893169,"[-1.872, 2.176, 4.001, 10.328]","[4.001, 10.328]",2.0,False,c1cc2cccnc2c(c1)NC(=O)c3cc(cnc3)Br,Brc1cncc(c1)C(=O)Nc1cccc2c1nccc2
+204,30719859,"[5.564, 13.766]",[5.564],1.0,False,c1ccc2c(c1)c(ncn2)NCc3ccc(cc3)Cl,Clc1ccc(cc1)CNc1ncnc2c1cccc2
+205,25857006,[8.052],[8.052],1.0,False,c1cc(c(cc1c2ccc(o2)/C=C/3\C(=O)NC(=O)S3)Cl)Cl,O=C1S/C(=C/c2ccc(o2)c2ccc(c(c2)Cl)Cl)/C(=O)N1
+206,5808501,"[2.628, 4.64, 13.312, 15.007]",[4.64],1.0,False,CC(C)(C)c1cc(c(s1)C(=O)OC)NC(=O)Nc2ccc(cc2)Cl,COC(=O)c1sc(cc1NC(=O)Nc1ccc(cc1)Cl)C(C)(C)C
+207,620265,[8.05],[8.05],1.0,False,COC(=O)c1ccc(cc1)/C=C\2/C(=O)NC(=O)S2,COC(=O)c1ccc(cc1)/C=C/1\SC(=O)NC1=O
+208,2440057,"[1.842, 14.107]",[],0.0,False,COC(=O)c1c(ccs1)NC(=O)Cc2ccccc2,COC(=O)c1sccc1NC(=O)Cc1ccccc1
+209,8830330,"[4.26, 9.011, 10.57]","[4.26, 9.011, 10.57]",3.0,False,c1cc2cnccc2c(c1)S(=O)(=O)NCCN.Cl,NCCNS(=O)(=O)c1cccc2c1ccnc2.Cl
+210,2382204,"[0.145, 1.869, 8.957]",[8.957],1.0,False,CCOc1ccc2c(c1)sc(n2)NC(=O)C(c3ccccc3)c4ccccc4,CCOc1ccc2c(c1)sc(n2)NC(=O)C(c1ccccc1)c1ccccc1
+211,46568745,"[6.247, 7.999]","[6.247, 7.999]",2.0,False,CCOc1cc(cc(c1O)/C=C\2/C(=O)NC(=O)S2)Br,CCOc1cc(Br)cc(c1O)/C=C/1\SC(=O)NC1=O
+212,1243518,"[-1.464, 3.34, 11.421, 14.399]",[3.34],1.0,False,c1cc(cnc1)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,O=C(c1cccnc1)Nc1sc2c(c1C(=O)N)CCCC2
+213,5837205,[7.38],[7.38],1.0,False,COc1cc2c(cc1OC)C(=NCC2)c3cccc(c3)Cl,COc1cc2c(cc1OC)CCN=C2c1cccc(c1)Cl
+214,1202048,[5.74],[5.74],1.0,False,c1ccc(cc1)n2cnc3c2cccc3,c1ccc(cc1)n1cnc2c1cccc2
+215,25901441,"[-1.464, 2.909, 12.933, 14.424]",[],0.0,False,Cc1ccc(o1)/C=C/C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,Cc1ccc(o1)/C=C/C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+216,26455740,"[-1.464, 2.909, 12.933, 14.424]",[],0.0,False,c1cc(oc1)/C=C/C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,O=C(Nc1sc2c(c1C(=O)N)CCCC2)/C=C/c1ccco1
+217,17211030,"[0.088, 1.885, 8.774]",[8.774],1.0,False,COc1ccccc1CC(=O)Nc2nc3ccc(cc3s2)OC(F)(F)F,COc1ccccc1CC(=O)Nc1nc2c(s1)cc(cc2)OC(F)(F)F
+218,6679830,"[-0.48, 9.119, 13.292]",[9.119],1.0,False,c1cc2c(cc1O)c3c(o2)C(=O)NCCC3,Oc1cc2c3CCCNC(=O)c3oc2cc1
+219,12272961,"[0.173, 2.089, 9.2]",[9.2],1.0,False,COc1cccc(c1)CC(=O)Nc2nc3ccc(cc3s2)OC,COc1cccc(c1)CC(=O)Nc1nc2c(s1)cc(cc2)OC
+220,43825034,"[0.004, 0.401, 2.046, 13.349]",[],0.0,False,COc1ccc(cc1)c2c(cn(n2)c3ccccc3)C(=O)Nc4ccc(cc4)Cl,COc1ccc(cc1)c1nn(cc1C(=O)Nc1ccc(cc1)Cl)c1ccccc1
+221,44161090,"[-2.404, 6.058, 8.688, 12.766]","[6.058, 8.688]",2.0,False,CC(C)(C)c1cc(c(c(c1)NS(=O)(=O)C)OC)NC(=O)C(=O)c2ccc(c3c2cccc3)OCCN4CCOCC4,COc1c(NC(=O)C(=O)c2ccc(c3c2cccc3)OCCN2CCOCC2)cc(cc1NS(=O)(=O)C)C(C)(C)C
+222,1452942,"[-1.464, -0.332, 0.011, 12.111, 14.553]",[],0.0,False,COc1cccc(c1)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,COc1cccc(c1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+223,25884764,[8.052],[8.052],1.0,False,Cc1ccc(c(c1)Br)c2ccc(o2)/C=C/3\C(=O)NC(=O)S3,O=C1S/C(=C/c2ccc(o2)c2ccc(cc2Br)C)/C(=O)N1
+224,876432,"[4.155, 6.994, 12.974]","[4.155, 6.994]",2.0,False,COc1cc2c(cc1OCCCN3CCOCC3)c(ncn2)Nc4ccc(c(c4)Cl)F,COc1cc2ncnc(c2cc1OCCCN1CCOCC1)Nc1ccc(c(c1)Cl)F
+225,30151569,"[-2.726, 0.007, 4.523, 4.576, 8.604]","[4.523, 4.576, 8.604]",3.0,True,c1ccnc(c1)c2c(c3n(n2)CCC3)c4ccnc5c4ccc(c5)O,Oc1ccc2c(c1)nccc2c1c2CCCn2nc1c1ccccn1
+226,5808531,"[1.754, 14.075]",[],0.0,False,COC(=O)c1c(ccs1)NC(=O)Cc2cccs2,COC(=O)c1sccc1NC(=O)Cc1cccs1
+227,2319765,"[-1.464, 0.307, 0.438, 12.435, 14.532]",[],0.0,False,COc1ccc(cc1OC)C(=O)Nc2c(c3c(s2)CCC3)C(=O)N,COc1ccc(cc1OC)C(=O)Nc1sc2c(c1C(=O)N)CCC2
+228,1976726,[8.05],[8.05],1.0,False,c1ccc(cc1)/C=C/2\C(=O)NC(=O)S2,O=C1NC(=O)S/C/1=C/c1ccccc1
+229,2266007,"[-1.464, -0.456, -0.332, 12.189, 14.195]",[],0.0,False,c1ccc(cc1)C(=O)Nc2c(ccs2)C(=O)N,O=C(c1ccccc1)Nc1sccc1C(=O)N
+230,3244952,[],[],0.0,False,COc1ccc(cc1F)CSc2nnc(o2)c3ccc4c(c3)OCO4,COc1ccc(cc1F)CSc1nnc(o1)c1ccc2c(c1)OCO2
+231,23296409,"[-1.164, 1.852, 9.012, 13.305, 14.09, 14.55]",[9.012],1.0,False,CCN(CC)CCNC(=O)c1c(c([nH]c1C)/C=C\2/c3cc(ccc3NC2=O)F)C,CCN(CCNC(=O)c1c(C)[nH]c(c1C)/C=C/1\C(=O)Nc2c1cc(F)cc2)CC
+232,479644,[3.085],[3.085],1.0,False,c1ccc2c(c1)cncn2,c1ccc2c(c1)ncnc2
+233,9997213,"[-1.504, -0.407, 2.242, 12.343, 12.471]",[],0.0,False,c1cc(cc(c1)F)Nc2c3cn[nH]c3ncn2,Fc1cccc(c1)Nc1ncnc2c1cn[nH]2
+234,876446,"[-0.36, -0.002, 2.436, 3.887, 4.341, 8.578, 13.206, 16.729]","[3.887, 4.341, 8.578]",3.0,True,Cc1ccc(cc1Nc2nccc(n2)c3cccnc3)NC(=O)c4ccc(cc4)CN5CCN(CC5)C,CN1CCN(CC1)Cc1ccc(cc1)C(=O)Nc1ccc(c(c1)Nc1nccc(n1)c1cccnc1)C
+235,44160581,"[0.114, 1.574, 5.689, 12.777]",[5.689],1.0,False,CC(C)(C)c1ccc(cc1)NC(=O)c2c(ncs2)CCc3ccncc3,O=C(c1scnc1CCc1ccncc1)Nc1ccc(cc1)C(C)(C)C
+236,4987297,"[-1.504, -0.407, 2.242, 12.343, 12.463]",[],0.0,False,c1cc(ccc1Nc2c3cn[nH]c3ncn2)Cl,Clc1ccc(cc1)Nc1ncnc2c1cn[nH]2
+237,594850,"[4.267, 12.829]",[4.267],1.0,False,COc1cc2c(cc1OC)ncnc2Nc3cccc(c3)Cl,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)Cl
+238,2126243,"[-1.464, -0.838, -0.201, 11.745, 14.553]",[],0.0,False,c1cc(cc(c1)Cl)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,Clc1cccc(c1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+239,37139364,"[3.821, 4.206, 7.332, 10.815]","[3.821, 4.206, 7.332, 10.815]",4.0,True,Cc1ccc(cc1C)N2CCN(CC2)CCCNC(=O)c3nc(no3)c4cccnc4,O=C(c1onc(n1)c1cccnc1)NCCCN1CCN(CC1)c1ccc(c(c1)C)C
+240,1859493,"[4.05, 12.774]",[4.05],1.0,False,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)Cl.Cl,Clc1cccc(c1)Nc1ncnc2c1cccc2.Cl
+241,3192230,"[0.171, 2.089, 9.2]",[9.2],1.0,False,COc1ccc(cc1)CC(=O)Nc2nc3ccc(cc3s2)OC,COc1ccc(cc1)CC(=O)Nc1nc2c(s1)cc(cc2)OC
+242,1987313,"[4.267, 13.106]",[4.267],1.0,False,COc1cc2c(cc1OC)ncnc2Nc3ccccc3,COc1cc2c(ncnc2cc1OC)Nc1ccccc1
+243,2042282,"[-1.872, 4.714, 10.538]","[4.714, 10.538]",2.0,False,c1cc(c(c(c1)F)C(=O)Nc2ccncc2)F,O=C(c1c(F)cccc1F)Nc1ccncc1
+244,901816,[9.342],[9.342],1.0,False,CC(C)(C)c1ccc(cc1)C(=O)CCCN2CCC(CC2)OC(c3ccccc3)c4ccccc4,O=C(c1ccc(cc1)C(C)(C)C)CCCN1CCC(CC1)OC(c1ccccc1)c1ccccc1
+245,1129902,"[-2.982, -0.042, 3.289, 10.555, 13.872]","[3.289, 10.555]",2.0,False,c1ccc(cc1)c2cc(c3c(c(sc3n2)C(=O)N)N)c4ccco4,NC(=O)c1sc2c(c1N)c(cc(n2)c1ccccc1)c1ccco1
+246,688047,[3.271],[3.271],1.0,False,c1ccc(cc1)c2csc3c2c(ncn3)N4CCc5ccccc5C4,c1ccc(cc1)c1csc2c1c(ncn2)N1CCc2c(C1)cccc2
+247,5809584,"[-2.982, 6.106, 13.516]",[6.106],1.0,False,c1ccc(cc1)c2cc(c(s2)C(=O)N)NS(=O)(=O)c3ccc(cc3)F,Fc1ccc(cc1)S(=O)(=O)Nc1cc(sc1C(=O)N)c1ccccc1
+248,1356211,"[0.004, 0.665, 2.046, 13.452]",[],0.0,False,COc1ccc(cc1)c2c(cn(n2)c3ccccc3)C(=O)Nc4ccccc4,COc1ccc(cc1)c1nn(cc1C(=O)Nc1ccccc1)c1ccccc1
+249,1171893,"[0.192, 2.134, 9.045]",[9.045],1.0,False,c1ccc(cc1)CC(=O)Nc2nc3ccccc3s2,O=C(Nc1nc2c(s1)cccc2)Cc1ccccc1
+250,3605943,"[3.163, 9.847]","[3.163, 9.847]",2.0,False,c1cc(c(c(c1)Cl)NC(=O)c2ccncc2)Cl,O=C(c1ccncc1)Nc1c(Cl)cccc1Cl
+251,3064762,"[-0.498, 0.9, 3.199, 12.698]",[3.199],1.0,False,c1ccc(cc1)C(=O)Nc2ccc(cc2)Oc3c4c5c(sc4ncn3)CCCC5,O=C(c1ccccc1)Nc1ccc(cc1)Oc1ncnc2c1c1CCCCc1s2
+252,45809595,"[3.158, 13.733]",[3.158],1.0,False,CC(C)c1ccc(cc1)/C=C\2/c3ccccc3NC2=O,O=C1Nc2c(/C/1=C/c1ccc(cc1)C(C)C)cccc2
+253,37308,"[-1.709, -0.168, 14.625]",[],0.0,False,c1ccc(cc1)c2nnc(o2)Nc3ccccc3,c1ccc(cc1)Nc1nnc(o1)c1ccccc1
+254,1030591,"[0.154, 0.665, 2.046, 13.312]",[],0.0,False,CCCc1c(cnn1c2ccccc2)C(=O)Nc3cc(ccc3C)S(=O)(=O)N(C)C,CCCc1c(cnn1c1ccccc1)C(=O)Nc1cc(ccc1C)S(=O)(=O)N(C)C
+255,1243584,"[-1.464, -0.574, -0.09, 11.925, 14.553]",[],0.0,False,c1cc(ccc1C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N)Br,Brc1ccc(cc1)C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+256,1557067,"[-1.464, -0.332, 0.011, 12.189, 14.553]",[],0.0,False,c1ccc(cc1)C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,O=C(c1ccccc1)Nc1sc2c(c1C(=O)N)CCCC2
+257,1289161,"[-1.464, 1.138, 13.547, 14.537]",[],0.0,False,CCC(=O)Nc1c(c2c(s1)CCCC2)C(=O)N,CCC(=O)Nc1sc2c(c1C(=O)N)CCCC2
+258,3647680,"[5.123, 13.404]",[5.123],1.0,False,c1ccc(cc1)Oc2ccc(cc2)C(=O)NCc3ccccn3,O=C(c1ccc(cc1)Oc1ccccc1)NCc1ccccn1
+259,30151586,"[-0.578, 5.135, 7.5, 10.189, 16.618]","[5.135, 7.5, 10.189]",3.0,False,Cc1ccc(cc1S(=O)(=O)N)Nc2nccc(n2)N(C)c3ccc4c(n(nc4c3)C)C,CN(c1ccc2c(c1)nn(c2C)C)c1ccnc(n1)Nc1ccc(c(c1)S(=O)(=O)N)C
+260,2724817,"[1.555, 6.069, 8.134, 14.754]","[6.069, 8.134]",2.0,False,c1ccc2c(c1)N(c3cc(ccc3S2)C(F)(F)F)CCCN4CCN(CC4)CCO.Cl.Cl,OCCN1CCN(CC1)CCCN1c2ccccc2Sc2c1cc(cc2)C(F)(F)F.Cl.Cl
+261,1377874,[7.903],[7.903],1.0,False,Cc1ccc(cc1)S(=O)(=O)Nc2cccc(c2)C(F)(F)F,Cc1ccc(cc1)S(=O)(=O)Nc1cccc(c1)C(F)(F)F
+262,4934119,"[-0.618, 3.923, 9.999, 11.932]","[3.923, 9.999]",2.0,False,COC(=O)c1ccc(cc1)Nc2c3c([nH]cn3)ncn2,COC(=O)c1ccc(cc1)Nc1ncnc2c1nc[nH]2
+263,1536105,"[-1.494, -0.943, -0.719, -0.332, 8.46, 12.886]",[8.46],1.0,False,c1ccc(c(c1)c2c(=O)[nH]c3ccccc3n2)NC(=O)c4cccs4,O=C(c1cccs1)Nc1ccccc1c1nc2ccccc2[nH]c1=O
+264,17837989,"[4.33, 13.398]",[4.33],1.0,False,c1ccc(cc1)/C=C/C(=O)Nc2ccccc2F,O=C(Nc1ccccc1F)/C=C/c1ccccc1
+265,508324,[3.005],[3.005],1.0,False,COc1cc(c(cc1OC)Br)C(=O)O,COc1cc(C(=O)O)c(cc1OC)Br
+266,11880412,"[0.199, 1.895, 8.746, 14.976]",[8.746],1.0,False,c1ccc(cc1)CC(=O)NCC(=O)Nc2nc3ccccc3s2,O=C(Cc1ccccc1)NCC(=O)Nc1nc2c(s1)cccc2
+267,1406839,"[0.122, 0.934, 9.839]",[9.839],1.0,False,c1cc(cc(c1)C(F)(F)F)Cc2cnc(s2)NC(=O)c3cccs3,O=C(c1cccs1)Nc1ncc(s1)Cc1cccc(c1)C(F)(F)F
+268,1557073,"[-1.464, -0.332, 0.011, 12.419, 14.553]",[],0.0,False,Cc1ccccc1C(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,Cc1ccccc1C(=O)Nc1sc2c(c1C(=O)N)CCCC2
+269,1411040,"[-1.75, 1.662, 5.689, 13.511, 15.733]",[5.689],1.0,False,COc1ccc(cc1)Nc2c3ccccc3c(nn2)c4ccc(cc4)C(=O)N,COc1ccc(cc1)Nc1nnc(c2c1cccc2)c1ccc(cc1)C(=O)N
+270,901601,"[-2.238, -0.407, 9.703]",[9.703],1.0,False,Cc1ccc(cc1)c2cc(nn2c3ccc(cc3)S(=O)(=O)N)C(F)(F)F,Cc1ccc(cc1)c1cc(nn1c1ccc(cc1)S(=O)(=O)N)C(F)(F)F
+271,23991783,"[0.062, 1.4, 12.479, 13.74]",[],0.0,False,COc1ccc(cc1OC)CNC(=O)c2cc([nH]n2)c3ccccc3,COc1cc(CNC(=O)c2n[nH]c(c2)c2ccccc2)ccc1OC
+272,594835,[1.239],[],0.0,False,Cc1cc2c(cc1C)nc(cn2)c3ccccc3,Cc1cc2ncc(nc2cc1C)c1ccccc1
+273,2010194,"[3.523, 7.492, 13.321]","[3.523, 7.492]",2.0,False,c1ccc(cc1)c2c3c(ncnc3oc2c4ccccc4)NCCN5CCOCC5,O1CCN(CC1)CCNc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1
+274,5428718,"[-0.417, -0.375, 6.525]",[6.525],1.0,False,c1ccc(c(c1)C(=O)Nc2nnc(s2)SCc3ccc(cc3)Br)Cl,Brc1ccc(cc1)CSc1nnc(s1)NC(=O)c1ccccc1Cl
+275,2398705,"[-0.068, 1.294, 13.361]",[],0.0,False,Cc1ccc(cc1)c2c(cn(n2)c3ccccc3)C(=O)Nc4ccc(cc4)Br,Cc1ccc(cc1)c1nn(cc1C(=O)Nc1ccc(cc1)Br)c1ccccc1
+276,1557075,"[-1.464, 0.896, 13.461, 14.53]",[],0.0,False,c1ccc(cc1)CCC(=O)Nc2c(c3c(s2)CCCC3)C(=O)N,O=C(Nc1sc2c(c1C(=O)N)CCCC2)CCc1ccccc1
+277,207007221,[8.05],[8.05],1.0,False,c1ccc(c(c1)/C=C/2\C(=O)NC(=O)S2)F,O=C1NC(=O)/C(=C\c2ccccc2F)/S1
+278,2266103,"[-1.464, 0.324, 13.258, 14.17]",[],0.0,False,c1ccc(c(c1)CC(=O)Nc2c(ccs2)C(=O)N)Cl,O=C(Nc1sccc1C(=O)N)Cc1ccccc1Cl
+279,1716329,"[2.0, 5.346, 14.192]",[5.346],1.0,False,c1ccc(c(c1)NC(=O)c2ccc(o2)Br)N3CCCCC3,Brc1ccc(o1)C(=O)Nc1ccccc1N1CCCCC1
+280,478202,"[-1.252, 8.452, 9.84, 10.837]","[8.452, 9.84, 10.837]",3.0,True,c1cc(ccc1c2cc(=O)c3c(cc(cc3o2)O)O)O,Oc1ccc(cc1)c1cc(=O)c2c(o1)cc(cc2O)O
+281,43822335,"[0.093, 1.898, 8.945]",[8.945],1.0,False,COc1ccccc1CC(=O)Nc2nc3ccc(cc3s2)F,COc1ccccc1CC(=O)Nc1nc2c(s1)cc(cc2)F
+282,703997,"[-1.903, 8.549]",[8.549],1.0,False,CCOC(=O)c1c(c2cc(ccc2[nH]c1=O)Cl)c3ccccc3,CCOC(=O)c1c(=O)[nH]c2c(c1c1ccccc1)cc(cc2)Cl
+283,5428734,"[-0.417, -0.375, 7.202]",[7.202],1.0,False,c1cc(ccc1CSc2nnc(s2)NC(=O)c3ccc(cc3)F)Br,Fc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1ccc(cc1)Br
+284,1228629,"[-0.047, -0.03, 7.12]",[7.12],1.0,False,c1ccc(cc1)Cc2nnc(s2)NC(=O)c3cccs3,O=C(c1cccs1)Nc1nnc(s1)Cc1ccccc1

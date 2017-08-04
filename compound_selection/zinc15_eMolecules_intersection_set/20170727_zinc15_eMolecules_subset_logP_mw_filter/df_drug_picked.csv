@@ -1,0 +1,38 @@
+,eMolecules ID,canonical isomeric SMILES,eMolecules SMILES,"pKas in [3,11]",XlogP,MolWt,Availability (mg),Price,group,N_Rot,N_UV_chrom,Selection,Bin index,Priority
+0,492822,CN(C)CCCN1c2ccccc2Sc3c1cc(cc3)Cl.Cl,CN(CCCN1c2ccccc2Sc2c1cc(Cl)cc2)C.Cl,[9.638],5.49600076675415,355.325,50160.1,148.0,drug-like,4,24,picked,22,1
+1,10794751,CC(C)(C)c1cc(n(n1)c2ccccc2)NC(=O)Nc3cccc(c3Cl)Cl,O=C(Nc1cccc(c1Cl)Cl)Nc1cc(nn1c1ccccc1)C(C)(C)C,[4.113],5.784000396728516,403.305,324.5,148.0,drug-like,6,35,picked,24,1
+2,3044617,c1ccc(c(c1)C(=O)Nc2nnc(s2)SCc3ccc(cc3)F)Cl,Fc1ccc(cc1)CSc1nnc(s1)NC(=O)c1ccccc1Cl,[6.525],5.237000465393066,379.85900000000004,121.5,148.0,drug-like,6,24,picked,20,1
+3,3365457,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc3ccc(c(c3)Cl)Cl,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(c(c1)Cl)Cl,[9.167],5.1710004806518555,381.276,489.9,148.0,drug-like,6,28,picked,19,1
+4,17211030,COc1ccccc1CC(=O)Nc2nc3ccc(cc3s2)OC(F)(F)F,COc1ccccc1CC(=O)Nc1nc2c(s1)cc(cc2)OC(F)(F)F,[8.774],4.9430012702941895,382.35699999999997,370.0,148.0,drug-like,7,28,picked,18,1
+5,5432942,c1ccc(cc1)CSc2nnc(s2)NC(=O)c3ccccc3Cl,O=C(c1ccccc1Cl)Nc1nnc(s1)SCc1ccccc1,[6.36],5.1020002365112305,361.869,106.1,148.0,drug-like,6,24,picked,19,2
+6,35679514,c1cc(ccc1CSc2nnc(s2)NC(=O)c3ccc(cc3)Cl)F,Fc1ccc(cc1)CSc1nnc(s1)NC(=O)c1ccc(cc1)Cl,[6.888],5.236999988555908,379.85900000000004,300.0,148.0,drug-like,6,24,picked,20,2
+7,536848,c1cc2c(cc(c(c2nc1)O)I)I,Ic1cc(I)c2c(c1O)nccc2,"[3.511, 6.794]",3.370999813079834,396.95099999999996,239.0,168.0,drug-like,0,29,picked,7,1
+8,4375254,CCOC(=O)c1ccc(cc1)Nc2cc(nc(n2)Nc3ccc(cc3)C(=O)OCC)C,CCOC(=O)c1ccc(cc1)Nc1cc(C)nc(n1)Nc1ccc(cc1)C(=O)OCC,[6.336],2.937000036239624,420.461,319.0,168.0,drug-like,10,28,picked,4,1
+9,901322,c1ccc(c(c1)CC(=O)OCC(=O)O)Nc2c(cccc2Cl)Cl,OC(=O)COC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl,[3.399],2.9590001106262207,354.185,1026.0,168.0,drug-like,7,24,picked,4,2
+10,876432,COc1cc2c(cc1OCCCN3CCOCC3)c(ncn2)Nc4ccc(c(c4)Cl)F,COc1cc2ncnc(c2cc1OCCCN1CCOCC1)Nc1ccc(c(c1)Cl)F,"[4.155, 6.994]",2.7179996967315674,446.902,143.0,168.0,drug-like,8,36,picked,2,1
+11,17664146,CN1CCN(CC1)c2c(cccc2Cl)NC(=O)c3ccc(o3)Br,CN1CCN(CC1)c1c(cccc1Cl)NC(=O)c1ccc(o1)Br,[7.773],3.1090002059936523,398.68199999999996,379.0,168.0,drug-like,4,18,picked,5,1
+12,2382204,CCOc1ccc2c(c1)sc(n2)NC(=O)C(c3ccccc3)c4ccccc4,CCOc1ccc2c(c1)sc(n2)NC(=O)C(c1ccccc1)c1ccccc1,[8.957],5.654000282287598,388.48199999999997,100.0,168.0,drug-like,7,40,picked,23,1
+13,4424334,c1ccc2c(c1)c(nnc2Nc3ccc(c(c3)Cl)Cl)c4ccc(cc4)C(=O)N,NC(=O)c1ccc(cc1)c1nnc(c2c1cccc2)Nc1ccc(c(c1)Cl)Cl,[5.578],4.270000457763672,409.26800000000003,308.0,168.0,drug-like,4,67,picked,13,1
+14,1406839,c1cc(cc(c1)C(F)(F)F)Cc2cnc(s2)NC(=O)c3cccs3,O=C(c1cccs1)Nc1ncc(s1)Cc1cccc(c1)C(F)(F)F,[9.839],4.526000499725342,368.397,140.0,168.0,drug-like,6,15,picked,15,1
+15,1411040,COc1ccc(cc1)Nc2c3ccccc3c(nn2)c4ccc(cc4)C(=O)N,COc1ccc(cc1)Nc1nnc(c2c1cccc2)c1ccc(cc1)C(=O)N,[5.689],2.8940000534057617,370.404,280.0,168.0,drug-like,5,67,picked,4,3
+16,901601,Cc1ccc(cc1)c2cc(nn2c3ccc(cc3)S(=O)(=O)N)C(F)(F)F,Cc1ccc(cc1)c1cc(nn1c1ccc(cc1)S(=O)(=O)N)C(F)(F)F,[9.703],3.4699997901916504,381.37199999999996,1000.0,168.0,drug-like,4,49,picked,8,1
+17,1415746,COc1ccc(cc1)c2c3c(ncnc3oc2c4ccc(cc4)OC)NCCO,OCCNc1ncnc2c1c(c1ccc(cc1)OC)c(o2)c1ccc(cc1)OC,[4.829],2.7940003871917725,391.42,398.0,168.0,drug-like,7,71,picked,3,1
+18,2010194,c1ccc(cc1)c2c3c(ncnc3oc2c4ccccc4)NCCN5CCOCC5,O1CCN(CC1)CCNc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1,"[3.523, 7.492]",3.253999948501587,400.473,110.0,168.0,drug-like,6,71,picked,6,1
+19,2259473,c1ccc(c(c1)C(=O)Nc2nnc(s2)SCc3cccc(c3)F)Cl,Fc1cccc(c1)CSc1nnc(s1)NC(=O)c1ccccc1Cl,[6.525],5.237000465393066,379.85900000000004,302.0,168.0,drug-like,6,24,picked,20,3
+20,1574612,c1cc(cc(c1)Br)Nc2c(cnc(n2)Nc3cccc(c3)Br)F,Brc1cccc(c1)Nc1ncc(c(n1)Nc1cccc(c1)Br)F,[3.892],4.140000343322754,438.092,222.0,168.0,drug-like,4,28,picked,12,1
+21,45945887,COc1cc(cc(c1O)I)/C=C/2\C(=O)NC(=O)S2,COc1cc(/C=C\2/SC(=O)NC2=O)cc(c1O)I,"[6.235, 8.024]",2.75600004196167,377.155,170.0,219.0,drug-like,2,12,picked,3,2
+22,1267281,CCOc1ccc(cc1)Nc2c(cnc(n2)Nc3ccc(cc3)OCC)F,CCOc1ccc(cc1)Nc1ncc(c(n1)Nc1ccc(cc1)OCC)F,[3.892],3.051999807357788,368.405,113.0,219.0,drug-like,8,28,picked,5,2
+23,18897105,c1ccc2c(c1)c(=O)[nH]c(n2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F,O=C(Nc1ncc(s1)Cc1ccc(c(c1)F)F)CCc1nc2ccccc2c(=O)[nH]1,"[9.381, 10.773]",3.3410000801086426,426.439,247.7,223.0,drug-like,7,37,picked,7,2
+24,3064762,c1ccc(cc1)C(=O)Nc2ccc(cc2)Oc3c4c5c(sc4ncn3)CCCC5,O=C(c1ccccc1)Nc1ccc(cc1)Oc1ncnc2c1c1CCCCc1s2,[3.199],4.7179999351501465,401.481,636.9,249.0,drug-like,5,34,picked,16,1
+25,3513384,c1ccc(c(c1)c2c(=O)[nH]c3ccccc3n2)NC(=O)c4ccc(cc4)F,Fc1ccc(cc1)C(=O)Nc1ccccc1c1nc2ccccc2[nH]c1=O,[8.46],4.201000213623047,359.353,107.7,249.0,drug-like,4,58,picked,13,2
+26,6697792,c1cc(cc(c1)NC(=O)c2c(csn2)NCc3ccncc3)C(F)(F)F,O=C(c1nscc1NCc1ccncc1)Nc1cccc(c1)C(F)(F)F,"[3.551, 6.338, 10.666]",3.408999443054199,378.37199999999996,9888.0,355.0,drug-like,7,21,picked,7,3
+27,718480,c1cc(c(cc1NC(=O)c2cc(cc(c2O)Cl)Cl)Cl)Cl,Clc1cc(Cl)c(c(c1)C(=O)Nc1ccc(c(c1)Cl)Cl)O,[4.538],5.140000343322754,351.01199999999994,690.0,355.0,drug-like,3,24,picked,19,3
+28,44160581,CC(C)(C)c1ccc(cc1)NC(=O)c2c(ncs2)CCc3ccncc3,O=C(c1scnc1CCc1ccncc1)Nc1ccc(cc1)C(C)(C)C,[5.689],4.278000354766846,365.49199999999996,9888.0,355.0,drug-like,7,21,picked,13,3
+29,5428718,c1ccc(c(c1)C(=O)Nc2nnc(s2)SCc3ccc(cc3)Br)Cl,Brc1ccc(cc1)CSc1nnc(s1)NC(=O)c1ccccc1Cl,[6.525],5.900000095367432,440.765,239.5,400.0,drug-like,6,24,picked,24,2
+30,5551808,Cc1ccc2c(c1)sc(n2)NC(=O)Cc3csc(n3)NC(=O)Nc4cccc(c4)Cl,O=C(Nc1nc2c(s1)cc(cc2)C)Cc1csc(n1)NC(=O)Nc1cccc(c1)Cl,"[8.865, 10.738]",4.809000015258789,457.95599999999996,148.0,400.0,drug-like,8,29,picked,17,1
+31,5758581,Cc1ccc(cn1)c2c(cc(cn2)Cl)c3ccc(cc3)S(=O)(=O)C,Clc1cnc(c(c1)c1ccc(cc1)S(=O)(=O)C)c1ccc(nc1)C,[4.15],3.2059998512268066,358.842,2045.0,400.0,drug-like,3,57,picked,6,2
+32,2183015,c1cc(ccc1CSc2nnc(s2)NC(=O)c3ccc(cc3)Cl)Br,Clc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1ccc(cc1)Br,[6.888],5.899999618530273,440.765,482.2,400.0,drug-like,6,24,picked,24,3
+33,5428828,c1cc(cc(c1)F)CSc2nnc(s2)NC(=O)c3ccc(cc3)F,Fc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1cccc(c1)F,[7.202],4.75600004196167,363.405,113.1,400.0,drug-like,6,24,picked,17,2
+34,5428734,c1cc(ccc1CSc2nnc(s2)NC(=O)c3ccc(cc3)F)Br,Fc1ccc(cc1)C(=O)Nc1nnc(s1)SCc1ccc(cc1)Br,[7.202],5.418999671936035,424.31,324.8,400.0,drug-like,6,24,picked,21,1
+35,5809584,c1ccc(cc1)c2cc(c(s2)C(=O)N)NS(=O)(=O)c3ccc(cc3)F,Fc1ccc(cc1)S(=O)(=O)Nc1cc(sc1C(=O)N)c1ccccc1,[6.106],3.2139997482299805,376.425,5485.0,414.0,drug-like,5,36,picked,6,3
+36,5808501,CC(C)(C)c1cc(c(s1)C(=O)OC)NC(=O)Nc2ccc(cc2)Cl,COC(=O)c1sc(cc1NC(=O)Nc1ccc(cc1)Cl)C(C)(C)C,[4.64],4.531000137329102,366.86199999999997,269.0,414.0,drug-like,7,14,picked,15,2
