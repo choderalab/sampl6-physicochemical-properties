@@ -9,7 +9,7 @@ Cc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC
 c1ccc(cc1)C(=O)NCC(=O)Nc2nc3ccccc3s2
 Cc1ccc2c(c1)c(c(c(=O)[nH]2)CC(=O)O)c3ccccc3
 c1cc2cccnc2c(c1)NC(=O)c3cc(cnc3)Br
-Cc1ccc2c(c1)oc(n2)c3cc(cc(c3O)C)N
+c1ccc(cc1)CNc2c3ccccc3ncn2
 COc1cccc(c1)Nc2c3ccccc3ncn2.Cl
 c1ccc(cc1)c2c3c(ncnc3oc2c4ccccc4)NCCO
 c1ccc(cc1)CSc2nnc(o2)c3ccncc3
