@@ -3,24 +3,24 @@
 1,719540,c1ccc(cc1)n2c3c(cn2)c(ncn3)N,Nc1ncnc2c1cnn2c1ccccc1,[3.869],1.4990001916885376,211.22299999999998,3430.0,414.0,fragment-like,1,31,picked,8,1,True
 2,37095168,c1ccc2c(c1)ncn2c3ccc(cc3)O,Oc1ccc(cc1)n1cnc2c1cccc2,"[5.82, 8.709]",2.2190003395080566,210.231,21650.2,148.0,fragment-like,1,40,picked,11,1,True
 3,37053191,c1ccc(cc1)c2[nH]c3ccc(cc3n2)C(=O)N,NC(=O)c1ccc2c(c1)nc([nH]2)c1ccccc1,[6.342],2.192000389099121,237.257,2000.0,168.0,fragment-like,2,42,picked,11,2,True
-4,1360661,CCn1c2ccccc2nc1c3c(non3)N,CCn1c(nc2c1cccc2)c1nonc1N,[4.082],2.068000078201294,229.238,385.3,223.0,fragment-like,2,28,picked,11,3,True
-5,31653344,c1ccc(cc1)n2cnc3c2ccc(c3)N,Nc1ccc2c(c1)ncn2c1ccccc1,[6.348],2.3329999446868896,209.247,50213.0,148.0,fragment-like,1,40,picked,12,1,True
-6,8332960,c1ccc2c(c1)nc(n2CC3CC3)c4c(non4)N,Nc1nonc1c1nc2c(n1CC1CC1)cccc2,[4.082],2.43999981880188,255.275,300.0,168.0,fragment-like,3,28,picked,12,2,True
-7,13419113,c1ccc(cc1)NC(=O)c2c3ccccc3[nH]n2,O=C(c1n[nH]c2c1cccc2)Nc1ccccc1,[8.398],2.6429998874664307,237.257,762.8,223.0,fragment-like,3,36,picked,13,1,True
-8,5828805,Cc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)C,[4.267],2.5950002670288086,295.336,1864.0,414.0,fragment-like,4,36,picked,13,2,True
-9,23354217,c1ccc(cc1)C(=O)NCC(=O)Nc2nc3ccccc3s2,O=C(Nc1nc2c(s1)cccc2)CNC(=O)c1ccccc1,[8.672],2.7179999351501465,311.358,149.1,148.0,fragment-like,6,28,picked,14,1,True
-10,1367649,Cc1ccc2c(c1)c(c(c(=O)[nH]2)CC(=O)O)c3ccccc3,OC(=O)Cc1c(=O)[nH]c2c(c1c1ccccc1)cc(cc2)C,[4.109],2.8030002117156982,293.317,232.1,223.0,fragment-like,3,59,picked,14,2,True
-11,18893169,c1cc2cccnc2c(c1)NC(=O)c3cc(cnc3)Br,Brc1cncc(c1)C(=O)Nc1cccc2c1nccc2,"[4.001, 10.328]",2.922999620437622,328.163,406.0,148.0,fragment-like,3,37,picked,15,1,True
-12,3605943,c1cc(c(c(c1)Cl)NC(=O)c2ccncc2)Cl,O=C(c1ccncc1)Nc1c(Cl)cccc1Cl,"[3.163, 9.847]",2.927000045776367,267.111,109.0,168.0,fragment-like,3,20,picked,15,2,True
-13,1865544,COc1cccc(c1)Nc2c3ccccc3ncn2.Cl,COc1cccc(c1)Nc1ncnc2c1cccc2.Cl,[4.05],3.1389999389648438,287.744,119.7,148.0,fragment-like,3,36,picked,16,1,True
-14,1415762,c1ccc(cc1)c2c3c(ncnc3oc2c4ccccc4)NCCO,OCCNc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1,[4.294],3.0820000171661377,331.36800000000005,159.0,168.0,fragment-like,5,71,picked,16,2,True
-15,1444229,c1ccc(cc1)CSc2nnc(o2)c3ccncc3,c1ccc(cc1)CSc1nnc(o1)c1ccncc1,[4.902],3.305999994277954,269.322,170.0,168.0,fragment-like,4,30,picked,17,1,True
-16,2546448,CC(C)(C)c1cc(no1)NC(=O)Nc2ccc(cc2)F,O=C(Nc1noc(c1)C(C)(C)C)Nc1ccc(cc1)F,[3.417],3.4079995155334473,277.29400000000004,114.0,168.0,fragment-like,5,16,picked,17,2,True
-17,1228629,c1ccc(cc1)Cc2nnc(s2)NC(=O)c3cccs3,O=C(c1cccs1)Nc1nnc(s1)Cc1ccccc1,[7.12],3.6050002574920654,301.387,379.0,148.0,fragment-like,5,14,picked,18,1,True
-18,30719859,c1ccc2c(c1)c(ncn2)NCc3ccc(cc3)Cl,Clc1ccc(cc1)CNc1ncnc2c1cccc2,[5.564],3.5230002403259277,269.72900000000004,415.5,148.0,fragment-like,3,36,picked,18,2,True
-19,18908671,c1ccc(c(c1)NC(=O)c2ccc(o2)Cl)N3CCCCC3,Clc1ccc(o1)C(=O)Nc1ccccc1N1CCCCC1,[5.346],3.794999837875366,304.77099999999996,424.3,148.0,fragment-like,4,18,picked,19,1,True
-20,1377874,Cc1ccc(cc1)S(=O)(=O)Nc2cccc(c2)C(F)(F)F,Cc1ccc(cc1)S(=O)(=O)Nc1cccc(c1)C(F)(F)F,[7.903],3.747999668121338,315.311,527.0,168.0,fragment-like,4,24,picked,19,2,True
-21,25775231,c1cc(c(cc1c2ccc(o2)/C=C/3\C(=O)NC(=O)S3)Cl)F,O=C1S/C(=C/c2ccc(o2)c2ccc(c(c2)Cl)F)/C(=O)N1,[8.052],3.9079997539520264,323.72700000000003,125.0,168.0,fragment-like,2,31,picked,20,1,True
-22,1716329,c1ccc(c(c1)NC(=O)c2ccc(o2)Br)N3CCCCC3,Brc1ccc(o1)C(=O)Nc1ccccc1N1CCCCC1,[5.346],3.9770002365112305,349.222,530.0,168.0,fragment-like,4,18,picked,20,2,True
-23,5784088,c1cc(ccc1c2nnc3n2nc(cc3)NC4CC4)C(F)(F)F,FC(c1ccc(cc1)c1nnc2n1nc(cc2)NC1CC1)(F)F,[4.394],4.128999710083008,319.284,3175.0,414.0,fragment-like,4,32,picked,21,1,True
+4,31653344,c1ccc(cc1)n2cnc3c2ccc(c3)N,Nc1ccc2c(c1)ncn2c1ccccc1,[6.348],2.3329999446868896,209.247,50213.0,148.0,fragment-like,1,40,picked,12,1,True
+5,8332960,c1ccc2c(c1)nc(n2CC3CC3)c4c(non4)N,Nc1nonc1c1nc2c(n1CC1CC1)cccc2,[4.082],2.43999981880188,255.275,300.0,168.0,fragment-like,3,28,picked,12,2,True
+6,13419113,c1ccc(cc1)NC(=O)c2c3ccccc3[nH]n2,O=C(c1n[nH]c2c1cccc2)Nc1ccccc1,[8.398],2.6429998874664307,237.257,762.8,223.0,fragment-like,3,36,picked,13,1,True
+7,5828805,Cc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC,COc1cc2c(ncnc2cc1OC)Nc1cccc(c1)C,[4.267],2.5950002670288086,295.336,1864.0,414.0,fragment-like,4,36,picked,13,2,True
+8,23354217,c1ccc(cc1)C(=O)NCC(=O)Nc2nc3ccccc3s2,O=C(Nc1nc2c(s1)cccc2)CNC(=O)c1ccccc1,[8.672],2.7179999351501465,311.358,149.1,148.0,fragment-like,6,28,picked,14,1,True
+9,1367649,Cc1ccc2c(c1)c(c(c(=O)[nH]2)CC(=O)O)c3ccccc3,OC(=O)Cc1c(=O)[nH]c2c(c1c1ccccc1)cc(cc2)C,[4.109],2.8030002117156982,293.317,232.1,223.0,fragment-like,3,59,picked,14,2,True
+10,18893169,c1cc2cccnc2c(c1)NC(=O)c3cc(cnc3)Br,Brc1cncc(c1)C(=O)Nc1cccc2c1nccc2,"[4.001, 10.328]",2.922999620437622,328.163,406.0,148.0,fragment-like,3,37,picked,15,1,True
+11,1532460,Cc1ccc2c(c1)oc(n2)c3cc(cc(c3O)C)N,Nc1cc(C)c(c(c1)c1oc2c(n1)ccc(c2)C)O,"[5.184, 8.99]",2.880000114440918,254.28400000000002,3132.0,168.0,fragment-like,1,42,picked,15,2,True
+12,1865544,COc1cccc(c1)Nc2c3ccccc3ncn2.Cl,COc1cccc(c1)Nc1ncnc2c1cccc2.Cl,[4.05],3.1389999389648438,287.744,119.7,148.0,fragment-like,3,36,picked,16,1,True
+13,1415762,c1ccc(cc1)c2c3c(ncnc3oc2c4ccccc4)NCCO,OCCNc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1,[4.294],3.0820000171661377,331.36800000000005,159.0,168.0,fragment-like,5,71,picked,16,2,True
+14,1444229,c1ccc(cc1)CSc2nnc(o2)c3ccncc3,c1ccc(cc1)CSc1nnc(o1)c1ccncc1,[4.902],3.305999994277954,269.322,170.0,168.0,fragment-like,4,30,picked,17,1,True
+15,1327907,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)C(F)(F)F,FC(c1cccc(c1)Nc1ncnc2c1cccc2)(F)F,[4.05],3.2689995765686035,289.255,101.0,355.0,fragment-like,3,36,picked,17,2,True
+16,1228629,c1ccc(cc1)Cc2nnc(s2)NC(=O)c3cccs3,O=C(c1cccs1)Nc1nnc(s1)Cc1ccccc1,[7.12],3.6050002574920654,301.387,379.0,148.0,fragment-like,5,14,picked,18,1,True
+17,30719859,c1ccc2c(c1)c(ncn2)NCc3ccc(cc3)Cl,Clc1ccc(cc1)CNc1ncnc2c1cccc2,[5.564],3.5230002403259277,269.72900000000004,415.5,148.0,fragment-like,3,36,picked,18,2,True
+18,18908671,c1ccc(c(c1)NC(=O)c2ccc(o2)Cl)N3CCCCC3,Clc1ccc(o1)C(=O)Nc1ccccc1N1CCCCC1,[5.346],3.794999837875366,304.77099999999996,424.3,148.0,fragment-like,4,18,picked,19,1,True
+19,1377874,Cc1ccc(cc1)S(=O)(=O)Nc2cccc(c2)C(F)(F)F,Cc1ccc(cc1)S(=O)(=O)Nc1cccc(c1)C(F)(F)F,[7.903],3.747999668121338,315.311,527.0,168.0,fragment-like,4,24,picked,19,2,True
+20,25775231,c1cc(c(cc1c2ccc(o2)/C=C/3\C(=O)NC(=O)S3)Cl)F,O=C1S/C(=C/c2ccc(o2)c2ccc(c(c2)Cl)F)/C(=O)N1,[8.052],3.9079997539520264,323.72700000000003,125.0,168.0,fragment-like,2,31,picked,20,1,True
+21,1859493,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)Cl.Cl,Clc1cccc(c1)Nc1ncnc2c1cccc2.Cl,[4.05],3.8990001678466797,292.163,7366.0,414.0,fragment-like,2,36,picked,20,2,True
+22,837243,CC(C)OC(=O)c1c(csc1N)c2ccc(c(c2)OC)OC,COc1cc(ccc1OC)c1csc(c1C(=O)OC(C)C)N,[10.184],4.079999923706055,321.39099999999996,10117.0,168.0,fragment-like,6,28,picked,21,1,True
+23,5784088,c1cc(ccc1c2nnc3n2nc(cc3)NC4CC4)C(F)(F)F,FC(c1ccc(cc1)c1nnc2n1nc(cc2)NC1CC1)(F)F,[4.394],4.128999710083008,319.284,3175.0,414.0,fragment-like,4,32,picked,21,2,True
 24,45809595,CC(C)c1ccc(cc1)/C=C\2/c3ccccc3NC2=O,O=C1Nc2c(/C/1=C/c1ccc(cc1)C(C)C)cccc2,[3.158],4.2330002784729,263.334,283.7,400.0,fragment-like,2,24,picked,22,1,True
