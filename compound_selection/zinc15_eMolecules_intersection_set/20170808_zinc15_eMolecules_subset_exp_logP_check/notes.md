@@ -1,4 +1,4 @@
-## 2017/08/08
+# 2017/08/08
 
 ### Eliminating compounds with reported experimental logP values
 
@@ -30,6 +30,13 @@ isomeric SMILES. Experimental logP values (if exists), were under `Properties/Ex
 Properties/Experimental LogP`. I recorded these values under Chemspider columb in `df_frag_final_chemspider_logP.csv`.
 
 - Then to create a list of compounds to skip, I run frag_set_reported_experimental_logP.ipnb. But it is necessary to
-increment the pickle file name round#.
+increment the pickle file name round#:
+fragments_with_exp_logP_round1.pickle
+fragments_with_exp_logP_round2.pickle
+fragments_with_exp_logP_round3.pickle
+fragments_with_exp_logP_round4.pickle
 
 - Add the path to new pickle file to ../20170727_zinc15_eMolecules_subset_logP_mw_filter/logP_and_mw_filter.ipynb  
+
+- I run 4 rounds of this until I get a molecule free of experimental logPs.
+
