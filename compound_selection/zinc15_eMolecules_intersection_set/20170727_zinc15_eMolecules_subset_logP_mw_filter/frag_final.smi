@@ -4,12 +4,12 @@ c1ccc2c(c1)ncn2c3ccc(cc3)O
 c1ccc(cc1)c2[nH]c3ccc(cc3n2)C(=O)N
 c1ccc(cc1)n2cnc3c2ccc(c3)N
 c1ccc2c(c1)nc(n2CC3CC3)c4c(non4)N
-c1ccc(cc1)NC(=O)c2c3ccccc3[nH]n2
 Cc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC
 c1ccc(cc1)C(=O)NCC(=O)Nc2nc3ccccc3s2
 Cc1ccc2c(c1)c(c(c(=O)[nH]2)CC(=O)O)c3ccccc3
 c1cc2cccnc2c(c1)NC(=O)c3cc(cnc3)Br
 c1ccc(cc1)CNc2c3ccccc3ncn2
+c1cc(c(c(c1)Cl)C(=O)Nc2ccncc2)Cl
 COc1cccc(c1)Nc2c3ccccc3ncn2.Cl
 c1ccc(cc1)c2c3c(ncnc3oc2c4ccccc4)NCCO
 c1ccc(cc1)CSc2nnc(o2)c3ccncc3

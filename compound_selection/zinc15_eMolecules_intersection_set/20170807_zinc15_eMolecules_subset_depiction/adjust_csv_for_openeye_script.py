@@ -7,7 +7,7 @@ df =  pd.read_csv("df_frag_final.csv")
 
 # Reorder columns names to have first column canonical isomeric smiles column
 cols = list(df.columns.values)
-#print(cols)
+print(cols)
 adj_cols = [cols[2],cols[1]]
 #print("")
 
