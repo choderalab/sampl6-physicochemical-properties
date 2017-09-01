@@ -1,2 +1,4 @@
 eMolecules ID, NAME, exp_logP, ref
-532754, geninstein, 3.04, 20170727_zinc15_eMolecules_subset_logP_mw_filter, http://pubs.acs.org/doi/pdf/10.1021/jf0483669 
+532754, geninstein, 3.04, http://pubs.acs.org/doi/pdf/10.1021/jf0483669
+876432, gefitinib, 3.2, https://www.drugbank.ca/drugs/DB00317
+901601, celecoxib, 3.9, https://www.drugbank.ca/drugs/DB00482 
