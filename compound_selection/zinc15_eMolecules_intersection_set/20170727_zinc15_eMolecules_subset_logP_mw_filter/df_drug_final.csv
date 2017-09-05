@@ -1,7 +1,7 @@
 eMolecules ID,canonical isomeric SMILES,eMolecules SMILES,"pKas in [3,11]",XlogP,MolWt,Availability (mg),Price,group,N_Rot,N_UV_chrom,Selection,Bin index,Priority,Final list
-2010194,c1ccc(cc1)c2c3c(ncnc3oc2c4ccccc4)NCCN5CCOCC5,O1CCN(CC1)CCNc1ncnc2c1c(c1ccccc1)c(o2)c1ccccc1,"[3.523, 7.492]",3.253999948501587,400.473,110.0,168.0,drug-like,6,71,picked,0,2,True
+536848,c1cc2c(cc(c(c2nc1)O)I)I,Ic1cc(I)c2c(c1O)nccc2,"[3.511, 6.794]",3.370999813079834,396.951,239.0,168.0,drug-like,0,29,picked,0,1,True
 4375254,CCOC(=O)c1ccc(cc1)Nc2cc(nc(n2)Nc3ccc(cc3)C(=O)OCC)C,CCOC(=O)c1ccc(cc1)Nc1cc(C)nc(n1)Nc1ccc(cc1)C(=O)OCC,[6.336],2.9370000362396236,420.461,319.0,168.0,drug-like,10,28,picked,0,3,True
-18897105,c1ccc2c(c1)c(=O)[nH]c(n2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F,O=C(Nc1ncc(s1)Cc1ccc(c(c1)F)F)CCc1nc2ccccc2c(=O)[nH]1,"[9.381, 10.773]",3.3410000801086426,426.439,247.7,223.0,drug-like,7,37,picked,0,1,True
+18897105,c1ccc2c(c1)c(=O)[nH]c(n2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F,O=C(Nc1ncc(s1)Cc1ccc(c(c1)F)F)CCc1nc2ccccc2c(=O)[nH]1,"[9.381, 10.773]",3.3410000801086426,426.439,247.7,223.0,drug-like,7,37,picked,0,2,True
 1574612,c1cc(cc(c1)Br)Nc2c(cnc(n2)Nc3cccc(c3)Br)F,Brc1cccc(c1)Nc1ncc(c(n1)Nc1cccc(c1)Br)F,[3.892],4.140000343322754,438.092,222.0,168.0,drug-like,4,28,picked,2,1,True
 3365457,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc3ccc(c(c3)Cl)Cl,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc1ccc(c(c1)Cl)Cl,[9.167],5.171000480651856,381.276,489.9,148.0,drug-like,6,28,picked,3,1,True
 46568819,c1cc(cc(c1)OCc2ccc(cc2Cl)Cl)/C=C/3\C(=O)NC(=O)S3,O=C1NC(=O)/C(=C\c2cccc(c2)OCc2ccc(cc2Cl)Cl)/S1,[8.05],5.238000392913818,380.245,154.0,219.0,drug-like,4,24,picked,3,2,True
