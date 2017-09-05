@@ -3,7 +3,7 @@
 import pandas as pd
 
 # Read df
-df =  pd.read_csv("df_frag_final.csv")
+df =  pd.read_csv("df_drug_final_supplier.csv")
 
 # Reorder columns names to have first column canonical isomeric smiles column
 cols = list(df.columns.values)
@@ -26,5 +26,5 @@ df = df[adj_cols]
 df.columns.values[0] = "SMILES"
 
 # Write to csv without index column
-df.to_csv("df_frag_final_oe.csv", index = False)
+df.to_csv("df_drug_final_supplier_oe.csv", index = False)
 print(df)
