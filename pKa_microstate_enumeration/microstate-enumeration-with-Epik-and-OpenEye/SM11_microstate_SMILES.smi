@@ -1,0 +1,16 @@
+[H]/N=c\1/c2cnn(c2nc[nH]1)c3ccccc3
+[H]/N=c/1\c2cnn(c2nc[nH]1)c3ccccc3
+[H]/N=c\1/c2cnn(c2[nH]cn1)c3ccccc3
+c1ccc(cc1)[n+]2c3c(c[n-]2)c(=[NH2+])[n-]cn3
+c1ccc(cc1)[n+]2c3c(c[n-]2)c(ncn3)N
+c1ccc(cc1)[n+]2c-3nc[n-]c(c3cn2)[NH-]
+c1ccc(cc1)n2c3c(cn2)c(ncn3)[NH-]
+c1ccc(cc1)n2c3c(cn2)c([nH+]cn3)N
+c1ccc(cc1)n2c3c(c[nH+]2)c(ncn3)N
+[H]/N=c/1\c2cnn(c2[nH]cn1)c3ccccc3
+c1ccc(cc1)n2c3c(cn2)c(nc[nH+]3)N
+[H]/N=c\1/c-2c[nH]n(c2ncn1)c3ccccc3
+c1ccc(cc1)n2c3c(cn2)c(ncn3)[NH3+]
+c1ccc(cc1)[n+]2c-3nc[n-]c(c3cn2)N
+c1ccc(cc1)n2c-3ncnc(=[NH2+])c3c[n-]2
+c1ccc(cc1)n2c-3ncnc(=N)c3c[n-]2

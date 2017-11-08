@@ -1,0 +1,10 @@
+c1cc2c(cc1O)c3c(o2)C(=[OH+])NCCC3
+c1cc2c(cc1[O-])c3c(o2)C(=NCCC3)[O-]
+c1cc2=[O+]C3=C(NCCCC3=c2cc1O)[O-]
+c1cc2c(cc1[O-])c3c(o2)C(=O)NCCC3
+c1cc2c(cc1O)c3c(o2)C(=O)NCCC3
+c1cc2c(cc1[O-])c3c(o2)C(=[OH+])NCCC3
+c1cc2=[O+]C3=C(NCCCC3=c2cc1[O-])[O-]
+c1cc2c(cc1[O-])c3c(o2)C(=O)[NH2+]CCC3
+c1cc2c(cc1O)c3c(o2)C(=O)[NH2+]CCC3
+c1cc2c(cc1O)c3c(o2)C(=NCCC3)[O-]

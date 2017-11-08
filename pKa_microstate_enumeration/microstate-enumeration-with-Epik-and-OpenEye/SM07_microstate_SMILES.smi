@@ -1,0 +1,12 @@
+c1ccc(cc1)C/N=c\2/c3ccccc3[nH]cn2
+c1ccc(cc1)CN=c2c3ccccc3[nH]cn2
+c1ccc(cc1)C/N=c\2/c3ccccc3nc[nH]2
+c1ccc(cc1)CNc2c3ccccc3ncn2
+c1ccc(cc1)C[N-]c2c3ccccc3[nH+]cn2
+c1ccc(cc1)C/[NH+]=c/2\c3ccccc3[nH]cn2
+c1ccc(cc1)CNc2c3ccccc3nc[nH+]2
+c1ccc(cc1)C/N=c/2\c3ccccc3[nH]cn2
+c1ccc(cc1)C[NH+]=c2c3ccccc3[nH+]c[n-]2
+c1ccc(cc1)C/N=c/2\c3ccccc3nc[nH]2
+c1ccc(cc1)C[NH2+]c2c3ccccc3ncn2
+c1ccc(cc1)C[N-]c2c3ccccc3ncn2

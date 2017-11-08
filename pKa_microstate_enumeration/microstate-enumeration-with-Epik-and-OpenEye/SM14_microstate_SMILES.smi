@@ -1,0 +1,6 @@
+c1ccc(cc1)[n+]2c[n-]c3c2ccc(c3)N
+c1ccc(cc1)n2c[nH+]c3c2ccc(c3)N
+c1ccc(cc1)n2c[nH+]c3c2ccc(c3)[NH3+]
+c1ccc(cc1)[n+]2c[n-]c3c2ccc(c3)[NH3+]
+c1ccc(cc1)n2c[nH+]c3c2ccc(c3)[NH-]
+c1ccc(cc1)n2cnc3c2ccc(c3)[NH-]
