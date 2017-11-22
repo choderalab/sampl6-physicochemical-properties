@@ -1,4 +1,4 @@
-# Correcting pKa Microstates Lists
+# Correcting pKa Microstates Lists (v1_3_1)
 
 ## 2017/11/13 
 I incorporated new microstates suggested by Robert Fraczkiewicz and removed resonance structures according to his suggestion.
@@ -128,5 +128,5 @@ No correction to SM22 microstate lists was necessary.
 
 ## Procedure
 Structures to be deprecated or added are recorded in Correction columns of SMX_correction.csv files. 
-To create corrected microstate list (v1_4), run ipython notebook:
-
+To create corrected microstate list (v1_3_1), run ipython notebook: update_microstate_lists_based_on_manual_correction.ipynb
+Output file path: /microstate_lists_after_manual_correction
