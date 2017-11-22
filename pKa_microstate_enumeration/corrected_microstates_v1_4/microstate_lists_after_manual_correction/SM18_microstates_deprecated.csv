@@ -1,0 +1,3 @@
+microstate ID,canonical isomeric SMILES,remarks
+SM18_micro012,c1ccc2c(c1)c(nc([nH+]2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F)[O-],deprecated
+SM18_micro051,c1ccc2c(c1)c(=O)[nH]c(n2)CCC(=O)/N=c/3\[nH]cc(s3)Cc4ccc(c(c4)F)F,deprecated
