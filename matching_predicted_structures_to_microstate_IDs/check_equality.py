@@ -3,7 +3,7 @@
 #
 # Rationelle: if MCSS can map all atoms of two structures (target and pattern), it has to be the exact same graph.
 # Here the MCSS checks atomic number, but ignores electronic structure (bond order/charges).
-# If the entire target, and the entire pattern have the same amount if atoms as the match, it means it found the full 
+# If the entire target, and the entire pattern have the same amount of atoms as the match, it means it found the full 
 # map between them.
 
 
