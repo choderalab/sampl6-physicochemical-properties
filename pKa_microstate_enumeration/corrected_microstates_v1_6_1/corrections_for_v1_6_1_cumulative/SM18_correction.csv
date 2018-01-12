@@ -73,3 +73,4 @@ SM18_micro071,c1ccc2c(c1)c(nc(n2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F)[O-],
 SM18_micro072,c1ccc2c(c1)c(=O)[nH]c(n2)CCC(=[OH+])[N-]c3ncc(s3)Cc4ccc(c(c4)F)F,
 SM18_micro073,c1ccc2c(c1)c(=O)nc([nH]2)CCC(=O)/N=C\3/[NH+]=CC(S3)Cc4ccc(c(c4)F)F,deprecated
 SM18_micro074,c1ccc2c(c1)c(=[OH+])[nH]c(n2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F,
+SM18_micro075,Fc1cc(CC(S/2)=CNC2=N/C([O-])=C/Cc(nc3O)nc4c3cccc4)ccc1F,added
