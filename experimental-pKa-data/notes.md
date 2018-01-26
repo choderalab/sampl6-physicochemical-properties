@@ -15,10 +15,14 @@ run rename_experimental_reports_with_molecule_IDs.ipynb
 
 Output directory: experiment_reports_with_molecule_ID/
 
+Copy to main SAMPL6 repo:
+$ cp experiment_reports_with_molecule_ID/*.pdf /Users/isikm/lab/SAMPL6-repos/SAMPL6/physical_properties/pKa/experimental_data/experiment_reports
+
 ### Organize pKa results of replicate experiments
 run organize_pKa_results_of_replicate_experiments.ipynb
 
 $ cp pKa_results_of_replicate_experiments.csv /Users/isikm/lab/SAMPL6-repos/SAMPL6/physical_properties/pKa/experimental_data
+
 
 ### To calculate mean and SEM of pKa values
 $ python calc_pKa_value_statistics.py
