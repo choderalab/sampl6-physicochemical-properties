@@ -37,3 +37,16 @@ $ cp typeIII-ECRISM-8.csv nb006-976-typeIII-ECRISM-8.csv
 $ cp nb006-976-typeIII-ECRISM-8.csv  ../../typeIII_predictions
 
 
+## 2018/02/05
+
+### Epik Reference Calculations for Type III
+
+Bas Rustenburg provided type III pKa predictions calculated by Epik. 
+These will be used as reference calculations.
+
+./20180205_Epik_typeIII_Rustenburg/typeIII-epik_sequential-1.csv
+
+I renamed this file to match the expected format coming from submission system.
+$ cp typeIII-epik_sequential-1.csv nb007-976-typeIII-epik_sequential-1.csv
+$ cp nb007-976-typeIII-epik_sequential-1.csv ../typeIII_predictions
+
