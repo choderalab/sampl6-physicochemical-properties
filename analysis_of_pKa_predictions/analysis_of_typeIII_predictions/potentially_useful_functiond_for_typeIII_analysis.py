@@ -261,7 +261,7 @@ class SamplSubmission:
         SECTIONS = {'Predictions', 'Name', 'Software', 'Method'}
 
         # Sections in CSV format with columns names.
-        CSV_SECTIONS = {'Predictions': ("Molecule ID", "macroscopic pKa", "macroscopic pKa SEM")}
+        CSV_SECTIONS = {'Predictions': ("Molecule ID", "pKa mean", "pKa SEM")}
 
 
         def __init__(self, file_path):
