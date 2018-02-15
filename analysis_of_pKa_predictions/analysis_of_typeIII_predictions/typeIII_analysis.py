@@ -119,6 +119,47 @@ def plot_correlation(x, y, data, title=None, color=None, kind='joint', ax=None):
     ax.fill_between(axes_limits, axes_limits - 0.5, axes_limits + 0.5, alpha=0.2, color=palette[2])
     ax.fill_between(axes_limits, axes_limits - 1, axes_limits + 1, alpha=0.2, color=palette[3])
 
+
+def plot_correlation_with_SEM(x_lab, y_lab, x_err_lab, y_err_lab, data, title=None, color=None, ax=None):
+    # Extract only pKa values.
+    x_error = data.loc[:, x_err_lab]
+    y_error = data.loc[:, y_err_lab]
+    x_values = data.loc[:, x_lab]
+    y_values = data.loc[:, y_lab]
+    data = data[[x_lab, y_lab]]
+
+    # Find extreme values to make axes equal.
+    min_limit = np.ceil(min(data.min()) - 2)
+    max_limit = np.floor(max(data.max()) + 2)
+    axes_limits = np.array([min_limit, max_limit])
+
+    # Color
+    current_palette = sns.color_palette()
+    sns_blue = current_palette[0]
+
+    # Plot
+    plt.figure(figsize=(6, 6))
+    grid = sns.regplot(x=x_values, y=y_values, data=data, color=color, ci=None)
+    plt.errorbar(x=x_values, y=y_values, xerr=x_error, yerr=y_error, fmt="o", ecolor=sns_blue, capthick='2',
+                 label='SEM', alpha=0.75)
+    plt.axis("equal")
+
+    if len(title) > 70:
+        plt.title(title[:70]+"...")
+    else:
+        plt.title(title)
+
+    # Add diagonal line.
+    grid.plot(axes_limits, axes_limits, ls='--', c='black', alpha=0.8, lw=0.7)
+
+    # Add shaded area for 0.5-1 pKa error.
+    palette = sns.color_palette('BuGn_r')
+    grid.fill_between(axes_limits, axes_limits - 0.5, axes_limits + 0.5, alpha=0.2, color=palette[2])
+    grid.fill_between(axes_limits, axes_limits - 1, axes_limits + 1, alpha=0.2, color=palette[3])
+
+    plt.xlim(axes_limits)
+    plt.ylim(axes_limits)
+
 # =============================================================================
 # UTILITY CLASSES
 # =============================================================================
@@ -644,6 +685,7 @@ class pKaTypeIIISubmissionCollection:
     """A collection of TypeIII pKa submissions."""
 
     PKA_CORRELATION_PLOT_BY_METHOD_PATH_DIR = 'pKaCorrelationPlots'
+    PKA_CORRELATION_PLOT_WITH_SEM_BY_METHOD_PATH_DIR = 'pKaCorrelationPlotsWithSEM'
     PKA_CORRELATION_PLOT_BY_PKA_PATH_DIR = 'error_for_each_macroscopic_pKa.pdf'
     available_matching = ["closest", "hungarian"]
 
@@ -750,6 +792,24 @@ class pKaTypeIIISubmissionCollection:
             plt.close('all')
             plot_correlation(x='pKa (exp)', y='pKa (calc)',
                              data=data, title=title, kind='joint')
+            plt.tight_layout()
+            # plt.show()
+            output_path = os.path.join(output_dir_path, '{}.pdf'.format(receipt_id))
+            plt.savefig(output_path)
+
+    def generate_correlation_plots_with_SEM(self):
+        # pKa correlation plots.
+        output_dir_path = os.path.join(self.output_directory_path,
+                                       self.PKA_CORRELATION_PLOT_WITH_SEM_BY_METHOD_PATH_DIR)
+        os.makedirs(output_dir_path, exist_ok=True)
+        for receipt_id in self.data.receipt_id.unique():
+            data = self.data[self.data.receipt_id == receipt_id]
+            title = '{} ({})'.format(receipt_id, data.name.unique()[0])
+
+            plt.close('all')
+            plot_correlation_with_SEM(x_lab='pKa (exp)', y_lab='pKa (calc)',
+                                      x_err_lab='pKa SEM (exp)', y_err_lab='pKa SEM (calc)',
+                                      data=data, title=title)
             plt.tight_layout()
             # plt.show()
             output_path = os.path.join(output_dir_path, '{}.pdf'.format(receipt_id))
@@ -934,12 +994,14 @@ if __name__ == '__main__':
         # Generate plots and tables.
         for collection in [collection_typeIII]:
             collection.generate_correlation_plots()
+            collection.generate_correlation_plots_with_SEM()
             collection.generate_molecules_plot()
 
         import shutil
 
         if os.path.isdir('{}/StatisticsTables'.format(output_directory_path)):
             shutil.rmtree('{}/StatisticsTables'.format(output_directory_path))
+
 
         for submissions, type in zip([submissions_typeIII], ['typeIII']):
             generate_statistics_tables(submissions, stats_funcs, directory_path=output_directory_path + '/StatisticsTables',
