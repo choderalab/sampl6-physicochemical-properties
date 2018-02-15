@@ -300,8 +300,7 @@ class pKaTypeIIISubmission(SamplSubmission):
 
         # Create lists of stats functions to pass to compute_bootstrap_statistics.
         stats_funcs_names, stats_funcs = zip(*stats_funcs.items())
-        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=100)
-        # bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=10000)
+        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=10000)
 
         # Return statistics as dict preserving the order.
         return collections.OrderedDict((stats_funcs_names[i], bootstrap_statistics[i])
@@ -943,7 +942,7 @@ if __name__ == '__main__':
             shutil.rmtree('{}/StatisticsTables'.format(output_directory_path))
 
         for submissions, type in zip([submissions_typeIII], ['typeIII']):
-            generate_statistics_tables(submissions, stats_funcs, directory_path=output_directory_path + 'StatisticsTables',
+            generate_statistics_tables(submissions, stats_funcs, directory_path=output_directory_path + '/StatisticsTables',
                                        file_base_name='statistics', sort_stat='RMSE',
                                        ordering_functions=ordering_functions,
                                        latex_header_conversions=latex_header_conversions)
