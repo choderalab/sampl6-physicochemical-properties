@@ -160,6 +160,82 @@ def plot_correlation_with_SEM(x_lab, y_lab, x_err_lab, y_err_lab, data, title=No
     plt.xlim(axes_limits)
     plt.ylim(axes_limits)
 
+
+def barplot_with_CI_errorbars(df, x_label, y_label, y_lower_label, y_upper_label):
+    """Creates bar plot of a given dataframe with asymmetric error bars for y axis.
+
+    Args:
+        df: Pandas Dataframe that should have columns with columnnames specified in other arguments.
+        x_label: str, column name of x axis categories
+        y_label: str, column name of y axis values
+        y_lower_label: str, column name of lower error values of y axis
+        y_upper_label: str, column name of upper error values of y axis
+
+    """
+    # Column names for new columns for delta y_err which is calculated as | y_err - y |
+    delta_lower_yerr_label = "$\Delta$" + y_lower_label
+    delta_upper_yerr_label = "$\Delta$" + y_upper_label
+    data = df  # Pandas DataFrame
+    data[delta_lower_yerr_label] = data[y_label] - data[y_lower_label]
+    data[delta_upper_yerr_label] = data[y_upper_label] - data[y_label]
+
+    # Color
+    current_palette = sns.color_palette()
+    sns_color = current_palette[1]
+
+    # Plot style
+    plt.close()
+    plt.style.use(["seaborn-talk", "seaborn-whitegrid"])
+    plt.rcParams['axes.labelsize'] = 18
+    plt.rcParams['xtick.labelsize'] = 14
+    plt.rcParams['ytick.labelsize'] = 16
+    #plt.tight_layout()
+
+    # Plot
+    x = range(len(data[y_label]))
+    y = data[y_label]
+    plt.bar(x, y)
+    plt.xticks(x, data[x_label], rotation=90)
+    plt.errorbar(x, y, yerr=(data[delta_lower_yerr_label], data[delta_upper_yerr_label]),
+                 fmt="none", ecolor=sns_color, capsize=3, capthick=True)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+
+
+def barplot(df, x_label, y_label, title):
+    """Creates bar plot of a given dataframe.
+
+    Args:
+        df: Pandas Dataframe that should have columns with columnnames specified in other arguments.
+        x_label: str, column name of x axis categories
+        y_label: str, column name of y axis values
+        title: str, the title of the plot
+
+    """
+    # Plot style
+    plt.close()
+    plt.style.use(["seaborn-talk", "seaborn-whitegrid"])
+    plt.rcParams['axes.labelsize'] = 18
+    plt.rcParams['xtick.labelsize'] = 14
+    plt.rcParams['ytick.labelsize'] = 16
+    #plt.tight_layout()
+
+    # Plot
+    data = df
+    x = range(len(data[y_label]))
+    y = data[y_label]
+    plt.bar(x, y)
+    plt.xticks(x, data[x_label], rotation=90)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    if len(title) > 70:
+        plt.title(title[:70]+"...")
+    else:
+        plt.title(title)
+    plt.tight_layout()
+
+
+
 # =============================================================================
 # UTILITY CLASSES
 # =============================================================================
@@ -284,7 +360,7 @@ class SamplSubmission:
         experimental_series.name += ' (expt)'
 
         # Concatenate the two columns into a single dataframe.
-        return pd.concat([submission_series, experimental_series], axis=1)
+        return pd.concat([experimental_series, submission_series], axis=1)
 
 # =============================================================================
 # PKA PREDICTION CHALLENGE
@@ -689,6 +765,7 @@ class pKaTypeIIISubmissionCollection:
     PKA_CORRELATION_PLOT_BY_METHOD_PATH_DIR = 'pKaCorrelationPlots'
     PKA_CORRELATION_PLOT_WITH_SEM_BY_METHOD_PATH_DIR = 'pKaCorrelationPlotsWithSEM'
     PKA_CORRELATION_PLOT_BY_PKA_PATH_DIR = 'error_for_each_macroscopic_pKa.pdf'
+    ABSOLUTE_ERROR_VS_PKA_PLOT_PATH_DIR = 'AbsoluteErrorPlots'
     available_matching = ["closest", "hungarian"]
 
     def __init__(self, submissions, experimental_data, output_directory_path, pka_typeiii_submission_collection_file_path, matching_algorithm):
@@ -828,6 +905,29 @@ class pKaTypeIIISubmissionCollection:
         # plt.show()
         plt.savefig(os.path.join(self.output_directory_path, self.PKA_CORRELATION_PLOT_BY_PKA_PATH_DIR))
 
+    def generate_absolute_error_vs_pKa_ID_plot(self):
+        """
+        For each method a bar plot is generated so that absolute errors of each pKa can be compared.
+        """
+        # Setup output directory
+        output_dir_path = os.path.join(self.output_directory_path,
+                                       self.ABSOLUTE_ERROR_VS_PKA_PLOT_PATH_DIR)
+        os.makedirs(output_dir_path, exist_ok=True)
+
+        # Calculate absolute errors.
+        self.data["absolute error"] = np.NaN
+        self.data.loc[:, "absolute error"] = np.absolute(self.data.loc[:, "$\Delta$pKa error (calc - exp)"])
+
+        # Create a separate plot for each submission.
+        for receipt_id in self.data.receipt_id.unique():
+            data = self.data[self.data.receipt_id == receipt_id]
+            title = '{} ({})'.format(receipt_id, data.name.unique()[0])
+
+            plt.close('all')
+            barplot(df=data, x_label="pKa ID", y_label="absolute error", title=title)
+            output_path = os.path.join(output_dir_path, '{}.pdf'.format(receipt_id))
+            plt.savefig(output_path)
+
 
 def generate_statistics_tables(submissions, stats_funcs, directory_path, file_base_name,
                                 sort_stat=None, ordering_functions=None,
@@ -934,6 +1034,21 @@ def generate_statistics_tables(submissions, stats_funcs, directory_path, file_ba
     # plt.show()
     plt.savefig(file_base_path + '_bootstrap_distributions.pdf')
 
+def generate_performance_comparison_plots(statistics_filename, directory_path):
+        # Read statistics table
+        statistics_file_path = os.path.join(directory_path, statistics_filename)
+        df_statistics = pd.read_csv(statistics_file_path)
+        #print("\n df_statistics \n", df_statistics)
+
+        # RMSE comparison plot
+        barplot_with_CI_errorbars(df=df_statistics, x_label="ID", y_label="RMSE", y_lower_label="RMSE_lower_bound",
+                                  y_upper_label="RMSE_upper_bound")
+        plt.savefig(directory_path + "/RMSE_vs_method_plot.pdf")
+
+        # MAE comparison plot
+        barplot_with_CI_errorbars(df=df_statistics, x_label="ID", y_label="MAE", y_lower_label="MAE_lower_bound",
+                                  y_upper_label="MAE_upper_bound")
+        plt.savefig(directory_path + "/MAE_vs_method_plot.pdf")
 
 
 # =============================================================================
@@ -991,6 +1106,7 @@ if __name__ == '__main__':
 
     # Perform the analysis using the different algorithms for matching predictions to experiment
     for algorithm in ['closest', 'hungarian']:
+    #for algorithm in ['closest']:
 
         output_directory_path='./analysis_outputs_{}'.format(algorithm)
         pka_typeiii_submission_collection_file_path = '{}/typeIII_submission_collection.csv'.format(output_directory_path)
@@ -1003,6 +1119,7 @@ if __name__ == '__main__':
             collection.generate_correlation_plots()
             collection.generate_correlation_plots_with_SEM()
             collection.generate_molecules_plot()
+            collection.generate_absolute_error_vs_pKa_ID_plot()
 
         import shutil
 
@@ -1015,6 +1132,10 @@ if __name__ == '__main__':
                                        file_base_name='statistics', sort_stat='RMSE',
                                        ordering_functions=ordering_functions,
                                        latex_header_conversions=latex_header_conversions)
+
+        # Generate RMSE and MAE comparison plots.
+        statistics_directory_path = os.path.join(output_directory_path, "StatisticsTables")
+        generate_performance_comparison_plots(statistics_filename="statistics.csv", directory_path=statistics_directory_path)
 
 
 
