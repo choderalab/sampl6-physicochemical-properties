@@ -417,7 +417,7 @@ class pKaTypeIIISubmission(SamplSubmission):
 
         # Create lists of stats functions to pass to compute_bootstrap_statistics.
         stats_funcs_names, stats_funcs = zip(*stats_funcs.items())
-        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=10000)
+        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=1000)
 
         # Return statistics as dict preserving the order.
         return collections.OrderedDict((stats_funcs_names[i], bootstrap_statistics[i])
@@ -618,8 +618,9 @@ def add_pKa_IDs_to_matching_predictions(df_pred, df_exp):
         df_exp: Pandas Dataframe of experimental pKas (stacked)
 
     Returns:
-        A dataframe of predicted pKa values that gave the best match to experimental values.
+        df_pred_matched: A dataframe of predicted pKa values that gave the best match to experimental values.
         Other predicted pKa values are ignored.
+        df_pred_unmatched: A dataframe of predicted pKas that were not matched to experimental pKa values.
 
     """
 
@@ -660,10 +661,13 @@ def add_pKa_IDs_to_matching_predictions(df_pred, df_exp):
 
             df_pred.loc[(df_pred["Molecule ID"] == mol_id) & (df_pred["pKa mean"] == pred_pKa), "pKa ID"] = pKa_ID
 
+    # Save unmatched pKas in df_pred_unmatched dataframe
+    df_pred_unmatched = df_pred.loc[np.isnan(df_pred["pKa ID"])]
+
     # Drop predicted pKas that didn't match to experimental values
     df_pred_matched = df_pred.dropna(subset=["pKa ID"]).reset_index(drop=True)
 
-    return df_pred_matched
+    return df_pred_matched, df_pred_unmatched
 
 
 def hungarian_matching(pred_pKas, exp_pKa_means, exp_pKa_SEMs, exp_pKa_IDs):
@@ -716,8 +720,9 @@ def add_pKa_IDs_to_matching_predictions_hungarian(df_pred, df_exp):
         df_exp: Pandas Dataframe of experimental pKas (stacked)
 
     Returns:
-        A dataframe of predicted pKa values that gave the best match to experimental values.
+        df_pred_matched: A dataframe of predicted pKa values that gave the best match to experimental values.
         Other predicted pKa values are ignored.
+        df_pred_unmatched: A dataframe of predicted pKas that were not matched to experimental pKa values
 
     """
 
@@ -753,10 +758,13 @@ def add_pKa_IDs_to_matching_predictions_hungarian(df_pred, df_exp):
 
             df_pred.loc[(df_pred["Molecule ID"] == mol_id) & (df_pred["pKa mean"] == pred_pKa), "pKa ID"] = pKa_ID
 
+    # Save unmatched pKas in df_pred_unmatched dataframe
+    df_pred_unmatched = df_pred.loc[np.isnan(df_pred["pKa ID"])]
+
     # Drop predicted pKas that didn't match to experimental values
     df_pred_matched = df_pred.dropna(subset=["pKa ID"]).reset_index(drop=True)
 
-    return df_pred_matched
+    return df_pred_matched, df_pred_unmatched
 
 
 class pKaTypeIIISubmissionCollection:
@@ -807,9 +815,9 @@ class pKaTypeIIISubmissionCollection:
             # Match predicted pKas to experimental pKa IDs and update submissions with pKa ID column
             for submission in submissions:
                 if matching_algorithm == 'hungarian':
-                    submission.data_matched = add_pKa_IDs_to_matching_predictions_hungarian(df_pred =submission.data, df_exp = experimental_data)
+                    (submission.data_matched, submission.data_unmatched) = add_pKa_IDs_to_matching_predictions_hungarian(df_pred =submission.data, df_exp = experimental_data)
                 elif matching_algorithm == 'closest':
-                    submission.data_matched = add_pKa_IDs_to_matching_predictions(df_pred=submission.data, df_exp=experimental_data)
+                    (submission.data_matched, submission.data_unmatched) = add_pKa_IDs_to_matching_predictions(df_pred=submission.data, df_exp=experimental_data)
 
                 submission.data_matched.set_index("pKa ID", inplace=True)
                 # recreate pKa ID column
