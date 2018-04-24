@@ -2,7 +2,10 @@
 
 path to submitted pKa predictions: /Users/isikm/lab/SAMPL6-repos/sampl6-physicochemical-properties/predictions/typeIII_predictions
 
-relative path: ../../predictions/typeIII_predictions
+relative path to pKa predictions: ../../predictions/typeIII_predictions
+
+relative path to experimental data: ../../experimental_data/pKa_experimental_values.csv
+
 
 ## 2018/02/2
 
