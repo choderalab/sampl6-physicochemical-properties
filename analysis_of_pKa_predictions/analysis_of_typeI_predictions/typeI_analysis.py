@@ -709,7 +709,6 @@ def add_pKa_IDs_to_matching_predictions(df_pred, df_exp):
     # Drop predicted pKas that didn't match to experimental values
     df_pred_matched = df_pred.dropna(subset=["pKa ID"]).reset_index(drop=True)
 
-
     # If there are multiple microscopic pKas with the same exact value keep only the first one
     df_pred_matched.drop_duplicates(subset="pKa mean", keep="first", inplace=True)
     print("\ndf_pred_matched:\n", df_pred_matched)
@@ -755,6 +754,10 @@ def hungarian_matching(pred_pKas, exp_pKa_means, exp_pKa_SEMs, exp_pKa_IDs):
         # Otherwise assign a match
         match = {"pred pKa" : predicted[col_id], 'pKa mean': predicted[col_id], 'pKa SEM': exp_pKa_SEMs[row_id], 'pKa ID': exp_pKa_IDs[row_id]}
         matched = matched.append(match, ignore_index=True)
+
+    # If there are two pKa predictions with the same value they will be matched to the same experimental pKa
+    # In that case only the first match should be retained in matched dataframe
+    matched.drop_duplicates(keep="first", inplace=True)  # Drop duplicates except for the first occurrence.
 
     return matched
 
@@ -810,6 +813,9 @@ def add_pKa_IDs_to_matching_predictions_hungarian(df_pred, df_exp):
 
     # Drop predicted pKas that didn't match to experimental values
     df_pred_matched = df_pred.dropna(subset=["pKa ID"]).reset_index(drop=True)
+
+    # If there are multiple microscopic pKas with the same exact value keep only the first one
+    df_pred_matched.drop_duplicates(subset="pKa mean", keep="first", inplace=True)
 
     return df_pred_matched, df_pred_unmatched
 
@@ -1174,7 +1180,7 @@ if __name__ == '__main__':
     submissions_typeI = load_submissions(PKA_TYPEI_SUBMISSIONS_DIR_PATH, user_map)
 
     # Perform the analysis using the different algorithms for matching predictions to experiment
-    for algorithm in ['closest']:
+    for algorithm in ['closest', 'hungarian']:
     #for algorithm in ['closest']:
 
         output_directory_path='./analysis_outputs_{}'.format(algorithm)

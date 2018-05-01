@@ -1,0 +1,79 @@
+,$\Delta$pKa error (calc - exp),Molecule ID,name,pKa (calc),pKa (exp),pKa ID,pKa SEM (calc),pKa SEM (exp),participant,receipt_id
+0,0.9700000000000006,SM01,Explicit solvent submission 1,10.5,9.53,SM01_pKa1,,0.01,Samarjeet Prasad,0wfzo
+1,3.6499999999999995,SM02,Explicit solvent submission 1,8.68,5.03,SM02_pKa1,,0.01,Samarjeet Prasad,0wfzo
+2,1.790000000000001,SM03,Explicit solvent submission 1,8.81,7.02,SM03_pKa1,,0.01,Samarjeet Prasad,0wfzo
+3,-0.7899999999999991,SM04,Explicit solvent submission 1,5.23,6.02,SM04_pKa1,,0.01,Samarjeet Prasad,0wfzo
+4,-3.28,SM05,Explicit solvent submission 1,1.31,4.59,SM05_pKa1,,0.01,Samarjeet Prasad,0wfzo
+5,1.81,SM06,Explicit solvent submission 1,4.84,3.03,SM06_pKa1,,0.04,Samarjeet Prasad,0wfzo
+6,-0.7799999999999994,SM06,Explicit solvent submission 1,10.96,11.74,SM06_pKa2,,0.01,Samarjeet Prasad,0wfzo
+7,-1.5600000000000005,SM07,Explicit solvent submission 1,4.52,6.08,SM07_pKa1,,0.01,Samarjeet Prasad,0wfzo
+8,1.63,SM08,Explicit solvent submission 1,5.85,4.22,SM08_pKa1,,0.01,Samarjeet Prasad,0wfzo
+9,-0.4800000000000004,SM09,Explicit solvent submission 1,4.89,5.37,SM09_pKa1,,0.01,Samarjeet Prasad,0wfzo
+10,-0.1899999999999995,SM10,Explicit solvent submission 1,8.83,9.02,SM10_pKa1,,0.01,Samarjeet Prasad,0wfzo
+11,1.6299999999999994,SM11,Explicit solvent submission 1,5.52,3.89,SM11_pKa1,,0.01,Samarjeet Prasad,0wfzo
+12,0.5,SM12,Explicit solvent submission 1,5.78,5.28,SM12_pKa1,,0.01,Samarjeet Prasad,0wfzo
+13,-0.28999999999999915,SM13,Explicit solvent submission 1,5.48,5.77,SM13_pKa1,,0.01,Samarjeet Prasad,0wfzo
+16,3.5200000000000014,SM15,Explicit solvent submission 1,12.46,8.94,SM15_pKa2,,0.01,Samarjeet Prasad,0wfzo
+17,-8.86,SM15,Explicit solvent submission 1,-4.16,4.7,SM15_pKa1,,0.01,Samarjeet Prasad,0wfzo
+18,-5.34,SM16,Explicit solvent submission 1,0.03,5.37,SM16_pKa1,,0.01,Samarjeet Prasad,0wfzo
+19,-7.790000000000001,SM16,Explicit solvent submission 1,2.86,10.65,SM16_pKa2,,0.01,Samarjeet Prasad,0wfzo
+20,-1.9400000000000002,SM17,Explicit solvent submission 1,1.22,3.16,SM17_pKa1,,0.01,Samarjeet Prasad,0wfzo
+24,0.03999999999999915,SM19,Explicit solvent submission 1,9.6,9.56,SM19_pKa1,,0.02,Samarjeet Prasad,0wfzo
+25,-0.6699999999999999,SM20,Explicit solvent submission 1,5.03,5.7,SM20_pKa1,,0.03,Samarjeet Prasad,0wfzo
+26,0.020000000000000462,SM21,Explicit solvent submission 1,4.12,4.1,SM21_pKa1,,0.01,Samarjeet Prasad,0wfzo
+27,-1.1399999999999997,SM22,Explicit solvent submission 1,6.29,7.43,SM22_pKa2,,0.01,Samarjeet Prasad,0wfzo
+28,1.3900000000000001,SM22,Explicit solvent submission 1,3.79,2.4,SM22_pKa1,,0.02,Samarjeet Prasad,0wfzo
+29,-0.6699999999999999,SM23,Explicit solvent submission 1,4.78,5.45,SM23_pKa1,,0.01,Samarjeet Prasad,0wfzo
+30,0.14000000000000012,SM24,Explicit solvent submission 1,2.74,2.6,SM24_pKa1,,0.01,Samarjeet Prasad,0wfzo
+31,0.16000000000000014,SM01,ReSCoSS conformations // COSMOtherm pKa,9.69,9.53,SM01_pKa1,,0.01,Rainer Wilcken,ccpmw
+32,1.2299999999999995,SM02,ReSCoSS conformations // COSMOtherm pKa,6.26,5.03,SM02_pKa1,,0.01,Rainer Wilcken,ccpmw
+33,-0.09999999999999964,SM03,ReSCoSS conformations // COSMOtherm pKa,6.92,7.02,SM03_pKa1,,0.01,Rainer Wilcken,ccpmw
+34,-0.34999999999999964,SM04,ReSCoSS conformations // COSMOtherm pKa,5.67,6.02,SM04_pKa1,,0.01,Rainer Wilcken,ccpmw
+35,0.25,SM05,ReSCoSS conformations // COSMOtherm pKa,4.84,4.59,SM05_pKa1,,0.01,Rainer Wilcken,ccpmw
+36,1.4200000000000004,SM06,ReSCoSS conformations // COSMOtherm pKa,4.45,3.03,SM06_pKa1,,0.04,Rainer Wilcken,ccpmw
+37,0.7699999999999996,SM06,ReSCoSS conformations // COSMOtherm pKa,12.51,11.74,SM06_pKa2,,0.01,Rainer Wilcken,ccpmw
+38,-0.1299999999999999,SM07,ReSCoSS conformations // COSMOtherm pKa,5.95,6.08,SM07_pKa1,,0.01,Rainer Wilcken,ccpmw
+39,1.1100000000000003,SM08,ReSCoSS conformations // COSMOtherm pKa,5.33,4.22,SM08_pKa1,,0.01,Rainer Wilcken,ccpmw
+40,1.4100000000000001,SM09,ReSCoSS conformations // COSMOtherm pKa,6.78,5.37,SM09_pKa1,,0.01,Rainer Wilcken,ccpmw
+41,-1.0499999999999998,SM10,ReSCoSS conformations // COSMOtherm pKa,7.97,9.02,SM10_pKa1,,0.01,Rainer Wilcken,ccpmw
+42,0.14000000000000012,SM11,ReSCoSS conformations // COSMOtherm pKa,4.03,3.89,SM11_pKa1,,0.01,Rainer Wilcken,ccpmw
+43,1.2000000000000002,SM12,ReSCoSS conformations // COSMOtherm pKa,6.48,5.28,SM12_pKa1,,0.01,Rainer Wilcken,ccpmw
+44,1.33,SM13,ReSCoSS conformations // COSMOtherm pKa,7.1,5.77,SM13_pKa1,,0.01,Rainer Wilcken,ccpmw
+47,-0.2599999999999998,SM15,ReSCoSS conformations // COSMOtherm pKa,4.44,4.7,SM15_pKa1,,0.01,Rainer Wilcken,ccpmw
+48,0.25,SM15,ReSCoSS conformations // COSMOtherm pKa,9.19,8.94,SM15_pKa2,,0.01,Rainer Wilcken,ccpmw
+49,0.6100000000000003,SM16,ReSCoSS conformations // COSMOtherm pKa,5.98,5.37,SM16_pKa1,,0.01,Rainer Wilcken,ccpmw
+50,0.9399999999999995,SM16,ReSCoSS conformations // COSMOtherm pKa,11.59,10.65,SM16_pKa2,,0.01,Rainer Wilcken,ccpmw
+51,0.6199999999999997,SM17,ReSCoSS conformations // COSMOtherm pKa,3.78,3.16,SM17_pKa1,,0.01,Rainer Wilcken,ccpmw
+55,-0.4299999999999997,SM19,ReSCoSS conformations // COSMOtherm pKa,9.13,9.56,SM19_pKa1,,0.02,Rainer Wilcken,ccpmw
+56,0.019999999999999574,SM20,ReSCoSS conformations // COSMOtherm pKa,5.72,5.7,SM20_pKa1,,0.03,Rainer Wilcken,ccpmw
+57,-0.05999999999999961,SM21,ReSCoSS conformations // COSMOtherm pKa,4.04,4.1,SM21_pKa1,,0.01,Rainer Wilcken,ccpmw
+58,-1.22,SM22,ReSCoSS conformations // COSMOtherm pKa,1.18,2.4,SM22_pKa1,,0.02,Rainer Wilcken,ccpmw
+59,-1.0,SM22,ReSCoSS conformations // COSMOtherm pKa,6.43,7.43,SM22_pKa2,,0.01,Rainer Wilcken,ccpmw
+60,-0.41999999999999993,SM23,ReSCoSS conformations // COSMOtherm pKa,5.03,5.45,SM23_pKa1,,0.01,Rainer Wilcken,ccpmw
+61,-0.1299999999999999,SM24,ReSCoSS conformations // COSMOtherm pKa,2.47,2.6,SM24_pKa1,,0.01,Rainer Wilcken,ccpmw
+62,-0.049999999999998934,SM01,S+pKa,9.48,9.53,SM01_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+63,-0.5,SM02,S+pKa,4.53,5.03,SM02_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+64,0.22000000000000064,SM03,S+pKa,7.24,7.02,SM03_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+65,-0.6599999999999993,SM04,S+pKa,5.36,6.02,SM04_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+66,-0.5300000000000002,SM05,S+pKa,4.06,4.59,SM05_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+67,-1.0199999999999996,SM06,S+pKa,10.72,11.74,SM06_pKa2,,0.01,Robert Fraczkiewicz,hdiyq
+68,0.11000000000000032,SM06,S+pKa,3.14,3.03,SM06_pKa1,,0.04,Robert Fraczkiewicz,hdiyq
+69,-0.5,SM07,S+pKa,5.58,6.08,SM07_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+70,-0.10999999999999943,SM08,S+pKa,4.11,4.22,SM08_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+71,-0.8700000000000001,SM09,S+pKa,4.5,5.37,SM09_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+72,1.2599999999999998,SM10,S+pKa,10.28,9.02,SM10_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+73,-0.050000000000000266,SM11,S+pKa,3.84,3.89,SM11_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+74,-1.04,SM12,S+pKa,4.24,5.28,SM12_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+75,-0.9399999999999995,SM13,S+pKa,4.83,5.77,SM13_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+78,-0.049999999999998934,SM15,S+pKa,8.89,8.94,SM15_pKa2,,0.01,Robert Fraczkiewicz,hdiyq
+79,-0.11000000000000032,SM15,S+pKa,4.59,4.7,SM15_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+80,-0.16000000000000014,SM16,S+pKa,5.21,5.37,SM16_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+81,0.1399999999999988,SM16,S+pKa,10.79,10.65,SM16_pKa2,,0.01,Robert Fraczkiewicz,hdiyq
+82,0.2599999999999998,SM17,S+pKa,3.42,3.16,SM17_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+86,0.379999999999999,SM19,S+pKa,9.94,9.56,SM19_pKa1,,0.02,Robert Fraczkiewicz,hdiyq
+87,1.0699999999999994,SM20,S+pKa,6.77,5.7,SM20_pKa1,,0.03,Robert Fraczkiewicz,hdiyq
+88,-1.2399999999999998,SM21,S+pKa,2.86,4.1,SM21_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+89,-0.27,SM22,S+pKa,2.13,2.4,SM22_pKa1,,0.02,Robert Fraczkiewicz,hdiyq
+90,0.7400000000000002,SM22,S+pKa,8.17,7.43,SM22_pKa2,,0.01,Robert Fraczkiewicz,hdiyq
+91,-0.08000000000000007,SM23,S+pKa,5.37,5.45,SM23_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+92,0.06000000000000005,SM24,S+pKa,2.66,2.6,SM24_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
