@@ -19,7 +19,7 @@ import scipy.stats
 # =============================================================================
 
 # Paths to input data.
-PKA_TYPEI_SUBMISSIONS_DIR_PATH = './typeI_predictions_test'
+PKA_TYPEI_SUBMISSIONS_DIR_PATH = './typeI_predictions'
 EXPERIMENTAL_DATA_FILE_PATH = '../../experimental_data/pKa_experimental_values.csv'
 
 # =============================================================================
@@ -430,7 +430,7 @@ class pKaTypeISubmission(SamplSubmission):
 
         # Create lists of stats functions to pass to compute_bootstrap_statistics.
         stats_funcs_names, stats_funcs = zip(*stats_funcs.items())
-        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=1000)
+        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=10000)
 
         # Return statistics as dict preserving the order.
         return collections.OrderedDict((stats_funcs_names[i], bootstrap_statistics[i])
@@ -855,6 +855,8 @@ class pKaTypeISubmissionCollection:
                 submission.data_matched["pKa SEM"] = df_collection_of_each_submission["pKa SEM (calc)"]
                 submission.data_matched["pKa ID"] = df_collection_of_each_submission["pKa ID"]
                 submission.data_matched["Molecule ID"] = df_collection_of_each_submission["Molecule ID"]
+                submission.data_matched["Microstate ID of HA"] = df_collection_of_each_submission["Microstate ID of HA"]
+                submission.data_matched["Microstate ID of A"] = df_collection_of_each_submission["Microstate ID of A"]
 
                 submission.data_matched.set_index("pKa ID", inplace=True)
 
@@ -895,6 +897,9 @@ class pKaTypeISubmissionCollection:
                     pKa_mean_pred = submission.data_matched.loc[pKa_ID, "pKa mean"]
                     pKa_SEM_pred = submission.data_matched.loc[pKa_ID, "pKa SEM"]
 
+                    microstate_ID_HA = submission.data_matched.loc[pKa_ID, "Microstate ID of HA"]
+                    microstate_ID_A = submission.data_matched.loc[pKa_ID, "Microstate ID of A"]
+
                     data.append({
                         'receipt_id': submission.receipt_id,
                         'participant': submission.participant,
@@ -905,7 +910,9 @@ class pKaTypeISubmissionCollection:
                         'pKa SEM (calc)': pKa_SEM_pred,
                         'pKa (exp)': pKa_mean_exp,
                         'pKa SEM (exp)': pKa_SEM_exp,
-                        '$\Delta$pKa error (calc - exp)': pKa_mean_pred - pKa_mean_exp
+                        '$\Delta$pKa error (calc - exp)': pKa_mean_pred - pKa_mean_exp,
+                        'Microstate ID of HA': microstate_ID_HA,
+                        'Microstate ID of A': microstate_ID_A
                     })
 
             # Transform into Pandas DataFrame.
@@ -1180,8 +1187,8 @@ if __name__ == '__main__':
     submissions_typeI = load_submissions(PKA_TYPEI_SUBMISSIONS_DIR_PATH, user_map)
 
     # Perform the analysis using the different algorithms for matching predictions to experiment
-    #for algorithm in ['closest', 'hungarian']:
-    for algorithm in ['closest']:
+    for algorithm in ['closest', 'hungarian']:
+    #for algorithm in ['hungarian']:
 
         output_directory_path='./analysis_outputs_{}'.format(algorithm)
         pka_typei_submission_collection_file_path = '{}/typeI_submission_collection.csv'.format(output_directory_path)
