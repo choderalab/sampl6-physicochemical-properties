@@ -869,6 +869,7 @@ class pKaTypeISubmissionCollection:
             for submission in submissions:
                 if matching_algorithm == 'hungarian':
                     (submission.data_matched, submission.data_unmatched) = add_pKa_IDs_to_matching_predictions_hungarian(df_pred =submission.data, df_exp = experimental_data)
+                    print("\nsubmission.data_matched:\n", submission.data_matched)
                 elif matching_algorithm == 'closest':
                     (submission.data_matched, submission.data_unmatched) = add_pKa_IDs_to_matching_predictions(df_pred=submission.data, df_exp=experimental_data)
 
@@ -1080,9 +1081,8 @@ def generate_statistics_tables(submissions, stats_funcs, directory_path, file_ba
         f.write('\end{center}\n' 
                 '\nNotes\n\n'
                 '- Mean and 95\% confidence intervals of statistic values were calculated by bootstrapping.\n\n'
-                '- Submissions with submission IDs nb001, nb002, nb003, nb004, nb005 and nb005 include non-blind corrections to pKa predictions of only SM22 molecule.\n\n'
+                '- pKa predictions of Epik method (submission ID: nb00X) were not blind. They were submitted after the submission deadline to be used as a reference method.\n\n'
                 'pKas of the rest of the molecules in these submissions were blindly predicted before experimental data was released.\n\n'
-                '- pKa predictions of Epik-sequencial method (submission ID: nb007) were not blind. They were submitted after the submission deadline to be used as a reference method.\n\n'
                 '\end{document}\n')
 
     # Violin plots by statistics across submissions.
@@ -1180,8 +1180,8 @@ if __name__ == '__main__':
     submissions_typeI = load_submissions(PKA_TYPEI_SUBMISSIONS_DIR_PATH, user_map)
 
     # Perform the analysis using the different algorithms for matching predictions to experiment
-    for algorithm in ['closest', 'hungarian']:
-    #for algorithm in ['closest']:
+    #for algorithm in ['closest', 'hungarian']:
+    for algorithm in ['closest']:
 
         output_directory_path='./analysis_outputs_{}'.format(algorithm)
         pka_typei_submission_collection_file_path = '{}/typeI_submission_collection.csv'.format(output_directory_path)
