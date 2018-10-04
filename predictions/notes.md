@@ -81,3 +81,13 @@ I decided that it will be better to keep a copy of adjusted submission file bund
 $ tar -cvf typeIII_predictions.tar typeIII_predictions
 $  mv typeIII_predictions.tar ../analysis_of_pKa_predictions/analysis_of_typeIII_predictions/
 
+
+## 2018/06/28
+
+I decided to collect Chemicalize(ChemAxon) pKa predictions for SAMPL6 set. 
+Chemicalize currently uses the 18.12 version of calculators (ChemAxon calculation engine) called with the default options. 
+
+Output files are under ./20180628_Chemicalize_pKa_predictions 
+Submission file:  nb009-976-typeIII-Chemicalize-1.csv 
+
+
