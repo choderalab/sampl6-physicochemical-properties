@@ -1,4 +1,4 @@
-ubmission Type III
+# Submission Type III
 #
 # Any line that begins with a # is considered a comment and will be ignored when parsing.
 #
@@ -77,7 +77,7 @@ SM24, 15.59
 # Please provide an informal yet informative name of the method used.
 # The "Name:" keyword is required, as shown here.
 Name:
-Chemicalize
+Chemicalize v18.12
 
 
 # SOFTWARE SECTION
@@ -97,4 +97,5 @@ Chemicalize Website (2018/06/28)
 # Use as many lines of text as you need. 
 # All text following the "Method:" keyword will be regarded as part of your free text methods description. 
 Method: 
-pKa predictions by Chemicalize were collected by querying with canonical isomeric SMILES of each molecule.
+Chemicalize was used for pKa predictions, June 28th, 2018, https://chemicalize.com/, developed by ChemAxon. pKa predictions by Chemicalize were collected by querying with canonical isomeric SMILES of each molecule. Version 18.12 of ChemAxon calculation engine was used for this set of Chemicalize pKa calculations.
+
