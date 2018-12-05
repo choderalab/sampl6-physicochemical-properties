@@ -21,3 +21,18 @@ pKas of the rest of the molecules in these submissions were blindly predicted be
 
 - pKa predictions of Epik-sequencial method (submission ID: nb007) were not blind. They were submitted after the submission deadline to be used as a reference method.
 
+
+## 2018/12/3
+
+### Create a Conda environment for SAMPL6 pKa overview manuscript
+
+$ conda create -n sampl6_pKa python=3.6
+$ source activate sampl6_pKa
+
+### Create requirements.txt for listing environment dependencies
+
+$ conda list --export > requirements.txt
+
+### Create run.sh file to automate running different analysis scripts
+
+$ chmod +x run.sh
