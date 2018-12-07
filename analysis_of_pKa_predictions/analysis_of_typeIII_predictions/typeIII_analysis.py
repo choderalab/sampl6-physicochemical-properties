@@ -71,7 +71,7 @@ def compute_bootstrap_statistics(samples, stats_funcs, percentile=0.95, n_bootst
     # Generate bootstrap statistics.
     bootstrap_samples_statistics = np.zeros((len(statistics), n_bootstrap_samples))
     for bootstrap_sample_idx in range(n_bootstrap_samples):
-        samples_indices = np.random.randint(low=0, high=len(samples), size=len(samples))
+        samples_indices = np.random.randint(low=0, high=len(samples), size=len(samples)) #random array of i with replacement
         for stats_func_idx, stats_func in enumerate(stats_funcs):
             bootstrap_samples_statistics[stats_func_idx][bootstrap_sample_idx] = stats_func(samples[samples_indices])
 

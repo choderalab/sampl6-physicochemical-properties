@@ -36,3 +36,13 @@ $ conda list --export > requirements.txt
 ### Create run.sh file to automate running different analysis scripts
 
 $ chmod +x run.sh
+
+
+## 2018/12/5
+
+- Added pKa predictions with latest version of Chemicalize.
+
+### Calculating mean absolute error (MAE) for each molecule
+
+
+
