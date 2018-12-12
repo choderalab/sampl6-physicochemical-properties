@@ -14,13 +14,15 @@ pdflatex ./analysis_outputs_closest/StatisticsTables/statisticsLaTex/statistics.
 pdflatex ./analysis_outputs_closest/StatisticsTables/statisticsLaTex/statistics.tex
 rm statistics.log 
 rm statistics.aux 
+rm texput.log
 mv statistics.pdf ./analysis_outputs_closest/
 
 # Compile LaTeX statistic table for Hungarian matching approach twice for better rendering
 pdflatex ./analysis_outputs_hungarian/StatisticsTables/statisticsLaTex/statistics.tex
 pdflatex ./analysis_outputs_hungarian/StatisticsTables/statisticsLaTex/statistics.tex
 rm statistics.log
-rm statistics.aux 
+rm statistics.aux
+rm texput.log 
 mv statistics.pdf ./analysis_outputs_hungarian/
 
 # Run second step of analysis: Statistics over molecules
