@@ -7,7 +7,7 @@ source activate sampl6_pKa
 conda list --export > requirements.txt
 
 # Run first step of analysis and create collection file
-python typeIII_analysis.py
+#python typeIII_analysis.py
 
 # Compile LaTeX statistic table for Closest matching approach twice for better rendering
 pdflatex ./analysis_outputs_closest/StatisticsTables/statisticsLaTex/statistics.tex
@@ -26,5 +26,5 @@ rm texput.log
 mv statistics.pdf ./analysis_outputs_hungarian/
 
 # Run second step of analysis: Statistics over molecules
-#python typeIII_analysis_2.py
+python typeIII_analysis_2.py
 
