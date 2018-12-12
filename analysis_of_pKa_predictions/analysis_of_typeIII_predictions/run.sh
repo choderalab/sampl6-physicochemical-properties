@@ -24,5 +24,5 @@ rm statistics.aux
 mv statistics.pdf ./analysis_outputs_hungarian/
 
 # Run second step of analysis: Statistics over molecules
-python typeIII_analysis_2.py
+#python typeIII_analysis_2.py
 

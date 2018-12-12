@@ -90,4 +90,17 @@ Chemicalize currently uses the 18.12 version of calculators (ChemAxon calculatio
 Output files are under ./20180628_Chemicalize_pKa_predictions 
 Submission file:  nb009-976-typeIII-Chemicalize-1.csv 
 
+## 2018/12/12
+
+I removed old Epik prediction submission file and added new Epik and Jaguar submission files to prediction sets.
+$ trash nb007-976-typeIII-epik_sequential-1.csv 
+
+New files:
+nb007-976-typeIII-epik_scan-1.csv        
+nb009-976-typeII-epik_microscopic-1.csv  
+nb011-976-typeI-jaguar-1.csv             
+nb013-976-typeIII-jaguar-1.csv
+nb008-976-typeI-epik_microscopic-1.csv   
+nb010-976-typeIII-epik_microscopic-1.csv 
+nb012-976-typeII-jaguar-1.csv
 
