@@ -180,8 +180,9 @@ def barplot_with_CI_errorbars(df, x_label, y_label, y_lower_label, y_upper_label
     data[delta_upper_yerr_label] = data[y_upper_label] - data[y_label]
 
     # Color
-    current_palette = sns.color_palette()
-    sns_color = current_palette[1]
+    #current_palette = sns.color_palette()
+    current_palette = sns.color_palette("GnBu_d")
+    sns_color = current_palette[3]
 
     # Plot style
     plt.close()

@@ -107,3 +107,8 @@ nb012-976-typeII-jaguar-1.csv
 I detected a mistake in `nb007-976-typeIII-epik_scan-1.csv` file. This following row was repeated twice:
 ```SM13,    13.11,    0.73```. I removed the dublicated row.
 
+## 2019/01/24
+
+Epik and Jaguar submissions had file names as method names. I corrected the method sections of these files to list Epik Scan, Epik Microscopic, and Jaguar as method names.
+
+
