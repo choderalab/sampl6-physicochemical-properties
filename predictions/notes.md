@@ -111,4 +111,17 @@ I detected a mistake in `nb007-976-typeIII-epik_scan-1.csv` file. This following
 
 Epik and Jaguar submissions had file names as method names. I corrected the method sections of these files to list Epik Scan, Epik Microscopic, and Jaguar as method names.
 
+These new files are in 20190124_Epik_and_Jaguar_Rustenburg/ directory:
 
+nb007-976-typeIII-epik_scan-1.csv
+nb009-976-typeII-epik_microscopic-1.csv
+nb011-976-typeI-jaguar-1.csv
+nb013-976-typeIII-jaguar-1.csv
+nb008-976-typeI-epik_microscopic-1.csv
+nb010-976-typeIII-epik_microscopic-1.csv
+nb012-976-typeII-jaguar-1.csv
+
+## 2019/01/31
+
+Renamed  method name in Chemicalize submission file(nb015-976-typeIII-Chemicalize-2.csv) to "Chemicalize v18.23 (ChemAxon MarvinSketch v18.23)".
+ 
