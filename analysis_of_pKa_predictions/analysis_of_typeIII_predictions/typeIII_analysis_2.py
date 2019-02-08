@@ -196,21 +196,23 @@ def select_subsection_of_collection(collection_df, method_df, method_group):
 
 
 
-def calc_MAE_for_molecules_across_QM_predictions(collection_df, method_df, directory_path, file_base_name):
+def calc_MAE_for_molecules_across_selected_predictions(collection_df, method_df, selected_method_group, directory_path, file_base_name):
     """
     Calculates mean absolute error for each molecule across prediction methods based on QM (QM, QM+LEC, QM+MM)
     :param collection_df: Pandas DataFrame of submission collection.
     :param method_df: Pandas DataFrame of method map.
+    :param selected_method_group: "QM" or "Empirical"
     :param directory_path: Directory path for outputs
     :param file_base_name: Output file name
     :return:
     """
 
-    # Create subsection of collection dataframe for QM-based methods
-    collection_df_QM = select_subsection_of_collection(collection_df=collection_df, method_df=method_df, method_group="QM")
+    # Create subsection of collection dataframe for selected methods
+    collection_df_subset = select_subsection_of_collection(collection_df=collection_df, method_df=method_df, method_group=selected_method_group)
+    subset_directory_path = os.path.join(directory_path, selected_method_group)
 
-
-
+    # Calculate MAE using subsection of collection database
+    calc_MAE_for_molecules_across_all_predictions(collection_df=collection_df_subset, directory_path=subset_directory_path, file_base_name=file_base_name)
 
 # =============================================================================
 # MAIN
@@ -244,12 +246,18 @@ if __name__ == '__main__':
             method_map = pd.read_csv(f)
 
         # Calculate MAE for each molecule across QM methods (QM, QM+LEC, QM+MM)
-        calc_MAE_for_molecules_across_QM_predictions(collection_df = collection_data,
+        calc_MAE_for_molecules_across_selected_predictions(collection_df = collection_data,
                                                      method_df = method_map,
+                                                     selected_method_group = "QM",
                                                      directory_path = molecular_statistics_directory_path,
                                                      file_base_name = "molecular_error_statistics_for_QM_methods")
 
         # Calculate MAE for each molecule across empirical methods(LFER, QSPR, ML, DL)
+        calc_MAE_for_molecules_across_selected_predictions(collection_df=collection_data,
+                                                       method_df=method_map,
+                                                       selected_method_group="Empirical",
+                                                       directory_path=molecular_statistics_directory_path,
+                                                       file_base_name="molecular_error_statistics_for_empirical_methods")
 
 
 
