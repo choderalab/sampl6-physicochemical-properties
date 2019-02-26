@@ -12,6 +12,116 @@ import shutil
 import seaborn as sns
 from matplotlib import pyplot as plt
 
+# =============================================================================
+# PLOTTING FUNCTIONS
+# =============================================================================
+
+def barplot_with_CI_errorbars_and_2groups(df1, df2, x_label, y_label, y_lower_label, y_upper_label):
+    """Creates bar plot of a given dataframe with asymmetric error bars for y axis.
+
+    Args:
+        df: Pandas Dataframe that should have columns with columnnames specified in other arguments.
+        x_label: str, column name of x axis categories
+        y_label: str, column name of y axis values
+        y_lower_label: str, column name of lower error values of y axis
+        y_upper_label: str, column name of upper error values of y axis
+
+    """
+    # Column names for new columns for delta y_err which is calculated as | y_err - y |
+    delta_lower_yerr_label = "$\Delta$" + y_lower_label
+    delta_upper_yerr_label = "$\Delta$" + y_upper_label
+
+    # Color
+    current_palette = sns.color_palette()
+    #current_palette = sns.color_palette("GnBu_d")
+    error_color = sns.color_palette("GnBu_d")[0]
+
+    # Plot style
+    plt.close()
+    plt.style.use(["seaborn-talk", "seaborn-whitegrid"])
+    plt.rcParams['axes.labelsize'] = 18
+    plt.rcParams['xtick.labelsize'] = 14
+    plt.rcParams['ytick.labelsize'] = 16
+    plt.tight_layout()
+    bar_width = 0.45
+
+    # Plot 1st group of data
+    data = df1  # Pandas DataFrame
+    data[delta_lower_yerr_label] = data[y_label] - data[y_lower_label]
+    data[delta_upper_yerr_label] = data[y_upper_label] - data[y_label]
+
+    x = range(len(data[y_label]))
+    y = data[y_label]
+    plt.bar(x, y, label = "QM", width=bar_width, color=current_palette[0])
+    plt.xticks(x, data[x_label], rotation=90)
+    plt.errorbar(x, y, yerr=(data[delta_lower_yerr_label], data[delta_upper_yerr_label]),
+                 fmt="none", ecolor=error_color, capsize=3, capthick=True, elinewidth=1.5)
+
+    # Plot 2nd group of data
+    data = df2  # Pandas DataFrame
+    data[delta_lower_yerr_label] = data[y_label] - data[y_lower_label]
+    data[delta_upper_yerr_label] = data[y_upper_label] - data[y_label]
+    index = np.arange(df2.shape[0])
+
+    x = range(len(data[y_label]))
+    y = data[y_label]
+    #plt.bar(x, y)
+    plt.bar(index + bar_width, y, label = "Empirical", width=bar_width, color=sns.color_palette("BuGn_r")[3])
+    plt.xticks(index + bar_width/2, data[x_label], rotation=90)
+    plt.errorbar(index + bar_width, y, yerr=(data[delta_lower_yerr_label], data[delta_upper_yerr_label]),
+                 fmt="none", ecolor=sns.color_palette("BuGn_r")[1], capsize=3, capthick=True, elinewidth=1.5)
+
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+
+
+def barplot_with_CI_errorbars_and_1st_of_2groups(df1, df2, x_label, y_label, y_lower_label, y_upper_label):
+    """Creates bar plot of a given dataframe with asymmetric error bars for y axis.
+
+    Args:
+        df: Pandas Dataframe that should have columns with columnnames specified in other arguments.
+        x_label: str, column name of x axis categories
+        y_label: str, column name of y axis values
+        y_lower_label: str, column name of lower error values of y axis
+        y_upper_label: str, column name of upper error values of y axis
+
+    """
+    # Column names for new columns for delta y_err which is calculated as | y_err - y |
+    delta_lower_yerr_label = "$\Delta$" + y_lower_label
+    delta_upper_yerr_label = "$\Delta$" + y_upper_label
+
+    # Color
+    current_palette = sns.color_palette()
+    #current_palette = sns.color_palette("GnBu_d")
+    error_color = sns.color_palette("GnBu_d")[0]
+
+    # Plot style
+    plt.close()
+    plt.style.use(["seaborn-talk", "seaborn-whitegrid"])
+    plt.rcParams['axes.labelsize'] = 18
+    plt.rcParams['xtick.labelsize'] = 14
+    plt.rcParams['ytick.labelsize'] = 16
+    plt.tight_layout()
+    bar_width = 0.45
+
+    # Plot 1st group of data
+    data = df1  # Pandas DataFrame
+    data[delta_lower_yerr_label] = data[y_label] - data[y_lower_label]
+    data[delta_upper_yerr_label] = data[y_upper_label] - data[y_label]
+
+    x = range(len(data[y_label]))
+    y = data[y_label]
+    plt.bar(x, y, label = "QM", width=bar_width, color=current_palette[0])
+    plt.xticks(x, data[x_label], rotation=90)
+    plt.errorbar(x, y, yerr=(data[delta_lower_yerr_label], data[delta_upper_yerr_label]),
+                 fmt="none", ecolor=error_color, capsize=3, capthick=True, elinewidth=1.5)
+
+    #index = np.arange(df2.shape[0])
+    #plt.xticks(index + bar_width/2, data[x_label], rotation=90)
+
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+
 
 # =============================================================================
 # CONSTANTS
@@ -214,6 +324,36 @@ def calc_MAE_for_molecules_across_selected_predictions(collection_df, method_df,
     # Calculate MAE using subsection of collection database
     calc_MAE_for_molecules_across_all_predictions(collection_df=collection_df_subset, directory_path=subset_directory_path, file_base_name=file_base_name)
 
+
+def create_comparison_plot_of_molecular_MAE_of_method_groups(directory_path, group1, group2, file_base_name):
+
+    #group1 = "QM"
+    #group2 = "Empirical"
+
+    # Read MAE dataframes
+    df_qm = pd.read_csv(directory_path + "/" + group1 + "/molecular_error_statistics_for_QM_methods.csv" )
+    df_empirical = pd.read_csv(directory_path + "/" + group2 + "/molecular_error_statistics_for_empirical_methods.csv")
+
+    # Reorder dataframes based on the order of molecular MAE statistic of QM methods
+    ordered_molecule_list = list(df_qm["Molecule ID"])
+    print("ordered_molecule_list: \n", ordered_molecule_list)
+
+    df_empirical_reordered = df_empirical.set_index("Molecule ID")
+    df_empirical_reordered = df_empirical_reordered.reindex(index=df_qm['Molecule ID'])
+    df_empirical_reordered = df_empirical_reordered.reset_index()
+
+    # Plot
+    # Molecular labels will be taken from 1st dataframe, so the second dataframe should have the same molecule ID order.
+    barplot_with_CI_errorbars_and_2groups(df1=df_qm, df2=df_empirical_reordered, x_label="Molecule ID", y_label="MAE",
+                                          y_lower_label="MAE_lower_CI", y_upper_label="MAE_upper_CI")
+    plt.savefig(molecular_statistics_directory_path + "/" + file_base_name + ".pdf")
+
+    # Same comparison plot with only QM results (only for presentation effects)
+    barplot_with_CI_errorbars_and_1st_of_2groups(df1=df_qm, df2=df_empirical_reordered, x_label="Molecule ID", y_label="MAE",
+                                          y_lower_label="MAE_lower_CI", y_upper_label="MAE_upper_CI")
+    plt.savefig(molecular_statistics_directory_path + "/" + file_base_name + "_only_QM.pdf")
+
+
 # =============================================================================
 # MAIN
 # =============================================================================
@@ -258,6 +398,14 @@ if __name__ == '__main__':
                                                        selected_method_group="Empirical",
                                                        directory_path=molecular_statistics_directory_path,
                                                        file_base_name="molecular_error_statistics_for_empirical_methods")
+
+        # Create comparison plot of MAE for each molecule across QM methods vs Empirical methods
+        create_comparison_plot_of_molecular_MAE_of_method_groups(directory_path=molecular_statistics_directory_path,
+                                                                 group1 = 'QM', group2 = 'Empirical',
+                                                                 file_base_name="molecular_MAE_comparison_between_QM_and_empirical_method_groups")
+
+
+
 
 
 
