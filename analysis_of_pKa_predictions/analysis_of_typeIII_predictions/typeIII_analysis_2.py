@@ -247,7 +247,7 @@ def select_subsection_of_collection(collection_df, method_df, method_group):
         methods_of_selected_group = ["QM", "QM + MM", "QM + LEC"]
 
     elif method_group == "Empirical":
-        methods_of_selected_group = ["LFER", "QSPR", "ML", "DL"]
+        methods_of_selected_group = ["LFER", "QSPR/ML", "DL"]
 
     else:
         print("Specify method group as 'QM' or 'Empirical'.")
@@ -392,7 +392,7 @@ if __name__ == '__main__':
                                                      directory_path = molecular_statistics_directory_path,
                                                      file_base_name = "molecular_error_statistics_for_QM_methods")
 
-        # Calculate MAE for each molecule across empirical methods(LFER, QSPR, ML, DL)
+        # Calculate MAE for each molecule across empirical methods(LFER, QSPR/ML, DL)
         calc_MAE_for_molecules_across_selected_predictions(collection_df=collection_data,
                                                        method_df=method_map,
                                                        selected_method_group="Empirical",
