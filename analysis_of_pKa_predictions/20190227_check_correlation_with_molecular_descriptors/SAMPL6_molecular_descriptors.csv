@@ -1,0 +1,25 @@
+SAMPL6 Molecule ID,canonical isomeric SMILES,canonical isomeric SMILES w/o counter ions,MW,Heavy atom count,Rotatable bond count,Heteroatom count,Heteroatom to carbon ratio,Ring system count,Max ring size,Microstate count
+SM01,c1cc2c(cc1O)c3c(o2)C(=O)NCCC3,c1cc2c(cc1O)c3c(o2)C(=O)NCCC3,217.22,16.0,0.0,4.0,0.33,1.0,14.0,8.0
+SM02,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)C(F)(F)F,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)C(F)(F)F,289.26,21.0,3.0,6.0,0.4,2.0,10.0,11.0
+SM03,c1ccc(cc1)Cc2nnc(s2)NC(=O)c3cccs3,c1ccc(cc1)Cc2nnc(s2)NC(=O)c3cccs3,301.39,20.0,5.0,6.0,0.43,3.0,6.0,16.0
+SM04,c1ccc2c(c1)c(ncn2)NCc3ccc(cc3)Cl,c1ccc2c(c1)c(ncn2)NCc3ccc(cc3)Cl,269.73,19.0,3.0,4.0,0.27,2.0,10.0,11.0
+SM05,c1ccc(c(c1)NC(=O)c2ccc(o2)Cl)N3CCCCC3,c1ccc(c(c1)NC(=O)c2ccc(o2)Cl)N3CCCCC3,304.77,21.0,4.0,5.0,0.31,3.0,6.0,9.0
+SM06,c1cc2cccnc2c(c1)NC(=O)c3cc(cnc3)Br,c1cc2cccnc2c(c1)NC(=O)c3cc(cnc3)Br,328.16,20.0,3.0,5.0,0.33,2.0,10.0,12.0
+SM07,c1ccc(cc1)CNc2c3ccccc3ncn2,c1ccc(cc1)CNc2c3ccccc3ncn2,235.28,18.0,3.0,3.0,0.2,2.0,10.0,11.0
+SM08,Cc1ccc2c(c1)c(c(c(=O)[nH]2)CC(=O)O)c3ccccc3,Cc1ccc2c(c1)c(c(c(=O)[nH]2)CC(=O)O)c3ccccc3,293.32,22.0,3.0,4.0,0.22,2.0,10.0,8.0
+SM09,COc1cccc(c1)Nc2c3ccccc3ncn2.Cl,COc1cccc(c1)Nc2c3ccccc3ncn2,251.28,19.0,3.0,4.0,0.27,2.0,10.0,11.0
+SM10,c1ccc(cc1)C(=O)NCC(=O)Nc2nc3ccccc3s2,c1ccc(cc1)C(=O)NCC(=O)Nc2nc3ccccc3s2,311.36,22.0,6.0,6.0,0.38,2.0,9.0,33.0
+SM11,c1ccc(cc1)n2c3c(cn2)c(ncn3)N,c1ccc(cc1)n2c3c(cn2)c(ncn3)N,211.22,16.0,1.0,5.0,0.45,2.0,9.0,20.0
+SM12,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)Cl.Cl,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)Cl,255.7,18.0,2.0,4.0,0.29,2.0,10.0,11.0
+SM13,Cc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC,Cc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC,295.34,22.0,4.0,5.0,0.29,2.0,10.0,11.0
+SM14,c1ccc(cc1)n2cnc3c2ccc(c3)N,c1ccc(cc1)n2cnc3c2ccc(c3)N,209.25,16.0,1.0,3.0,0.23,2.0,9.0,6.0
+SM15,c1ccc2c(c1)ncn2c3ccc(cc3)O,c1ccc2c(c1)ncn2c3ccc(cc3)O,210.23,16.0,1.0,3.0,0.23,2.0,9.0,4.0
+SM16,c1cc(c(c(c1)Cl)C(=O)Nc2ccncc2)Cl,c1cc(c(c(c1)Cl)C(=O)Nc2ccncc2)Cl,267.11,17.0,3.0,5.0,0.42,2.0,6.0,8.0
+SM17,c1ccc(cc1)CSc2nnc(o2)c3ccncc3,c1ccc(cc1)CSc2nnc(o2)c3ccncc3,269.32,19.0,4.0,5.0,0.36,3.0,6.0,8.0
+SM18,c1ccc2c(c1)c(=O)[nH]c(n2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F,c1ccc2c(c1)c(=O)[nH]c(n2)CCC(=O)Nc3ncc(s3)Cc4ccc(c(c4)F)F,426.44,30.0,7.0,9.0,0.43,3.0,10.0,53.0
+SM19,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc3ccc(c(c3)Cl)Cl,CCOc1ccc2c(c1)sc(n2)NC(=O)Cc3ccc(c(c3)Cl)Cl,381.28,24.0,6.0,7.0,0.41,2.0,9.0,15.0
+SM20,c1cc(cc(c1)OCc2ccc(cc2Cl)Cl)/C=C/3\C(=O)NC(=O)S3,c1cc(cc(c1)OCc2ccc(cc2Cl)Cl)/C=C/3\C(=O)NC(=O)S3,380.25,24.0,4.0,7.0,0.41,3.0,6.0,4.0
+SM21,c1cc(cc(c1)Br)Nc2c(cnc(n2)Nc3cccc(c3)Br)F,c1cc(cc(c1)Br)Nc2c(cnc(n2)Nc3cccc(c3)Br)F,438.09,23.0,4.0,7.0,0.44,3.0,6.0,25.0
+SM22,c1cc2c(cc(c(c2nc1)O)I)I,c1cc2c(cc(c(c2nc1)O)I)I,396.95,13.0,0.0,4.0,0.44,1.0,10.0,4.0
+SM23,CCOC(=O)c1ccc(cc1)Nc2cc(nc(n2)Nc3ccc(cc3)C(=O)OCC)C,CCOC(=O)c1ccc(cc1)Nc2cc(nc(n2)Nc3ccc(cc3)C(=O)OCC)C,420.46,31.0,10.0,8.0,0.35,3.0,6.0,27.0
+SM24,COc1ccc(cc1)c2c3c(ncnc3oc2c4ccc(cc4)OC)NCCO,COc1ccc(cc1)c2c3c(ncnc3oc2c4ccc(cc4)OC)NCCO,391.42,29.0,7.0,7.0,0.32,3.0,9.0,26.0
