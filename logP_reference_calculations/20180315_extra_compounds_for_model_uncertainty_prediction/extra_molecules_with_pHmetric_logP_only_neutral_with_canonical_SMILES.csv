@@ -1,0 +1,28 @@
+compound,pH-metric logP,lit. logP,HPLC logP,pH-metric pKa,lit. pKa,Canonical SMILES
+Phenol,1.48+-0.01,1.46,1.46,10.01+-0.01,9.99,c1ccc(cc1)O
+4-Chlorophenol,2.45+-0.01,2.39,2.41,9.46+-0.01,9.42,c1cc(ccc1O)Cl
+3-Chlorophenol,2.57+-0.01,2.5,2.5,9.11+-0.01,9.08,c1cc(cc(c1)Cl)O
+"3,4-Dichlorophenol",3.39+-0.02,3.33,3.27,8.65+-0.01,8.63,c1cc(c(cc1O)Cl)Cl
+"3,5-Dichlorophenol",3.63+-0.02,3.62,3.62,8.22+-0.01,8.18,c1c(cc(cc1Cl)Cl)O
+4-lodophenol,2.90+-0.02,2.91,2.92,9.45+-0.05,9.2,c1cc(ccc1O)I
+Quinoline,2.15+-0.08,2.03,2.1,4.97+-0.06,4.9,c1ccc2c(c1)cccn2
+3-Bromoquinoline,2.91+-0.04,3.03,3.04,2.74+-0.03,2.69,c1ccc2c(c1)cc(cn2)Br
+N-Methylaniline,1.65+-0.01,1.66,1.62,4.86+-0.01,4.85,CNc1ccccc1
+Phenobarbitone,1.53+-0.03,1.47,1.39,7.49+-0.02,7.45,CCC1(C(=O)NC(=O)NC1=O)c2ccccc2
+Butobarbitone,1.58+-0.07,1.65,1.64,8.00+-0.04,7.79,CCCCC1(C(=O)NC(=O)NC1=O)CC
+Amylobarbitone,2.01+-0.03,2.07,2.1,8.07+-0.02,7.96,CCC1(C(=O)NC(=O)NC1=O)CCC(C)C
+Pentobarbitone,2.08+-0.06,2.07,2.1,8.18+-0.03,7.87,CCCC(C)C1(C(=O)NC(=O)NC1=O)CC
+Quinalbarbitone,2.39+-0.02,1.97,2.33,8.09+-0.01,7.92,CCCC(C)C1(C(=O)NC(=O)NC1=O)CC=C
+Chlorpromazine,5.39+-0.01,5.35,5.48,9.24+-0.01,9.2,CN(C)CCCN1c2ccccc2Sc3c1cc(cc3)Cl
+Pericyazine,3.65+-0.08,3.52,3.89,8.76+-0.08,8.3,c1ccc2c(c1)N(c3cc(ccc3S2)C#N)CCCN4CCC(CC4)O
+Ketoprofen,3.14+-0.02,3.12,3.12,4.29+-0.02,4.6,CC(c1cccc(c1)C(=O)c2ccccc2)C(=O)O
+Celiprolol,1.92+-0.04,,2.22,9.66+-0.03,,CCN(CC)C(=O)Nc1ccc(c(c1)C(=O)C)OCC(CNC(C)(C)C)O
+Acebutolol,1.75+-0.19,1.77,2.1,9.41+-0.01,9.2,CCCC(=O)Nc1ccc(c(c1)C(=O)C)OCC(CNC(C)C)O
+Sulfamethazine,0.89+-0.03,,,7.80+-0.02,7.38,Cc1cc(nc(n1)NS(=O)(=O)c2ccc(cc2)N)C
+Benzoic acid,1.96+-0.02,1.97,1.83,4.21+-0.02,4.2,c1ccc(cc1)C(=O)O
+4-Methoxyphenol,1.41+-0.03,1.34,1.3,10.27+-0.03,10.21,COc1ccc(cc1)O
+4-Ethoxyphenol,1.81+-0.02,1.81,1.74,10.25+-0.01,,CCOc1ccc(cc1)O
+4-Propoxyphenol,2.31+-0.03,2.33,2.34,10.27+-0.01,,CCCOc1ccc(cc1)O
+4-Butoxyphenol,2.87+-0.08,2.9,2.92,10.26+-0.08,,CCCCOc1ccc(cc1)O
+4-Pentoxyphenol,3.26+-0.11,3.5,3.49,10.13+-0.20,,CCCCCOc1ccc(cc1)O
+(+-)-Propranolol,3.35+-0.03,3.37,,9.53+-0.06,9.72,CC(C)NCC(COc1cccc2c1cccc2)O
