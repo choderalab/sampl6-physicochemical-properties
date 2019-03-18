@@ -10,6 +10,7 @@ Manual editing was necessary to correct superscripts, scrambled numbers and tabl
 
 Filename: extra_molecules_with_pHmetric_logP.xlsx
 
+
 ## 2019/03/18
 
 ### Convert to CSV
@@ -18,6 +19,7 @@ Converted to csv, replaced non-UTF ± with +-.
 Removed lines that reported anion and cation logPs.
 
 Filename: extra_molecules_with_pHmetric_logP_only_neutral.csv
+
 
 ### Convert to SMILES
 
@@ -37,6 +39,7 @@ File name: extra_molecule_names.csv
 $ source activate py36
 $ python nam2mol_example.py -in extra_molecule_names.csv -out extra_molecule_names_and_SMILES.csv -language english
 
+
 ### Convert to canonical SMILES and combine with logP data
 
 Run convert_SMILES_to_can_SMILES.ipynb
@@ -44,5 +47,12 @@ Run convert_SMILES_to_can_SMILES.ipynb
 Output file: extra_molecules_with_pHmetric_logP_only_neutral_with_canonical_SMILES.csv
 
 
+### Create XLSX file with molecular depictions
 
+$ cp extra_molecules_with_pHmetric_logP_only_neutral_with_canonical_SMILES.csv extra_molecules_csvxlsx_input.csv
+
+Manually rearrange columns for csv2xlsx.py script:
+Canonical SMILES, Canonical SMILES, Compound ..., Canonical SMILES
+
+$ python csv2xlsx.py  extra_molecules_csvxlsx_input.csv extra_molecules_with_pHmetric_logP_only_neutral_with_canonical_SMILES_and_2Ddepiction.xlsx
 
