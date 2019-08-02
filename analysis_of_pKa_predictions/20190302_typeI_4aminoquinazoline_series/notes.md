@@ -10,4 +10,15 @@ experimental_microstates.csv
 
 Copied `typeI_submission_collection.csv` from `/sampl6-physicochemical-properties/analysis_of_pKa_predictions/analysis_of_typeI_predictions/analysis_outputs_closest`
 
-i$ source activate sampl6_pKa_oe  
+$ source activate sampl6_pKa_oe  
+
+run analyze_microstate_pairs.ipynb  
+
+
+## 2019/03/24
+
+### Develop matching by microstate ID algorithm
+
+In a Juptter notebook I will develop `microstate_matching` and `add_pKa_IDs_to_matching_predictions_microstate_based_matching` algorithms for matching experimental and predicted typeI  microscopic pKas. This analysis can only be used for 4-aminoquinazoline series.
+
+$ source activate sampl6_pKa

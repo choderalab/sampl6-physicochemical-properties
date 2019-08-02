@@ -1,0 +1,119 @@
+# PARTITION COEFFICIENT PREDICTIONS
+#
+# This file will be automatically parsed. It must contain the following four elements:
+# predictions
+# These elements must be provided in the order shown with their respective headers.
+#
+# Any line that begins with a # is considered a comment and will be ignored when parsing.
+#
+# PREDICTION SECTION
+#
+# It is mandatory to submit logP predictions for all 11 molecules. Incomplete submissions will not be accepted.
+# Please report logP standard error of the mean (SEM) and logP model uncertainty.
+# The data in each prediction line should be structured as follows:
+# Molecule ID
+# The list of predictions must begin with the 'Predictions:' keyword as illustrated here.
+Predictions:
+SM02,4.24,0.65,0.5
+SM04,4.28,0.65,0.5
+SM07,4.17,0.65,0.5
+SM08,4.80,0.65,0.5
+SM09,4.56,0.65,0.5
+SM11,3.30,0.65,0.5
+SM12,3.60,0.65,0.5
+SM13,5.07,0.65,0.5
+SM14,3.60,0.65,0.5
+SM15,2.91,0.65,0.5
+SM16,2.73,0.65,0.5
+
+# NAME SECTION
+#
+# Please provide an informal but informative name of the method used.
+# The 'Name:' keyword is required as shown here.
+Name:
+PLS from NIST data and QM-generated QSAR Descriptors
+
+# SOFTWARE SECTION
+#
+# List all major software packages used and their versions.
+# Create a new line for each software.
+# The 'Software:' keyword is required.
+Software:
+Gaussian 16
+Python 2.7
+Scikit Learn 0.20.3
+Open Babel 2.4.0
+
+# METHOD CATEGORY SECTION
+#
+# State which method category your prediction method is better described as:
+# `Physical`
+# Pick only one category label.
+# The `Category:` keyword is required.
+Category:
+Mixed
+
+# METHOD DESCRIPTION SECTION
+#
+# Methodology and computational details.
+# Level of details should be roughly equivalent to that used in a publication.
+# Please include the values of key parameters with units. Please explain how statistical uncertainties were estimated.
+# Use as many lines and paragraphs of text as you need.
+# All text following the 'Method:' keyword will be regarded as part of your free text methods description.
+Method:
+A QSAR/Quantum Mechanics/Machine Learning-based approach was used to predict the logP coefficients of the 11 SAMPL6 challenge molecules.  
+First, 97 molecules were selected from NIST’s list of logP values.  Their structures were derived and geometries were optimized. 
+Then, several molecular descriptors were calculated for each molecule, including Van der Waals area and volume, HOMO/LUMO energies dipole moments, polarizability, and electrophilic and nucleophilic  superdelocalizability.  
+The descriptors that correlated best to the 97 molecule training set were Van der Waals area/volume, dipole moments, polarizability and molecular weight.  
+A more aggressive multilinear regression (MLR) model and more conservative Partial Least Squares (PLS) model with outliers removed was used to train the 97 molecules. 
+A linear model was derived from three descriptors that captured roughly 65% of the variance in the training set and had an RMSE of 0.62 and an RMSECV of 0.76.  
+This model was applied to the challenge molecules, yielding logP predictions ranging from 2.96-5.14.  
+The PLS molecule explained 72% of the variance in the training set, had an RMSE of 0.55 and RMSECV of 0.65, and had a range of predicted logP values of 2.73-5.07.
+
+Data Selection	
+A total of 97 molecules were selected from NIST’s list of partition coefficients.  The molecules were hand-chosen based on their structural similarity to the challenge set molecules.  
+Multiple types of molecules, including aromatic rings, heterocyclic rings, ketones, esters, ethers, alcohols, and molecules containing N, O ,F, and Cl were chosen.  
+For each molecule selected from NIST’s list, the corresponding recommended logP coefficient was also stored.
+SMILES strings were retrieved using PubChem, and were transformed into 3-dimensional coordinates via Open Babel.  
+Most descriptors were generated from quantum mechanical calculations, described below.
+
+QM Methodology	
+Dunning’s cc-pVTZ basis set was used for all calculations. The recommended cc-pV(T+d)Z basis set was used for all Cl atoms. All DFT calculations were done with Gaussian16. 
+All challenge molecules were optimized with the B3LYP density functional with Grimme’s D3 dispersion correction with Becke-Johnson dampening. 
+The B3LYP-D3 functional was chosen since there are numerous conjugated ring structures that may exhibit pi-pi stacking intramolecularly. 
+Also, the use of Grimme’s dispersion correction can alter ligand orientation for systems exhibiting long-range noncovalent interactions. 
+All structures were verified to be local minima via frequency calculations on an ‘ultrafine’ integration grid with harmonic frequencies and vibrational contributions to the Gibbs free energy were scaled to 0.989 in accordance with previous studies. 
+More sophisticated integration grids were used for to optimize molecules displaying methyl rotations.
+Single point DFT calculations were done to calculate the logP. For this step, six functionals were chosen: BLYP, B3LYP, PBE, PBE0, PW91, and B3PW91. All single point calculations use Solvent Model for Density, or SMD, implicit solvent model to simulate long-range solvent effects of water and 1-octanol on the solute. For the machine learning models, functionals within the same developer family, i.e. PBE and PBE0, BLYP and B3LYP, as well as PW91 and B3PW91, were chosen to keep functional parameters consistent. This allows for transparency as to which molecular descriptor is more correlated with the desired property and built-in empirical parameters from multiple functionals will not bias the outcome. In particular, PBE and PBE0 were chosen for this submission for the machine learning model based on the use of no empirical parameters used to develop the functionals. This will allow the machine learning model to better gauge trends between different molecular descriptors.
+Given the size of the challenge molecules and previous studies indicating that the amount of exact exchange within a functional correlates with logP prediction in the SAMPL5 competition, the domain-based local pair natural orbital (DLPNO) CCSD(T) method within the ORCA 4.0 program suite was utilized to predict logP. The coulomb-exchange fitting correlation consistent auxiliary basis set (cc-pVTZ/JK) was used in conjunction with the RIJCOSX approximation. The RIJCOSX approximation is a resolution-of-the-identity approximation that calculates Coulomb integrals and uses a semi-numerical integration technique called ‘chain of spheres’ to calculate the exchange integrals. Within ORCA, the TightPNO setting was utilized to reduce the number of screened pair natural orbitals (PNOs) from the DLPNO-CCSD(T) calculation. To calculate the logP, the SMD implicit solvent model for water and 1-octanol was used within ORCA 4.0.
+The same procedure for geometry optimization and DFT single points within Gaussian16 was done for all 97 molecules in the training set to supply input parameters for the molecular descriptors chosen.
+
+Descriptor Creation	
+A total of 20 molecular descriptors were generated for each molecule in the training  and challenge sets.  Van der Waals volume and area was calculated using Zhao Et. Al’s fast calculation approach.  
+This approach requires only knowing the number of bonds, count of each atom, and number of aromatic and nonaromatic rings present in each species.  It is invariant to geometric optimization techniques.	
+HOMO/LUMO energies, as well as the energy gap between them, were calculated on the optimized structures by using the PBE DFT functional.  Calculations were performed using both water and octanol as a solvent.
+Dipole moments were obtained directly from the calculated output of PBE calculations for both water and octanol.
+Electronic superdelocalizability was calculated using Gaussian’s population analysis.	
+
+Feature Selection and Exploratory Data Analysis	
+Once descriptors were generated, feature selection and exploratory data analysis were performed.  Feature selection helps prevent overfitting in the model by trimming excess descriptors that contain mainly noise.  Exploratory data analysis is a visual way to show data and search for trends.
+Univariate analysis was used to determine how well each descriptor correlated to the known, experimental logP values of the training set.  R2 was calculated separately for each descriptor vs. the logP value of the training set.	
+
+Descriptor
+Most descriptors had little to no correlation to logP, however results generally followed the trends discovered by Reddy Et. Al. 
+Molecular properties calculated in water and octanol were being very highly correlated to each other, generally with an R2 value of above 0.98, so only water-calculated descriptors were used thereafter.
+Ultimately, three descriptors were selected for modeling use:  Van der Waals Volume (VDWV), Dipole PBE Water, and Polarizability.  
+By removing the extraneous descriptors that have little correlation to logP, overfitting in the machine learning model can be minimized.
+Generally, it is desirable to have the training data set be as similar as possible to the set that the model is going to be applied to.  
+In this case, doing so was not possible, because the challenge molecules were larger and contained more rings than most of the data available from NIST.
+
+Modelling
+After exploratory data analysis and feature selection was complete, multiple models were constructed in an attempt to best describe the correlation between the known logP values of the training set and the molecular descriptors. 
+A multilinear regression model (MLR) and a more conservative Partial Least Squares (PLS) model were constructed to correlate the descriptors to logP.
+
+PLS Model with Outliers removed	
+A more conservative model was constructed. An outlier was defined as any molecule whose error in predicted logP value was more than three standard deviations away from the entire training set.  
+Seven outliers were removed, leaving 90 molecules remaining in the training set.
+Two latent variables were used.  
+The PLS molecule explained 72% of the variance in the training set, had an RMSE of 0.55 and RMSECV of 0.65 via 5-fold cross-validation. 
+This model was then applied to the challenge molecules to get logP.	

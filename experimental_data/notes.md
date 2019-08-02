@@ -31,3 +31,8 @@ $ cp pKa_experimental_values.csv /Users/isikm/lab/SAMPL6-repos/SAMPL6/physical_p
 $ cp calc_pKa_value_statistics.py /Users/isikm/lab/SAMPL6-repos/SAMPL6/physical_properties/pKa/experimental_data
 
 
+## 2018/03/25
+
+### Experimental microstate pair table
+
+`experimental_microstates.csv` copied from sampl6-physicochemical-properties/analysis_of_pKa_predictions/20190302_typeI_4aminoquinazoline_series.  
