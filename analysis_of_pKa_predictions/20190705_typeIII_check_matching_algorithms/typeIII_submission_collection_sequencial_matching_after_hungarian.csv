@@ -1,0 +1,1079 @@
+,$\Delta$pKa error (calc - exp),Molecule ID,name,pKa (calc),pKa (exp),pKa ID,pKa SEM (calc),pKa SEM (exp),participant,receipt_id
+0,-0.4399999999999995,SM01,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",9.09,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,nb004
+1,-1.1500000000000004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.88,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,nb004
+2,2.58,SM03,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",9.6,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,nb004
+3,-1.5,SM04,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.52,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,nb004
+4,1.7300000000000004,SM05,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.32,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,nb004
+5,-2.6399999999999997,SM06,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",0.39,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,nb004
+6,0.7200000000000006,SM06,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",12.46,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,nb004
+7,-3.41,SM07,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",2.67,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,nb004
+8,0.9100000000000001,SM08,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",5.13,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,nb004
+9,-0.7199999999999998,SM09,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.65,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,nb004
+10,1.7200000000000006,SM10,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",10.74,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,nb004
+11,-0.6800000000000002,SM11,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.21,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,nb004
+12,-1.7100000000000004,SM12,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.57,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,nb004
+13,-0.1299999999999999,SM13,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",5.64,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,nb004
+14,-2.43,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",0.15,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,nb004
+15,-1.3599999999999999,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.94,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,nb004
+16,-1.7200000000000002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",2.98,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,nb004
+17,1.1400000000000006,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",10.08,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,nb004
+18,-0.6799999999999997,SM16,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.69,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,nb004
+19,1.209999999999999,SM16,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",11.86,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,nb004
+20,0.5999999999999996,SM17,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.76,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,nb004
+21,-0.5699999999999998,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",1.58,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,nb004
+22,0.35999999999999943,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",9.94,9.58,SM18_pKa2,1.77,0.04,Stefan Kast,nb004
+23,-0.9199999999999999,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",10.1,11.02,SM18_pKa3,1.77,0.03,Stefan Kast,nb004
+24,2.039999999999999,SM19,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",11.6,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,nb004
+25,1.6899999999999995,SM20,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",7.39,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,nb004
+26,-4.46,SM21,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",-0.36,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,nb004
+27,-6.17,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",-3.77,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,nb004
+28,0.9700000000000006,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",8.4,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,nb004
+29,-1.7400000000000002,SM23,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.71,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,nb004
+30,-0.52,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",2.08,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,nb004
+31,-0.5299999999999994,SM01,ACD/pKa Classic,9.0,9.53,SM01_pKa1,0.2,0.01,Kiril Lanevskij,xmyhm
+32,-0.5100000000000007,SM02,ACD/pKa Classic,4.52,5.03,SM02_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+33,1.1500000000000004,SM03,ACD/pKa Classic,8.17,7.02,SM03_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+34,-0.8899999999999997,SM04,ACD/pKa Classic,5.13,6.02,SM04_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+35,1.1799999999999997,SM05,ACD/pKa Classic,5.77,4.59,SM05_pKa1,0.4,0.01,Kiril Lanevskij,xmyhm
+36,-1.0599999999999998,SM06,ACD/pKa Classic,1.97,3.03,SM06_pKa1,0.1,0.04,Kiril Lanevskij,xmyhm
+37,-0.9000000000000004,SM06,ACD/pKa Classic,10.84,11.74,SM06_pKa2,0.43,0.01,Kiril Lanevskij,xmyhm
+38,-0.5700000000000003,SM07,ACD/pKa Classic,5.51,6.08,SM07_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+39,-0.2899999999999996,SM08,ACD/pKa Classic,3.93,4.22,SM08_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+40,-0.5899999999999999,SM09,ACD/pKa Classic,4.78,5.37,SM09_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+41,0.14000000000000057,SM10,ACD/pKa Classic,9.16,9.02,SM10_pKa1,0.7,0.01,Kiril Lanevskij,xmyhm
+42,0.040000000000000036,SM11,ACD/pKa Classic,3.93,3.89,SM11_pKa1,0.3,0.01,Kiril Lanevskij,xmyhm
+43,-0.8399999999999999,SM12,ACD/pKa Classic,4.44,5.28,SM12_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+44,-0.7599999999999998,SM13,ACD/pKa Classic,5.01,5.77,SM13_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+45,0.41999999999999993,SM14,ACD/pKa Classic,3.0,2.58,SM14_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+46,-0.13999999999999968,SM14,ACD/pKa Classic,5.16,5.3,SM14_pKa2,0.1,0.01,Kiril Lanevskij,xmyhm
+47,0.08000000000000007,SM15,ACD/pKa Classic,4.78,4.7,SM15_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+48,0.13000000000000078,SM15,ACD/pKa Classic,9.07,8.94,SM15_pKa2,0.26,0.01,Kiril Lanevskij,xmyhm
+49,-0.17999999999999972,SM16,ACD/pKa Classic,5.19,5.37,SM16_pKa1,0.26,0.01,Kiril Lanevskij,xmyhm
+50,0.1999999999999993,SM16,ACD/pKa Classic,10.85,10.65,SM16_pKa2,0.7,0.01,Kiril Lanevskij,xmyhm
+51,-2.17,SM17,ACD/pKa Classic,0.99,3.16,SM17_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+52,0.18999999999999995,SM18,ACD/pKa Classic,2.34,2.15,SM18_pKa1,0.2,0.02,Kiril Lanevskij,xmyhm
+53,-0.1899999999999995,SM18,ACD/pKa Classic,9.39,9.58,SM18_pKa2,0.5,0.03,Kiril Lanevskij,xmyhm
+54,-1.0999999999999996,SM18,ACD/pKa Classic,9.92,11.02,SM18_pKa3,0.1,0.04,Kiril Lanevskij,xmyhm
+55,0.34999999999999964,SM19,ACD/pKa Classic,9.91,9.56,SM19_pKa1,0.7,0.02,Kiril Lanevskij,xmyhm
+56,0.3099999999999996,SM20,ACD/pKa Classic,6.01,5.7,SM20_pKa1,0.1,0.03,Kiril Lanevskij,xmyhm
+57,0.14000000000000057,SM21,ACD/pKa Classic,4.24,4.1,SM21_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+58,0.03000000000000025,SM22,ACD/pKa Classic,2.43,2.4,SM22_pKa1,0.3,0.02,Kiril Lanevskij,xmyhm
+59,0.16000000000000014,SM22,ACD/pKa Classic,7.59,7.43,SM22_pKa2,0.1,0.01,Kiril Lanevskij,xmyhm
+60,-0.08999999999999986,SM23,ACD/pKa Classic,5.36,5.45,SM23_pKa1,0.1,0.01,Kiril Lanevskij,xmyhm
+61,2.14,SM24,ACD/pKa Classic,4.74,2.6,SM24_pKa1,0.4,0.01,Kiril Lanevskij,xmyhm
+62,0.15000000000000036,SM01,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,9.68,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,ttjd0
+63,-1.2800000000000002,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,3.75,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,ttjd0
+64,4.360000000000001,SM03,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,11.38,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,ttjd0
+65,-1.5399999999999991,SM04,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,4.48,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,ttjd0
+66,0.8100000000000005,SM05,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,5.4,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,ttjd0
+67,-0.48,SM06,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,2.55,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,ttjd0
+68,1.2300000000000004,SM06,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,12.97,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,ttjd0
+69,-3.08,SM07,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,3.0,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,ttjd0
+70,2.1000000000000005,SM08,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,6.32,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,ttjd0
+71,-1.12,SM09,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,4.25,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,ttjd0
+72,3.360000000000001,SM10,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,12.38,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,ttjd0
+73,-0.6000000000000001,SM11,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,3.29,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,ttjd0
+74,0.33999999999999986,SM12,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,5.62,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,ttjd0
+75,-0.71,SM13,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,5.06,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,ttjd0
+76,-2.1100000000000003,SM14,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,0.47,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,ttjd0
+77,-1.46,SM14,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,3.84,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,ttjd0
+78,-1.6500000000000004,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,3.05,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,ttjd0
+79,1.540000000000001,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,10.48,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,ttjd0
+80,-0.7800000000000002,SM16,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,4.59,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,ttjd0
+81,0.5199999999999996,SM16,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,11.17,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,ttjd0
+82,0.33999999999999986,SM17,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,3.5,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,ttjd0
+83,-0.1499999999999999,SM18,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,2.0,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,ttjd0
+84,0.15000000000000036,SM18,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,9.73,9.58,SM18_pKa2,1.77,0.03,Stefan Kast,ttjd0
+85,-0.7899999999999991,SM18,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,10.23,11.02,SM18_pKa3,1.77,0.04,Stefan Kast,ttjd0
+86,2.66,SM19,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,12.22,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,ttjd0
+87,1.4500000000000002,SM20,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,7.15,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,ttjd0
+88,-1.4799999999999995,SM21,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,2.62,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,ttjd0
+89,-0.8799999999999999,SM22,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,1.52,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,ttjd0
+90,0.8399999999999999,SM22,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,8.27,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,ttjd0
+91,-0.08999999999999986,SM23,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,5.36,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,ttjd0
+92,2.1199999999999997,SM24,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,4.72,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,ttjd0
+93,3.8100000000000005,SM01,Direct scheme with single point correction for type III submission,13.34,9.53,SM01_pKa1,,0.01,Qiao Zeng,xikp8
+94,-1.6,SM02,Direct scheme with single point correction for type III submission,3.43,5.03,SM02_pKa1,,0.01,Qiao Zeng,xikp8
+95,0.47000000000000064,SM03,Direct scheme with single point correction for type III submission,7.49,7.02,SM03_pKa1,,0.01,Qiao Zeng,xikp8
+96,-1.3299999999999992,SM04,Direct scheme with single point correction for type III submission,4.69,6.02,SM04_pKa1,,0.01,Qiao Zeng,xikp8
+97,-3.2,SM05,Direct scheme with single point correction for type III submission,1.39,4.59,SM05_pKa1,,0.01,Qiao Zeng,xikp8
+98,-4.32,SM06,Direct scheme with single point correction for type III submission,-1.29,3.03,SM06_pKa1,,0.01,Qiao Zeng,xikp8
+99,2.7799999999999994,SM06,Direct scheme with single point correction for type III submission,14.52,11.74,SM06_pKa2,,0.04,Qiao Zeng,xikp8
+100,-0.6399999999999997,SM07,Direct scheme with single point correction for type III submission,5.44,6.08,SM07_pKa1,,0.01,Qiao Zeng,xikp8
+101,0.9100000000000001,SM08,Direct scheme with single point correction for type III submission,5.13,4.22,SM08_pKa1,,0.01,Qiao Zeng,xikp8
+102,-1.7400000000000002,SM09,Direct scheme with single point correction for type III submission,3.63,5.37,SM09_pKa1,,0.01,Qiao Zeng,xikp8
+103,0.5600000000000005,SM10,Direct scheme with single point correction for type III submission,9.58,9.02,SM10_pKa1,,0.01,Qiao Zeng,xikp8
+104,-2.6900000000000004,SM11,Direct scheme with single point correction for type III submission,1.2,3.89,SM11_pKa1,,0.01,Qiao Zeng,xikp8
+105,-2.2,SM12,Direct scheme with single point correction for type III submission,3.08,5.28,SM12_pKa1,,0.01,Qiao Zeng,xikp8
+106,-2.7499999999999996,SM13,Direct scheme with single point correction for type III submission,3.02,5.77,SM13_pKa1,,0.01,Qiao Zeng,xikp8
+107,0.5699999999999998,SM14,Direct scheme with single point correction for type III submission,3.15,2.58,SM14_pKa1,,0.01,Qiao Zeng,xikp8
+108,-2.64,SM15,Direct scheme with single point correction for type III submission,2.06,4.7,SM15_pKa1,,0.01,Qiao Zeng,xikp8
+109,2.960000000000001,SM15,Direct scheme with single point correction for type III submission,11.9,8.94,SM15_pKa2,,0.01,Qiao Zeng,xikp8
+110,-3.24,SM16,Direct scheme with single point correction for type III submission,2.13,5.37,SM16_pKa1,,0.01,Qiao Zeng,xikp8
+111,1.5099999999999998,SM16,Direct scheme with single point correction for type III submission,12.16,10.65,SM16_pKa2,,0.01,Qiao Zeng,xikp8
+112,-3.0500000000000003,SM17,Direct scheme with single point correction for type III submission,0.11,3.16,SM17_pKa1,,0.01,Qiao Zeng,xikp8
+113,-2.05,SM18,Direct scheme with single point correction for type III submission,0.1,2.15,SM18_pKa1,,0.04,Qiao Zeng,xikp8
+114,0.9800000000000004,SM18,Direct scheme with single point correction for type III submission,10.56,9.58,SM18_pKa2,,0.03,Qiao Zeng,xikp8
+115,2.4299999999999997,SM18,Direct scheme with single point correction for type III submission,13.45,11.02,SM18_pKa3,,0.02,Qiao Zeng,xikp8
+116,0.9599999999999991,SM19,Direct scheme with single point correction for type III submission,10.52,9.56,SM19_pKa1,,0.02,Qiao Zeng,xikp8
+117,-1.6900000000000004,SM20,Direct scheme with single point correction for type III submission,4.01,5.7,SM20_pKa1,,0.03,Qiao Zeng,xikp8
+118,-3.8999999999999995,SM21,Direct scheme with single point correction for type III submission,0.2,4.1,SM21_pKa1,,0.01,Qiao Zeng,xikp8
+119,-0.9099999999999999,SM22,Direct scheme with single point correction for type III submission,1.49,2.4,SM22_pKa1,,0.01,Qiao Zeng,xikp8
+120,1.3100000000000005,SM22,Direct scheme with single point correction for type III submission,8.74,7.43,SM22_pKa2,,0.02,Qiao Zeng,xikp8
+121,-3.7700000000000005,SM23,Direct scheme with single point correction for type III submission,1.68,5.45,SM23_pKa1,,0.01,Qiao Zeng,xikp8
+122,-0.7200000000000002,SM24,Direct scheme with single point correction for type III submission,1.88,2.6,SM24_pKa1,,0.01,Qiao Zeng,xikp8
+123,0.5099999999999998,SM15,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and global fitting,5.21,4.7,SM15_pKa1,,0.01,Bogdan Iorga,35bdm
+124,2.4700000000000006,SM15,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and global fitting,11.41,8.94,SM15_pKa2,,0.01,Bogdan Iorga,35bdm
+125,2.6399999999999997,SM20,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and global fitting,8.34,5.7,SM20_pKa1,,0.03,Bogdan Iorga,35bdm
+126,-1.0899999999999999,SM22,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and global fitting,1.31,2.4,SM22_pKa1,,0.02,Bogdan Iorga,35bdm
+127,0.5,SM22,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and global fitting,7.93,7.43,SM22_pKa2,,0.01,Bogdan Iorga,35bdm
+128,-0.8300000000000001,SM01,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",8.7,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,nb002
+129,-0.8900000000000006,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.14,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,nb002
+130,2.24,SM03,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",9.26,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,nb002
+131,-1.2699999999999996,SM04,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.75,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,nb002
+132,1.9800000000000004,SM05,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",6.57,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,nb002
+133,-0.8599999999999999,SM06,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",2.17,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,nb002
+134,-1.7599999999999998,SM06,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",9.98,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,nb002
+135,-3.2,SM07,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",2.88,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,nb002
+136,0.4400000000000004,SM08,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.66,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,nb002
+137,-0.4500000000000002,SM09,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.92,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,nb002
+138,-0.1399999999999988,SM10,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",8.88,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,nb002
+139,-0.3600000000000003,SM11,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",3.53,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,nb002
+140,-0.3799999999999999,SM12,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.9,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,nb002
+141,0.13000000000000078,SM13,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",5.9,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,nb002
+142,-1.86,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",0.72,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,nb002
+143,-1.04,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.26,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,nb002
+144,-1.5,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",3.2,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,nb002
+145,0.8399999999999999,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",9.78,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,nb002
+146,-0.41000000000000014,SM16,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.96,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,nb002
+147,1.0099999999999998,SM16,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",11.66,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,nb002
+148,0.9299999999999997,SM17,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.09,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,nb002
+149,-0.33999999999999986,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",1.81,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,nb002
+150,-0.33999999999999986,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",9.24,9.58,SM18_pKa2,1.77,0.04,Stefan Kast,nb002
+151,-1.1099999999999994,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",9.91,11.02,SM18_pKa3,1.77,0.03,Stefan Kast,nb002
+152,1.7400000000000002,SM19,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",11.3,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,nb002
+153,1.3999999999999995,SM20,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",7.1,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,nb002
+154,-2.4999999999999996,SM21,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",1.6,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,nb002
+155,-6.17,SM22,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",-3.77,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,nb002
+156,0.7100000000000009,SM22,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",8.14,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,nb002
+157,-1.4900000000000002,SM23,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",3.96,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,nb002
+158,-0.31000000000000005,SM24,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",2.29,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,nb002
+159,0.16000000000000014,SM01,ReSCoSS conformations // COSMOtherm pKa,9.69,9.53,SM01_pKa1,,0.01,Rainer Wilcken,yqkga
+160,1.2299999999999995,SM02,ReSCoSS conformations // COSMOtherm pKa,6.26,5.03,SM02_pKa1,,0.01,Rainer Wilcken,yqkga
+161,-0.09999999999999964,SM03,ReSCoSS conformations // COSMOtherm pKa,6.92,7.02,SM03_pKa1,,0.01,Rainer Wilcken,yqkga
+162,1.25,SM04,ReSCoSS conformations // COSMOtherm pKa,7.27,6.02,SM04_pKa1,,0.01,Rainer Wilcken,yqkga
+163,0.2599999999999998,SM05,ReSCoSS conformations // COSMOtherm pKa,4.85,4.59,SM05_pKa1,,0.01,Rainer Wilcken,yqkga
+164,1.4200000000000004,SM06,ReSCoSS conformations // COSMOtherm pKa,4.45,3.03,SM06_pKa1,,0.04,Rainer Wilcken,yqkga
+165,0.7699999999999996,SM06,ReSCoSS conformations // COSMOtherm pKa,12.51,11.74,SM06_pKa2,,0.01,Rainer Wilcken,yqkga
+166,1.3499999999999996,SM07,ReSCoSS conformations // COSMOtherm pKa,7.43,6.08,SM07_pKa1,,0.01,Rainer Wilcken,yqkga
+167,1.1100000000000003,SM08,ReSCoSS conformations // COSMOtherm pKa,5.33,4.22,SM08_pKa1,,0.01,Rainer Wilcken,yqkga
+168,1.4100000000000001,SM09,ReSCoSS conformations // COSMOtherm pKa,6.78,5.37,SM09_pKa1,,0.01,Rainer Wilcken,yqkga
+169,-1.0499999999999998,SM10,ReSCoSS conformations // COSMOtherm pKa,7.97,9.02,SM10_pKa1,,0.01,Rainer Wilcken,yqkga
+170,0.18999999999999995,SM11,ReSCoSS conformations // COSMOtherm pKa,4.08,3.89,SM11_pKa1,,0.01,Rainer Wilcken,yqkga
+171,1.2000000000000002,SM12,ReSCoSS conformations // COSMOtherm pKa,6.48,5.28,SM12_pKa1,,0.01,Rainer Wilcken,yqkga
+172,1.33,SM13,ReSCoSS conformations // COSMOtherm pKa,7.1,5.77,SM13_pKa1,,0.01,Rainer Wilcken,yqkga
+173,0.7999999999999998,SM14,ReSCoSS conformations // COSMOtherm pKa,3.38,2.58,SM14_pKa1,,0.01,Rainer Wilcken,yqkga
+174,-0.1299999999999999,SM14,ReSCoSS conformations // COSMOtherm pKa,5.17,5.3,SM14_pKa2,,0.01,Rainer Wilcken,yqkga
+175,-0.2599999999999998,SM15,ReSCoSS conformations // COSMOtherm pKa,4.44,4.7,SM15_pKa1,,0.01,Rainer Wilcken,yqkga
+176,0.25,SM15,ReSCoSS conformations // COSMOtherm pKa,9.19,8.94,SM15_pKa2,,0.01,Rainer Wilcken,yqkga
+177,0.6100000000000003,SM16,ReSCoSS conformations // COSMOtherm pKa,5.98,5.37,SM16_pKa1,,0.01,Rainer Wilcken,yqkga
+178,0.9399999999999995,SM16,ReSCoSS conformations // COSMOtherm pKa,11.59,10.65,SM16_pKa2,,0.01,Rainer Wilcken,yqkga
+179,0.6199999999999997,SM17,ReSCoSS conformations // COSMOtherm pKa,3.78,3.16,SM17_pKa1,,0.01,Rainer Wilcken,yqkga
+180,-0.009999999999999787,SM18,ReSCoSS conformations // COSMOtherm pKa,2.14,2.15,SM18_pKa1,,0.02,Rainer Wilcken,yqkga
+181,-2.05,SM18,ReSCoSS conformations // COSMOtherm pKa,7.53,9.58,SM18_pKa2,,0.03,Rainer Wilcken,yqkga
+182,-1.7599999999999998,SM18,ReSCoSS conformations // COSMOtherm pKa,9.26,11.02,SM18_pKa3,,0.04,Rainer Wilcken,yqkga
+183,-0.41999999999999993,SM19,ReSCoSS conformations // COSMOtherm pKa,9.14,9.56,SM19_pKa1,,0.02,Rainer Wilcken,yqkga
+184,-0.7800000000000002,SM20,ReSCoSS conformations // COSMOtherm pKa,4.92,5.7,SM20_pKa1,,0.03,Rainer Wilcken,yqkga
+185,0.07000000000000028,SM21,ReSCoSS conformations // COSMOtherm pKa,4.17,4.1,SM21_pKa1,,0.01,Rainer Wilcken,yqkga
+186,-2.34,SM22,ReSCoSS conformations // COSMOtherm pKa,0.06,2.4,SM22_pKa1,,0.02,Rainer Wilcken,yqkga
+187,-0.10999999999999943,SM22,ReSCoSS conformations // COSMOtherm pKa,7.32,7.43,SM22_pKa2,,0.01,Rainer Wilcken,yqkga
+188,-0.6600000000000001,SM23,ReSCoSS conformations // COSMOtherm pKa,4.79,5.45,SM23_pKa1,,0.01,Rainer Wilcken,yqkga
+189,-0.14000000000000012,SM24,ReSCoSS conformations // COSMOtherm pKa,2.46,2.6,SM24_pKa1,,0.01,Rainer Wilcken,yqkga
+190,1.83,SM01,Direct scheme for type III submission,11.36,9.53,SM01_pKa1,,0.01,Qiao Zeng,y75vj
+191,-1.08,SM02,Direct scheme for type III submission,3.95,5.03,SM02_pKa1,,0.01,Qiao Zeng,y75vj
+192,-0.7899999999999991,SM03,Direct scheme for type III submission,6.23,7.02,SM03_pKa1,,0.01,Qiao Zeng,y75vj
+193,-0.7899999999999991,SM04,Direct scheme for type III submission,5.23,6.02,SM04_pKa1,,0.01,Qiao Zeng,y75vj
+194,-2.48,SM05,Direct scheme for type III submission,2.11,4.59,SM05_pKa1,,0.01,Qiao Zeng,y75vj
+195,-3.6999999999999997,SM06,Direct scheme for type III submission,-0.67,3.03,SM06_pKa1,,0.01,Qiao Zeng,y75vj
+196,1.5600000000000005,SM06,Direct scheme for type III submission,13.3,11.74,SM06_pKa2,,0.04,Qiao Zeng,y75vj
+197,-0.0600000000000005,SM07,Direct scheme for type III submission,6.02,6.08,SM07_pKa1,,0.01,Qiao Zeng,y75vj
+198,-1.0499999999999998,SM08,Direct scheme for type III submission,3.17,4.22,SM08_pKa1,,0.01,Qiao Zeng,y75vj
+199,-1.2300000000000004,SM09,Direct scheme for type III submission,4.14,5.37,SM09_pKa1,,0.01,Qiao Zeng,y75vj
+200,-0.6600000000000001,SM10,Direct scheme for type III submission,8.36,9.02,SM10_pKa1,,0.01,Qiao Zeng,y75vj
+201,-2.46,SM11,Direct scheme for type III submission,1.43,3.89,SM11_pKa1,,0.01,Qiao Zeng,y75vj
+202,-1.7100000000000004,SM12,Direct scheme for type III submission,3.57,5.28,SM12_pKa1,,0.01,Qiao Zeng,y75vj
+203,-2.2499999999999996,SM13,Direct scheme for type III submission,3.52,5.77,SM13_pKa1,,0.01,Qiao Zeng,y75vj
+204,1.06,SM14,Direct scheme for type III submission,3.64,2.58,SM14_pKa1,,0.01,Qiao Zeng,y75vj
+205,-2.1300000000000003,SM15,Direct scheme for type III submission,2.57,4.7,SM15_pKa1,,0.01,Qiao Zeng,y75vj
+206,0.9100000000000001,SM15,Direct scheme for type III submission,9.85,8.94,SM15_pKa2,,0.01,Qiao Zeng,y75vj
+207,-2.94,SM16,Direct scheme for type III submission,2.43,5.37,SM16_pKa1,,0.01,Qiao Zeng,y75vj
+208,0.5299999999999994,SM16,Direct scheme for type III submission,11.18,10.65,SM16_pKa2,,0.01,Qiao Zeng,y75vj
+209,-2.95,SM17,Direct scheme for type III submission,0.21,3.16,SM17_pKa1,,0.01,Qiao Zeng,y75vj
+210,-1.48,SM18,Direct scheme for type III submission,0.67,2.15,SM18_pKa1,,0.04,Qiao Zeng,y75vj
+211,-0.6400000000000006,SM18,Direct scheme for type III submission,8.94,9.58,SM18_pKa2,,0.03,Qiao Zeng,y75vj
+212,1.5899999999999999,SM18,Direct scheme for type III submission,12.61,11.02,SM18_pKa3,,0.02,Qiao Zeng,y75vj
+213,-0.3200000000000003,SM19,Direct scheme for type III submission,9.24,9.56,SM19_pKa1,,0.02,Qiao Zeng,y75vj
+214,-3.0300000000000002,SM20,Direct scheme for type III submission,2.67,5.7,SM20_pKa1,,0.03,Qiao Zeng,y75vj
+215,-3.3999999999999995,SM21,Direct scheme for type III submission,0.7,4.1,SM21_pKa1,,0.01,Qiao Zeng,y75vj
+216,-0.3700000000000001,SM22,Direct scheme for type III submission,2.03,2.4,SM22_pKa1,,0.01,Qiao Zeng,y75vj
+217,0.7000000000000011,SM22,Direct scheme for type III submission,8.13,7.43,SM22_pKa2,,0.02,Qiao Zeng,y75vj
+218,-3.5300000000000002,SM23,Direct scheme for type III submission,1.92,5.45,SM23_pKa1,,0.01,Qiao Zeng,y75vj
+219,-0.30000000000000027,SM24,Direct scheme for type III submission,2.3,2.6,SM24_pKa1,,0.01,Qiao Zeng,y75vj
+220,0.19000000000000128,SM01,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,9.72,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,mpwiy
+221,-1.29,SM02,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.74,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,mpwiy
+222,4.32,SM03,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,11.34,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,mpwiy
+223,-1.5699999999999994,SM04,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,4.45,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,mpwiy
+224,0.75,SM05,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,5.34,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,mpwiy
+225,-1.9899999999999998,SM06,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,1.04,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,mpwiy
+226,2.09,SM06,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,13.83,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,mpwiy
+227,-3.0500000000000003,SM07,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.03,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,mpwiy
+228,2.29,SM08,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,6.51,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,mpwiy
+229,-1.1600000000000001,SM09,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,4.21,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,mpwiy
+230,3.7699999999999996,SM10,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,12.79,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,mpwiy
+231,-0.6200000000000001,SM11,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.27,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,mpwiy
+232,-1.4300000000000002,SM12,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.85,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,mpwiy
+233,-0.7599999999999998,SM13,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,5.01,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,mpwiy
+234,-2.16,SM14,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,0.42,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,mpwiy
+235,-1.4899999999999998,SM14,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.81,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,mpwiy
+236,-1.62,SM15,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.08,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,mpwiy
+237,1.5200000000000014,SM15,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,10.46,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,mpwiy
+238,-0.8300000000000001,SM16,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,4.54,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,mpwiy
+239,0.4499999999999993,SM16,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,11.1,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,mpwiy
+240,0.31000000000000005,SM17,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.47,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,mpwiy
+241,-0.10000000000000009,SM18,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,2.05,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,mpwiy
+242,0.11999999999999922,SM18,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,9.7,9.58,SM18_pKa2,1.77,0.03,Stefan Kast,mpwiy
+243,-0.629999999999999,SM18,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,10.39,11.02,SM18_pKa3,1.77,0.04,Stefan Kast,mpwiy
+244,2.5700000000000003,SM19,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,12.13,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,mpwiy
+245,1.54,SM20,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,7.24,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,mpwiy
+246,-3.1099999999999994,SM21,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,0.99,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,mpwiy
+247,-0.8299999999999998,SM22,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,1.57,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,mpwiy
+248,0.9100000000000001,SM22,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,8.34,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,mpwiy
+249,-1.9300000000000002,SM23,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.52,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,mpwiy
+250,0.5499999999999998,SM24,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.15,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,mpwiy
+251,0.3000000000000007,SM01,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",9.83,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,nb005
+252,-1.33,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",3.7,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,nb005
+253,3.5600000000000005,SM03,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",10.58,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,nb005
+254,-1.4899999999999993,SM04,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",4.53,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,nb005
+255,2.38,SM05,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",6.97,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,nb005
+256,-2.4099999999999997,SM06,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",0.62,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,nb005
+257,1.1500000000000004,SM06,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",12.89,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,nb005
+258,-4.07,SM07,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",2.01,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,nb005
+259,0.1800000000000006,SM08,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",4.4,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,nb005
+260,-0.6200000000000001,SM09,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",4.75,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,nb005
+261,2.1400000000000006,SM10,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",11.16,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,nb005
+262,-1.0,SM11,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",2.89,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,nb005
+263,-0.3600000000000003,SM12,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",4.92,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,nb005
+264,0.3000000000000007,SM13,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",6.07,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,nb005
+265,-3.48,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",-0.9,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,nb005
+266,-1.44,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",3.86,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,nb005
+267,-2.2600000000000002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",2.44,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,nb005
+268,2.3499999999999996,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",11.29,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,nb005
+269,-0.5600000000000005,SM16,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",4.81,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,nb005
+270,3.17,SM16,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",13.82,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,nb005
+271,0.46999999999999975,SM17,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",3.63,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,nb005
+272,-1.58,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",0.57,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,nb005
+273,0.9900000000000002,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",10.57,9.58,SM18_pKa2,1.77,0.04,Stefan Kast,nb005
+274,0.4400000000000013,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",11.46,11.02,SM18_pKa3,1.77,0.03,Stefan Kast,nb005
+275,3.7699999999999996,SM19,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",13.33,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,nb005
+276,1.9799999999999995,SM20,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",7.68,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,nb005
+277,-4.369999999999999,SM21,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",-0.27,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,nb005
+278,-6.17,SM22,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",-3.77,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,nb005
+279,1.6500000000000004,SM22,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",9.08,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,nb005
+280,-1.9900000000000002,SM23,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",3.46,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,nb005
+281,-1.3900000000000001,SM24,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",1.21,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,nb005
+282,-0.7799999999999994,SM01,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",8.75,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,nb001
+283,-0.8700000000000001,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.16,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,nb001
+284,2.3000000000000007,SM03,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",9.32,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,nb001
+285,-1.2399999999999993,SM04,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.78,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,nb001
+286,2.0200000000000005,SM05,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",6.61,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,nb001
+287,-0.5499999999999998,SM06,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",2.48,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,nb001
+288,-1.620000000000001,SM06,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",10.12,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,nb001
+289,-3.18,SM07,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",2.9,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,nb001
+290,0.45999999999999996,SM08,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.68,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,nb001
+291,-0.41999999999999993,SM09,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.95,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,nb001
+292,0.019999999999999574,SM10,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",9.04,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,nb001
+293,-0.3400000000000003,SM11,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",3.55,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,nb001
+294,-0.1299999999999999,SM12,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",5.15,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,nb001
+295,0.17000000000000082,SM13,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",5.94,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,nb001
+296,-1.86,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",0.72,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,nb001
+297,-1.0199999999999996,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.28,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,nb001
+298,-1.4900000000000002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",3.21,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,nb001
+299,0.9100000000000001,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",9.85,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,nb001
+300,-0.3799999999999999,SM16,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.99,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,nb001
+301,1.0899999999999999,SM16,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",11.74,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,nb001
+302,0.9500000000000002,SM17,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.11,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,nb001
+303,-0.32999999999999985,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",1.82,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,nb001
+304,-0.27999999999999936,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",9.3,9.58,SM18_pKa2,1.77,0.04,Stefan Kast,nb001
+305,-1.049999999999999,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",9.97,11.02,SM18_pKa3,1.77,0.03,Stefan Kast,nb001
+306,1.8200000000000003,SM19,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",11.38,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,nb001
+307,1.4500000000000002,SM20,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",7.15,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,nb001
+308,-2.1799999999999997,SM21,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",1.92,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,nb001
+309,-6.17,SM22,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",-3.77,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,nb001
+310,0.7599999999999998,SM22,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",8.19,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,nb001
+311,-1.4700000000000002,SM23,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",3.98,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,nb001
+312,-0.30000000000000027,SM24,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",2.3,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,nb001
+313,1.4399999999999995,SM15,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and separate fitting for neutral to negative and for positive to neutral transformations,6.14,4.7,SM15_pKa1,,0.01,Bogdan Iorga,p0jba
+314,1.700000000000001,SM15,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and separate fitting for neutral to negative and for positive to neutral transformations,10.64,8.94,SM15_pKa2,,0.01,Bogdan Iorga,p0jba
+315,1.88,SM20,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and separate fitting for neutral to negative and for positive to neutral transformations,7.58,5.7,SM20_pKa1,,0.03,Bogdan Iorga,p0jba
+316,-0.3799999999999999,SM22,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and separate fitting for neutral to negative and for positive to neutral transformations,2.02,2.4,SM22_pKa1,,0.02,Bogdan Iorga,p0jba
+317,-0.019999999999999574,SM22,macroscopic pKa prediction from microscopic pKa predicted with Gaussian and separate fitting for neutral to negative and for positive to neutral transformations,7.41,7.43,SM22_pKa2,,0.01,Bogdan Iorga,p0jba
+318,0.16000000000000014,SM01,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,9.69,9.53,SM01_pKa1,,0.01,Rainer Wilcken,8xt50
+319,1.2399999999999993,SM02,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,6.27,5.03,SM02_pKa1,,0.01,Rainer Wilcken,8xt50
+320,0.16000000000000014,SM03,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,7.18,7.02,SM03_pKa1,,0.01,Rainer Wilcken,8xt50
+321,0.8200000000000003,SM04,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,6.84,6.02,SM04_pKa1,,0.01,Rainer Wilcken,8xt50
+322,-0.009999999999999787,SM05,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,4.58,4.59,SM05_pKa1,,0.01,Rainer Wilcken,8xt50
+323,1.69,SM06,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,4.72,3.03,SM06_pKa1,,0.04,Rainer Wilcken,8xt50
+324,1.4299999999999997,SM06,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,13.17,11.74,SM06_pKa2,,0.01,Rainer Wilcken,8xt50
+325,0.8600000000000003,SM07,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,6.94,6.08,SM07_pKa1,,0.01,Rainer Wilcken,8xt50
+326,0.4500000000000002,SM08,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,4.67,4.22,SM08_pKa1,,0.01,Rainer Wilcken,8xt50
+327,1.63,SM09,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,7.0,5.37,SM09_pKa1,,0.01,Rainer Wilcken,8xt50
+328,1.3000000000000007,SM10,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,10.32,9.02,SM10_pKa1,,0.01,Rainer Wilcken,8xt50
+329,-0.020000000000000018,SM11,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,3.87,3.89,SM11_pKa1,,0.01,Rainer Wilcken,8xt50
+330,1.2699999999999996,SM12,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,6.55,5.28,SM12_pKa1,,0.01,Rainer Wilcken,8xt50
+331,2.0500000000000007,SM13,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,7.82,5.77,SM13_pKa1,,0.01,Rainer Wilcken,8xt50
+332,0.7999999999999998,SM14,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,3.38,2.58,SM14_pKa1,,0.01,Rainer Wilcken,8xt50
+333,-0.1299999999999999,SM14,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,5.17,5.3,SM14_pKa2,,0.01,Rainer Wilcken,8xt50
+334,-0.2599999999999998,SM15,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,4.44,4.7,SM15_pKa1,,0.01,Rainer Wilcken,8xt50
+335,0.25,SM15,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,9.19,8.94,SM15_pKa2,,0.01,Rainer Wilcken,8xt50
+336,0.6799999999999997,SM16,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,6.05,5.37,SM16_pKa1,,0.01,Rainer Wilcken,8xt50
+337,1.6199999999999992,SM16,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,12.27,10.65,SM16_pKa2,,0.01,Rainer Wilcken,8xt50
+338,0.25,SM17,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,3.41,3.16,SM17_pKa1,,0.01,Rainer Wilcken,8xt50
+339,-0.029999999999999805,SM18,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,2.12,2.15,SM18_pKa1,,0.02,Rainer Wilcken,8xt50
+340,-0.8399999999999999,SM18,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,8.74,9.58,SM18_pKa2,,0.03,Rainer Wilcken,8xt50
+341,-0.4800000000000004,SM18,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,10.54,11.02,SM18_pKa3,,0.04,Rainer Wilcken,8xt50
+342,2.99,SM19,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,12.55,9.56,SM19_pKa1,,0.02,Rainer Wilcken,8xt50
+343,0.1899999999999995,SM20,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,5.89,5.7,SM20_pKa1,,0.03,Rainer Wilcken,8xt50
+344,0.14000000000000057,SM21,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,4.24,4.1,SM21_pKa1,,0.01,Rainer Wilcken,8xt50
+345,-1.23,SM22,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,1.17,2.4,SM22_pKa1,,0.02,Rainer Wilcken,8xt50
+346,-0.9899999999999993,SM22,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,6.44,7.43,SM22_pKa2,,0.01,Rainer Wilcken,8xt50
+347,-0.9100000000000001,SM23,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,4.54,5.45,SM23_pKa1,,0.01,Rainer Wilcken,8xt50
+348,-0.3599999999999999,SM24,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,2.24,2.6,SM24_pKa1,,0.01,Rainer Wilcken,8xt50
+349,0.4800000000000004,SM01,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,10.01,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,2ii2g
+350,0.6799999999999997,SM02,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.71,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,2ii2g
+351,4.530000000000001,SM03,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,11.55,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,2ii2g
+352,0.41000000000000014,SM04,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,6.43,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,2ii2g
+353,2.7300000000000004,SM05,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,7.32,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,2ii2g
+354,-0.48,SM06,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,2.55,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,2ii2g
+355,1.2300000000000004,SM06,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,12.97,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,2ii2g
+356,-1.12,SM07,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,4.96,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,2ii2g
+357,1.75,SM08,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.97,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,2ii2g
+358,0.7199999999999998,SM09,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,6.09,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,2ii2g
+359,3.360000000000001,SM10,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,12.38,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,2ii2g
+360,0.7499999999999996,SM11,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,4.64,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,2ii2g
+361,0.33999999999999986,SM12,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.62,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,2ii2g
+362,1.1500000000000004,SM13,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,6.92,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,2ii2g
+363,-0.48,SM14,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,2.1,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,2ii2g
+364,0.39000000000000057,SM14,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.69,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,2ii2g
+365,0.54,SM15,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.24,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,2ii2g
+366,0.75,SM15,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,9.69,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,2ii2g
+367,1.0,SM16,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,6.37,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,2ii2g
+368,1.33,SM16,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,11.98,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,2ii2g
+369,1.4900000000000002,SM17,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,4.65,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,2ii2g
+370,1.0,SM18,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,3.15,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,2ii2g
+371,0.08000000000000007,SM18,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,9.66,9.58,SM18_pKa2,1.77,0.03,Stefan Kast,2ii2g
+372,0.6100000000000012,SM18,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,11.63,11.02,SM18_pKa3,1.77,0.04,Stefan Kast,2ii2g
+373,3.209999999999999,SM19,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,12.77,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,2ii2g
+374,2.4099999999999993,SM20,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,8.11,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,2ii2g
+375,-1.4799999999999995,SM21,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,2.62,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,2ii2g
+376,-3.74,SM22,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,-1.34,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,2ii2g
+377,-2.6099999999999994,SM22,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,4.82,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,2ii2g
+378,-0.08999999999999986,SM23,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.36,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,2ii2g
+379,2.1199999999999997,SM24,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,4.72,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,2ii2g
+380,0.9700000000000006,SM01,Substructure matches from experimental data,10.5,9.53,SM01_pKa1,0.2,0.01,Caitlin Bannan,5nm4j
+381,0.7699999999999996,SM02,Substructure matches from experimental data,5.8,5.03,SM02_pKa1,0.5,0.01,Caitlin Bannan,5nm4j
+382,-4.22,SM03,Substructure matches from experimental data,2.8,7.02,SM03_pKa1,0.5,0.01,Caitlin Bannan,5nm4j
+383,-0.21999999999999975,SM04,Substructure matches from experimental data,5.8,6.02,SM04_pKa1,0.5,0.01,Caitlin Bannan,5nm4j
+384,3.21,SM05,Substructure matches from experimental data,7.8,4.59,SM05_pKa1,1.0,0.01,Caitlin Bannan,5nm4j
+385,-3.540000000000001,SM06,Substructure matches from experimental data,8.2,11.74,SM06_pKa2,1.0,0.01,Caitlin Bannan,5nm4j
+386,-0.28000000000000025,SM07,Substructure matches from experimental data,5.8,6.08,SM07_pKa1,0.2,0.01,Caitlin Bannan,5nm4j
+387,-0.0699999999999994,SM08,Substructure matches from experimental data,4.15,4.22,SM08_pKa1,0.2,0.01,Caitlin Bannan,5nm4j
+388,0.46999999999999975,SM09,Substructure matches from experimental data,5.84,5.37,SM09_pKa1,0.5,0.01,Caitlin Bannan,5nm4j
+389,-6.52,SM10,Substructure matches from experimental data,2.5,9.02,SM10_pKa1,0.5,0.01,Caitlin Bannan,5nm4j
+390,-0.040000000000000036,SM11,Substructure matches from experimental data,3.85,3.89,SM11_pKa1,0.1,0.01,Caitlin Bannan,5nm4j
+391,0.5199999999999996,SM12,Substructure matches from experimental data,5.8,5.28,SM12_pKa1,0.5,0.01,Caitlin Bannan,5nm4j
+392,0.03000000000000025,SM13,Substructure matches from experimental data,5.8,5.77,SM13_pKa1,0.5,0.01,Caitlin Bannan,5nm4j
+393,0.27,SM14,Substructure matches from experimental data,2.85,2.58,SM14_pKa1,0.2,0.01,Caitlin Bannan,5nm4j
+394,1.0,SM14,Substructure matches from experimental data,6.3,5.3,SM14_pKa2,0.2,0.01,Caitlin Bannan,5nm4j
+395,0.5999999999999996,SM15,Substructure matches from experimental data,5.3,4.7,SM15_pKa1,1.0,0.01,Caitlin Bannan,5nm4j
+396,0.5300000000000002,SM16,Substructure matches from experimental data,5.9,5.37,SM16_pKa1,0.2,0.01,Caitlin Bannan,5nm4j
+397,1.7400000000000002,SM17,Substructure matches from experimental data,4.9,3.16,SM17_pKa1,1.0,0.01,Caitlin Bannan,5nm4j
+398,-0.04999999999999982,SM18,Substructure matches from experimental data,2.1,2.15,SM18_pKa1,0.5,0.02,Caitlin Bannan,5nm4j
+399,0.3200000000000003,SM18,Substructure matches from experimental data,9.9,9.58,SM18_pKa2,0.5,0.03,Caitlin Bannan,5nm4j
+400,-7.0600000000000005,SM19,Substructure matches from experimental data,2.5,9.56,SM19_pKa1,0.5,0.02,Caitlin Bannan,5nm4j
+401,0.7000000000000002,SM20,Substructure matches from experimental data,6.4,5.7,SM20_pKa1,0.2,0.03,Caitlin Bannan,5nm4j
+402,3.3000000000000007,SM21,Substructure matches from experimental data,7.4,4.1,SM21_pKa1,0.5,0.01,Caitlin Bannan,5nm4j
+403,1.1,SM22,Substructure matches from experimental data,3.5,2.4,SM22_pKa1,0.2,0.02,Caitlin Bannan,5nm4j
+404,1.2699999999999996,SM22,Substructure matches from experimental data,8.7,7.43,SM22_pKa2,0.2,0.01,Caitlin Bannan,5nm4j
+405,1.9500000000000002,SM23,Substructure matches from experimental data,7.4,5.45,SM23_pKa1,0.5,0.01,Caitlin Bannan,5nm4j
+406,1.9999999999999996,SM24,Substructure matches from experimental data,4.6,2.6,SM24_pKa1,0.2,0.01,Caitlin Bannan,5nm4j
+407,-0.6899999999999995,SM01,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",8.84,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,ds62k
+408,-1.0900000000000003,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",3.94,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,ds62k
+409,2.74,SM03,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",9.76,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,ds62k
+410,-1.5,SM04,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",4.52,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,ds62k
+411,1.62,SM05,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",6.21,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,ds62k
+412,-2.6399999999999997,SM06,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",0.39,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,ds62k
+413,0.7200000000000006,SM06,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",12.46,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,ds62k
+414,-3.2600000000000002,SM07,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",2.82,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,ds62k
+415,0.8900000000000006,SM08,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",5.11,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,ds62k
+416,-0.8500000000000005,SM09,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",4.52,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,ds62k
+417,1.7200000000000006,SM10,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",10.74,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,ds62k
+418,-1.56,SM11,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",2.33,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,ds62k
+419,-1.7100000000000004,SM12,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",3.57,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,ds62k
+420,-0.1999999999999993,SM13,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",5.57,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,ds62k
+421,-3.98,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",-1.4,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,ds62k
+422,-1.5599999999999996,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",3.74,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,ds62k
+423,-1.37,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",3.33,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,ds62k
+424,-0.5899999999999999,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",8.35,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,ds62k
+425,-0.9699999999999998,SM16,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",4.4,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,ds62k
+426,1.0999999999999996,SM16,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",11.75,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,ds62k
+427,-0.69,SM17,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",2.47,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,ds62k
+428,-1.2,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",0.95,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,ds62k
+429,-0.15000000000000036,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",9.43,9.58,SM18_pKa2,1.77,0.03,Stefan Kast,ds62k
+430,1.7300000000000004,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",12.75,11.02,SM18_pKa3,1.77,0.04,Stefan Kast,ds62k
+431,2.3499999999999996,SM19,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",11.91,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,ds62k
+432,2.5300000000000002,SM20,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",8.23,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,ds62k
+433,-4.46,SM21,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",-0.36,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,ds62k
+434,-6.17,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",-3.77,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,ds62k
+435,-3.1999999999999993,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",4.23,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,ds62k
+436,-1.6400000000000001,SM23,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",3.81,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,ds62k
+437,-0.22999999999999998,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",2.37,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,ds62k
+438,-0.08999999999999986,SM01,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),9.44,9.53,SM01_pKa1,,0.01,Mehtap Isik,nb015
+439,-1.0200000000000005,SM02,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),4.01,5.03,SM02_pKa1,,0.01,Mehtap Isik,nb015
+440,0.6600000000000001,SM03,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),7.68,7.02,SM03_pKa1,,0.01,Mehtap Isik,nb015
+441,-1.1899999999999995,SM04,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),4.83,6.02,SM04_pKa1,,0.01,Mehtap Isik,nb015
+442,-0.39999999999999947,SM05,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),4.19,4.59,SM05_pKa1,,0.01,Mehtap Isik,nb015
+443,0.3900000000000001,SM06,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),3.42,3.03,SM06_pKa1,,0.04,Mehtap Isik,nb015
+444,2.1099999999999994,SM06,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),13.85,11.74,SM06_pKa2,,0.01,Mehtap Isik,nb015
+445,-1.25,SM07,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),4.83,6.08,SM07_pKa1,,0.01,Mehtap Isik,nb015
+446,-0.019999999999999574,SM08,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),4.2,4.22,SM08_pKa1,,0.01,Mehtap Isik,nb015
+447,-1.37,SM09,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),4.0,5.37,SM09_pKa1,,0.01,Mehtap Isik,nb015
+448,-1.25,SM10,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),7.77,9.02,SM10_pKa1,,0.01,Mehtap Isik,nb015
+449,-0.4700000000000002,SM11,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),3.42,3.89,SM11_pKa1,,0.01,Mehtap Isik,nb015
+450,-1.2700000000000005,SM12,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),4.01,5.28,SM12_pKa1,,0.01,Mehtap Isik,nb015
+451,-1.0899999999999999,SM13,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),4.68,5.77,SM13_pKa1,,0.01,Mehtap Isik,nb015
+452,-1.65,SM14,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),0.93,2.58,SM14_pKa1,,0.01,Mehtap Isik,nb015
+453,1.1000000000000005,SM14,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),6.4,5.3,SM14_pKa2,,0.01,Mehtap Isik,nb015
+454,0.20999999999999996,SM15,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),4.91,4.7,SM15_pKa1,,0.01,Mehtap Isik,nb015
+455,1.700000000000001,SM15,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),10.64,8.94,SM15_pKa2,,0.01,Mehtap Isik,nb015
+456,0.2400000000000002,SM16,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),5.61,5.37,SM16_pKa1,,0.01,Mehtap Isik,nb015
+457,3.33,SM16,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),13.98,10.65,SM16_pKa2,,0.01,Mehtap Isik,nb015
+458,-0.6800000000000002,SM17,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),2.48,3.16,SM17_pKa1,,0.01,Mehtap Isik,nb015
+459,-0.5999999999999999,SM18,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),1.55,2.15,SM18_pKa1,,0.02,Mehtap Isik,nb015
+460,-1.540000000000001,SM18,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),8.04,9.58,SM18_pKa2,,0.03,Mehtap Isik,nb015
+461,1.5199999999999996,SM18,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),12.54,11.02,SM18_pKa3,,0.04,Mehtap Isik,nb015
+462,-1.6700000000000008,SM19,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),7.89,9.56,SM19_pKa1,,0.02,Mehtap Isik,nb015
+463,1.5,SM20,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),7.2,5.7,SM20_pKa1,,0.03,Mehtap Isik,nb015
+464,-2.1499999999999995,SM21,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),1.95,4.1,SM21_pKa1,,0.01,Mehtap Isik,nb015
+465,0.94,SM22,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),3.34,2.4,SM22_pKa1,,0.02,Mehtap Isik,nb015
+466,-0.040000000000000036,SM22,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),7.39,7.43,SM22_pKa2,,0.01,Mehtap Isik,nb015
+467,-0.4300000000000006,SM23,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),5.02,5.45,SM23_pKa1,,0.01,Mehtap Isik,nb015
+468,0.48999999999999977,SM24,Chemicalize v18.23 (ChemAxon MarvinSketch v18.23),3.09,2.6,SM24_pKa1,,0.01,Mehtap Isik,nb015
+469,-0.41000000000000014,SM01,Epik Microscopic,9.12,9.53,SM01_pKa1,1.09,0.01,Bas Rustenburg,nb010
+470,-0.8700000000000001,SM02,Epik Microscopic,4.16,5.03,SM02_pKa1,1.01,0.01,Bas Rustenburg,nb010
+471,0.10000000000000053,SM03,Epik Microscopic,7.12,7.02,SM03_pKa1,1.98,0.01,Bas Rustenburg,nb010
+472,-0.40999999999999925,SM04,Epik Microscopic,5.61,6.02,SM04_pKa1,1.12,0.01,Bas Rustenburg,nb010
+473,0.7599999999999998,SM05,Epik Microscopic,5.35,4.59,SM05_pKa1,2.03,0.01,Bas Rustenburg,nb010
+474,-0.8599999999999999,SM06,Epik Microscopic,2.17,3.03,SM06_pKa1,2.14,0.04,Bas Rustenburg,nb010
+475,-1.4100000000000001,SM06,Epik Microscopic,10.33,11.74,SM06_pKa2,1.14,0.01,Bas Rustenburg,nb010
+476,-0.46999999999999975,SM07,Epik Microscopic,5.61,6.08,SM07_pKa1,1.12,0.01,Bas Rustenburg,nb010
+477,-0.10999999999999943,SM08,Epik Microscopic,4.11,4.22,SM08_pKa1,1.95,0.01,Bas Rustenburg,nb010
+478,-1.21,SM09,Epik Microscopic,4.16,5.37,SM09_pKa1,1.01,0.01,Bas Rustenburg,nb010
+479,-0.34999999999999964,SM10,Epik Microscopic,8.67,9.02,SM10_pKa1,1.76,0.01,Bas Rustenburg,nb010
+480,-0.020000000000000018,SM11,Epik Microscopic,3.87,3.89,SM11_pKa1,1.7,0.01,Bas Rustenburg,nb010
+481,-1.12,SM12,Epik Microscopic,4.16,5.28,SM12_pKa1,1.01,0.01,Bas Rustenburg,nb010
+482,-1.3299999999999992,SM13,Epik Microscopic,4.44,5.77,SM13_pKa1,1.6,0.01,Bas Rustenburg,nb010
+483,-2.3,SM14,Epik Microscopic,0.28,2.58,SM14_pKa1,0.7,0.01,Bas Rustenburg,nb010
+484,1.0499999999999998,SM14,Epik Microscopic,6.35,5.3,SM14_pKa2,1.97,0.01,Bas Rustenburg,nb010
+485,1.12,SM15,Epik Microscopic,5.82,4.7,SM15_pKa1,1.03,0.01,Bas Rustenburg,nb010
+486,-0.22999999999999865,SM15,Epik Microscopic,8.71,8.94,SM15_pKa2,1.95,0.01,Bas Rustenburg,nb010
+487,-0.6600000000000001,SM16,Epik Microscopic,4.71,5.37,SM16_pKa1,1.86,0.01,Bas Rustenburg,nb010
+488,-0.8000000000000007,SM16,Epik Microscopic,9.85,10.65,SM16_pKa2,2.08,0.01,Bas Rustenburg,nb010
+489,1.7400000000000002,SM17,Epik Microscopic,4.9,3.16,SM17_pKa1,0.75,0.01,Bas Rustenburg,nb010
+490,0.08000000000000007,SM18,Epik Microscopic,2.23,2.15,SM18_pKa1,1.16,0.02,Bas Rustenburg,nb010
+491,-0.41999999999999993,SM18,Epik Microscopic,9.16,9.58,SM18_pKa2,1.07,0.03,Bas Rustenburg,nb010
+492,-0.21999999999999886,SM18,Epik Microscopic,10.8,11.02,SM18_pKa3,1.53,0.04,Bas Rustenburg,nb010
+493,-0.39000000000000057,SM19,Epik Microscopic,9.17,9.56,SM19_pKa1,1.7,0.02,Bas Rustenburg,nb010
+494,2.3500000000000005,SM20,Epik Microscopic,8.05,5.7,SM20_pKa1,2.26,0.03,Bas Rustenburg,nb010
+495,-0.19999999999999973,SM21,Epik Microscopic,3.9,4.1,SM21_pKa1,1.71,0.01,Bas Rustenburg,nb010
+496,1.1,SM22,Epik Microscopic,3.5,2.4,SM22_pKa1,0.84,0.02,Bas Rustenburg,nb010
+497,-0.6399999999999997,SM22,Epik Microscopic,6.79,7.43,SM22_pKa2,1.75,0.01,Bas Rustenburg,nb010
+498,0.5499999999999998,SM23,Epik Microscopic,6.0,5.45,SM23_pKa1,0.9,0.01,Bas Rustenburg,nb010
+499,-1.96,SM24,Epik Microscopic,0.64,2.6,SM24_pKa1,0.71,0.01,Bas Rustenburg,nb010
+500,-0.16999999999999993,SM01,S+pKa,9.36,9.53,SM01_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+501,-0.4900000000000002,SM02,S+pKa,4.54,5.03,SM02_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+502,1.950000000000001,SM03,S+pKa,8.97,7.02,SM03_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+503,-0.6599999999999993,SM04,S+pKa,5.36,6.02,SM04_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+504,-0.5300000000000002,SM05,S+pKa,4.06,4.59,SM05_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+505,0.38000000000000034,SM06,S+pKa,3.41,3.03,SM06_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+506,-1.0199999999999996,SM06,S+pKa,10.72,11.74,SM06_pKa2,,0.04,Robert Fraczkiewicz,gyuhx
+507,-0.4900000000000002,SM07,S+pKa,5.59,6.08,SM07_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+508,-0.10999999999999943,SM08,S+pKa,4.11,4.22,SM08_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+509,-0.8600000000000003,SM09,S+pKa,4.51,5.37,SM09_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+510,1.2200000000000006,SM10,S+pKa,10.24,9.02,SM10_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+511,0.040000000000000036,SM11,S+pKa,3.93,3.89,SM11_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+512,-1.0300000000000002,SM12,S+pKa,4.25,5.28,SM12_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+513,-0.9199999999999999,SM13,S+pKa,4.85,5.77,SM13_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+514,0.8199999999999998,SM14,S+pKa,3.4,2.58,SM14_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+515,0.04999999999999982,SM14,S+pKa,5.35,5.3,SM14_pKa2,,0.01,Robert Fraczkiewicz,gyuhx
+516,-0.35000000000000053,SM15,S+pKa,4.35,4.7,SM15_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+517,0.17999999999999972,SM15,S+pKa,9.12,8.94,SM15_pKa2,,0.01,Robert Fraczkiewicz,gyuhx
+518,-0.16000000000000014,SM16,S+pKa,5.21,5.37,SM16_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+519,0.1399999999999988,SM16,S+pKa,10.79,10.65,SM16_pKa2,,0.01,Robert Fraczkiewicz,gyuhx
+520,0.6199999999999997,SM17,S+pKa,3.78,3.16,SM17_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+521,-0.1299999999999999,SM18,S+pKa,2.02,2.15,SM18_pKa1,,0.04,Robert Fraczkiewicz,gyuhx
+522,-0.3699999999999992,SM18,S+pKa,9.21,9.58,SM18_pKa2,,0.03,Robert Fraczkiewicz,gyuhx
+523,-0.7899999999999991,SM18,S+pKa,10.23,11.02,SM18_pKa3,,0.02,Robert Fraczkiewicz,gyuhx
+524,0.379999999999999,SM19,S+pKa,9.94,9.56,SM19_pKa1,,0.02,Robert Fraczkiewicz,gyuhx
+525,1.0699999999999994,SM20,S+pKa,6.77,5.7,SM20_pKa1,,0.03,Robert Fraczkiewicz,gyuhx
+526,-1.1799999999999997,SM21,S+pKa,2.92,4.1,SM21_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+527,-0.27,SM22,S+pKa,2.13,2.4,SM22_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+528,0.7400000000000002,SM22,S+pKa,8.17,7.43,SM22_pKa2,,0.02,Robert Fraczkiewicz,gyuhx
+529,-0.08000000000000007,SM23,S+pKa,5.37,5.45,SM23_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+530,0.9499999999999997,SM24,S+pKa,3.55,2.6,SM24_pKa1,,0.01,Robert Fraczkiewicz,gyuhx
+531,-0.41000000000000014,SM01,Epik Scan,9.12,9.53,SM01_pKa1,1.12,0.01,Bas Rustenburg,nb007
+532,-0.9800000000000004,SM02,Epik Scan,4.05,5.03,SM02_pKa1,1.47,0.01,Bas Rustenburg,nb007
+533,0.10000000000000053,SM03,Epik Scan,7.12,7.02,SM03_pKa1,2.22,0.01,Bas Rustenburg,nb007
+534,-0.41999999999999993,SM04,Epik Scan,5.6,6.02,SM04_pKa1,1.13,0.01,Bas Rustenburg,nb007
+535,0.7599999999999998,SM05,Epik Scan,5.35,4.59,SM05_pKa1,2.22,0.01,Bas Rustenburg,nb007
+536,-0.8499999999999996,SM06,Epik Scan,2.18,3.03,SM06_pKa1,1.12,0.04,Bas Rustenburg,nb007
+537,-1.4100000000000001,SM06,Epik Scan,10.33,11.74,SM06_pKa2,2.22,0.01,Bas Rustenburg,nb007
+538,-0.4800000000000004,SM07,Epik Scan,5.6,6.08,SM07_pKa1,1.13,0.01,Bas Rustenburg,nb007
+539,-0.10999999999999943,SM08,Epik Scan,4.11,4.22,SM08_pKa1,2.22,0.01,Bas Rustenburg,nb007
+540,-1.3200000000000003,SM09,Epik Scan,4.05,5.37,SM09_pKa1,1.47,0.01,Bas Rustenburg,nb007
+541,-0.34999999999999964,SM10,Epik Scan,8.67,9.02,SM10_pKa1,2.22,0.01,Bas Rustenburg,nb007
+542,-0.020000000000000018,SM11,Epik Scan,3.87,3.89,SM11_pKa1,2.0,0.01,Bas Rustenburg,nb007
+543,-1.2300000000000004,SM12,Epik Scan,4.05,5.28,SM12_pKa1,1.47,0.01,Bas Rustenburg,nb007
+544,-1.5,SM13,Epik Scan,4.27,5.77,SM13_pKa1,2.22,0.01,Bas Rustenburg,nb007
+545,0.79,SM14,Epik Scan,3.37,2.58,SM14_pKa1,2.22,0.01,Bas Rustenburg,nb007
+546,1.0499999999999998,SM14,Epik Scan,6.35,5.3,SM14_pKa2,2.22,0.01,Bas Rustenburg,nb007
+547,1.12,SM15,Epik Scan,5.82,4.7,SM15_pKa1,1.12,0.01,Bas Rustenburg,nb007
+548,-0.22999999999999865,SM15,Epik Scan,8.71,8.94,SM15_pKa2,1.47,0.01,Bas Rustenburg,nb007
+549,-0.6600000000000001,SM16,Epik Scan,4.71,5.37,SM16_pKa1,0.94,0.01,Bas Rustenburg,nb007
+550,-0.8000000000000007,SM16,Epik Scan,9.85,10.65,SM16_pKa2,2.22,0.01,Bas Rustenburg,nb007
+551,1.7400000000000002,SM17,Epik Scan,4.9,3.16,SM17_pKa1,0.75,0.01,Bas Rustenburg,nb007
+552,0.33000000000000007,SM18,Epik Scan,2.48,2.15,SM18_pKa1,2.22,0.02,Bas Rustenburg,nb007
+553,-0.1999999999999993,SM18,Epik Scan,9.38,9.58,SM18_pKa2,2.22,0.03,Bas Rustenburg,nb007
+554,-0.5199999999999996,SM18,Epik Scan,10.5,11.02,SM18_pKa3,2.22,0.04,Bas Rustenburg,nb007
+555,-0.39000000000000057,SM19,Epik Scan,9.17,9.56,SM19_pKa1,2.22,0.02,Bas Rustenburg,nb007
+556,2.3500000000000005,SM20,Epik Scan,8.05,5.7,SM20_pKa1,2.22,0.03,Bas Rustenburg,nb007
+557,-0.20999999999999952,SM21,Epik Scan,3.89,4.1,SM21_pKa1,2.22,0.01,Bas Rustenburg,nb007
+558,1.1600000000000001,SM22,Epik Scan,3.56,2.4,SM22_pKa1,1.4,0.02,Bas Rustenburg,nb007
+559,-0.6399999999999997,SM22,Epik Scan,6.79,7.43,SM22_pKa2,0.86,0.01,Bas Rustenburg,nb007
+560,0.54,SM23,Epik Scan,5.99,5.45,SM23_pKa1,0.75,0.01,Bas Rustenburg,nb007
+561,1.3900000000000001,SM24,Epik Scan,3.99,2.6,SM24_pKa1,2.22,0.01,Bas Rustenburg,nb007
+562,0.4900000000000002,SM01,Vertical scheme for type III submission,10.02,9.53,SM01_pKa1,,0.01,Qiao Zeng,w4iyd
+563,-1.04,SM02,Vertical scheme for type III submission,3.99,5.03,SM02_pKa1,,0.01,Qiao Zeng,w4iyd
+564,-1.2899999999999991,SM03,Vertical scheme for type III submission,5.73,7.02,SM03_pKa1,,0.01,Qiao Zeng,w4iyd
+565,1.2400000000000002,SM04,Vertical scheme for type III submission,7.26,6.02,SM04_pKa1,,0.01,Qiao Zeng,w4iyd
+566,-0.1200000000000001,SM05,Vertical scheme for type III submission,4.47,4.59,SM05_pKa1,,0.01,Qiao Zeng,w4iyd
+567,-3.13,SM06,Vertical scheme for type III submission,-0.1,3.03,SM06_pKa1,,0.01,Qiao Zeng,w4iyd
+568,2.549999999999999,SM06,Vertical scheme for type III submission,14.29,11.74,SM06_pKa2,,0.04,Qiao Zeng,w4iyd
+569,0.41000000000000014,SM07,Vertical scheme for type III submission,6.49,6.08,SM07_pKa1,,0.01,Qiao Zeng,w4iyd
+570,-1.5199999999999996,SM08,Vertical scheme for type III submission,2.7,4.22,SM08_pKa1,,0.01,Qiao Zeng,w4iyd
+571,-3.23,SM09,Vertical scheme for type III submission,2.14,5.37,SM09_pKa1,,0.01,Qiao Zeng,w4iyd
+572,-3.6899999999999995,SM10,Vertical scheme for type III submission,5.33,9.02,SM10_pKa1,,0.01,Qiao Zeng,w4iyd
+573,-1.5900000000000003,SM11,Vertical scheme for type III submission,2.3,3.89,SM11_pKa1,,0.01,Qiao Zeng,w4iyd
+574,-1.29,SM12,Vertical scheme for type III submission,3.99,5.28,SM12_pKa1,,0.01,Qiao Zeng,w4iyd
+575,-2.6999999999999997,SM13,Vertical scheme for type III submission,3.07,5.77,SM13_pKa1,,0.01,Qiao Zeng,w4iyd
+576,-3.2800000000000002,SM14,Vertical scheme for type III submission,-0.7,2.58,SM14_pKa1,,0.01,Qiao Zeng,w4iyd
+577,-1.12,SM14,Vertical scheme for type III submission,4.18,5.3,SM14_pKa2,,0.01,Qiao Zeng,w4iyd
+578,-1.6400000000000001,SM15,Vertical scheme for type III submission,3.06,4.7,SM15_pKa1,,0.01,Qiao Zeng,w4iyd
+579,-0.6999999999999993,SM15,Vertical scheme for type III submission,8.24,8.94,SM15_pKa2,,0.01,Qiao Zeng,w4iyd
+580,-2.3200000000000003,SM16,Vertical scheme for type III submission,3.05,5.37,SM16_pKa1,,0.01,Qiao Zeng,w4iyd
+581,-0.6400000000000006,SM16,Vertical scheme for type III submission,10.01,10.65,SM16_pKa2,,0.01,Qiao Zeng,w4iyd
+582,-2.5100000000000002,SM17,Vertical scheme for type III submission,0.65,3.16,SM17_pKa1,,0.01,Qiao Zeng,w4iyd
+583,-0.32999999999999985,SM18,Vertical scheme for type III submission,1.82,2.15,SM18_pKa1,,0.04,Qiao Zeng,w4iyd
+584,-1.1899999999999995,SM18,Vertical scheme for type III submission,8.39,9.58,SM18_pKa2,,0.03,Qiao Zeng,w4iyd
+585,-1.0,SM18,Vertical scheme for type III submission,10.02,11.02,SM18_pKa3,,0.02,Qiao Zeng,w4iyd
+586,-0.08999999999999986,SM19,Vertical scheme for type III submission,9.47,9.56,SM19_pKa1,,0.02,Qiao Zeng,w4iyd
+587,-2.7,SM20,Vertical scheme for type III submission,3.0,5.7,SM20_pKa1,,0.03,Qiao Zeng,w4iyd
+588,-2.55,SM21,Vertical scheme for type III submission,1.55,4.1,SM21_pKa1,,0.01,Qiao Zeng,w4iyd
+589,-0.22999999999999998,SM22,Vertical scheme for type III submission,2.17,2.4,SM22_pKa1,,0.01,Qiao Zeng,w4iyd
+590,0.3799999999999999,SM22,Vertical scheme for type III submission,7.81,7.43,SM22_pKa2,,0.02,Qiao Zeng,w4iyd
+591,-3.45,SM23,Vertical scheme for type III submission,2.0,5.45,SM23_pKa1,,0.01,Qiao Zeng,w4iyd
+592,-0.6800000000000002,SM24,Vertical scheme for type III submission,1.92,2.6,SM24_pKa1,,0.01,Qiao Zeng,w4iyd
+593,0.8500000000000014,SM01,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",10.38,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,nb006
+594,-1.7300000000000004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",3.3,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,nb006
+595,4.0600000000000005,SM03,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",11.08,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,nb006
+596,-1.8399999999999999,SM04,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",4.18,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,nb006
+597,2.0300000000000002,SM05,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",6.62,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,nb006
+598,-4.34,SM06,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",-1.31,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,nb006
+599,3.4499999999999993,SM06,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",15.19,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,nb006
+600,-4.42,SM07,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",1.66,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,nb006
+601,0.79,SM08,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",5.01,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,nb006
+602,-1.0099999999999998,SM09,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",4.36,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,nb006
+603,3.8100000000000005,SM10,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",12.83,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,nb006
+604,-1.4900000000000002,SM11,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",2.4,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,nb006
+605,-2.2500000000000004,SM12,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",3.03,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,nb006
+606,-0.0699999999999994,SM13,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",5.7,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,nb006
+607,-4.35,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",-1.77,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,nb006
+608,-1.92,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",3.38,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,nb006
+609,-2.62,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",2.08,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,nb006
+610,2.790000000000001,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",11.73,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,nb006
+611,-0.9699999999999998,SM16,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",4.4,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,nb006
+612,3.49,SM16,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",14.14,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,nb006
+613,-0.020000000000000018,SM17,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",3.14,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,nb006
+614,-1.97,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",0.18,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,nb006
+615,1.9499999999999993,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",11.53,9.58,SM18_pKa2,1.77,0.04,Stefan Kast,nb006
+616,0.7300000000000004,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",11.75,11.02,SM18_pKa3,1.77,0.03,Stefan Kast,nb006
+617,4.229999999999999,SM19,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",13.79,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,nb006
+618,2.38,SM20,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",8.08,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,nb006
+619,-6.43,SM21,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",-2.33,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,nb006
+620,-6.17,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",-3.77,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,nb006
+621,2.0199999999999996,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",9.45,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,nb006
+622,-2.3800000000000003,SM23,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",3.07,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,nb006
+623,-1.73,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",0.87,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,nb006
+624,-1.1399999999999988,SM01,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",8.39,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,f0gew
+625,1.04,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.07,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,f0gew
+626,4.6,SM03,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",11.62,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,f0gew
+627,0.9200000000000008,SM04,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.94,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,f0gew
+628,1.5499999999999998,SM05,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.14,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,f0gew
+629,-0.71,SM06,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",2.32,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,f0gew
+630,2.8200000000000003,SM06,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",14.56,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,f0gew
+631,-1.1900000000000004,SM07,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.89,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,f0gew
+632,-0.31999999999999984,SM08,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.9,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,f0gew
+633,1.2199999999999998,SM09,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.59,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,f0gew
+634,5.02,SM10,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",14.04,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,f0gew
+635,0.7399999999999998,SM11,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.63,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,f0gew
+636,0.5199999999999996,SM12,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",5.8,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,f0gew
+637,1.6700000000000008,SM13,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",7.44,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,f0gew
+638,-2.17,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",0.41,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,f0gew
+639,0.4400000000000004,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",5.74,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,f0gew
+640,0.4500000000000002,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",5.15,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,f0gew
+641,0.13000000000000078,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",9.07,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,f0gew
+642,1.0899999999999999,SM16,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.46,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,f0gew
+643,1.7300000000000004,SM16,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",12.38,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,f0gew
+644,2.3099999999999996,SM17,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",5.47,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,f0gew
+645,1.23,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.38,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,f0gew
+646,0.3699999999999992,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",9.95,9.58,SM18_pKa2,1.77,0.04,Stefan Kast,f0gew
+647,0.13000000000000078,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",11.15,11.02,SM18_pKa3,1.77,0.03,Stefan Kast,f0gew
+648,2.389999999999999,SM19,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",11.95,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,f0gew
+649,1.63,SM20,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",7.33,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,f0gew
+650,-0.5899999999999999,SM21,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.51,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,f0gew
+651,-6.98,SM22,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",-4.58,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,f0gew
+652,2.3000000000000007,SM22,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",9.73,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,f0gew
+653,0.20000000000000018,SM23,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",5.65,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,f0gew
+654,1.31,SM24,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.91,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,f0gew
+655,-0.2599999999999998,SM01,OE Gaussian Process,9.27,9.53,SM01_pKa1,0.17,0.01,Caitlin Bannan,hytjn
+656,0.16000000000000014,SM02,OE Gaussian Process,5.19,5.03,SM02_pKa1,2.47,0.01,Caitlin Bannan,hytjn
+657,-2.5299999999999994,SM03,OE Gaussian Process,4.49,7.02,SM03_pKa1,3.47,0.01,Caitlin Bannan,hytjn
+658,0.7100000000000009,SM04,OE Gaussian Process,6.73,6.02,SM04_pKa1,1.39,0.01,Caitlin Bannan,hytjn
+659,3.0300000000000002,SM05,OE Gaussian Process,7.62,4.59,SM05_pKa1,1.04,0.01,Caitlin Bannan,hytjn
+660,-1.2599999999999998,SM06,OE Gaussian Process,1.77,3.03,SM06_pKa1,2.43,0.04,Caitlin Bannan,hytjn
+661,-7.800000000000001,SM06,OE Gaussian Process,3.94,11.74,SM06_pKa2,0.54,0.01,Caitlin Bannan,hytjn
+662,-0.9100000000000001,SM07,OE Gaussian Process,5.17,6.08,SM07_pKa1,2.47,0.01,Caitlin Bannan,hytjn
+663,0.39000000000000057,SM08,OE Gaussian Process,4.61,4.22,SM08_pKa1,0.23,0.01,Caitlin Bannan,hytjn
+664,-0.23000000000000043,SM09,OE Gaussian Process,5.14,5.37,SM09_pKa1,2.47,0.01,Caitlin Bannan,hytjn
+665,-2.579999999999999,SM10,OE Gaussian Process,6.44,9.02,SM10_pKa1,0.98,0.01,Caitlin Bannan,hytjn
+666,1.1800000000000002,SM11,OE Gaussian Process,5.07,3.89,SM11_pKa1,3.59,0.01,Caitlin Bannan,hytjn
+667,-0.11000000000000032,SM12,OE Gaussian Process,5.17,5.28,SM12_pKa1,2.47,0.01,Caitlin Bannan,hytjn
+668,-0.7999999999999998,SM13,OE Gaussian Process,4.97,5.77,SM13_pKa1,2.49,0.01,Caitlin Bannan,hytjn
+669,-2.46,SM14,OE Gaussian Process,0.12,2.58,SM14_pKa1,3.42,0.01,Caitlin Bannan,hytjn
+670,1.1900000000000004,SM14,OE Gaussian Process,6.49,5.3,SM14_pKa2,0.58,0.01,Caitlin Bannan,hytjn
+671,0.7199999999999998,SM15,OE Gaussian Process,5.42,4.7,SM15_pKa1,0.45,0.01,Caitlin Bannan,hytjn
+672,-0.22999999999999865,SM15,OE Gaussian Process,8.71,8.94,SM15_pKa2,0.2,0.01,Caitlin Bannan,hytjn
+673,0.54,SM16,OE Gaussian Process,5.91,5.37,SM16_pKa1,0.34,0.01,Caitlin Bannan,hytjn
+674,0.31000000000000005,SM17,OE Gaussian Process,3.47,3.16,SM17_pKa1,4.2,0.01,Caitlin Bannan,hytjn
+675,-2.41,SM18,OE Gaussian Process,-0.26,2.15,SM18_pKa1,2.7,0.02,Caitlin Bannan,hytjn
+676,-4.58,SM18,OE Gaussian Process,5.0,9.58,SM18_pKa2,4.39,0.03,Caitlin Bannan,hytjn
+677,-0.03999999999999915,SM18,OE Gaussian Process,10.98,11.02,SM18_pKa3,1.59,0.04,Caitlin Bannan,hytjn
+678,-3.5200000000000005,SM19,OE Gaussian Process,6.04,9.56,SM19_pKa1,0.88,0.02,Caitlin Bannan,hytjn
+679,1.6099999999999994,SM20,OE Gaussian Process,7.31,5.7,SM20_pKa1,1.84,0.03,Caitlin Bannan,hytjn
+680,-0.02999999999999936,SM21,OE Gaussian Process,4.07,4.1,SM21_pKa1,0.02,0.01,Caitlin Bannan,hytjn
+681,0.33000000000000007,SM22,OE Gaussian Process,2.73,2.4,SM22_pKa1,0.34,0.02,Caitlin Bannan,hytjn
+682,-0.8300000000000001,SM22,OE Gaussian Process,6.6,7.43,SM22_pKa2,1.08,0.01,Caitlin Bannan,hytjn
+683,0.03000000000000025,SM23,OE Gaussian Process,5.48,5.45,SM23_pKa1,2.83,0.01,Caitlin Bannan,hytjn
+684,-0.8900000000000001,SM24,OE Gaussian Process,1.71,2.6,SM24_pKa1,3.14,0.01,Caitlin Bannan,hytjn
+685,0.6100000000000012,SM01,Full quantum chemical calculation of free energies and fit to experimental pKa,10.14,9.53,SM01_pKa1,0.35,0.01,Philipp Pracht,xvxzd
+686,-0.10000000000000053,SM02,Full quantum chemical calculation of free energies and fit to experimental pKa,4.93,5.03,SM02_pKa1,0.27,0.01,Philipp Pracht,xvxzd
+687,0.5,SM03,Full quantum chemical calculation of free energies and fit to experimental pKa,7.52,7.02,SM03_pKa1,0.31,0.01,Philipp Pracht,xvxzd
+688,-0.8499999999999996,SM04,Full quantum chemical calculation of free energies and fit to experimental pKa,5.17,6.02,SM04_pKa1,0.28,0.01,Philipp Pracht,xvxzd
+689,-0.22999999999999954,SM05,Full quantum chemical calculation of free energies and fit to experimental pKa,4.36,4.59,SM05_pKa1,0.27,0.01,Philipp Pracht,xvxzd
+690,0.38000000000000034,SM06,Full quantum chemical calculation of free energies and fit to experimental pKa,3.41,3.03,SM06_pKa1,0.25,0.04,Philipp Pracht,xvxzd
+691,-0.4900000000000002,SM06,Full quantum chemical calculation of free energies and fit to experimental pKa,11.25,11.74,SM06_pKa2,0.37,0.01,Philipp Pracht,xvxzd
+692,-0.6500000000000004,SM07,Full quantum chemical calculation of free energies and fit to experimental pKa,5.43,6.08,SM07_pKa1,0.28,0.01,Philipp Pracht,xvxzd
+693,1.5,SM08,Full quantum chemical calculation of free energies and fit to experimental pKa,5.72,4.22,SM08_pKa1,0.29,0.01,Philipp Pracht,xvxzd
+694,-0.2999999999999998,SM09,Full quantum chemical calculation of free energies and fit to experimental pKa,5.07,5.37,SM09_pKa1,0.28,0.01,Philipp Pracht,xvxzd
+695,-0.75,SM10,Full quantum chemical calculation of free energies and fit to experimental pKa,8.27,9.02,SM10_pKa1,0.32,0.01,Philipp Pracht,xvxzd
+696,0.06000000000000005,SM11,Full quantum chemical calculation of free energies and fit to experimental pKa,3.95,3.89,SM11_pKa1,0.26,0.01,Philipp Pracht,xvxzd
+697,-0.2400000000000002,SM12,Full quantum chemical calculation of free energies and fit to experimental pKa,5.04,5.28,SM12_pKa1,0.28,0.01,Philipp Pracht,xvxzd
+698,-0.6299999999999999,SM13,Full quantum chemical calculation of free energies and fit to experimental pKa,5.14,5.77,SM13_pKa1,0.28,0.01,Philipp Pracht,xvxzd
+699,-0.6799999999999997,SM14,Full quantum chemical calculation of free energies and fit to experimental pKa,4.62,5.3,SM14_pKa2,0.27,0.01,Philipp Pracht,xvxzd
+700,-0.5200000000000005,SM15,Full quantum chemical calculation of free energies and fit to experimental pKa,4.18,4.7,SM15_pKa1,0.26,0.01,Philipp Pracht,xvxzd
+701,0.41000000000000014,SM15,Full quantum chemical calculation of free energies and fit to experimental pKa,9.35,8.94,SM15_pKa2,0.34,0.01,Philipp Pracht,xvxzd
+702,-0.3799999999999999,SM16,Full quantum chemical calculation of free energies and fit to experimental pKa,4.99,5.37,SM16_pKa1,0.28,0.01,Philipp Pracht,xvxzd
+703,-1.0600000000000005,SM16,Full quantum chemical calculation of free energies and fit to experimental pKa,9.59,10.65,SM16_pKa2,0.34,0.01,Philipp Pracht,xvxzd
+704,-1.0900000000000003,SM17,Full quantum chemical calculation of free energies and fit to experimental pKa,2.07,3.16,SM17_pKa1,0.23,0.01,Philipp Pracht,xvxzd
+705,-0.06999999999999984,SM18,Full quantum chemical calculation of free energies and fit to experimental pKa,2.08,2.15,SM18_pKa1,0.23,0.02,Philipp Pracht,xvxzd
+706,-1.0600000000000005,SM18,Full quantum chemical calculation of free energies and fit to experimental pKa,8.52,9.58,SM18_pKa2,0.33,0.03,Philipp Pracht,xvxzd
+707,-1.0,SM19,Full quantum chemical calculation of free energies and fit to experimental pKa,8.56,9.56,SM19_pKa1,0.33,0.02,Philipp Pracht,xvxzd
+708,0.8199999999999994,SM20,Full quantum chemical calculation of free energies and fit to experimental pKa,6.52,5.7,SM20_pKa1,0.3,0.03,Philipp Pracht,xvxzd
+709,-0.23999999999999977,SM21,Full quantum chemical calculation of free energies and fit to experimental pKa,3.86,4.1,SM21_pKa1,0.26,0.01,Philipp Pracht,xvxzd
+710,0.69,SM22,Full quantum chemical calculation of free energies and fit to experimental pKa,3.09,2.4,SM22_pKa1,0.25,0.02,Philipp Pracht,xvxzd
+711,-0.5299999999999994,SM22,Full quantum chemical calculation of free energies and fit to experimental pKa,6.9,7.43,SM22_pKa2,0.3,0.01,Philipp Pracht,xvxzd
+712,-0.9300000000000006,SM23,Full quantum chemical calculation of free energies and fit to experimental pKa,4.52,5.45,SM23_pKa1,0.27,0.01,Philipp Pracht,xvxzd
+713,0.009999999999999787,SM24,Full quantum chemical calculation of free energies and fit to experimental pKa,2.61,2.6,SM24_pKa1,0.24,0.01,Philipp Pracht,xvxzd
+714,0.15000000000000036,SM01,Jaguar,9.68,9.53,SM01_pKa1,0.77,0.01,Bas Rustenburg,nb013
+715,-0.79,SM02,Jaguar,4.24,5.03,SM02_pKa1,0.7,0.01,Bas Rustenburg,nb013
+716,0.1200000000000001,SM03,Jaguar,7.14,7.02,SM03_pKa1,1.16,0.01,Bas Rustenburg,nb013
+717,-0.8099999999999996,SM04,Jaguar,5.21,6.02,SM04_pKa1,0.68,0.01,Bas Rustenburg,nb013
+718,0.40000000000000036,SM05,Jaguar,4.99,4.59,SM05_pKa1,0.47,0.01,Bas Rustenburg,nb013
+719,1.65,SM06,Jaguar,4.68,3.03,SM06_pKa1,0.47,0.04,Bas Rustenburg,nb013
+720,3.3900000000000006,SM06,Jaguar,15.13,11.74,SM06_pKa2,0.46,0.01,Bas Rustenburg,nb013
+721,-0.6500000000000004,SM07,Jaguar,5.43,6.08,SM07_pKa1,0.68,0.01,Bas Rustenburg,nb013
+722,2.7700000000000005,SM08,Jaguar,6.99,4.22,SM08_pKa1,0.72,0.01,Bas Rustenburg,nb013
+723,-0.6299999999999999,SM09,Jaguar,4.74,5.37,SM09_pKa1,0.66,0.01,Bas Rustenburg,nb013
+724,0.16999999999999993,SM10,Jaguar,9.19,9.02,SM10_pKa1,0.91,0.01,Bas Rustenburg,nb013
+725,-0.8200000000000003,SM11,Jaguar,3.07,3.89,SM11_pKa1,0.6,0.01,Bas Rustenburg,nb013
+726,-1.7700000000000005,SM12,Jaguar,3.51,5.28,SM12_pKa1,0.71,0.01,Bas Rustenburg,nb013
+727,-0.2999999999999998,SM13,Jaguar,5.47,5.77,SM13_pKa1,0.63,0.01,Bas Rustenburg,nb013
+728,0.1499999999999999,SM14,Jaguar,2.73,2.58,SM14_pKa1,1.78,0.01,Bas Rustenburg,nb013
+729,0.16000000000000014,SM14,Jaguar,5.46,5.3,SM14_pKa2,0.48,0.01,Bas Rustenburg,nb013
+730,0.14999999999999947,SM15,Jaguar,4.85,4.7,SM15_pKa1,0.77,0.01,Bas Rustenburg,nb013
+731,-0.1999999999999993,SM15,Jaguar,8.74,8.94,SM15_pKa2,0.67,0.01,Bas Rustenburg,nb013
+732,-0.54,SM16,Jaguar,4.83,5.37,SM16_pKa1,1.05,0.01,Bas Rustenburg,nb013
+733,0.5600000000000005,SM16,Jaguar,11.21,10.65,SM16_pKa2,0.58,0.01,Bas Rustenburg,nb013
+734,0.08000000000000007,SM17,Jaguar,3.24,3.16,SM17_pKa1,1.91,0.01,Bas Rustenburg,nb013
+735,-0.8599999999999999,SM18,Jaguar,1.29,2.15,SM18_pKa1,0.85,0.02,Bas Rustenburg,nb013
+736,-0.6799999999999997,SM18,Jaguar,8.9,9.58,SM18_pKa2,1.12,0.03,Bas Rustenburg,nb013
+737,1.4100000000000001,SM18,Jaguar,12.43,11.02,SM18_pKa3,0.82,0.04,Bas Rustenburg,nb013
+738,-0.8300000000000001,SM19,Jaguar,8.73,9.56,SM19_pKa1,1.3,0.02,Bas Rustenburg,nb013
+739,1.6099999999999994,SM20,Jaguar,7.31,5.7,SM20_pKa1,0.93,0.03,Bas Rustenburg,nb013
+740,-0.5499999999999998,SM21,Jaguar,3.55,4.1,SM21_pKa1,1.43,0.01,Bas Rustenburg,nb013
+741,-0.72,SM22,Jaguar,1.68,2.4,SM22_pKa1,0.49,0.02,Bas Rustenburg,nb013
+742,0.22000000000000064,SM22,Jaguar,7.65,7.43,SM22_pKa2,1.62,0.01,Bas Rustenburg,nb013
+743,0.9199999999999999,SM23,Jaguar,6.37,5.45,SM23_pKa1,0.28,0.01,Bas Rustenburg,nb013
+744,0.8399999999999999,SM24,Jaguar,3.44,2.6,SM24_pKa1,1.82,0.01,Bas Rustenburg,nb013
+745,0.1800000000000015,SM01,COSMOtherm_FINE17,9.71,9.53,SM01_pKa1,0.65,0.01,Chris Loschen,0hxtm
+746,1.1799999999999997,SM02,COSMOtherm_FINE17,6.21,5.03,SM02_pKa1,0.65,0.01,Chris Loschen,0hxtm
+747,-6.39,SM03,COSMOtherm_FINE17,0.63,7.02,SM03_pKa1,0.65,0.01,Chris Loschen,0hxtm
+748,-0.6099999999999994,SM04,COSMOtherm_FINE17,5.41,6.02,SM04_pKa1,0.65,0.01,Chris Loschen,0hxtm
+749,-0.05999999999999961,SM05,COSMOtherm_FINE17,4.53,4.59,SM05_pKa1,0.65,0.01,Chris Loschen,0hxtm
+750,-1.65,SM06,COSMOtherm_FINE17,1.38,3.03,SM06_pKa1,0.65,0.01,Chris Loschen,0hxtm
+751,-7.34,SM06,COSMOtherm_FINE17,4.4,11.74,SM06_pKa2,0.65,0.04,Chris Loschen,0hxtm
+752,-0.20000000000000018,SM07,COSMOtherm_FINE17,5.88,6.08,SM07_pKa1,0.65,0.01,Chris Loschen,0hxtm
+753,0.9800000000000004,SM08,COSMOtherm_FINE17,5.2,4.22,SM08_pKa1,0.65,0.01,Chris Loschen,0hxtm
+754,1.0999999999999996,SM09,COSMOtherm_FINE17,6.47,5.37,SM09_pKa1,0.65,0.01,Chris Loschen,0hxtm
+755,-8.09,SM10,COSMOtherm_FINE17,0.93,9.02,SM10_pKa1,0.65,0.01,Chris Loschen,0hxtm
+756,0.08000000000000007,SM11,COSMOtherm_FINE17,3.97,3.89,SM11_pKa1,0.65,0.01,Chris Loschen,0hxtm
+757,0.8399999999999999,SM12,COSMOtherm_FINE17,6.12,5.28,SM12_pKa1,0.65,0.01,Chris Loschen,0hxtm
+758,-1.3499999999999996,SM13,COSMOtherm_FINE17,4.42,5.77,SM13_pKa1,0.65,0.01,Chris Loschen,0hxtm
+759,0.3200000000000003,SM14,COSMOtherm_FINE17,5.62,5.3,SM14_pKa2,0.65,0.01,Chris Loschen,0hxtm
+760,-0.1800000000000006,SM15,COSMOtherm_FINE17,4.52,4.7,SM15_pKa1,0.65,0.01,Chris Loschen,0hxtm
+761,0.28000000000000114,SM15,COSMOtherm_FINE17,9.22,8.94,SM15_pKa2,0.65,0.01,Chris Loschen,0hxtm
+762,0.75,SM16,COSMOtherm_FINE17,6.12,5.37,SM16_pKa1,0.65,0.01,Chris Loschen,0hxtm
+763,0.8399999999999999,SM17,COSMOtherm_FINE17,4.0,3.16,SM17_pKa1,0.65,0.01,Chris Loschen,0hxtm
+764,-1.65,SM18,COSMOtherm_FINE17,0.5,2.15,SM18_pKa1,0.65,0.03,Chris Loschen,0hxtm
+765,-7.74,SM18,COSMOtherm_FINE17,1.84,9.58,SM18_pKa2,0.65,0.02,Chris Loschen,0hxtm
+766,-7.61,SM19,COSMOtherm_FINE17,1.95,9.56,SM19_pKa1,0.65,0.02,Chris Loschen,0hxtm
+767,0.7999999999999998,SM20,COSMOtherm_FINE17,6.5,5.7,SM20_pKa1,0.65,0.03,Chris Loschen,0hxtm
+768,-0.9799999999999995,SM21,COSMOtherm_FINE17,3.12,4.1,SM21_pKa1,0.65,0.01,Chris Loschen,0hxtm
+769,-2.26,SM22,COSMOtherm_FINE17,0.14,2.4,SM22_pKa1,0.65,0.01,Chris Loschen,0hxtm
+770,0.15000000000000036,SM22,COSMOtherm_FINE17,7.58,7.43,SM22_pKa2,0.65,0.02,Chris Loschen,0hxtm
+771,0.05999999999999961,SM23,COSMOtherm_FINE17,5.51,5.45,SM23_pKa1,0.65,0.01,Chris Loschen,0hxtm
+772,-0.020000000000000018,SM24,COSMOtherm_FINE17,2.58,2.6,SM24_pKa1,0.65,0.01,Chris Loschen,0hxtm
+773,1.33,SM01,Adiabatic scheme for type III submission,10.86,9.53,SM01_pKa1,,0.01,Qiao Zeng,5byn6
+774,-1.9200000000000004,SM02,Adiabatic scheme for type III submission,3.11,5.03,SM02_pKa1,,0.01,Qiao Zeng,5byn6
+775,-0.7299999999999995,SM03,Adiabatic scheme for type III submission,6.29,7.02,SM03_pKa1,,0.01,Qiao Zeng,5byn6
+776,-0.17999999999999972,SM04,Adiabatic scheme for type III submission,5.84,6.02,SM04_pKa1,,0.01,Qiao Zeng,5byn6
+777,-3.34,SM05,Adiabatic scheme for type III submission,1.25,4.59,SM05_pKa1,,0.01,Qiao Zeng,5byn6
+778,-3.1799999999999997,SM06,Adiabatic scheme for type III submission,-0.15,3.03,SM06_pKa1,,0.01,Qiao Zeng,5byn6
+779,1.8100000000000005,SM06,Adiabatic scheme for type III submission,13.55,11.74,SM06_pKa2,,0.04,Qiao Zeng,5byn6
+780,-0.9000000000000004,SM07,Adiabatic scheme for type III submission,5.18,6.08,SM07_pKa1,,0.01,Qiao Zeng,5byn6
+781,-2.0599999999999996,SM08,Adiabatic scheme for type III submission,2.16,4.22,SM08_pKa1,,0.01,Qiao Zeng,5byn6
+782,-1.75,SM09,Adiabatic scheme for type III submission,3.62,5.37,SM09_pKa1,,0.01,Qiao Zeng,5byn6
+783,-2.1899999999999995,SM10,Adiabatic scheme for type III submission,6.83,9.02,SM10_pKa1,,0.01,Qiao Zeng,5byn6
+784,-2.16,SM11,Adiabatic scheme for type III submission,1.73,3.89,SM11_pKa1,,0.01,Qiao Zeng,5byn6
+785,-1.9600000000000004,SM12,Adiabatic scheme for type III submission,3.32,5.28,SM12_pKa1,,0.01,Qiao Zeng,5byn6
+786,-0.75,SM13,Adiabatic scheme for type III submission,5.02,5.77,SM13_pKa1,,0.01,Qiao Zeng,5byn6
+787,-4.21,SM14,Adiabatic scheme for type III submission,-1.63,2.58,SM14_pKa1,,0.01,Qiao Zeng,5byn6
+788,-1.29,SM14,Adiabatic scheme for type III submission,4.01,5.3,SM14_pKa2,,0.01,Qiao Zeng,5byn6
+789,-2.08,SM15,Adiabatic scheme for type III submission,2.62,4.7,SM15_pKa1,,0.01,Qiao Zeng,5byn6
+790,0.620000000000001,SM15,Adiabatic scheme for type III submission,9.56,8.94,SM15_pKa2,,0.01,Qiao Zeng,5byn6
+791,-2.0500000000000003,SM16,Adiabatic scheme for type III submission,3.32,5.37,SM16_pKa1,,0.01,Qiao Zeng,5byn6
+792,-0.11000000000000121,SM16,Adiabatic scheme for type III submission,10.54,10.65,SM16_pKa2,,0.01,Qiao Zeng,5byn6
+793,-2.16,SM17,Adiabatic scheme for type III submission,1.0,3.16,SM17_pKa1,,0.01,Qiao Zeng,5byn6
+794,-1.0399999999999998,SM18,Adiabatic scheme for type III submission,1.11,2.15,SM18_pKa1,,0.03,Qiao Zeng,5byn6
+795,-1.1999999999999993,SM18,Adiabatic scheme for type III submission,8.38,9.58,SM18_pKa2,,0.04,Qiao Zeng,5byn6
+796,-1.4299999999999997,SM18,Adiabatic scheme for type III submission,9.59,11.02,SM18_pKa3,,0.02,Qiao Zeng,5byn6
+797,-0.6400000000000006,SM19,Adiabatic scheme for type III submission,8.92,9.56,SM19_pKa1,,0.02,Qiao Zeng,5byn6
+798,-2.8800000000000003,SM20,Adiabatic scheme for type III submission,2.82,5.7,SM20_pKa1,,0.03,Qiao Zeng,5byn6
+799,-3.2699999999999996,SM21,Adiabatic scheme for type III submission,0.83,4.1,SM21_pKa1,,0.01,Qiao Zeng,5byn6
+800,-0.5299999999999998,SM22,Adiabatic scheme for type III submission,1.87,2.4,SM22_pKa1,,0.01,Qiao Zeng,5byn6
+801,0.4300000000000006,SM22,Adiabatic scheme for type III submission,7.86,7.43,SM22_pKa2,,0.02,Qiao Zeng,5byn6
+802,-0.8700000000000001,SM23,Adiabatic scheme for type III submission,4.58,5.45,SM23_pKa1,,0.01,Qiao Zeng,5byn6
+803,-0.1499999999999999,SM24,Adiabatic scheme for type III submission,2.45,2.6,SM24_pKa1,,0.01,Qiao Zeng,5byn6
+804,-0.41999999999999993,SM01,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",9.11,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,nb003
+805,-1.1500000000000004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",3.88,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,nb003
+806,2.610000000000001,SM03,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",9.63,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,nb003
+807,-1.4899999999999993,SM04,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",4.53,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,nb003
+808,1.75,SM05,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",6.34,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,nb003
+809,-2.5599999999999996,SM06,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",0.47,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,nb003
+810,0.9299999999999997,SM06,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",12.67,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,nb003
+811,-3.41,SM07,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",2.67,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,nb003
+812,0.9300000000000006,SM08,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",5.15,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,nb003
+813,-0.71,SM09,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",4.66,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,nb003
+814,1.9100000000000001,SM10,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",10.93,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,nb003
+815,-0.6699999999999999,SM11,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",3.22,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,nb003
+816,-1.6,SM12,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",3.68,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,nb003
+817,-0.10999999999999943,SM13,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",5.66,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,nb003
+818,-2.44,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",0.14,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,nb003
+819,-1.3599999999999999,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",3.94,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,nb003
+820,-1.7200000000000002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",2.98,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,nb003
+821,1.17,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",10.11,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,nb003
+822,-0.6699999999999999,SM16,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",4.7,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,nb003
+823,1.2400000000000002,SM16,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",11.89,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,nb003
+824,0.5999999999999996,SM17,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",3.76,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,nb003
+825,-0.5699999999999998,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",1.58,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,nb003
+826,0.39000000000000057,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",9.97,9.58,SM18_pKa2,1.77,0.04,Stefan Kast,nb003
+827,-0.8899999999999988,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",10.13,11.02,SM18_pKa3,1.77,0.03,Stefan Kast,nb003
+828,2.08,SM19,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",11.64,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,nb003
+829,1.71,SM20,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",7.41,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,nb003
+830,-4.38,SM21,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-0.28,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,nb003
+831,-6.17,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-3.77,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,nb003
+832,1.0,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",8.43,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,nb003
+833,-1.7400000000000002,SM23,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",3.71,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,nb003
+834,-0.5100000000000002,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",2.09,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,nb003
+835,0.9900000000000002,SM01,Analog_search,10.52,9.53,SM01_pKa1,0.5,0.01,Geoff Skillman,pwn3m
+836,0.5699999999999994,SM02,Analog_search,5.6,5.03,SM02_pKa1,0.6,0.01,Geoff Skillman,pwn3m
+837,-3.9499999999999997,SM03,Analog_search,3.07,7.02,SM03_pKa1,1.0,0.01,Geoff Skillman,pwn3m
+838,-0.21999999999999975,SM04,Analog_search,5.8,6.02,SM04_pKa1,0.5,0.01,Geoff Skillman,pwn3m
+839,1.4100000000000001,SM05,Analog_search,6.0,4.59,SM05_pKa1,0.5,0.01,Geoff Skillman,pwn3m
+840,-0.1299999999999999,SM06,Analog_search,2.9,3.03,SM06_pKa1,0.5,0.04,Geoff Skillman,pwn3m
+841,-6.99,SM06,Analog_search,4.75,11.74,SM06_pKa2,1.0,0.01,Geoff Skillman,pwn3m
+842,-0.28000000000000025,SM07,Analog_search,5.8,6.08,SM07_pKa1,0.5,0.01,Geoff Skillman,pwn3m
+843,0.08000000000000007,SM08,Analog_search,4.3,4.22,SM08_pKa1,0.6,0.01,Geoff Skillman,pwn3m
+844,0.47999999999999954,SM09,Analog_search,5.85,5.37,SM09_pKa1,0.6,0.01,Geoff Skillman,pwn3m
+845,-5.72,SM10,Analog_search,3.3,9.02,SM10_pKa1,1.25,0.01,Geoff Skillman,pwn3m
+846,-0.040000000000000036,SM11,Analog_search,3.85,3.89,SM11_pKa1,0.3,0.01,Geoff Skillman,pwn3m
+847,0.41999999999999993,SM12,Analog_search,5.7,5.28,SM12_pKa1,0.5,0.01,Geoff Skillman,pwn3m
+848,0.03000000000000025,SM13,Analog_search,5.8,5.77,SM13_pKa1,0.6,0.01,Geoff Skillman,pwn3m
+849,0.2799999999999998,SM14,Analog_search,2.86,2.58,SM14_pKa1,0.6,0.01,Geoff Skillman,pwn3m
+850,1.0099999999999998,SM14,Analog_search,6.31,5.3,SM14_pKa2,0.6,0.01,Geoff Skillman,pwn3m
+851,0.7999999999999998,SM15,Analog_search,5.5,4.7,SM15_pKa1,0.6,0.01,Geoff Skillman,pwn3m
+852,0.8399999999999999,SM15,Analog_search,9.78,8.94,SM15_pKa2,0.8,0.01,Geoff Skillman,pwn3m
+853,-0.3700000000000001,SM16,Analog_search,5.0,5.37,SM16_pKa1,0.9,0.01,Geoff Skillman,pwn3m
+854,-0.6800000000000002,SM17,Analog_search,2.48,3.16,SM17_pKa1,1.0,0.01,Geoff Skillman,pwn3m
+855,-0.1499999999999999,SM18,Analog_search,2.0,2.15,SM18_pKa1,0.8,0.02,Geoff Skillman,pwn3m
+856,-6.23,SM18,Analog_search,3.35,9.58,SM18_pKa2,1.25,0.03,Geoff Skillman,pwn3m
+857,-1.1500000000000004,SM18,Analog_search,9.87,11.02,SM18_pKa3,0.5,0.04,Geoff Skillman,pwn3m
+858,-6.3100000000000005,SM19,Analog_search,3.25,9.56,SM19_pKa1,1.25,0.02,Geoff Skillman,pwn3m
+859,0.6499999999999995,SM20,Analog_search,6.35,5.7,SM20_pKa1,0.7,0.03,Geoff Skillman,pwn3m
+860,0.8000000000000007,SM21,Analog_search,4.9,4.1,SM21_pKa1,1.2,0.01,Geoff Skillman,pwn3m
+861,-0.35000000000000053,SM23,Analog_search,5.1,5.45,SM23_pKa1,1.2,0.01,Geoff Skillman,pwn3m
+862,2.15,SM24,Analog_search,4.75,2.6,SM24_pKa1,0.8,0.01,Geoff Skillman,pwn3m
+863,-0.2599999999999998,SM01,OE Gaussian Process Resampled,9.27,9.53,SM01_pKa1,0.17,0.01,Caitlin Bannan,q3pfp
+864,0.9100000000000001,SM02,OE Gaussian Process Resampled,5.94,5.03,SM02_pKa1,1.21,0.01,Caitlin Bannan,q3pfp
+865,-1.2299999999999995,SM03,OE Gaussian Process Resampled,5.79,7.02,SM03_pKa1,3.03,0.01,Caitlin Bannan,q3pfp
+866,1.0,SM04,OE Gaussian Process Resampled,7.02,6.02,SM04_pKa1,1.31,0.01,Caitlin Bannan,q3pfp
+867,3.0300000000000002,SM05,OE Gaussian Process Resampled,7.62,4.59,SM05_pKa1,1.04,0.01,Caitlin Bannan,q3pfp
+868,-2.05,SM06,OE Gaussian Process Resampled,0.98,3.03,SM06_pKa1,1.9,0.04,Caitlin Bannan,q3pfp
+869,-7.76,SM06,OE Gaussian Process Resampled,3.98,11.74,SM06_pKa2,0.54,0.01,Caitlin Bannan,q3pfp
+870,-1.2999999999999998,SM07,OE Gaussian Process Resampled,4.78,6.08,SM07_pKa1,1.75,0.01,Caitlin Bannan,q3pfp
+871,0.3799999999999999,SM08,OE Gaussian Process Resampled,4.6,4.22,SM08_pKa1,0.23,0.01,Caitlin Bannan,q3pfp
+872,-1.1600000000000001,SM09,OE Gaussian Process Resampled,4.21,5.37,SM09_pKa1,1.61,0.01,Caitlin Bannan,q3pfp
+873,-2.5699999999999994,SM10,OE Gaussian Process Resampled,6.45,9.02,SM10_pKa1,0.98,0.01,Caitlin Bannan,q3pfp
+874,0.31000000000000005,SM11,OE Gaussian Process Resampled,4.2,3.89,SM11_pKa1,0.84,0.01,Caitlin Bannan,q3pfp
+875,1.0699999999999994,SM12,OE Gaussian Process Resampled,6.35,5.28,SM12_pKa1,1.22,0.01,Caitlin Bannan,q3pfp
+876,1.4400000000000004,SM13,OE Gaussian Process Resampled,7.21,5.77,SM13_pKa1,1.29,0.01,Caitlin Bannan,q3pfp
+877,-2.72,SM14,OE Gaussian Process Resampled,-0.14,2.58,SM14_pKa1,3.14,0.01,Caitlin Bannan,q3pfp
+878,1.1900000000000004,SM14,OE Gaussian Process Resampled,6.49,5.3,SM14_pKa2,0.57,0.01,Caitlin Bannan,q3pfp
+879,0.7199999999999998,SM15,OE Gaussian Process Resampled,5.42,4.7,SM15_pKa1,0.45,0.01,Caitlin Bannan,q3pfp
+880,-0.22999999999999865,SM15,OE Gaussian Process Resampled,8.71,8.94,SM15_pKa2,0.2,0.01,Caitlin Bannan,q3pfp
+881,0.54,SM16,OE Gaussian Process Resampled,5.91,5.37,SM16_pKa1,0.34,0.01,Caitlin Bannan,q3pfp
+882,-0.29000000000000004,SM17,OE Gaussian Process Resampled,2.87,3.16,SM17_pKa1,1.29,0.01,Caitlin Bannan,q3pfp
+883,-2.87,SM18,OE Gaussian Process Resampled,-0.72,2.15,SM18_pKa1,2.53,0.02,Caitlin Bannan,q3pfp
+884,-4.37,SM18,OE Gaussian Process Resampled,5.21,9.58,SM18_pKa2,3.07,0.03,Caitlin Bannan,q3pfp
+885,0.08000000000000007,SM18,OE Gaussian Process Resampled,11.1,11.02,SM18_pKa3,1.55,0.04,Caitlin Bannan,q3pfp
+886,-3.5100000000000007,SM19,OE Gaussian Process Resampled,6.05,9.56,SM19_pKa1,0.89,0.02,Caitlin Bannan,q3pfp
+887,1.5899999999999999,SM20,OE Gaussian Process Resampled,7.29,5.7,SM20_pKa1,1.84,0.03,Caitlin Bannan,q3pfp
+888,-0.02999999999999936,SM21,OE Gaussian Process Resampled,4.07,4.1,SM21_pKa1,0.02,0.01,Caitlin Bannan,q3pfp
+889,0.33000000000000007,SM22,OE Gaussian Process Resampled,2.73,2.4,SM22_pKa1,0.34,0.02,Caitlin Bannan,q3pfp
+890,-0.8300000000000001,SM22,OE Gaussian Process Resampled,6.6,7.43,SM22_pKa2,1.08,0.01,Caitlin Bannan,q3pfp
+891,1.1600000000000001,SM23,OE Gaussian Process Resampled,6.61,5.45,SM23_pKa1,2.08,0.01,Caitlin Bannan,q3pfp
+892,-0.22999999999999998,SM24,OE Gaussian Process Resampled,2.37,2.6,SM24_pKa1,1.02,0.01,Caitlin Bannan,q3pfp
+893,1.08,SM01,Adiabatic scheme with single point correction for type III submission,10.61,9.53,SM01_pKa1,,0.01,Qiao Zeng,ryzue
+894,-1.5300000000000002,SM02,Adiabatic scheme with single point correction for type III submission,3.5,5.03,SM02_pKa1,,0.01,Qiao Zeng,ryzue
+895,-0.8899999999999997,SM03,Adiabatic scheme with single point correction for type III submission,6.13,7.02,SM03_pKa1,,0.01,Qiao Zeng,ryzue
+896,-0.07999999999999918,SM04,Adiabatic scheme with single point correction for type III submission,5.94,6.02,SM04_pKa1,,0.01,Qiao Zeng,ryzue
+897,-3.38,SM05,Adiabatic scheme with single point correction for type III submission,1.21,4.59,SM05_pKa1,,0.01,Qiao Zeng,ryzue
+898,-2.9699999999999998,SM06,Adiabatic scheme with single point correction for type III submission,0.06,3.03,SM06_pKa1,,0.01,Qiao Zeng,ryzue
+899,1.6600000000000001,SM06,Adiabatic scheme with single point correction for type III submission,13.4,11.74,SM06_pKa2,,0.04,Qiao Zeng,ryzue
+900,-0.8300000000000001,SM07,Adiabatic scheme with single point correction for type III submission,5.25,6.08,SM07_pKa1,,0.01,Qiao Zeng,ryzue
+901,-2.0599999999999996,SM08,Adiabatic scheme with single point correction for type III submission,2.16,4.22,SM08_pKa1,,0.01,Qiao Zeng,ryzue
+902,-1.79,SM09,Adiabatic scheme with single point correction for type III submission,3.58,5.37,SM09_pKa1,,0.01,Qiao Zeng,ryzue
+903,-2.1899999999999995,SM10,Adiabatic scheme with single point correction for type III submission,6.83,9.02,SM10_pKa1,,0.01,Qiao Zeng,ryzue
+904,-1.9000000000000001,SM11,Adiabatic scheme with single point correction for type III submission,1.99,3.89,SM11_pKa1,,0.01,Qiao Zeng,ryzue
+905,-1.7600000000000002,SM12,Adiabatic scheme with single point correction for type III submission,3.52,5.28,SM12_pKa1,,0.01,Qiao Zeng,ryzue
+906,-1.0799999999999992,SM13,Adiabatic scheme with single point correction for type III submission,4.69,5.77,SM13_pKa1,,0.01,Qiao Zeng,ryzue
+907,-3.91,SM14,Adiabatic scheme with single point correction for type III submission,-1.33,2.58,SM14_pKa1,,0.01,Qiao Zeng,ryzue
+908,-1.1899999999999995,SM14,Adiabatic scheme with single point correction for type III submission,4.11,5.3,SM14_pKa2,,0.01,Qiao Zeng,ryzue
+909,-1.9300000000000002,SM15,Adiabatic scheme with single point correction for type III submission,2.77,4.7,SM15_pKa1,,0.01,Qiao Zeng,ryzue
+910,0.27000000000000135,SM15,Adiabatic scheme with single point correction for type III submission,9.21,8.94,SM15_pKa2,,0.01,Qiao Zeng,ryzue
+911,-1.75,SM16,Adiabatic scheme with single point correction for type III submission,3.62,5.37,SM16_pKa1,,0.01,Qiao Zeng,ryzue
+912,-0.41000000000000014,SM16,Adiabatic scheme with single point correction for type III submission,10.24,10.65,SM16_pKa2,,0.01,Qiao Zeng,ryzue
+913,-1.9400000000000002,SM17,Adiabatic scheme with single point correction for type III submission,1.22,3.16,SM17_pKa1,,0.01,Qiao Zeng,ryzue
+914,-0.74,SM18,Adiabatic scheme with single point correction for type III submission,1.41,2.15,SM18_pKa1,,0.03,Qiao Zeng,ryzue
+915,-1.9900000000000002,SM18,Adiabatic scheme with single point correction for type III submission,7.59,9.58,SM18_pKa2,,0.04,Qiao Zeng,ryzue
+916,-1.5099999999999998,SM18,Adiabatic scheme with single point correction for type III submission,9.51,11.02,SM18_pKa3,,0.02,Qiao Zeng,ryzue
+917,-0.5899999999999999,SM19,Adiabatic scheme with single point correction for type III submission,8.97,9.56,SM19_pKa1,,0.02,Qiao Zeng,ryzue
+918,-2.52,SM20,Adiabatic scheme with single point correction for type III submission,3.18,5.7,SM20_pKa1,,0.03,Qiao Zeng,ryzue
+919,-2.7199999999999998,SM21,Adiabatic scheme with single point correction for type III submission,1.38,4.1,SM21_pKa1,,0.01,Qiao Zeng,ryzue
+920,-0.74,SM22,Adiabatic scheme with single point correction for type III submission,1.66,2.4,SM22_pKa1,,0.01,Qiao Zeng,ryzue
+921,0.1299999999999999,SM22,Adiabatic scheme with single point correction for type III submission,7.56,7.43,SM22_pKa2,,0.02,Qiao Zeng,ryzue
+922,-0.6200000000000001,SM23,Adiabatic scheme with single point correction for type III submission,4.83,5.45,SM23_pKa1,,0.01,Qiao Zeng,ryzue
+923,-0.3500000000000001,SM24,Adiabatic scheme with single point correction for type III submission,2.25,2.6,SM24_pKa1,,0.01,Qiao Zeng,ryzue
+924,0.33000000000000007,SM01,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,9.86,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,mkhqa
+925,-1.08,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.95,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,mkhqa
+926,4.540000000000001,SM03,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,11.56,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,mkhqa
+927,-1.3499999999999996,SM04,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,4.67,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,mkhqa
+928,1.0,SM05,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,5.59,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,mkhqa
+929,0.3600000000000003,SM06,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.39,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,mkhqa
+930,0.4399999999999995,SM06,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,12.18,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,mkhqa
+931,-2.88,SM07,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.2,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,mkhqa
+932,2.29,SM08,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,6.51,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,mkhqa
+933,-0.9299999999999997,SM09,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,4.44,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,mkhqa
+934,2.66,SM10,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,11.68,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,mkhqa
+935,-0.3999999999999999,SM11,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.49,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,mkhqa
+936,0.7000000000000002,SM12,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,5.98,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,mkhqa
+937,-0.5199999999999996,SM13,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,5.25,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,mkhqa
+938,-1.9,SM14,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,0.68,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,mkhqa
+939,-1.2699999999999996,SM14,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,4.03,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,mkhqa
+940,-1.4500000000000002,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.25,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,mkhqa
+941,1.7200000000000006,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,10.66,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,mkhqa
+942,-0.5899999999999999,SM16,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,4.78,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,mkhqa
+943,0.6999999999999993,SM16,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,11.35,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,mkhqa
+944,0.5299999999999998,SM17,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.69,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,mkhqa
+945,0.050000000000000266,SM18,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,2.2,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,mkhqa
+946,0.33999999999999986,SM18,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,9.92,9.58,SM18_pKa2,1.77,0.03,Stefan Kast,mkhqa
+947,-0.5999999999999996,SM18,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,10.42,11.02,SM18_pKa3,1.77,0.04,Stefan Kast,mkhqa
+948,2.84,SM19,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,12.4,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,mkhqa
+949,1.6399999999999997,SM20,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,7.34,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,mkhqa
+950,-0.6499999999999995,SM21,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.45,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,mkhqa
+951,-0.6799999999999999,SM22,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,1.72,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,mkhqa
+952,1.0300000000000011,SM22,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,8.46,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,mkhqa
+953,0.3099999999999996,SM23,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,5.76,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,mkhqa
+954,2.6199999999999997,SM24,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,5.22,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,mkhqa
+955,-0.17999999999999972,SM01,ACD/pKa GALAS,9.35,9.53,SM01_pKa1,0.8,0.01,Kiril Lanevskij,37xm8
+956,0.2699999999999996,SM02,ACD/pKa GALAS,5.3,5.03,SM02_pKa1,0.4,0.01,Kiril Lanevskij,37xm8
+957,3.460000000000001,SM03,ACD/pKa GALAS,10.48,7.02,SM03_pKa1,0.8,0.01,Kiril Lanevskij,37xm8
+958,-0.5299999999999994,SM04,ACD/pKa GALAS,5.49,6.02,SM04_pKa1,0.4,0.01,Kiril Lanevskij,37xm8
+959,-1.3699999999999997,SM05,ACD/pKa GALAS,3.22,4.59,SM05_pKa1,0.8,0.01,Kiril Lanevskij,37xm8
+960,0.98,SM06,ACD/pKa GALAS,4.01,3.03,SM06_pKa1,0.9,0.04,Kiril Lanevskij,37xm8
+961,2.84,SM06,ACD/pKa GALAS,14.58,11.74,SM06_pKa2,0.4,0.01,Kiril Lanevskij,37xm8
+962,-0.5700000000000003,SM07,ACD/pKa GALAS,5.51,6.08,SM07_pKa1,0.4,0.01,Kiril Lanevskij,37xm8
+963,-0.3299999999999996,SM08,ACD/pKa GALAS,3.89,4.22,SM08_pKa1,0.8,0.01,Kiril Lanevskij,37xm8
+964,0.22999999999999954,SM09,ACD/pKa GALAS,5.6,5.37,SM09_pKa1,0.4,0.01,Kiril Lanevskij,37xm8
+965,1.2599999999999998,SM10,ACD/pKa GALAS,10.28,9.02,SM10_pKa1,0.8,0.01,Kiril Lanevskij,37xm8
+966,0.31000000000000005,SM11,ACD/pKa GALAS,4.2,3.89,SM11_pKa1,0.4,0.01,Kiril Lanevskij,37xm8
+967,0.1299999999999999,SM12,ACD/pKa GALAS,5.41,5.28,SM12_pKa1,0.4,0.01,Kiril Lanevskij,37xm8
+968,-0.7299999999999995,SM13,ACD/pKa GALAS,5.04,5.77,SM13_pKa1,0.5,0.01,Kiril Lanevskij,37xm8
+969,-0.52,SM14,ACD/pKa GALAS,2.06,2.58,SM14_pKa1,0.9,0.01,Kiril Lanevskij,37xm8
+970,0.9000000000000004,SM14,ACD/pKa GALAS,6.2,5.3,SM14_pKa2,0.4,0.01,Kiril Lanevskij,37xm8
+971,2.54,SM15,ACD/pKa GALAS,7.24,4.7,SM15_pKa1,0.8,0.01,Kiril Lanevskij,37xm8
+972,0.27000000000000135,SM15,ACD/pKa GALAS,9.21,8.94,SM15_pKa2,0.4,0.01,Kiril Lanevskij,37xm8
+973,-1.6400000000000001,SM16,ACD/pKa GALAS,3.73,5.37,SM16_pKa1,0.5,0.01,Kiril Lanevskij,37xm8
+974,2.0599999999999996,SM17,ACD/pKa GALAS,5.22,3.16,SM17_pKa1,0.4,0.01,Kiril Lanevskij,37xm8
+975,0.14000000000000012,SM18,ACD/pKa GALAS,2.29,2.15,SM18_pKa1,0.4,0.02,Kiril Lanevskij,37xm8
+976,0.13000000000000078,SM18,ACD/pKa GALAS,9.71,9.58,SM18_pKa2,0.8,0.03,Kiril Lanevskij,37xm8
+977,-0.41000000000000014,SM18,ACD/pKa GALAS,10.61,11.02,SM18_pKa3,0.8,0.04,Kiril Lanevskij,37xm8
+978,0.7599999999999998,SM19,ACD/pKa GALAS,10.32,9.56,SM19_pKa1,0.8,0.02,Kiril Lanevskij,37xm8
+979,0.2999999999999998,SM20,ACD/pKa GALAS,6.0,5.7,SM20_pKa1,0.8,0.03,Kiril Lanevskij,37xm8
+980,-3.8499999999999996,SM21,ACD/pKa GALAS,0.25,4.1,SM21_pKa1,1.1,0.01,Kiril Lanevskij,37xm8
+981,-0.94,SM22,ACD/pKa GALAS,1.46,2.4,SM22_pKa1,0.5,0.02,Kiril Lanevskij,37xm8
+982,0.27000000000000046,SM22,ACD/pKa GALAS,7.7,7.43,SM22_pKa2,0.4,0.01,Kiril Lanevskij,37xm8
+983,1.0099999999999998,SM23,ACD/pKa GALAS,6.46,5.45,SM23_pKa1,0.8,0.01,Kiril Lanevskij,37xm8
+984,-1.31,SM24,ACD/pKa GALAS,1.29,2.6,SM24_pKa1,2.0,0.01,Kiril Lanevskij,37xm8
+985,-1.3999999999999986,SM01,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",8.13,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,np6b4
+986,1.1499999999999995,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.18,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,np6b4
+987,4.290000000000001,SM03,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",11.31,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,np6b4
+988,1.0,SM04,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",7.02,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,np6b4
+989,1.6500000000000004,SM05,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.24,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,np6b4
+990,0.3200000000000003,SM06,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",3.35,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,np6b4
+991,-1.8399999999999999,SM06,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",9.9,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,np6b4
+992,-1.0700000000000003,SM07,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",5.01,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,np6b4
+993,-0.5099999999999998,SM08,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",3.71,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,np6b4
+994,1.3099999999999996,SM09,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.68,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,np6b4
+995,0.9700000000000006,SM10,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",9.99,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,np6b4
+996,0.9099999999999997,SM11,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",4.8,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,np6b4
+997,1.37,SM12,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.65,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,np6b4
+998,1.7400000000000002,SM13,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",7.51,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,np6b4
+999,-1.71,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",0.87,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,np6b4
+1000,0.5300000000000002,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",5.83,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,np6b4
+1001,0.5599999999999996,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",5.26,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,np6b4
+1002,-0.09999999999999964,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",8.84,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,np6b4
+1003,1.2000000000000002,SM16,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.57,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,np6b4
+1004,1.4699999999999989,SM16,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",12.12,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,np6b4
+1005,2.46,SM17,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",5.62,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,np6b4
+1006,-1.2,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",0.95,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,np6b4
+1007,-0.08000000000000007,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",9.5,9.58,SM18_pKa2,1.77,0.04,Stefan Kast,np6b4
+1008,-0.10999999999999943,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",10.91,11.02,SM18_pKa3,1.77,0.03,Stefan Kast,np6b4
+1009,2.0700000000000003,SM19,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",11.63,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,np6b4
+1010,1.4399999999999995,SM20,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",7.14,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,np6b4
+1011,1.1600000000000001,SM21,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",5.26,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,np6b4
+1012,-6.98,SM22,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",-4.58,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,np6b4
+1013,2.120000000000001,SM22,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",9.55,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,np6b4
+1014,0.33000000000000007,SM23,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",5.78,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,np6b4
+1015,1.44,SM24,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",4.04,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,np6b4
+1016,-1.4100000000000001,SM01,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",8.12,9.53,SM01_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1017,0.8099999999999996,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",5.84,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1018,6.0600000000000005,SM03,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",13.08,7.02,SM03_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1019,0.7300000000000004,SM04,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",6.75,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1020,1.4900000000000002,SM05,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",6.08,4.59,SM05_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1021,-0.71,SM06,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",2.32,3.03,SM06_pKa1,1.77,0.04,Stefan Kast,ad5pu
+1022,2.8200000000000003,SM06,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",14.56,11.74,SM06_pKa2,1.77,0.01,Stefan Kast,ad5pu
+1023,-1.2300000000000004,SM07,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",4.85,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1024,0.10000000000000053,SM08,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",4.32,4.22,SM08_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1025,0.9100000000000001,SM09,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",6.28,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1026,5.02,SM10,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",14.04,9.02,SM10_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1027,-0.38000000000000034,SM11,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",3.51,3.89,SM11_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1028,0.5199999999999996,SM12,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",5.8,5.28,SM12_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1029,1.5200000000000005,SM13,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",7.29,5.77,SM13_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1030,-4.83,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",-2.25,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1031,0.7199999999999998,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",6.02,5.3,SM14_pKa2,1.77,0.01,Stefan Kast,ad5pu
+1032,0.6200000000000001,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",5.32,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1033,-1.2899999999999991,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",7.65,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,ad5pu
+1034,0.6299999999999999,SM16,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",6.0,5.37,SM16_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1035,1.92,SM16,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",12.57,10.65,SM16_pKa2,1.77,0.01,Stefan Kast,ad5pu
+1036,1.0999999999999996,SM17,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",4.26,3.16,SM17_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1037,0.43999999999999995,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",2.59,2.15,SM18_pKa1,1.77,0.02,Stefan Kast,ad5pu
+1038,1.3900000000000006,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",10.97,9.58,SM18_pKa2,1.77,0.03,Stefan Kast,ad5pu
+1039,2.960000000000001,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",13.98,11.02,SM18_pKa3,1.77,0.04,Stefan Kast,ad5pu
+1040,3.719999999999999,SM19,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",13.28,9.56,SM19_pKa1,1.77,0.02,Stefan Kast,ad5pu
+1041,3.2,SM20,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",8.9,5.7,SM20_pKa1,1.77,0.03,Stefan Kast,ad5pu
+1042,-0.5899999999999999,SM21,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",3.51,4.1,SM21_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1043,-6.98,SM22,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",-4.58,2.4,SM22_pKa1,1.77,0.02,Stefan Kast,ad5pu
+1044,-0.7999999999999998,SM22,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",6.63,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,ad5pu
+1045,0.09999999999999964,SM23,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",5.55,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1046,1.6099999999999999,SM24,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",4.21,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,ad5pu
+1047,1.8800000000000008,SM01,"PCM/B3LYP/6-311+G(d,p)",11.41,9.53,SM01_pKa1,2.58,0.01,Stefan Kast,yc70m
+1048,1.6899999999999995,SM02,"PCM/B3LYP/6-311+G(d,p)",6.72,5.03,SM02_pKa1,2.58,0.01,Stefan Kast,yc70m
+1049,-0.07999999999999918,SM03,"PCM/B3LYP/6-311+G(d,p)",6.94,7.02,SM03_pKa1,2.58,0.01,Stefan Kast,yc70m
+1050,2.360000000000001,SM04,"PCM/B3LYP/6-311+G(d,p)",8.38,6.02,SM04_pKa1,2.58,0.01,Stefan Kast,yc70m
+1051,2.83,SM05,"PCM/B3LYP/6-311+G(d,p)",7.42,4.59,SM05_pKa1,2.58,0.01,Stefan Kast,yc70m
+1052,1.1700000000000004,SM06,"PCM/B3LYP/6-311+G(d,p)",4.2,3.03,SM06_pKa1,2.58,0.04,Stefan Kast,yc70m
+1053,-3.5700000000000003,SM06,"PCM/B3LYP/6-311+G(d,p)",8.17,11.74,SM06_pKa2,2.58,0.01,Stefan Kast,yc70m
+1054,1.12,SM07,"PCM/B3LYP/6-311+G(d,p)",7.2,6.08,SM07_pKa1,2.58,0.01,Stefan Kast,yc70m
+1055,0.3100000000000005,SM08,"PCM/B3LYP/6-311+G(d,p)",4.53,4.22,SM08_pKa1,2.58,0.01,Stefan Kast,yc70m
+1056,2.0599999999999996,SM09,"PCM/B3LYP/6-311+G(d,p)",7.43,5.37,SM09_pKa1,2.58,0.01,Stefan Kast,yc70m
+1057,0.019999999999999574,SM10,"PCM/B3LYP/6-311+G(d,p)",9.04,9.02,SM10_pKa1,2.58,0.01,Stefan Kast,yc70m
+1058,2.5900000000000003,SM11,"PCM/B3LYP/6-311+G(d,p)",6.48,3.89,SM11_pKa1,2.58,0.01,Stefan Kast,yc70m
+1059,1.5499999999999998,SM12,"PCM/B3LYP/6-311+G(d,p)",6.83,5.28,SM12_pKa1,2.58,0.01,Stefan Kast,yc70m
+1060,2.1800000000000006,SM13,"PCM/B3LYP/6-311+G(d,p)",7.95,5.77,SM13_pKa1,2.58,0.01,Stefan Kast,yc70m
+1061,0.5800000000000001,SM14,"PCM/B3LYP/6-311+G(d,p)",3.16,2.58,SM14_pKa1,2.58,0.01,Stefan Kast,yc70m
+1062,2.6800000000000006,SM14,"PCM/B3LYP/6-311+G(d,p)",7.98,5.3,SM14_pKa2,2.58,0.01,Stefan Kast,yc70m
+1063,1.0,SM15,"PCM/B3LYP/6-311+G(d,p)",5.7,4.7,SM15_pKa1,2.58,0.01,Stefan Kast,yc70m
+1064,-1.4999999999999991,SM15,"PCM/B3LYP/6-311+G(d,p)",7.44,8.94,SM15_pKa2,2.58,0.01,Stefan Kast,yc70m
+1065,0.7999999999999998,SM16,"PCM/B3LYP/6-311+G(d,p)",6.17,5.37,SM16_pKa1,2.58,0.01,Stefan Kast,yc70m
+1066,-2.9700000000000006,SM16,"PCM/B3LYP/6-311+G(d,p)",7.68,10.65,SM16_pKa2,2.58,0.01,Stefan Kast,yc70m
+1067,-1.33,SM17,"PCM/B3LYP/6-311+G(d,p)",1.83,3.16,SM17_pKa1,2.58,0.01,Stefan Kast,yc70m
+1068,2.14,SM18,"PCM/B3LYP/6-311+G(d,p)",4.29,2.15,SM18_pKa1,2.58,0.02,Stefan Kast,yc70m
+1069,-2.9800000000000004,SM18,"PCM/B3LYP/6-311+G(d,p)",6.6,9.58,SM18_pKa2,2.58,0.03,Stefan Kast,yc70m
+1070,-3.59,SM18,"PCM/B3LYP/6-311+G(d,p)",7.43,11.02,SM18_pKa3,2.58,0.04,Stefan Kast,yc70m
+1071,0.7199999999999989,SM19,"PCM/B3LYP/6-311+G(d,p)",10.28,9.56,SM19_pKa1,2.58,0.02,Stefan Kast,yc70m
+1072,-2.14,SM20,"PCM/B3LYP/6-311+G(d,p)",3.56,5.7,SM20_pKa1,2.58,0.03,Stefan Kast,yc70m
+1073,2.2800000000000002,SM21,"PCM/B3LYP/6-311+G(d,p)",6.38,4.1,SM21_pKa1,2.58,0.01,Stefan Kast,yc70m
+1074,2.5100000000000002,SM22,"PCM/B3LYP/6-311+G(d,p)",4.91,2.4,SM22_pKa1,2.58,0.01,Stefan Kast,yc70m
+1075,-2.17,SM22,"PCM/B3LYP/6-311+G(d,p)",5.26,7.43,SM22_pKa2,2.58,0.02,Stefan Kast,yc70m
+1076,1.7800000000000002,SM23,"PCM/B3LYP/6-311+G(d,p)",7.23,5.45,SM23_pKa1,2.58,0.01,Stefan Kast,yc70m
+1077,-1.36,SM24,"PCM/B3LYP/6-311+G(d,p)",1.24,2.6,SM24_pKa1,2.58,0.01,Stefan Kast,yc70m
