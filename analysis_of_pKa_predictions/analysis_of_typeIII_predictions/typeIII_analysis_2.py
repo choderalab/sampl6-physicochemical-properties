@@ -123,6 +123,48 @@ def barplot_with_CI_errorbars_and_1st_of_2groups(df1, df2, x_label, y_label, y_l
     plt.ylabel(y_label)
 
 
+
+
+def stacked_barplot_2groups(df, x_label, y_label1, y_label2, fig_size=(10, 7), invert=False):
+
+    # Color
+    grays = ["#95a5a6", "#34495e"]
+    current_palette = sns.color_palette(grays)
+
+    # Plot style
+    plt.close()
+    plt.style.use(["seaborn-talk", "seaborn-whitegrid"])
+    plt.rcParams['axes.labelsize'] = 18
+    plt.rcParams['xtick.labelsize'] = 14
+    plt.rcParams['ytick.labelsize'] = 16
+    plt.tight_layout()
+    bar_width = 0.70
+    plt.figure(figsize=fig_size)
+
+    data = df # Pandas DataFrame
+    x = range(len(data[x_label]))
+    y1 = data[y_label1]
+    y2 = data[y_label2]
+
+    p1 = plt.bar(x, y1, width=bar_width, color = current_palette[0])
+    p2 = plt.bar(x, y2, width=bar_width, bottom=y1, color = current_palette[1])
+
+    plt.xticks(x, data[x_label], rotation=90)
+    plt.xlabel(x_label)
+    plt.ylabel("number of $pK_{a}s$")
+    plt.legend((p1[0], p2[0]), (y_label1, y_label2))
+
+    # Flip plot upside down
+    if invert==True:
+        ax = plt.gca()
+        ax.invert_yaxis()
+
+
+
+
+
+
+
 # =============================================================================
 # CONSTANTS
 # =============================================================================
@@ -387,7 +429,7 @@ def create_comparison_plot_of_molecular_MAE_of_method_groups(directory_path, gro
 
 
 
-def calculate_unmatched_pKa_statistics(full_collection_df, directory_path, file_base_name):
+def calculate_unmatched_pKa_statistics(full_collection_df, directory_path, file_base_name, merged_file_base_name):
 
     # Slice dataframe by receipt ID
 
@@ -451,8 +493,26 @@ def calculate_unmatched_pKa_statistics(full_collection_df, directory_path, file_
     statistics_filename = statistics_directory_path + '/statistics.csv'
     df_statistics = pd.read_csv(statistics_filename, index_col=False)
     df_merged = pd.merge( df_statistics, df_unmatched_pKa_statistics, on = "ID")
-    merged_filename = directory_path + "/statistics_with_unmatched_pKa_numbers.csv"
+    merged_filename = directory_path + "/" + merged_file_base_name + ".csv"
     df_merged.to_csv( merged_filename , index=False)
+
+
+def generate_performance_comparison_plots_with_unmatched_pKa_statistics(statistics_filename, directory_path):
+        # Read statistics table
+        statistics_file_path = os.path.join(directory_path, statistics_filename)
+        df_statistics = pd.read_csv(statistics_file_path)
+        # print("\n df_statistics \n", df_statistics)
+
+
+        # Unmatched experimental and predicted pKa comparison plot
+        stacked_barplot_2groups(df=df_statistics, x_label="ID", y_label1="unmatched exp pKas",
+                                y_label2="unmatched pred pKas [2,12]", fig_size=(10, 7), invert=False)
+        plt.savefig(directory_path + "/unmatched_pKa_vs_method_plot.pdf")
+
+        # Unmatched experimental and predicted pKa comparison plot (inverted and narrow)to be shown joint with RMSE plot
+        stacked_barplot_2groups(df=df_statistics, x_label="ID", y_label1="unmatched exp pKas",
+                                y_label2="unmatched pred pKas [2,12]", fig_size=(10, 3), invert=True)
+        plt.savefig(directory_path + "/unmatched_pKa_vs_method_plot_narrow.pdf")
 
 
 
@@ -514,7 +574,12 @@ if __name__ == '__main__':
         full_collection_data = read_full_collection_file(matching_algorithm=algorithm)
         calculate_unmatched_pKa_statistics(full_collection_df = full_collection_data,
                                            directory_path=statistics_directory_path,
-                                           file_base_name="unmatched_pKa_statistics")
+                                           file_base_name="unmatched_pKa_statistics",
+                                           merged_file_base_name="statistics_with_unmatched_pKa_numbers")
+
+        # Plot performance comparison plots with unmatched pKa statistics
+        generate_performance_comparison_plots_with_unmatched_pKa_statistics(statistics_filename="statistics_with_unmatched_pKa_numbers.csv",
+                                                                            directory_path=statistics_directory_path)
 
 
 

@@ -219,7 +219,9 @@ def barplot(df, x_label, y_label, title):
     plt.rcParams['axes.labelsize'] = 18
     plt.rcParams['xtick.labelsize'] = 14
     plt.rcParams['ytick.labelsize'] = 16
-    #plt.tight_layout()
+    plt.tight_layout()
+    bar_width = 0.70
+    plt.figure(figsize=(10, 7))
 
     # Plot
     data = df
