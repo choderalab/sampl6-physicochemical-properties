@@ -19,7 +19,7 @@ import scipy.stats
 # =============================================================================
 
 # Paths to input data.
-PKA_TYPEIII_SUBMISSIONS_DIR_PATH = './typeIII_predictions_test'
+PKA_TYPEIII_SUBMISSIONS_DIR_PATH = './typeIII_predictions'
 EXPERIMENTAL_DATA_FILE_PATH = '../../experimental_data/pKa_experimental_values.csv'
 
 # =============================================================================
@@ -499,7 +499,7 @@ class pKaTypeIIISubmission(SamplSubmission):
 
         # Create lists of stats functions to pass to compute_bootstrap_statistics.
         stats_funcs_names, stats_funcs = zip(*stats_funcs.items())
-        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=1000) # 10 000
+        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=10000) # 10 000
 
         # Return statistics as dict preserving the order.
         return collections.OrderedDict((stats_funcs_names[i], bootstrap_statistics[i])
@@ -1303,7 +1303,7 @@ def generate_statistics_tables(submissions, stats_funcs, directory_path, file_ba
                 '- Mean and 95\% confidence intervals of statistic values were calculated by bootstrapping.\n\n'
                 '- Submissions with submission IDs nb001, nb002, nb003, nb004, nb005 and nb005 include non-blind corrections to pKa predictions of only SM22 molecule.\n\n'
                 'pKas of the rest of the molecules in these submissions were blindly predicted before experimental data was released.\n\n'
-                '- pKa predictions of Epik-sequencial method (submission ID: nb007) were not blind. They were submitted after the submission deadline to be used as a reference method.\n\n'
+                '- pKa predictions of Epik, Jaguar, Chemicalize, and MoKa were not blind (submission IDs noted as nbXXX). They were submitted after the submission deadline as reference methods.\n\n'
                 '\end{document}\n')
 
     # Violin plots by statistics across submissions.
