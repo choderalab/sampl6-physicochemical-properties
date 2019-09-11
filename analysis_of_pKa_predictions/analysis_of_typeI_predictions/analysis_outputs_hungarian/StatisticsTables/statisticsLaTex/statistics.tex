@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[a4paper,margin=0.005in,tmargin=0.5in,landscape]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\pagenumbering{gobble}
+\begin{document}
+\begin{center}
+\begin{longtable}{|ccccccc|}
+\toprule
+    ID &                                     name &                  RMSE &                   MAE &                      ME &                 R$^2$ &                     m \\
+\midrule
+\endhead
+\midrule
+\multicolumn{7}{r}{{Continued on next page}} \\
+\midrule
+\endfoot
+
+\bottomrule
+\endlastfoot
+ hdiyq &                                    S+pKa &  0.627 [0.453, 0.771] &  0.478 [0.315, 0.633] &   0.152 [-0.090, 0.378] &  0.948 [0.910, 0.976] &  1.038 [0.950, 1.161] \\
+ ccpmw &  ReSCoSS conformations // COSMOtherm pKa &  0.798 [0.626, 0.957] &  0.639 [0.463, 0.832] &  -0.243 [-0.523, 0.044] &  0.911 [0.820, 0.957] &  0.981 [0.816, 1.098] \\
+ nb016 &                                     moka &  1.010 [0.741, 1.266] &  0.815 [0.586, 1.080] &  -0.272 [-0.677, 0.102] &  0.872 [0.778, 0.938] &  0.960 [0.805, 1.147] \\
+ 0wfzo &            Explicit solvent submission 1 &  2.968 [1.726, 4.055] &  1.957 [1.201, 2.832] &   0.642 [-0.360, 1.780] &  0.355 [0.085, 0.684] &  0.862 [0.374, 1.349] \\
+\end{longtable}
+\end{center}
+
+Notes
+
+- Mean and 95\% confidence intervals of statistic values were calculated by bootstrapping.
+
+- pKa predictions of Epik, Jaguar, Chemicalize, and MoKa were not blind (submission IDs noted as nbXXX). They were submitted after the submission deadline as reference methods.
+
+- pKas of the rest of the molecules in these submissions were blindly predicted before experimental data was released.
+
+\end{document}

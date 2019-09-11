@@ -259,7 +259,7 @@ def select_subsection_of_collection(collection_df, method_df, method_group):
 
     # Iterate through method map
     for i in range(method_df.shape[0]):
-        method = method_df.loc[i,"Method Category"]
+        method = method_df.loc[i,"Detailed Method Category"]
 
         if method in methods_of_selected_group:
 

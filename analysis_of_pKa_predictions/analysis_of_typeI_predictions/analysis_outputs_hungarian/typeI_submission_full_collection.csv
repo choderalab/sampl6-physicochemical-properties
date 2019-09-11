@@ -1,0 +1,927 @@
+$\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule ID,name,pKa (calc),pKa (exp),pKa ID,pKa SEM (calc),pKa SEM (exp),participant,receipt_id
+0.16000000000000014,SM01_micro004,SM01_micro005,SM01,ReSCoSS conformations // COSMOtherm pKa,9.69,9.53,SM01_pKa1,,0.01,Rainer Wilcken,ccpmw
+1.2299999999999995,SM02_micro002,SM02_micro004,SM02,ReSCoSS conformations // COSMOtherm pKa,6.26,5.03,SM02_pKa1,,0.01,Rainer Wilcken,ccpmw
+-0.09999999999999963,SM03_micro002,SM03_micro012,SM03,ReSCoSS conformations // COSMOtherm pKa,6.92,7.02,SM03_pKa1,,0.01,Rainer Wilcken,ccpmw
+-0.34999999999999964,SM04_micro003,SM04_micro006,SM04,ReSCoSS conformations // COSMOtherm pKa,5.67,6.02,SM04_pKa1,,0.01,Rainer Wilcken,ccpmw
+0.25,SM05_micro001,SM05_micro010,SM05,ReSCoSS conformations // COSMOtherm pKa,4.84,4.59,SM05_pKa1,,0.01,Rainer Wilcken,ccpmw
+1.4200000000000004,SM06_micro001,SM06_micro007,SM06,ReSCoSS conformations // COSMOtherm pKa,4.45,3.03,SM06_pKa1,,0.04,Rainer Wilcken,ccpmw
+0.7699999999999996,SM06_micro008,SM06_micro001,SM06,ReSCoSS conformations // COSMOtherm pKa,12.51,11.74,SM06_pKa2,,0.01,Rainer Wilcken,ccpmw
+-0.1299999999999999,SM07_micro004,SM07_micro007,SM07,ReSCoSS conformations // COSMOtherm pKa,5.95,6.08,SM07_pKa1,,0.01,Rainer Wilcken,ccpmw
+1.1100000000000003,SM08_micro006,SM08_micro011,SM08,ReSCoSS conformations // COSMOtherm pKa,5.33,4.22,SM08_pKa1,,0.01,Rainer Wilcken,ccpmw
+1.41,SM09_micro003,SM09_micro001,SM09,ReSCoSS conformations // COSMOtherm pKa,6.78,5.37,SM09_pKa1,,0.01,Rainer Wilcken,ccpmw
+-1.0499999999999998,SM10_micro023,SM10_micro036,SM10,ReSCoSS conformations // COSMOtherm pKa,7.97,9.02,SM10_pKa1,,0.01,Rainer Wilcken,ccpmw
+0.14000000000000012,SM11_micro005,SM11_micro008,SM11,ReSCoSS conformations // COSMOtherm pKa,4.03,3.89,SM11_pKa1,,0.01,Rainer Wilcken,ccpmw
+1.2000000000000002,SM12_micro012,SM12_micro006,SM12,ReSCoSS conformations // COSMOtherm pKa,6.48,5.28,SM12_pKa1,,0.01,Rainer Wilcken,ccpmw
+1.33,SM13_micro005,SM13_micro001,SM13,ReSCoSS conformations // COSMOtherm pKa,7.1,5.77,SM13_pKa1,,0.01,Rainer Wilcken,ccpmw
+-0.2599999999999998,SM15_micro002,SM15_micro003,SM15,ReSCoSS conformations // COSMOtherm pKa,4.44,4.7,SM15_pKa1,,0.01,Rainer Wilcken,ccpmw
+0.25,SM15_micro004,SM15_micro002,SM15,ReSCoSS conformations // COSMOtherm pKa,9.19,8.94,SM15_pKa2,,0.01,Rainer Wilcken,ccpmw
+0.6100000000000003,SM16_micro002,SM16_micro004,SM16,ReSCoSS conformations // COSMOtherm pKa,5.98,5.37,SM16_pKa1,,0.01,Rainer Wilcken,ccpmw
+0.9399999999999996,SM16_micro005,SM16_micro002,SM16,ReSCoSS conformations // COSMOtherm pKa,11.59,10.65,SM16_pKa2,,0.01,Rainer Wilcken,ccpmw
+0.6199999999999997,SM17_micro010,SM17_micro011,SM17,ReSCoSS conformations // COSMOtherm pKa,3.78,3.16,SM17_pKa1,,0.01,Rainer Wilcken,ccpmw
+-0.4299999999999997,SM19_micro012,SM19_micro007,SM19,ReSCoSS conformations // COSMOtherm pKa,9.13,9.56,SM19_pKa1,,0.02,Rainer Wilcken,ccpmw
+0.01999999999999957,SM20_micro004,SM20_micro003,SM20,ReSCoSS conformations // COSMOtherm pKa,5.72,5.7,SM20_pKa1,,0.03,Rainer Wilcken,ccpmw
+-0.05999999999999961,SM21_micro020,SM21_micro001,SM21,ReSCoSS conformations // COSMOtherm pKa,4.04,4.1,SM21_pKa1,,0.01,Rainer Wilcken,ccpmw
+-1.22,SM22_micro001,SM22_micro002,SM22,ReSCoSS conformations // COSMOtherm pKa,1.18,2.4,SM22_pKa1,,0.02,Rainer Wilcken,ccpmw
+-1.0,SM22_micro004,SM22_micro001,SM22,ReSCoSS conformations // COSMOtherm pKa,6.43,7.43,SM22_pKa2,,0.01,Rainer Wilcken,ccpmw
+-0.4199999999999999,SM23_micro012,SM23_micro007,SM23,ReSCoSS conformations // COSMOtherm pKa,5.03,5.45,SM23_pKa1,,0.01,Rainer Wilcken,ccpmw
+-0.1299999999999999,SM24_micro006,SM24_micro011,SM24,ReSCoSS conformations // COSMOtherm pKa,2.47,2.6,SM24_pKa1,,0.01,Rainer Wilcken,ccpmw
+1.1900000000000013,SM01_micro004,SM01_micro005,SM01,moka,10.72,9.53,SM01_pKa1,,0.01,Thomas Fox,nb016
+-0.14000000000000054,SM02_micro002,SM02_micro004,SM02,moka,4.89,5.03,SM02_pKa1,,0.01,Thomas Fox,nb016
+-0.9399999999999996,SM03_micro002,SM03_micro012,SM03,moka,6.08,7.02,SM03_pKa1,,0.01,Thomas Fox,nb016
+-0.9099999999999993,SM04_micro003,SM04_micro002,SM04,moka,5.11,6.02,SM04_pKa1,,0.01,Thomas Fox,nb016
+-1.08,SM05_micro001,SM05_micro010,SM05,moka,3.51,4.59,SM05_pKa1,,0.01,Thomas Fox,nb016
+-1.17,SM06_micro008,SM06_micro001,SM06,moka,10.57,11.74,SM06_pKa2,,0.01,Thomas Fox,nb016
+1.0500000000000005,SM06_micro001,SM06_micro007,SM06,moka,4.08,3.03,SM06_pKa1,,0.04,Thomas Fox,nb016
+-1.4699999999999998,SM08_micro006,SM08_micro011,SM08,moka,2.75,4.22,SM08_pKa1,,0.01,Thomas Fox,nb016
+2.140000000000001,SM10_micro004,SM10_micro036,SM10,moka,11.16,9.02,SM10_pKa1,,0.01,Thomas Fox,nb016
+0.3400000000000003,SM11_micro005,SM11_micro011,SM11,moka,4.23,3.89,SM11_pKa1,,0.01,Thomas Fox,nb016
+-0.1299999999999999,SM13_micro005,SM13_micro001,SM13,moka,5.64,5.77,SM13_pKa1,,0.01,Thomas Fox,nb016
+0.45000000000000107,SM15_micro004,SM15_micro002,SM15,moka,9.39,8.94,SM15_pKa2,,0.01,Thomas Fox,nb016
+0.25,SM15_micro002,SM15_micro003,SM15,moka,4.95,4.7,SM15_pKa1,,0.01,Thomas Fox,nb016
+0.16000000000000014,SM16_micro005,SM16_micro002,SM16,moka,10.81,10.65,SM16_pKa2,,0.01,Thomas Fox,nb016
+0.2400000000000002,SM16_micro002,SM16_micro004,SM16,moka,5.61,5.37,SM16_pKa1,,0.01,Thomas Fox,nb016
+2.1099999999999994,SM17_micro010,SM17_micro011,SM17,moka,5.27,3.16,SM17_pKa1,,0.01,Thomas Fox,nb016
+0.41000000000000014,SM19_micro012,SM19_micro007,SM19,moka,9.97,9.56,SM19_pKa1,,0.02,Thomas Fox,nb016
+0.5,SM20_micro004,SM20_micro006,SM20,moka,6.2,5.7,SM20_pKa1,,0.03,Thomas Fox,nb016
+1.3100000000000005,SM21_micro020,SM21_micro001,SM21,moka,5.41,4.1,SM21_pKa1,,0.01,Thomas Fox,nb016
+0.23000000000000045,SM22_micro004,SM22_micro001,SM22,moka,7.66,7.43,SM22_pKa2,,0.01,Thomas Fox,nb016
+-0.3999999999999999,SM22_micro001,SM22_micro002,SM22,moka,2.0,2.4,SM22_pKa1,,0.02,Thomas Fox,nb016
+0.6099999999999994,SM23_micro012,SM23_micro007,SM23,moka,6.06,5.45,SM23_pKa1,,0.01,Thomas Fox,nb016
+1.5100000000000002,SM24_micro006,SM24_micro010,SM24,moka,4.11,2.6,SM24_pKa1,,0.01,Thomas Fox,nb016
+0.9700000000000006,SM01_micro002,SM01_micro010,SM01,Explicit solvent submission 1,10.5,9.53,SM01_pKa1,,0.01,Samarjeet Prasad,0wfzo
+3.65,SM02_micro011,SM02_micro002,SM02,Explicit solvent submission 1,8.68,5.03,SM02_pKa1,,0.01,Samarjeet Prasad,0wfzo
+1.790000000000001,SM03_micro014,SM03_micro010,SM03,Explicit solvent submission 1,8.81,7.02,SM03_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-0.7899999999999991,SM04_micro004,SM04_micro002,SM04,Explicit solvent submission 1,5.23,6.02,SM04_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-3.28,SM05_micro001,SM05_micro009,SM05,Explicit solvent submission 1,1.31,4.59,SM05_pKa1,,0.01,Samarjeet Prasad,0wfzo
+1.81,SM06_micro005,SM06_micro002,SM06,Explicit solvent submission 1,4.84,3.03,SM06_pKa1,,0.04,Samarjeet Prasad,0wfzo
+-0.7799999999999994,SM06_micro010,SM06_micro005,SM06,Explicit solvent submission 1,10.96,11.74,SM06_pKa2,,0.01,Samarjeet Prasad,0wfzo
+-1.5600000000000005,SM07_micro002,SM07_micro006,SM07,Explicit solvent submission 1,4.52,6.08,SM07_pKa1,,0.01,Samarjeet Prasad,0wfzo
+1.63,SM08_micro003,SM08_micro010,SM08,Explicit solvent submission 1,5.85,4.22,SM08_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-0.4800000000000004,SM09_micro009,SM09_micro003,SM09,Explicit solvent submission 1,4.89,5.37,SM09_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-0.1899999999999995,SM10_micro004,SM10_micro036,SM10,Explicit solvent submission 1,8.83,9.02,SM10_pKa1,,0.01,Samarjeet Prasad,0wfzo
+1.6299999999999994,SM11_micro007,SM11_micro029,SM11,Explicit solvent submission 1,5.52,3.89,SM11_pKa1,,0.01,Samarjeet Prasad,0wfzo
+0.5,SM12_micro002,SM12_micro001,SM12,Explicit solvent submission 1,5.78,5.28,SM12_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-0.28999999999999915,SM13_micro004,SM13_micro007,SM13,Explicit solvent submission 1,5.48,5.77,SM13_pKa1,,0.01,Samarjeet Prasad,0wfzo
+3.5200000000000014,SM15_micro004,SM15_micro002,SM15,Explicit solvent submission 1,12.46,8.94,SM15_pKa2,,0.01,Samarjeet Prasad,0wfzo
+-8.86,SM15_micro002,SM15_micro003,SM15,Explicit solvent submission 1,-4.16,4.7,SM15_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-5.34,SM16_micro005,SM16_micro003,SM16,Explicit solvent submission 1,0.03,5.37,SM16_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-7.790000000000001,SM16_micro007,SM16_micro004,SM16,Explicit solvent submission 1,2.86,10.65,SM16_pKa2,,0.01,Samarjeet Prasad,0wfzo
+-1.94,SM17_micro010,SM17_micro011,SM17,Explicit solvent submission 1,1.22,3.16,SM17_pKa1,,0.01,Samarjeet Prasad,0wfzo
+0.03999999999999915,SM19_micro004,SM19_micro014,SM19,Explicit solvent submission 1,9.6,9.56,SM19_pKa1,,0.02,Samarjeet Prasad,0wfzo
+-0.6699999999999999,SM20_micro004,SM20_micro003,SM20,Explicit solvent submission 1,5.03,5.7,SM20_pKa1,,0.03,Samarjeet Prasad,0wfzo
+0.020000000000000462,SM21_micro020,SM21_micro024,SM21,Explicit solvent submission 1,4.12,4.1,SM21_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-1.1399999999999997,SM22_micro001,SM22_micro002,SM22,Explicit solvent submission 1,6.29,7.43,SM22_pKa2,,0.01,Samarjeet Prasad,0wfzo
+1.39,SM22_micro003,SM22_micro002,SM22,Explicit solvent submission 1,3.79,2.4,SM22_pKa1,,0.02,Samarjeet Prasad,0wfzo
+-0.6699999999999999,SM23_micro034,SM23_micro005,SM23,Explicit solvent submission 1,4.78,5.45,SM23_pKa1,,0.01,Samarjeet Prasad,0wfzo
+0.14000000000000012,SM24_micro006,SM24_micro011,SM24,Explicit solvent submission 1,2.74,2.6,SM24_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-0.04999999999999893,SM01_micro002,SM01_micro010,SM01,S+pKa,9.48,9.53,SM01_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.5,SM02_micro002,SM02_micro004,SM02,S+pKa,4.53,5.03,SM02_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+0.22000000000000064,SM03_micro004,SM03_micro001,SM03,S+pKa,7.24,7.02,SM03_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.6599999999999993,SM04_micro003,SM04_micro002,SM04,S+pKa,5.36,6.02,SM04_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.5300000000000002,SM05_micro001,SM05_micro010,SM05,S+pKa,4.06,4.59,SM05_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-1.0199999999999996,SM06_micro008,SM06_micro001,SM06,S+pKa,10.72,11.74,SM06_pKa2,,0.01,Robert Fraczkiewicz,hdiyq
+0.11000000000000032,SM06_micro005,SM06_micro002,SM06,S+pKa,3.14,3.03,SM06_pKa1,,0.04,Robert Fraczkiewicz,hdiyq
+-0.5,SM07_micro004,SM07_micro006,SM07,S+pKa,5.58,6.08,SM07_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.10999999999999943,SM08_micro006,SM08_micro011,SM08,S+pKa,4.11,4.22,SM08_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.8700000000000001,SM09_micro003,SM09_micro001,SM09,S+pKa,4.5,5.37,SM09_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+1.2599999999999998,SM10_micro023,SM10_micro036,SM10,S+pKa,10.28,9.02,SM10_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.05000000000000026,SM11_micro005,SM11_micro008,SM11,S+pKa,3.84,3.89,SM11_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-1.04,SM12_micro012,SM12_micro006,SM12,S+pKa,4.24,5.28,SM12_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.9399999999999996,SM13_micro005,SM13_micro001,SM13,S+pKa,4.83,5.77,SM13_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.04999999999999893,SM15_micro001,SM15_micro003,SM15,S+pKa,8.89,8.94,SM15_pKa2,,0.01,Robert Fraczkiewicz,hdiyq
+-0.11000000000000032,SM15_micro004,SM15_micro001,SM15,S+pKa,4.59,4.7,SM15_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.16000000000000014,SM16_micro002,SM16_micro004,SM16,S+pKa,5.21,5.37,SM16_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+0.1399999999999988,SM16_micro005,SM16_micro002,SM16,S+pKa,10.79,10.65,SM16_pKa2,,0.01,Robert Fraczkiewicz,hdiyq
+0.2599999999999998,SM17_micro009,SM17_micro008,SM17,S+pKa,3.42,3.16,SM17_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+0.37999999999999895,SM19_micro012,SM19_micro007,SM19,S+pKa,9.94,9.56,SM19_pKa1,,0.02,Robert Fraczkiewicz,hdiyq
+1.0699999999999994,SM20_micro004,SM20_micro003,SM20,S+pKa,6.77,5.7,SM20_pKa1,,0.03,Robert Fraczkiewicz,hdiyq
+-1.2399999999999998,SM21_micro020,SM21_micro001,SM21,S+pKa,2.86,4.1,SM21_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+-0.27,SM22_micro001,SM22_micro002,SM22,S+pKa,2.13,2.4,SM22_pKa1,,0.02,Robert Fraczkiewicz,hdiyq
+0.7400000000000002,SM22_micro004,SM22_micro001,SM22,S+pKa,8.17,7.43,SM22_pKa2,,0.01,Robert Fraczkiewicz,hdiyq
+-0.08000000000000007,SM23_micro012,SM23_micro007,SM23,S+pKa,5.37,5.45,SM23_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+0.06000000000000005,SM24_micro027,SM24_micro009,SM24,S+pKa,2.66,2.6,SM24_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
+--,,,SM01,ReSCoSS conformations // COSMOtherm pKa,-2.94,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM01,ReSCoSS conformations // COSMOtherm pKa,14.66,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM01,ReSCoSS conformations // COSMOtherm pKa,15.42,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM02,ReSCoSS conformations // COSMOtherm pKa,-4.04,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM02,ReSCoSS conformations // COSMOtherm pKa,2.61,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM02,ReSCoSS conformations // COSMOtherm pKa,-9.16,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM02,ReSCoSS conformations // COSMOtherm pKa,12.82,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM03,ReSCoSS conformations // COSMOtherm pKa,0.8,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM04,ReSCoSS conformations // COSMOtherm pKa,0.34,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM04,ReSCoSS conformations // COSMOtherm pKa,7.26,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM04,ReSCoSS conformations // COSMOtherm pKa,-4.29,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM04,ReSCoSS conformations // COSMOtherm pKa,15.54,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM05,ReSCoSS conformations // COSMOtherm pKa,-5.73,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM05,ReSCoSS conformations // COSMOtherm pKa,-4.29,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM05,ReSCoSS conformations // COSMOtherm pKa,14.91,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM06,ReSCoSS conformations // COSMOtherm pKa,1.09,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM06,ReSCoSS conformations // COSMOtherm pKa,0.91,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM07,ReSCoSS conformations // COSMOtherm pKa,0.43,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM07,ReSCoSS conformations // COSMOtherm pKa,7.42,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM07,ReSCoSS conformations // COSMOtherm pKa,-3.42,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM07,ReSCoSS conformations // COSMOtherm pKa,15.8,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM08,ReSCoSS conformations // COSMOtherm pKa,-2.4,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM08,ReSCoSS conformations // COSMOtherm pKa,8.15,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM08,ReSCoSS conformations // COSMOtherm pKa,8.11,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM08,ReSCoSS conformations // COSMOtherm pKa,12.16,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM09,ReSCoSS conformations // COSMOtherm pKa,-3.89,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM09,ReSCoSS conformations // COSMOtherm pKa,2.99,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM09,ReSCoSS conformations // COSMOtherm pKa,-7.85,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM09,ReSCoSS conformations // COSMOtherm pKa,13.1,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM10,ReSCoSS conformations // COSMOtherm pKa,-3.0,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM10,ReSCoSS conformations // COSMOtherm pKa,0.95,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM10,ReSCoSS conformations // COSMOtherm pKa,-2.95,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM10,ReSCoSS conformations // COSMOtherm pKa,13.65,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM10,ReSCoSS conformations // COSMOtherm pKa,14.13,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM10,ReSCoSS conformations // COSMOtherm pKa,15.54,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM11,ReSCoSS conformations // COSMOtherm pKa,-2.38,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM11,ReSCoSS conformations // COSMOtherm pKa,-1.93,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM11,ReSCoSS conformations // COSMOtherm pKa,-0.88,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM11,ReSCoSS conformations // COSMOtherm pKa,3.32,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM11,ReSCoSS conformations // COSMOtherm pKa,-3.22,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM11,ReSCoSS conformations // COSMOtherm pKa,14.59,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM12,ReSCoSS conformations // COSMOtherm pKa,-4.25,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM12,ReSCoSS conformations // COSMOtherm pKa,2.42,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM12,ReSCoSS conformations // COSMOtherm pKa,-8.38,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM12,ReSCoSS conformations // COSMOtherm pKa,12.84,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM13,ReSCoSS conformations // COSMOtherm pKa,-1.84,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM13,ReSCoSS conformations // COSMOtherm pKa,-6.28,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM13,ReSCoSS conformations // COSMOtherm pKa,4.23,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM13,ReSCoSS conformations // COSMOtherm pKa,13.44,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM16,ReSCoSS conformations // COSMOtherm pKa,-11.75,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM16,ReSCoSS conformations // COSMOtherm pKa,-5.8,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM17,ReSCoSS conformations // COSMOtherm pKa,-3.11,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM17,ReSCoSS conformations // COSMOtherm pKa,-5.25,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM17,ReSCoSS conformations // COSMOtherm pKa,-3.15,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM17,ReSCoSS conformations // COSMOtherm pKa,-2.17,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM19,ReSCoSS conformations // COSMOtherm pKa,0.5,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM21,ReSCoSS conformations // COSMOtherm pKa,-7.28,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM21,ReSCoSS conformations // COSMOtherm pKa,-9.71,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM21,ReSCoSS conformations // COSMOtherm pKa,-5.08,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM21,ReSCoSS conformations // COSMOtherm pKa,-7.58,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM21,ReSCoSS conformations // COSMOtherm pKa,-0.5,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM21,ReSCoSS conformations // COSMOtherm pKa,14.72,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM21,ReSCoSS conformations // COSMOtherm pKa,13.59,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM23,ReSCoSS conformations // COSMOtherm pKa,-4.02,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM23,ReSCoSS conformations // COSMOtherm pKa,-6.76,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM23,ReSCoSS conformations // COSMOtherm pKa,-6.87,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM23,ReSCoSS conformations // COSMOtherm pKa,2.65,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM23,ReSCoSS conformations // COSMOtherm pKa,13.69,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM23,ReSCoSS conformations // COSMOtherm pKa,14.43,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM23,ReSCoSS conformations // COSMOtherm pKa,16.19,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM23,ReSCoSS conformations // COSMOtherm pKa,15.64,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM24,ReSCoSS conformations // COSMOtherm pKa,-3.99,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM24,ReSCoSS conformations // COSMOtherm pKa,0.46,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM24,ReSCoSS conformations // COSMOtherm pKa,-7.8,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM24,ReSCoSS conformations // COSMOtherm pKa,16.8,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM24,ReSCoSS conformations // COSMOtherm pKa,16.27,--,--,,--,Rainer Wilcken,ccpmw
+--,,,SM01,moka,11.37,--,--,,--,Thomas Fox,nb016
+--,,,SM02,moka,-1.87,--,--,,--,Thomas Fox,nb016
+--,,,SM03,moka,3.08,--,--,,--,Thomas Fox,nb016
+--,,,SM03,moka,-1.0,--,--,,--,Thomas Fox,nb016
+--,,,SM04,moka,-1.51,--,--,,--,Thomas Fox,nb016
+--,,,SM05,moka,10.35,--,--,,--,Thomas Fox,nb016
+--,,,SM06,moka,1.39,--,--,,--,Thomas Fox,nb016
+--,,,SM07,moka,5.11,--,--,,--,Thomas Fox,nb016
+--,,,SM07,moka,-1.51,--,--,,--,Thomas Fox,nb016
+--,,,SM08,moka,11.87,--,--,,--,Thomas Fox,nb016
+--,,,SM09,moka,4.89,--,--,,--,Thomas Fox,nb016
+--,,,SM09,moka,-1.87,--,--,,--,Thomas Fox,nb016
+--,,,SM10,moka,11.7,--,--,,--,Thomas Fox,nb016
+--,,,SM10,moka,1.42,--,--,,--,Thomas Fox,nb016
+--,,,SM12,moka,4.89,--,--,,--,Thomas Fox,nb016
+--,,,SM12,moka,-1.87,--,--,,--,Thomas Fox,nb016
+--,,,SM13,moka,-1.38,--,--,,--,Thomas Fox,nb016
+--,,,SM19,moka,1.09,--,--,,--,Thomas Fox,nb016
+--,,,SM21,moka,-1.65,--,--,,--,Thomas Fox,nb016
+--,,,SM23,moka,-1.45,--,--,,--,Thomas Fox,nb016
+--,,,SM24,moka,14.58,--,--,,--,Thomas Fox,nb016
+--,,,SM24,moka,-0.97,--,--,,--,Thomas Fox,nb016
+--,,,SM01,Explicit solvent submission 1,-5.87,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM01,Explicit solvent submission 1,23.45,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM01,Explicit solvent submission 1,12.54,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM01,Explicit solvent submission 1,18.53,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM01,Explicit solvent submission 1,18.99,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM01,Explicit solvent submission 1,-11.65,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM01,Explicit solvent submission 1,-23.39,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM01,Explicit solvent submission 1,-11.11,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM01,Explicit solvent submission 1,15.81,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-25.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-28.02,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-4.03,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-15.53,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-29.8,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-18.99,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-20.64,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-10.91,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-18.11,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-9.93,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-7.35,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-26.31,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-12.88,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-22.94,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-35.19,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM02,Explicit solvent submission 1,-16.23,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-1.38,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-8.13,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,30.41,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-8.92,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-8.28,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-11.62,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-15.85,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-2.25,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,21.67,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,0.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-10.99,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-12.54,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-15.27,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-6.08,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-26.61,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-52.93,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-7.04,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-14.51,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-11.05,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-15.96,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-20.79,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-19.29,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM03,Explicit solvent submission 1,-7.09,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-27.98,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,9.91,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-33.89,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-17.12,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,8.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-17.54,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-18.29,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-18.82,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-5.53,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-10.41,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-6.91,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-21.35,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-11.56,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-23.05,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-32.05,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM04,Explicit solvent submission 1,-16.31,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,20.98,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,-28.85,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,-24.72,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,-24.48,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,-13.73,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,29.91,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,9.97,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,9.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,-1.56,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,-12.83,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,-23.61,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM05,Explicit solvent submission 1,-1.91,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,13.83,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-1.85,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-17.49,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-7.36,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-4.95,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-19.51,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,8.77,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-15.47,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-1.13,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-2.61,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,0.26,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-3.76,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,13.12,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-11.04,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,10.59,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-18.96,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-26.25,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM06,Explicit solvent submission 1,-25.62,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-2.69,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-3.06,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,14.27,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-9.84,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-1.29,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-17.21,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-18.59,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-18.27,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-5.55,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-9.78,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-6.71,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-21.16,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-11.51,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-22.83,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-31.45,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM07,Explicit solvent submission 1,-16.13,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,-24.82,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,-2.77,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,-5.69,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,10.22,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,19.49,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,8.21,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,-14.88,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,16.96,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,-0.1,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,6.67,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM08,Explicit solvent submission 1,1.89,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,0.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-6.59,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-1.23,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,1.81,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-11.43,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-24.34,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-6.28,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-1.0,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-9.05,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-7.29,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-25.69,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-12.44,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-23.1,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-35.34,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM09,Explicit solvent submission 1,-16.94,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,23.67,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-11.25,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-17.83,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-15.88,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,9.45,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,11.73,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-1.96,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,3.87,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-10.23,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-0.66,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-9.73,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-9.92,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,3.11,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-11.37,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,15.1,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,5.29,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,6.15,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,6.12,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-8.97,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,11.34,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-1.14,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-0.23,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-10.96,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,1.58,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,0.68,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-11.81,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-13.56,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,16.75,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,21.54,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,38.11,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,12.13,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,14.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-36.13,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,23.06,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,16.3,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,26.23,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,31.59,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-5.9,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-11.18,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-9.12,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-5.08,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-4.76,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,25.93,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-3.16,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-7.73,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-8.48,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-2.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,38.23,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,12.41,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-0.39,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-10.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-12.85,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-4.73,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,0.23,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-11.62,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-1.16,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-2.49,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-3.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,10.58,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,8.66,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-4.07,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-8.77,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-4.46,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-9.97,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-2.62,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-3.49,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM10,Explicit solvent submission 1,-15.21,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,12.92,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-11.21,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,9.4,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-5.46,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,16.53,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-19.62,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,13.36,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-11.46,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-19.64,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-10.66,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-12.69,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-10.44,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-23.22,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-11.98,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-5.53,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-10.71,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-15.39,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-11.6,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-17.1,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-17.48,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-29.75,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-18.42,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-27.34,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-17.48,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-16.09,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-15.81,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-18.21,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-22.92,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-32.12,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-21.59,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-29.01,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-29.01,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-40.55,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-24.51,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,11.14,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-2.41,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-10.57,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM11,Explicit solvent submission 1,-3.13,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-16.78,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-29.73,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-10.99,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-13.93,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-21.8,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-25.68,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-18.11,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-13.98,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,10.42,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-7.58,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-10.18,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-27.04,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-13.29,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-23.67,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-36.06,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM12,Explicit solvent submission 1,-16.6,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-11.57,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-1.49,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-19.08,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-18.95,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,16.94,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-9.99,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,8.04,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-11.8,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-1.58,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-8.61,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-6.89,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-11.11,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-23.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-20.02,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-30.05,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM13,Explicit solvent submission 1,-13.62,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM15,Explicit solvent submission 1,-9.75,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM15,Explicit solvent submission 1,17.71,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-21.93,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-8.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-0.61,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-9.97,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-18.81,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-21.9,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-14.16,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-17.74,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-25.9,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 1,-17.96,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-8.75,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-8.49,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-1.51,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-11.48,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-2.74,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-12.45,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-31.27,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-28.89,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-5.85,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-25.18,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM17,Explicit solvent submission 1,-25.44,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-10.47,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-15.89,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-34.7,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,20.78,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-4.83,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,11.27,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-5.36,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-12.26,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-5.39,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-7.78,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-9.95,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-0.86,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,5.92,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,14.03,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,8.36,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,27.15,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,18.43,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-7.68,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,15.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,2.97,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,8.3,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,19.13,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,17.75,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-4.47,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-20.41,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,3.07,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM19,Explicit solvent submission 1,-9.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM20,Explicit solvent submission 1,-12.46,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM20,Explicit solvent submission 1,-14.26,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-11.0,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-9.01,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-17.92,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-6.6,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,4.04,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-50.14,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,17.92,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-35.86,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,22.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,8.25,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,14.76,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,16.65,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-66.87,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-5.12,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-22.52,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,12.53,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-3.12,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-0.23,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,7.19,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-37.27,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-7.67,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-14.09,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-8.22,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-24.74,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-9.91,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-14.85,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-23.8,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-14.44,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-19.72,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-21.96,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-10.8,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-17.86,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-14.19,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-35.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-24.68,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-19.73,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-27.81,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-31.89,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-28.47,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-34.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-22.82,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-26.45,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-27.44,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-30.21,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-23.16,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-42.81,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-34.73,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-43.81,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM21,Explicit solvent submission 1,-40.05,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM22,Explicit solvent submission 1,10.05,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM22,Explicit solvent submission 1,12.51,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,17.09,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-6.36,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-7.64,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,14.75,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,6.43,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-8.66,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,8.42,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,15.37,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,17.54,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-12.68,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-14.04,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,10.61,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,3.77,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,9.25,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-5.64,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,9.33,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,6.61,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-5.94,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,9.99,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-14.58,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-13.03,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-4.2,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-16.83,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-1.67,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-19.33,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-6.75,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-11.96,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-18.29,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-12.08,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-15.82,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-10.12,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-12.7,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-31.49,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-27.69,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-17.4,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-30.19,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-27.7,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-21.75,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-33.06,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-26.76,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-21.43,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-24.04,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-26.51,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-25.89,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-37.28,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-34.78,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-35.72,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM23,Explicit solvent submission 1,-30.64,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-14.94,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,1.98,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-8.47,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-12.91,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-0.74,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,14.31,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,11.11,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,20.23,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,8.97,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,19.37,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,0.2,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,10.33,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,8.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,3.08,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,2.25,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,14.38,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,11.62,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,2.21,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-9.55,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-10.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,3.8,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-9.03,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-11.57,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-7.24,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-15.42,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-15.42,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-15.32,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,5.15,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,14.26,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-17.1,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-14.05,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-14.55,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,4.26,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-0.65,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,14.19,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-6.04,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-6.26,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-2.09,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,12.97,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-15.72,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-11.63,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-15.14,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-19.45,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-12.83,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-10.94,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-15.93,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-10.55,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-14.72,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-24.82,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-18.14,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-16.95,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM24,Explicit solvent submission 1,-17.34,--,--,,--,Samarjeet Prasad,0wfzo
+--,,,SM01,S+pKa,11.52,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM01,S+pKa,9.36,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM01,S+pKa,11.41,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,2.93,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,-0.29,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,-1.25,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,-2.29,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,-0.69,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,-2.28,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,0.94,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,3.57,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,-3.27,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,-2.23,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM02,S+pKa,-0.64,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,8.97,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,3.44,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,1.7,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,-0.03,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,-0.18,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,5.35,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,-2.43,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,-0.69,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,-2.42,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,-2.27,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM03,S+pKa,5.51,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,3.34,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,0.93,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,-0.46,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,-2.77,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,-0.76,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,-1.61,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,0.79,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,3.96,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,-4.03,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,-1.72,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM04,S+pKa,-0.86,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM05,S+pKa,11.07,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM05,S+pKa,5.16,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM05,S+pKa,9.97,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,5.46,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,2.34,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,1.54,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,3.4,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,8.66,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,1.89,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,9.92,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,5.02,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,1.28,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM06,S+pKa,8.04,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,3.66,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,1.3,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,-0.14,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,-2.84,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,-0.91,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,-1.52,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,4.14,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,0.83,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,-4.25,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,-1.55,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM07,S+pKa,-0.94,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM08,S+pKa,4.65,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM08,S+pKa,11.99,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM08,S+pKa,11.45,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,-1.11,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,-2.13,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,3.07,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,-0.08,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,-0.71,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,-2.32,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,3.47,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,0.84,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,-3.21,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,-2.19,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM09,S+pKa,-0.58,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,11.23,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,6.22,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,10.31,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,6.19,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,11.26,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,10.92,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,5.86,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,1.79,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,10.93,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,2.09,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM10,S+pKa,6.21,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,3.18,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,0.85,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-0.2,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.79,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.33,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-1.1,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,1.23,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,0.12,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,2.94,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-0.4,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.14,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.16,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,1.93,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,0.66,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-0.93,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.35,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-3.56,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-1.55,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-1.83,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-1.07,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.3,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-0.6,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-1.53,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,0.52,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,0.51,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.94,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.93,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.0,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-1.72,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-2.3,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM11,S+pKa,-3.24,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,-0.7,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,-2.72,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,-1.78,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,-2.37,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,3.23,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,0.62,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,-3.3,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,2.57,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,-0.77,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,-2.7,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM12,S+pKa,-0.69,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,-0.93,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,-1.28,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,-2.02,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,0.0,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,3.4,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,3.9,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,1.54,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,0.16,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,-1.85,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,-1.68,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM13,S+pKa,0.34,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM15,S+pKa,4.35,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM15,S+pKa,9.12,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM16,S+pKa,6.85,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM16,S+pKa,9.15,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,3.63,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,-1.8,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,3.49,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,-1.81,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,-2.0,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,-1.88,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,-0.74,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,-0.73,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,3.78,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,-0.9,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM17,S+pKa,-1.03,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM19,S+pKa,6.27,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM19,S+pKa,2.28,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM19,S+pKa,5.95,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.53,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,0.17,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,2.06,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.69,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,0.11,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.71,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,1.98,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,0.86,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-1.02,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,1.26,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-1.33,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-2.49,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,0.9,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.01,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.71,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-1.51,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-1.49,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.37,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-1.16,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.85,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,0.41,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-2.43,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.99,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.64,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-2.49,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-0.71,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,0.21,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-2.69,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-1.9,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-1.77,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM21,S+pKa,-1.7,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM22,S+pKa,4.49,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM22,S+pKa,5.82,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,0.97,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,0.54,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,3.25,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,0.35,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,2.47,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,0.26,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,4.66,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-1.82,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,3.01,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,1.96,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-0.32,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,2.04,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-0.67,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,0.33,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,0.76,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-0.71,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-0.62,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,2.08,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-1.86,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,0.22,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,2.47,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-2.13,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,0.04,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,1.01,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-0.58,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-0.22,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,1.06,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-2.11,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-0.87,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,-0.69,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM23,S+pKa,0.55,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,11.98,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,3.2,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,11.78,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,3.24,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,11.5,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,3.72,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,2.26,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,11.58,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,-0.22,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,-0.25,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,11.76,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,3.41,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,2.75,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,2.0,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,1.26,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,0.21,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,-0.51,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,-0.2,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,1.78,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,2.73,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,11.56,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,0.44,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,1.42,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,11.73,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,-1.52,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,-0.03,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,0.69,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,0.6,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,-1.4,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,-0.09,--,--,,--,Robert Fraczkiewicz,hdiyq
+--,,,SM24,S+pKa,11.68,--,--,,--,Robert Fraczkiewicz,hdiyq
