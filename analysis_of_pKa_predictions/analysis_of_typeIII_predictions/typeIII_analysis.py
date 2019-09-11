@@ -203,6 +203,85 @@ def barplot_with_CI_errorbars(df, x_label, y_label, y_lower_label, y_upper_label
     plt.ylabel(y_label)
 
 
+def barplot_with_CI_errorbars_colored_by_label(df, x_label, y_label, y_lower_label, y_upper_label, color_label, figsize=False):
+    """Creates bar plot of a given dataframe with asymmetric error bars for y axis.
+        Args:
+            df: Pandas Dataframe that should have columns with columnnames specified in other arguments.
+            x_label: str, column name of x axis categories
+            y_label: str, column name of y axis values
+            y_lower_label: str, column name of lower error values of y axis
+            y_upper_label: str, column name of upper error values of y axis
+            color_label: str, column name of label that will determine the color of bars
+            figsize: tuple, size in inches. Default value is False.
+        """
+    # Column names for new columns for delta y_err which is calculated as | y_err - y |
+    delta_lower_yerr_label = "$\Delta$" + y_lower_label
+    delta_upper_yerr_label = "$\Delta$" + y_upper_label
+    data = df  # Pandas DataFrame
+    data.loc[:, delta_lower_yerr_label] = data.loc[:, y_label] - data.loc[:, y_lower_label]
+    data.loc[:, delta_upper_yerr_label] = data.loc[:, y_upper_label] - data.loc[:, y_label]
+
+    # Color
+    current_palette = sns.color_palette()
+    # Error bar color
+    sns_color = current_palette[2]
+    # Bar colors
+    if color_label == "category":
+        category_list = ["QM", "DL", "LFER", "QSPR/ML"]
+    elif color_label == "type":
+        category_list = ["Standard", "Reference"]
+    else:
+        Exception("Error: Unsupported label used for coloring")
+    bar_color_dict = {}
+    for i, cat in enumerate(category_list):
+        bar_color_dict[cat] = current_palette[i]
+    print("bar_color_dict:\n", bar_color_dict)
+
+
+    # Plot style
+    plt.close()
+    plt.style.use(["seaborn-talk", "seaborn-whitegrid"])
+    plt.rcParams['axes.labelsize'] = 18
+    plt.rcParams['xtick.labelsize'] = 14
+    plt.rcParams['ytick.labelsize'] = 16
+    # plt.tight_layout()
+    bar_width = 0.70
+
+    # If figsize is specified
+    if figsize != False:
+        plt.figure(figsize=figsize)
+
+    # Plot
+    x = range(len(data[y_label]))
+    y = data[y_label]
+    #barlist = plt.bar(x, y)
+    fig, ax = plt.subplots(figsize=figsize)
+    barlist = ax.bar(x, y, width=bar_width)
+
+    plt.xticks(x, data[x_label], rotation=90)
+    plt.errorbar(x, y, yerr=(data[delta_lower_yerr_label], data[delta_upper_yerr_label]),
+                 fmt="none", ecolor='gray', capsize=3, elinewidth=2, capthick=True)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+
+    # Reset color of bars ased on color label
+    #print("data.columns:\n",data.columns)
+    for i, c_label in enumerate(data.loc[:, color_label]):
+        barlist[i].set_color(bar_color_dict[c_label])
+
+    # create legend
+    from matplotlib.lines import Line2D
+    if color_label == 'category':
+        custom_lines = [Line2D([0], [0], color=bar_color_dict["QM"], lw=5),
+                        Line2D([0], [0], color=bar_color_dict["DL"], lw=5),
+                        Line2D([0], [0], color=bar_color_dict["LFER"], lw=5),
+                        Line2D([0], [0], color=bar_color_dict["QSPR/ML"], lw=5)]
+    elif color_label == 'type':
+        custom_lines = [Line2D([0], [0], color=bar_color_dict["Standard"], lw=5),
+                        Line2D([0], [0], color=bar_color_dict["Reference"], lw=5)]
+    ax.legend(custom_lines, category_list)
+
+
 def barplot(df, x_label, y_label, title):
     """Creates bar plot of a given dataframe.
 
@@ -1246,21 +1325,52 @@ def generate_statistics_tables(submissions, stats_funcs, directory_path, file_ba
     # plt.show()
     plt.savefig(file_base_path + '_bootstrap_distributions.pdf')
 
-def generate_performance_comparison_plots(statistics_filename, directory_path):
+def generate_performance_comparison_plots(statistics_filename, directory_path, method_df):
         # Read statistics table
         statistics_file_path = os.path.join(directory_path, statistics_filename)
         df_statistics = pd.read_csv(statistics_file_path)
-        #print("\n df_statistics \n", df_statistics)
+        # Create new column to save categories
+        df_statistics["category"] = np.NaN
+        print("\n df_statistics \n", df_statistics)
+
+        # Get category labels for coloring form method map dataframe and record it in df_statistics
+        # Column label: Category For Plot Colors
+        receipt_IDs = df_statistics["ID"]
+
+        for i, receipt_ID in enumerate(receipt_IDs):
+            # find the line in method map to record it's coloring category
+            category = method_df[method_df["typeIII submission ID"]==receipt_ID]["Category For Plot Colors"].values[0]
+            df_statistics.loc[i, "category"] = category
+
+
+        #import pdb;
+        #pdb.set_trace()
+
 
         # RMSE comparison plot
         barplot_with_CI_errorbars(df=df_statistics, x_label="ID", y_label="RMSE", y_lower_label="RMSE_lower_bound",
                                   y_upper_label="RMSE_upper_bound")
         plt.savefig(directory_path + "/RMSE_vs_method_plot.pdf")
 
+        # RMSE comparison plot with each category colored separately
+        barplot_with_CI_errorbars_colored_by_label(df=df_statistics, x_label="ID", y_label="RMSE",
+                                  y_lower_label="RMSE_lower_bound",
+                                  y_upper_label="RMSE_upper_bound", color_label = "category", figsize=(10, 7))
+        plt.ylim(0.0, 7.0)
+        plt.savefig(directory_path + "/RMSE_vs_method_plot_colored_by_method_category.pdf")
+
         # MAE comparison plot
         barplot_with_CI_errorbars(df=df_statistics, x_label="ID", y_label="MAE", y_lower_label="MAE_lower_bound",
                                   y_upper_label="MAE_upper_bound")
         plt.savefig(directory_path + "/MAE_vs_method_plot.pdf")
+
+        # MAE comparison plot with each category colored separately
+        barplot_with_CI_errorbars_colored_by_label(df=df_statistics, x_label="ID", y_label="MAE",
+                                                   y_lower_label="MAE_lower_bound",
+                                                   y_upper_label="MAE_upper_bound", color_label="category",
+                                                   figsize=(10, 7))
+        plt.ylim(0.0, 7.0)
+        plt.savefig(directory_path + "/MAE_vs_method_plot_colored_by_method_category.pdf")
 
 
 # =============================================================================
@@ -1353,9 +1463,14 @@ if __name__ == '__main__':
                                        ordering_functions=ordering_functions,
                                        latex_header_conversions=latex_header_conversions)
 
+
+        # Import method map for coloring comparison plots
+        with open('../../predictions/SAMPL6_method_map_pKa.csv', 'r') as f:
+            method_map = pd.read_csv(f)
+
         # Generate RMSE and MAE comparison plots.
         statistics_directory_path = os.path.join(output_directory_path, "StatisticsTables")
-        generate_performance_comparison_plots(statistics_filename="statistics.csv", directory_path=statistics_directory_path)
+        generate_performance_comparison_plots(statistics_filename="statistics.csv", directory_path=statistics_directory_path, method_df = method_map)
 
 
 
