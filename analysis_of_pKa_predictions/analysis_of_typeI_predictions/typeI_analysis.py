@@ -19,7 +19,7 @@ import scipy.stats
 # =============================================================================
 
 # Paths to input data.
-PKA_TYPEI_SUBMISSIONS_DIR_PATH = './typeI_predictions_test'
+PKA_TYPEI_SUBMISSIONS_DIR_PATH = './typeI_predictions'
 EXPERIMENTAL_DATA_FILE_PATH = '../../experimental_data/pKa_experimental_values.csv'
 EXPERIMENTAL_MICROSTATE_DATA_FILE_PATH = '../../experimental_data/experimental_microstates.csv'
 
@@ -1504,6 +1504,9 @@ def generate_statistics_tables(submissions, stats_funcs, directory_path, file_ba
         statistics_latex.to_latex(f, column_format='|ccccccc|', escape=False, index=False, longtable=True)
         f.write('\end{center}\n' 
                 '\nNotes\n\n'
+                '- In this analysis we assumed well separated experimental macroscopic pKas represent microscopic pKas. '
+                'Molecules with experimental pKa values at least 3 units apart were considered\n\n' 
+                'well-separated. SM14 and SM18 which do not satify this criteria are ignored in this analysis.\n\n'
                 '- Mean and 95\% confidence intervals of statistic values were calculated by bootstrapping.\n\n'
                 '- pKa predictions of Epik, Jaguar, Chemicalize, and MoKa were not blind (submission IDs noted as nbXXX). They were submitted after the submission deadline as reference methods.\n\n'
                 '- pKas of the rest of the molecules in these submissions were blindly predicted before experimental data was released.\n\n'
