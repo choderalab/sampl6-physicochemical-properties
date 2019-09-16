@@ -6,7 +6,7 @@
 import os
 import numpy as np
 import pandas as pd
-from typeIII_analysis import mae, rmse, barplot_with_CI_errorbars
+from typeIII_analysis import mae, rmse, barplot_with_CI_errorbars, plot_correlation
 from typeIII_analysis import compute_bootstrap_statistics
 import shutil
 import seaborn as sns
@@ -159,6 +159,33 @@ def stacked_barplot_2groups(df, x_label, y_label1, y_label2, fig_size=(10, 7), i
         ax = plt.gca()
         ax.invert_yaxis()
 
+
+def scatter_plot(df, x_label, y_label, fig_size=(10, 7)):
+
+    # Color
+    current_palette = sns.color_palette()
+    #current_palette = sns.color_palette("GnBu_d")
+    error_color = sns.color_palette("GnBu_d")[0]
+
+
+    # Plot style
+    plt.close()
+    plt.style.use(["seaborn-talk", "seaborn-whitegrid"])
+    plt.rcParams['axes.labelsize'] = 18
+    plt.rcParams['xtick.labelsize'] = 14
+    plt.rcParams['ytick.labelsize'] = 16
+    plt.tight_layout()
+    plt.figure(figsize=fig_size)
+
+    x = df[x_label]
+    y = df[y_label]
+
+    plt.scatter(x, y, s=20, alpha=0.5)
+
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+
+    plt.xlim(2, 12)
 
 
 
@@ -514,7 +541,48 @@ def generate_performance_comparison_plots_with_unmatched_pKa_statistics(statisti
                                 y_label2="unmatched pred pKas [2,12]", fig_size=(10, 3), invert=True)
         plt.savefig(directory_path + "/unmatched_pKa_vs_method_plot_narrow.pdf")
 
+        # Unmatched experimental and predicted pKa comparison plot
+        stacked_barplot_2groups(df=df_statistics, x_label="ID", y_label1="unmatched exp pKas",
+                                y_label2="unmatched pred pKas [4,10]", fig_size=(10, 7), invert=False)
+        plt.savefig(directory_path + "/unmatched_pKa_vs_method_plot_4_10.pdf")
 
+        # Unmatched experimental and predicted pKa comparison plot (inverted and narrow)to be shown joint with RMSE plot
+        stacked_barplot_2groups(df=df_statistics, x_label="ID", y_label1="unmatched exp pKas",
+                                y_label2="unmatched pred pKas [4,10]", fig_size=(10, 3), invert=True)
+        plt.savefig(directory_path + "/unmatched_pKa_vs_method_plot_4_10_narrow.pdf")
+
+
+
+
+def generate_pKa_error_trend_plots(collection_df, directory_path):
+
+    top_submission_IDs = ["xvxzd", "gyuhx", "xmyhm", "yqkga", "nb017", "nb007"]
+
+    # Error vs exp pKa value for all submissions
+    scatter_plot(df=collection_df, x_label="pKa (exp)", y_label="$\Delta$pKa error (calc - exp)")
+    plt.ylim(-10, 20)
+    plt.savefig(directory_path + "/prediction_error_vs_exp_pKa_plot.pdf")
+
+    # Error vs exp pKa value for only top submissions
+    collection_df_top_submissions = collection_df[collection_df["receipt_id"].isin(top_submission_IDs)]
+    scatter_plot(df=collection_df_top_submissions, x_label="pKa (exp)", y_label="$\Delta$pKa error (calc - exp)")
+    #plt.ylim(-10, 20)
+    plt.savefig(directory_path + "/prediction_error_vs_exp_pKa_plot_top_submissions.pdf")
+
+    # Absolute error vs exp pKa value for all submissions
+    collection_df["|$\Delta$pKa (calc - exp)|"]= np.abs(collection_df["$\Delta$pKa error (calc - exp)"])
+    scatter_plot(df=collection_df, x_label="pKa (exp)", y_label="|$\Delta$pKa (calc - exp)|")
+    plt.ylim(0, 20)
+    plt.savefig(directory_path + "/absolute_prediction_error_vs_exp_pKa_plot.pdf")
+
+    #plot_correlation(x="pKa (exp)", y="|$\Delta$pKa (calc - exp)|", data=collection_df, title=None, color=None, kind='joint', ax=None)
+    #plt.savefig(directory_path + "/absolute_prediction_error_vs_exp_pKa_correlation_plot.pdf")
+
+    # Absolute error vs exp pKa value for top submissions
+    collection_df_top_submissions ["|$\Delta$pKa (calc - exp)|"] = np.abs(collection_df_top_submissions ["$\Delta$pKa error (calc - exp)"])
+    scatter_plot(df=collection_df_top_submissions , x_label="pKa (exp)", y_label="|$\Delta$pKa (calc - exp)|")
+    plt.ylim(0, 3)
+    plt.savefig(directory_path + "/absolute_prediction_error_vs_exp_pKa_plot_top_submissions.pdf")
 
 
 # =============================================================================
@@ -580,6 +648,13 @@ if __name__ == '__main__':
         # Plot performance comparison plots with unmatched pKa statistics
         generate_performance_comparison_plots_with_unmatched_pKa_statistics(statistics_filename="statistics_with_unmatched_pKa_numbers.csv",
                                                                             directory_path=statistics_directory_path)
+
+
+        # Plot error vs experimental pKa value
+        generate_pKa_error_trend_plots(collection_df = collection_data,
+                                       directory_path= statistics_directory_path)
+
+
 
 
 
