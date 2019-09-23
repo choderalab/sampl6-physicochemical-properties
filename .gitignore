@@ -3,3 +3,7 @@
 */.ipynb_checkpoints/*
 .idea/
 .idea/*
+*.pyc
+*-checkpoint.ipynb
+compound_selection/zinc15_eMolecules_intersection_set/20170808_zinc15_eMolecules_subset_exp_logP_check/ncidb/
+*.swp
