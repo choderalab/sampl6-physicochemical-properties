@@ -188,6 +188,24 @@ def scatter_plot(df, x_label, y_label, fig_size=(10, 7)):
     plt.xlim(2, 12)
 
 
+def box_plot(data_dict, labels):
+    """
+    :param data_dict: Dictionary with labels as keys and list of numbers as values
+    :param labels: Dictionary keys (of each set of values)
+    :return:
+    """
+
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+
+    data=[]
+    for label in labels:
+        values = data_dict[label]
+        data.append(values)
+
+    ax.boxplot(data, notch=True, labels=labels)
+
+
 
 
 
@@ -583,6 +601,50 @@ def generate_pKa_error_trend_plots(collection_df, directory_path):
     scatter_plot(df=collection_df_top_submissions , x_label="pKa (exp)", y_label="|$\Delta$pKa (calc - exp)|")
     plt.ylim(0, 3)
     plt.savefig(directory_path + "/absolute_prediction_error_vs_exp_pKa_plot_top_submissions.pdf")
+
+    # Bar plot with experimental pKa binned into pKa of 2 for top submissions
+
+    abs_err_bin_2_4 = collection_df_top_submissions[collection_df_top_submissions["pKa (exp)"].between(2, 4)][
+        "|$\Delta$pKa (calc - exp)|"].values
+    abs_err_bin_4_6 = collection_df_top_submissions[collection_df_top_submissions["pKa (exp)"].between(4, 6)][
+        "|$\Delta$pKa (calc - exp)|"].values
+    abs_err_bin_6_8 = collection_df_top_submissions[collection_df_top_submissions["pKa (exp)"].between(6, 8)][
+        "|$\Delta$pKa (calc - exp)|"].values
+    abs_err_bin_8_10 = collection_df_top_submissions[collection_df_top_submissions["pKa (exp)"].between(8, 10)][
+        "|$\Delta$pKa (calc - exp)|"].values
+    abs_err_bin_10_12 = collection_df_top_submissions[collection_df_top_submissions["pKa (exp)"].between(10, 12)][
+        "|$\Delta$pKa (calc - exp)|"].values
+
+    binned_abs_error_dict = {"2-4": abs_err_bin_2_4,"4-6": abs_err_bin_4_6,"6-8": abs_err_bin_6_8,
+                             "8-10": abs_err_bin_8_10,"10-12": abs_err_bin_10_12 }
+
+    box_plot(data_dict=binned_abs_error_dict, labels=["2-4", "4-6", "6-8", "8-10","10-12"])
+    plt.xlabel("experimental pKa range")
+    plt.ylabel("|$\Delta$pKa (calc - exp)|")
+    plt.ylim(0,5)
+    plt.savefig(directory_path + "/absolute_prediction_error_vs_exp_pKa_boxplot_top_submissions.pdf")
+
+    # Bar plot with experimental pKa binned into pKa of 2 for all submissions
+
+    abs_err_bin_2_4 = collection_df[collection_df["pKa (exp)"].between(2, 4)][
+        "|$\Delta$pKa (calc - exp)|"].values
+    abs_err_bin_4_6 = collection_df[collection_df["pKa (exp)"].between(4, 6)][
+        "|$\Delta$pKa (calc - exp)|"].values
+    abs_err_bin_6_8 = collection_df[collection_df["pKa (exp)"].between(6, 8)][
+        "|$\Delta$pKa (calc - exp)|"].values
+    abs_err_bin_8_10 = collection_df[collection_df["pKa (exp)"].between(8, 10)][
+        "|$\Delta$pKa (calc - exp)|"].values
+    abs_err_bin_10_12 = collection_df[collection_df["pKa (exp)"].between(10, 12)][
+        "|$\Delta$pKa (calc - exp)|"].values
+
+    binned_abs_error_dict = {"2-4": abs_err_bin_2_4, "4-6": abs_err_bin_4_6, "6-8": abs_err_bin_6_8,
+                             "8-10": abs_err_bin_8_10, "10-12": abs_err_bin_10_12}
+
+    box_plot(data_dict=binned_abs_error_dict, labels=["2-4", "4-6", "6-8", "8-10", "10-12"])
+    plt.xlabel("experimental pKa range")
+    plt.ylabel("|$\Delta$pKa (calc - exp)|")
+    plt.ylim(0, 5)
+    plt.savefig(directory_path + "/absolute_prediction_error_vs_exp_pKa_boxplot.pdf")
 
 
 # =============================================================================
