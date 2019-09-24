@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[a4paper,margin=0.005in,tmargin=0.5in,landscape]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\pagenumbering{gobble}
+\begin{document}
+\begin{center}
+\begin{longtable}{|ccccccc|}
+\toprule
+    ID &                                               name &                  RMSE &                   MAE &                      ME &                 R$^2$ &                     m \\
+\midrule
+\endhead
+\midrule
+\multicolumn{7}{r}{{Continued on next page}} \\
+\midrule
+\endfoot
+
+\bottomrule
+\endlastfoot
+ nb011 &                                             Jaguar &  0.468 [0.300, 0.645] &  0.329 [0.223, 0.455] &  -0.019 [-0.186, 0.157] &  0.971 [0.935, 0.990] &  1.010 [0.963, 1.060] \\
+ 4o0ia &         EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par &  0.664 [0.446, 0.866] &  0.465 [0.317, 0.641] &   0.003 [-0.244, 0.235] &  0.940 [0.880, 0.978] &  0.967 [0.866, 1.047] \\
+ nb008 &                                   Epik Microscopic &  0.761 [0.474, 1.000] &  0.523 [0.342, 0.731] &  -0.084 [-0.387, 0.166] &  0.930 [0.851, 0.978] &  0.853 [0.786, 0.926] \\
+ 0xi4b &  EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par &  0.853 [0.586, 1.085] &  0.633 [0.426, 0.838] &   0.230 [-0.074, 0.542] &  0.914 [0.827, 0.963] &  0.994 [0.899, 1.088] \\
+ nb016 &                                               MoKa &  0.952 [0.711, 1.177] &  0.767 [0.574, 0.992] &  -0.225 [-0.564, 0.129] &  0.895 [0.826, 0.948] &  0.935 [0.827, 1.093] \\
+ eyetm &  ReSCoSS conformations // DSD-BLYP-D3 reranking... &  0.979 [0.673, 1.265] &  0.720 [0.473, 0.956] &  -0.318 [-0.638, 0.008] &  0.915 [0.857, 0.958] &  1.089 [0.950, 1.224] \\
+ 2umai &         EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par &  1.004 [0.469, 1.567] &  0.574 [0.339, 0.929] &   0.067 [-0.251, 0.519] &  0.906 [0.826, 0.977] &  1.096 [0.968, 1.263] \\
+ arcko &              Vertical scheme for type I submission &  1.041 [0.733, 1.316] &  0.767 [0.519, 1.029] &    0.366 [0.034, 0.719] &  0.886 [0.810, 0.945] &  1.010 [0.905, 1.135] \\
+ 8toyp &         EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par &  1.134 [0.612, 1.660] &  0.696 [0.424, 1.041] &   0.128 [-0.236, 0.554] &  0.884 [0.810, 0.958] &  1.103 [0.976, 1.311] \\
+ qsicn &  microscopic pKa prediction with Gaussian and s... &  1.165 [0.320, 1.660] &  0.884 [0.270, 1.540] &  -0.764 [-1.540, 0.012] &  0.914 [0.457, 1.000] &  1.162 [0.519, 1.592] \\
+ 6tvf8 &                                OE Gaussian Process &  1.251 [0.716, 1.693] &  0.789 [0.463, 1.197] &   0.199 [-0.237, 0.662] &  0.736 [0.486, 0.913] &  0.762 [0.544, 0.942] \\
+ 758j8 &                      Explicit solvent submission 3 &  4.301 [2.188, 6.427] &  2.650 [1.657, 4.109] &   0.339 [-1.268, 1.680] &  0.258 [0.074, 0.665] &  0.972 [0.614, 1.325] \\
+ 0wfzo &                      Explicit solvent submission 1 &  4.972 [1.351, 8.186] &  2.237 [1.016, 4.138] &  -0.638 [-2.617, 0.859] &  0.196 [0.052, 0.802] &  0.990 [0.728, 1.302] \\
+\end{longtable}
+\end{center}
+
+Notes
+
+- In this analysis we assumed well separated experimental macroscopic pKas represent microscopic pKas. Molecules with experimental pKa values at least 3 units apart were considered
+
+well-separated. SM14 and SM18 which do not satify this criteria are ignored in this analysis.
+
+- Mean and 95\% confidence intervals of statistic values were calculated by bootstrapping.
+
+- pKa predictions of Epik, Jaguar, Chemicalize, and MoKa were not blind (submission IDs noted as nbXXX). They were submitted after the submission deadline as reference methods.
+
+- pKas of the rest of the molecules in these submissions were blindly predicted before experimental data was released.
+
+\end{document}
