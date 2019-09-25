@@ -205,15 +205,15 @@ def barplot_with_CI_errorbars(df, x_label, y_label, y_lower_label, y_upper_label
 
 
 def barplot_with_CI_errorbars_colored_by_label(df, x_label, y_label, y_lower_label, y_upper_label, color_label, figsize=False):
-    """Creates bar plot of a given dataframe with asymmetric error bars for y axis.	
-        Args:	
-            df: Pandas Dataframe that should have columns with columnnames specified in other arguments.	
-            x_label: str, column name of x axis categories	
-            y_label: str, column name of y axis values	
-            y_lower_label: str, column name of lower error values of y axis	
-            y_upper_label: str, column name of upper error values of y axis	
-            color_label: str, column name of label that will determine the color of bars	
-            figsize: tuple, size in inches. Default value is False.	
+    """Creates bar plot of a given dataframe with asymmetric error bars for y axis.
+        Args:
+            df: Pandas Dataframe that should have columns with columnnames specified in other arguments.
+            x_label: str, column name of x axis categories
+            y_label: str, column name of y axis values
+            y_lower_label: str, column name of lower error values of y axis
+            y_upper_label: str, column name of upper error values of y axis
+            color_label: str, column name of label that will determine the color of bars
+            figsize: tuple, size in inches. Default value is False.
         """
     # Column names for new columns for delta y_err which is calculated as | y_err - y |
     delta_lower_yerr_label = "$\Delta$" + y_lower_label
@@ -683,6 +683,7 @@ def match_exp_and_pred_pKas(pred_pKas, exp_pKas, exp_pKa_SEMs, exp_pKa_IDs):
     # If multiple predicted pKas are matched to same experimental pKa, keep the closer match
     # The unmatched predicted pKa will be assigned exp pKa np.NaN
     df_pKa_match['duplicate_match'] = df_pKa_match.duplicated("matched exp pKa", keep=False)
+    #print("df_pKa_match 685\n", df_pKa_match)
 
     # Among dublicate matches of each experimental pKa, find the predicted pKa with minimum absolute error
     for exp_pKa in exp_pKas:
@@ -706,6 +707,22 @@ def match_exp_and_pred_pKas(pred_pKas, exp_pKas, exp_pKa_SEMs, exp_pKa_IDs):
                 continue
             else:
                 df_pKa_match.loc[index, "matched exp pKa"] = np.NaN
+
+            # Check if there are multiple matches with the same minimum absolute error.
+            # if that's the case, keep the first predicted value and replace "matched exp pKa" with np.NaN
+            df_dublicate_absolute_error = df_pKa_match[df_pKa_match["absolute error"] == min_abs_error_of_duplicates]
+
+            if df_dublicate_absolute_error.shape[0] > 1:
+                for i, row in enumerate(df_dublicate_absolute_error.iterrows()):
+                    # skip 1st row (keep the matched prediction)
+                    if i == 0:
+                        continue
+                    else:
+                        # replace "matched exp pKa" with np.NaN
+                        pred_pKa = row[1]["pred pKa"]
+                        index = df_pKa_match[df_pKa_match["pred pKa"] == pred_pKa].index.values[0]
+                        df_pKa_match.loc[index, "matched exp pKa"] = np.NaN
+
 
     # Drop the row with NaN experimental matched pKa
     df_pKa_match = df_pKa_match.dropna().reset_index(drop=True)
@@ -753,9 +770,14 @@ def add_pKa_IDs_to_matching_predictions(df_pred, df_exp):
     df_pred["pKa ID"] = np.NaN
     df_pred["Molecule ID"] = df_pred.index
 
-    for i, row in enumerate(df_pred.iterrows()):
+    mol_ids = df_pred["Molecule ID"].values
+    # Remove replicates from mol_ids list
+    mol_ids = list(set(mol_ids))
+
+    for mol_id in mol_ids:
+    #for i, row in enumerate(df_pred.iterrows()):
         #mol_id = row[0]
-        mol_id = row[1]["Molecule ID"]
+        #mol_id = row[1]["Molecule ID"]
 
         # slice prediction and experimental data dataframes by molecule ID to detect the number of predicted pKas for each molecule
         #df_pred_mol = df_pred[df_pred["Molecule ID"] == mol_id]
@@ -1225,7 +1247,7 @@ class pKaTypeISubmissionCollection:
 
 
 class pKaTypeISubmissionFullCollection:
-    """A collection of TypeI pKa submissions. It includes entries of unmatched experimental pKas and also unmatched	
+    """A collection of TypeI pKa submissions. It includes entries of unmatched experimental pKas and also unmatched
     predicted pKas for each submission."""
 
     available_matching = ["closest", "hungarian", "microstate"]
@@ -1643,8 +1665,9 @@ if __name__ == '__main__':
 
     # We will assume well separated experimental macroscopic pKas represent microscopic pKas.
     # pKa values at least 3 units apart will be considered well separated.
-    # Eliminate molecules with experimental pKas closer than 3 pKa units from the analysis.
+    # Eliminate molecules with experimental pKas closer than 3 pKa units from the analysis (SM14, SM18).
     ignored_mol_IDs_for_typeI_analysis = ["SM14", "SM18"]
+
 
     # Load submissions data.
     submissions_typeI = load_submissions(PKA_TYPEI_SUBMISSIONS_DIR_PATH, user_map)
@@ -1652,7 +1675,7 @@ if __name__ == '__main__':
     # Perform the analysis using the different algorithms for matching predictions to experiment
     #for algorithm in ['closest', 'hungarian','microstate']:
     for algorithm in ['closest', 'hungarian']:
-    #for algorithm in ['microstate']:
+    #for algorithm in ['closest']:
 
         output_directory_path='./analysis_outputs_{}'.format(algorithm)
         pka_typei_submission_collection_file_path = '{}/typeI_submission_collection.csv'.format(output_directory_path)

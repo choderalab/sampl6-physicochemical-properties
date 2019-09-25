@@ -14045,6 +14045,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-17.06,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-17.41,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-22.76,--,--,1.77,--,Stefan Kast,2umai
---,,,SM22,"PCM/B3LYP/6-311+G(d,p)",--,SM22_pKa1,SM22_pKa1,--,0.02,Stefan Kast,gdqeg
---,,,SM16,ACD/pKa GALAS,--,SM16_pKa2,SM16_pKa2,--,0.01,Kiril Lanevskij,v8qph
 --,,,SM16,OE Gaussian Process,--,SM16_pKa2,SM16_pKa2,--,0.01,Caitlin Bannan,6tvf8
+--,,,SM16,ACD/pKa GALAS,--,SM16_pKa2,SM16_pKa2,--,0.01,Kiril Lanevskij,v8qph
+--,,,SM22,"PCM/B3LYP/6-311+G(d,p)",--,SM22_pKa1,SM22_pKa1,--,0.02,Stefan Kast,gdqeg

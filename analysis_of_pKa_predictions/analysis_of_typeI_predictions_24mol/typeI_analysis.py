@@ -708,7 +708,7 @@ def match_exp_and_pred_pKas(pred_pKas, exp_pKas, exp_pKa_SEMs, exp_pKa_IDs):
             else:
                 df_pKa_match.loc[index, "matched exp pKa"] = np.NaN
 
-            # Check if there multiple matches with the same minimum absolute error.
+            # Check if there are multiple matches with the same minimum absolute error.
             # if that's the case, keep the first predicted value and replace "matched exp pKa" with np.NaN
             df_dublicate_absolute_error = df_pKa_match[df_pKa_match["absolute error"] == min_abs_error_of_duplicates]
 
@@ -722,7 +722,6 @@ def match_exp_and_pred_pKas(pred_pKas, exp_pKas, exp_pKa_SEMs, exp_pKa_IDs):
                         pred_pKa = row[1]["pred pKa"]
                         index = df_pKa_match[df_pKa_match["pred pKa"] == pred_pKa].index.values[0]
                         df_pKa_match.loc[index, "matched exp pKa"] = np.NaN
-
 
 
     # Drop the row with NaN experimental matched pKa

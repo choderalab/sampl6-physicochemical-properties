@@ -32,4 +32,8 @@ $ run test_microstate_matching.ipynb
 New reference calculations were added.
 Copied `typeI_submission_collection.csv` from `/sampl6-physicochemical-properties/analysis_of_pKa_predictions/analysis_of_typeI_predictions/analysis_outputs_closest`
 
+In this analysis SM14 was missing from microstate analysis because I have removed if previously form type I analysis with 22 molecules, which excludes molecules with pKas closer than 3.
+
+In the future, I will fix this analysis (SM14 will be in the dataset), by using collection file from 24 molecule type I analysis, instead of 22.
+
 
