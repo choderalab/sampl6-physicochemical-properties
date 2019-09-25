@@ -771,11 +771,14 @@ def add_pKa_IDs_to_matching_predictions(df_pred, df_exp):
     df_pred["pKa ID"] = np.NaN
     df_pred["Molecule ID"] = df_pred.index
 
-    #mol_ids = df_pred["Molecule ID"].values
+    mol_ids = df_pred["Molecule ID"].values
+    # Remove replicates from mol_ids list
+    mol_ids = list(set(mol_ids))
 
-    for i, row in enumerate(df_pred.iterrows()):
+    for mol_id in mol_ids:
+    #for i, row in enumerate(df_pred.iterrows()):
         #mol_id = row[0]
-        mol_id = row[1]["Molecule ID"]
+        #mol_id = row[1]["Molecule ID"]
 
         # slice prediction and experimental data dataframes by molecule ID to detect the number of predicted pKas for each molecule
         #df_pred_mol = df_pred[df_pred["Molecule ID"] == mol_id]

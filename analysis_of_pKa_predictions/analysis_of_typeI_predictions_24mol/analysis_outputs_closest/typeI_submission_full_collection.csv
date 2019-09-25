@@ -5617,9 +5617,9 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-17.06,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-17.41,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-22.76,--,--,1.77,--,Stefan Kast,2umai
---,,,SM16,Explicit solvent submission 3,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,758j8
 --,,,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",--,SM18_pKa2,SM18_pKa2,--,0.03,Stefan Kast,0xi4b
---,,,SM16,Explicit solvent submission 1,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,0wfzo
---,,,SM18,Explicit solvent submission 1,--,SM18_pKa3,SM18_pKa3,--,0.04,Samarjeet Prasad,0wfzo
+--,,,SM16,Explicit solvent submission 3,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,758j8
 --,,,SM06,OE Gaussian Process,--,SM06_pKa2,SM06_pKa2,--,0.01,Caitlin Bannan,6tvf8
 --,,,SM16,OE Gaussian Process,--,SM16_pKa2,SM16_pKa2,--,0.01,Caitlin Bannan,6tvf8
+--,,,SM16,Explicit solvent submission 1,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,0wfzo
+--,,,SM18,Explicit solvent submission 1,--,SM18_pKa3,SM18_pKa3,--,0.04,Samarjeet Prasad,0wfzo
