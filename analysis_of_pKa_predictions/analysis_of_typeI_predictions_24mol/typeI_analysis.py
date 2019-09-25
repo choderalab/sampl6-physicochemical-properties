@@ -19,7 +19,7 @@ import scipy.stats
 # =============================================================================
 
 # Paths to input data.
-PKA_TYPEI_SUBMISSIONS_DIR_PATH = './typeI_predictions_test'
+PKA_TYPEI_SUBMISSIONS_DIR_PATH = './typeI_predictions'
 EXPERIMENTAL_DATA_FILE_PATH = '../../experimental_data/pKa_experimental_values.csv'
 EXPERIMENTAL_MICROSTATE_DATA_FILE_PATH = '../../experimental_data/experimental_microstates.csv'
 
@@ -1675,8 +1675,8 @@ if __name__ == '__main__':
 
     # Perform the analysis using the different algorithms for matching predictions to experiment
     #for algorithm in ['closest', 'hungarian','microstate']:
-    #for algorithm in ['closest', 'hungarian']:
-    for algorithm in ['closest']:
+    for algorithm in ['closest', 'hungarian']:
+    #for algorithm in ['closest']:
 
         output_directory_path='./analysis_outputs_{}'.format(algorithm)
         pka_typei_submission_collection_file_path = '{}/typeI_submission_collection.csv'.format(output_directory_path)
