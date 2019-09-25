@@ -165,8 +165,10 @@ def stacked_barplot_2groups(df, x_label, y_label1, y_label2, fig_size=(10, 7), i
 # Paths to input data.
 PKA_TYPEI_CLOSEST_COLLECTION_PATH = './analysis_outputs_closest/typeI_submission_collection.csv'
 PKA_TYPEI_HUNGARIAN_COLLECTION_PATH = './analysis_outputs_hungarian/typeI_submission_collection.csv'
+PKA_TYPEI_MICROSTATE_COLLECTION_PATH = './analysis_outputs_microstate/typeI_submission_collection.csv'
 PKA_TYPEI_CLOSEST_FULL_COLLECTION_PATH = './analysis_outputs_closest/typeI_submission_full_collection.csv'
 PKA_TYPEI_HUNGARIAN_FULL_COLLECTION_PATH = './analysis_outputs_hungarian/typeI_submission_full_collection.csv'
+PKA_TYPEI_MICROSTATE_FULL_COLLECTION_PATH = './analysis_outputs_microstate/typeI_submission_full_collection.csv'
 
 # =============================================================================
 # UTILITY FUNCTIONS
@@ -183,8 +185,10 @@ def read_collection_file(matching_algorithm):
         collection_file_path = PKA_TYPEI_CLOSEST_COLLECTION_PATH
     elif algorithm == 'hungarian':
         collection_file_path = PKA_TYPEI_HUNGARIAN_COLLECTION_PATH
+    elif algorithm == 'microstate':
+        collection_file_path = PKA_TYPEI_MICROSTATE_COLLECTION_PATH
     else:
-        raise Exception("Correct matching algorithm not specified. Should be 'closest' or 'hungarian', or both.")
+        raise Exception("Correct matching algorithm not specified. Should be 'closest', 'hungarian', 'microstate',  or a combination.")
 
     # Check if submission collection file already exists.
     if os.path.isfile(collection_file_path):
@@ -212,8 +216,10 @@ def read_full_collection_file(matching_algorithm):
         collection_file_path = PKA_TYPEI_CLOSEST_FULL_COLLECTION_PATH
     elif algorithm == 'hungarian':
         collection_file_path = PKA_TYPEI_HUNGARIAN_FULL_COLLECTION_PATH
+    elif algorithm == 'microstate':
+        collection_file_path = PKA_TYPEI_MICROSTATE_FULL_COLLECTION_PATH
     else:
-        raise Exception("Correct matching algorithm not specified. Should be 'closest' or 'hungarian', or both.")
+        raise Exception("Correct matching algorithm not specified. Should be 'closest', 'hungarian', 'microstate', or a combination.")
 
      # Check if submission collection file already exists.
     if os.path.isfile(collection_file_path):
@@ -596,7 +602,7 @@ if __name__ == '__main__':
 
 
     # Perform the analysis using the different algorithms for matching predictions to experiment
-    for algorithm in ['closest', 'hungarian']:
+    for algorithm in ['closest', 'hungarian', 'microstate']:
     #for algorithm in ['closest']:
 
         # Read collection file

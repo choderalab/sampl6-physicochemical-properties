@@ -1,4 +1,5 @@
 $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule ID,name,pKa (calc),pKa (exp),pKa ID,pKa SEM (calc),pKa SEM (exp),participant,receipt_id
+-0.6400000000000006,SM02_micro002,SM02_micro004,SM02,Jaguar,4.39,5.03,SM02_pKa1,2.26,0.01,Bas Rustenburg,nb011
 -0.8099999999999996,SM04_micro003,SM04_micro002,SM04,Jaguar,5.21,6.02,SM04_pKa1,2.26,0.01,Bas Rustenburg,nb011
 -0.6500000000000004,SM07_micro004,SM07_micro006,SM07,Jaguar,5.43,6.08,SM07_pKa1,2.26,0.01,Bas Rustenburg,nb011
 -0.5899999999999999,SM09_micro003,SM09_micro001,SM09,Jaguar,4.78,5.37,SM09_pKa1,2.26,0.01,Bas Rustenburg,nb011
@@ -8,6 +9,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 0.21999999999999972,SM14_micro002,SM14_micro003,SM14,Jaguar,2.8,2.58,SM14_pKa1,0.14,0.01,Bas Rustenburg,nb011
 0.14999999999999947,SM15_micro002,SM15_micro003,SM15,Jaguar,4.85,4.7,SM15_pKa1,0.67,0.01,Bas Rustenburg,nb011
 -0.1999999999999993,SM15_micro004,SM15_micro002,SM15,Jaguar,8.74,8.94,SM15_pKa2,0.77,0.01,Bas Rustenburg,nb011
+-1.3400000000000003,SM02_micro002,SM02_micro004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",3.69,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,z7fhp
 -1.489999999999999,SM04_micro003,SM04_micro002,SM04,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",4.53,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,z7fhp
 -4.3,SM07_micro004,SM07_micro006,SM07,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",1.78,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,z7fhp
 -0.6799999999999997,SM09_micro003,SM09_micro001,SM09,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",4.69,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,z7fhp
@@ -17,6 +19,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -2.58,SM14_micro002,SM14_micro003,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",0.0,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,z7fhp
 -2.26,SM15_micro002,SM15_micro003,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",2.44,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,z7fhp
 2.35,SM15_micro004,SM15_micro002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",11.29,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,z7fhp
+-1.93,SM02_micro002,SM02_micro004,SM02,Adiabatic scheme for type I submission,3.1,5.03,SM02_pKa1,,0.01,Qiao Zeng,wcvnu
 -0.17999999999999972,SM04_micro003,SM04_micro002,SM04,Adiabatic scheme for type I submission,5.84,6.02,SM04_pKa1,,0.01,Qiao Zeng,wcvnu
 -0.9000000000000004,SM07_micro004,SM07_micro006,SM07,Adiabatic scheme for type I submission,5.18,6.08,SM07_pKa1,,0.01,Qiao Zeng,wcvnu
 -1.75,SM09_micro003,SM09_micro001,SM09,Adiabatic scheme for type I submission,3.62,5.37,SM09_pKa1,,0.01,Qiao Zeng,wcvnu
@@ -26,6 +29,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -4.18,SM14_micro002,SM14_micro003,SM14,Adiabatic scheme for type I submission,-1.6,2.58,SM14_pKa1,,0.01,Qiao Zeng,wcvnu
 -2.08,SM15_micro002,SM15_micro003,SM15,Adiabatic scheme for type I submission,2.62,4.7,SM15_pKa1,,0.01,Qiao Zeng,wcvnu
 0.620000000000001,SM15_micro004,SM15_micro002,SM15,Adiabatic scheme for type I submission,9.56,8.94,SM15_pKa2,,0.01,Qiao Zeng,wcvnu
+-1.08,SM02_micro002,SM02_micro004,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.95,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,xnoe0
 -1.3499999999999996,SM04_micro003,SM04_micro002,SM04,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,4.67,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,xnoe0
 -3.0,SM07_micro004,SM07_micro006,SM07,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.08,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,xnoe0
 -0.9299999999999996,SM09_micro003,SM09_micro001,SM09,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,4.44,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,xnoe0
@@ -35,6 +39,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -1.6800000000000002,SM14_micro002,SM14_micro003,SM14,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,0.9,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,xnoe0
 -1.4500000000000002,SM15_micro002,SM15_micro003,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.25,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,xnoe0
 1.7200000000000006,SM15_micro004,SM15_micro002,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,10.66,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,xnoe0
+-1.5300000000000002,SM02_micro002,SM02_micro004,SM02,Adiabatic scheme with single point correction for type I submission,3.5,5.03,SM02_pKa1,,0.01,Qiao Zeng,ko8yx
 -0.07999999999999917,SM04_micro003,SM04_micro002,SM04,Adiabatic scheme with single point correction for type I submission,5.94,6.02,SM04_pKa1,,0.01,Qiao Zeng,ko8yx
 -0.8300000000000001,SM07_micro004,SM07_micro006,SM07,Adiabatic scheme with single point correction for type I submission,5.25,6.08,SM07_pKa1,,0.01,Qiao Zeng,ko8yx
 -1.8000000000000005,SM09_micro003,SM09_micro001,SM09,Adiabatic scheme with single point correction for type I submission,3.57,5.37,SM09_pKa1,,0.01,Qiao Zeng,ko8yx
@@ -44,6 +49,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -3.86,SM14_micro002,SM14_micro003,SM14,Adiabatic scheme with single point correction for type I submission,-1.28,2.58,SM14_pKa1,,0.01,Qiao Zeng,ko8yx
 -1.93,SM15_micro002,SM15_micro003,SM15,Adiabatic scheme with single point correction for type I submission,2.77,4.7,SM15_pKa1,,0.01,Qiao Zeng,ko8yx
 0.2700000000000013,SM15_micro004,SM15_micro002,SM15,Adiabatic scheme with single point correction for type I submission,9.21,8.94,SM15_pKa2,,0.01,Qiao Zeng,ko8yx
+-1.08,SM02_micro002,SM02_micro004,SM02,Direct scheme for type I submission,3.95,5.03,SM02_pKa1,,0.01,Qiao Zeng,wexjs
 -0.7899999999999991,SM04_micro003,SM04_micro002,SM04,Direct scheme for type I submission,5.23,6.02,SM04_pKa1,,0.01,Qiao Zeng,wexjs
 -0.0600000000000005,SM07_micro004,SM07_micro006,SM07,Direct scheme for type I submission,6.02,6.08,SM07_pKa1,,0.01,Qiao Zeng,wexjs
 -1.2300000000000004,SM09_micro003,SM09_micro001,SM09,Direct scheme for type I submission,4.14,5.37,SM09_pKa1,,0.01,Qiao Zeng,wexjs
@@ -53,6 +59,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -4.74,SM14_micro002,SM14_micro003,SM14,Direct scheme for type I submission,-2.16,2.58,SM14_pKa1,,0.01,Qiao Zeng,wexjs
 -2.1300000000000003,SM15_micro002,SM15_micro003,SM15,Direct scheme for type I submission,2.57,4.7,SM15_pKa1,,0.01,Qiao Zeng,wexjs
 0.91,SM15_micro004,SM15_micro002,SM15,Direct scheme for type I submission,9.85,8.94,SM15_pKa2,,0.01,Qiao Zeng,wexjs
+1.2299999999999995,SM02_micro002,SM02_micro004,SM02,ReSCoSS conformations // COSMOtherm pKa,6.26,5.03,SM02_pKa1,,0.01,Rainer Wilcken,ccpmw
 1.2400000000000002,SM04_micro003,SM04_micro002,SM04,ReSCoSS conformations // COSMOtherm pKa,7.26,6.02,SM04_pKa1,,0.01,Rainer Wilcken,ccpmw
 1.34,SM07_micro004,SM07_micro006,SM07,ReSCoSS conformations // COSMOtherm pKa,7.42,6.08,SM07_pKa1,,0.01,Rainer Wilcken,ccpmw
 1.41,SM09_micro003,SM09_micro001,SM09,ReSCoSS conformations // COSMOtherm pKa,6.78,5.37,SM09_pKa1,,0.01,Rainer Wilcken,ccpmw
@@ -61,6 +68,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -0.2599999999999998,SM14_micro001,SM14_micro002,SM14,ReSCoSS conformations // COSMOtherm pKa,5.04,5.3,SM14_pKa2,,0.01,Rainer Wilcken,ccpmw
 -0.2599999999999998,SM15_micro002,SM15_micro003,SM15,ReSCoSS conformations // COSMOtherm pKa,4.44,4.7,SM15_pKa1,,0.01,Rainer Wilcken,ccpmw
 0.25,SM15_micro004,SM15_micro002,SM15,ReSCoSS conformations // COSMOtherm pKa,9.19,8.94,SM15_pKa2,,0.01,Rainer Wilcken,ccpmw
+1.239999999999999,SM02_micro002,SM02_micro004,SM02,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,6.27,5.03,SM02_pKa1,,0.01,Rainer Wilcken,eyetm
 1.1000000000000003,SM04_micro003,SM04_micro002,SM04,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,7.12,6.02,SM04_pKa1,,0.01,Rainer Wilcken,eyetm
 0.9399999999999996,SM07_micro004,SM07_micro006,SM07,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,7.02,6.08,SM07_pKa1,,0.01,Rainer Wilcken,eyetm
 1.62,SM09_micro003,SM09_micro001,SM09,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,6.99,5.37,SM09_pKa1,,0.01,Rainer Wilcken,eyetm
@@ -69,6 +77,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -0.2599999999999998,SM14_micro001,SM14_micro002,SM14,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,5.04,5.3,SM14_pKa2,,0.01,Rainer Wilcken,eyetm
 -0.2599999999999998,SM15_micro002,SM15_micro003,SM15,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,4.44,4.7,SM15_pKa1,,0.01,Rainer Wilcken,eyetm
 0.25,SM15_micro004,SM15_micro002,SM15,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,9.19,8.94,SM15_pKa2,,0.01,Rainer Wilcken,eyetm
+-1.7400000000000002,SM02_micro002,SM02_micro004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",3.29,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,8toyp
 -1.84,SM04_micro003,SM04_micro002,SM04,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",4.18,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,8toyp
 -4.6400000000000015,SM07_micro004,SM07_micro006,SM07,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",1.44,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,8toyp
 -1.0700000000000005,SM09_micro003,SM09_micro001,SM09,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",4.3,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,8toyp
@@ -78,6 +87,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -3.6,SM14_micro002,SM14_micro003,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",-1.02,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,8toyp
 -2.62,SM15_micro002,SM15_micro003,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",2.08,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,8toyp
 2.7900000000000014,SM15_micro004,SM15_micro002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",11.73,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,8toyp
+1.1499999999999997,SM02_micro002,SM02_micro004,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.18,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,cywyk
 1.0,SM04_micro003,SM04_micro002,SM04,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",7.02,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,cywyk
 -1.1100000000000003,SM07_micro004,SM07_micro006,SM07,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",4.97,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,cywyk
 1.3099999999999996,SM09_micro003,SM09_micro001,SM09,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.68,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,cywyk
@@ -87,6 +97,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -1.71,SM14_micro002,SM14_micro003,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",0.87,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,cywyk
 0.5599999999999996,SM15_micro002,SM15_micro003,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",5.26,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,cywyk
 -0.09999999999999963,SM15_micro004,SM15_micro002,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",8.84,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,cywyk
+-1.2800000000000002,SM02_micro002,SM02_micro004,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,3.75,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,epvmk
 -1.5399999999999991,SM04_micro003,SM04_micro002,SM04,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,4.48,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,epvmk
 -3.2,SM07_micro004,SM07_micro006,SM07,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,2.88,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,epvmk
 -1.13,SM09_micro003,SM09_micro001,SM09,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,4.24,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,epvmk
@@ -98,6 +109,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 1.540000000000001,SM15_micro004,SM15_micro002,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,10.48,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,epvmk
 1.4399999999999995,SM15_micro002,SM15_micro003,SM15,microscopic pKa prediction with Gaussian and separate fitting for neutral to negative and for positive to neutral transformations,6.14,4.7,SM15_pKa1,,0.01,Bogdan Iorga,qsicn
 1.7000000000000008,SM15_micro004,SM15_micro002,SM15,microscopic pKa prediction with Gaussian and separate fitting for neutral to negative and for positive to neutral transformations,10.64,8.94,SM15_pKa2,,0.01,Bogdan Iorga,qsicn
+-1.6,SM02_micro002,SM02_micro004,SM02,Direct scheme with single point correction for type I submission,3.43,5.03,SM02_pKa1,,0.01,Qiao Zeng,w4z0e
 -1.3299999999999992,SM04_micro003,SM04_micro002,SM04,Direct scheme with single point correction for type I submission,4.69,6.02,SM04_pKa1,,0.01,Qiao Zeng,w4z0e
 -0.6399999999999997,SM07_micro004,SM07_micro006,SM07,Direct scheme with single point correction for type I submission,5.44,6.08,SM07_pKa1,,0.01,Qiao Zeng,w4z0e
 -1.7400000000000002,SM09_micro003,SM09_micro001,SM09,Direct scheme with single point correction for type I submission,3.63,5.37,SM09_pKa1,,0.01,Qiao Zeng,w4z0e
@@ -107,6 +119,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -5.34,SM14_micro002,SM14_micro003,SM14,Direct scheme with single point correction for type I submission,-2.76,2.58,SM14_pKa1,,0.01,Qiao Zeng,w4z0e
 -2.64,SM15_micro002,SM15_micro003,SM15,Direct scheme with single point correction for type I submission,2.06,4.7,SM15_pKa1,,0.01,Qiao Zeng,w4z0e
 2.9600000000000013,SM15_micro004,SM15_micro002,SM15,Direct scheme with single point correction for type I submission,11.9,8.94,SM15_pKa2,,0.01,Qiao Zeng,w4z0e
+-0.9000000000000004,SM02_micro002,SM02_micro004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.13,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,wuuvc
 -1.2699999999999996,SM04_micro003,SM04_micro002,SM04,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.75,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,wuuvc
 -3.37,SM07_micro004,SM07_micro006,SM07,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",2.71,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,wuuvc
 -0.4900000000000002,SM09_micro003,SM09_micro001,SM09,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.88,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,wuuvc
@@ -116,6 +129,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -1.1900000000000002,SM14_micro002,SM14_micro003,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",1.39,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,wuuvc
 -1.5,SM15_micro002,SM15_micro003,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",3.2,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,wuuvc
 0.8399999999999999,SM15_micro004,SM15_micro002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",9.78,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,wuuvc
+1.1799999999999995,SM02_micro002,SM02_micro004,SM02,microscopic pKa prediction with Gaussian and global fitting,6.21,5.03,SM02_pKa1,,0.01,Bogdan Iorga,y4wws
 1.9800000000000004,SM04_micro003,SM04_micro002,SM04,microscopic pKa prediction with Gaussian and global fitting,8.0,6.02,SM04_pKa1,,0.01,Bogdan Iorga,y4wws
 -1.12,SM07_micro004,SM07_micro006,SM07,microscopic pKa prediction with Gaussian and global fitting,4.96,6.08,SM07_pKa1,,0.01,Bogdan Iorga,y4wws
 0.8600000000000003,SM09_micro003,SM09_micro001,SM09,microscopic pKa prediction with Gaussian and global fitting,6.23,5.37,SM09_pKa1,,0.01,Bogdan Iorga,y4wws
@@ -125,6 +139,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -1.39,SM14_micro002,SM14_micro003,SM14,microscopic pKa prediction with Gaussian and global fitting,1.19,2.58,SM14_pKa1,,0.01,Bogdan Iorga,y4wws
 0.5099999999999998,SM15_micro002,SM15_micro003,SM15,microscopic pKa prediction with Gaussian and global fitting,5.21,4.7,SM15_pKa1,,0.01,Bogdan Iorga,y4wws
 2.4700000000000006,SM15_micro004,SM15_micro002,SM15,microscopic pKa prediction with Gaussian and global fitting,11.41,8.94,SM15_pKa2,,0.01,Bogdan Iorga,y4wws
+-0.8799999999999999,SM02_micro002,SM02_micro004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.15,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,ktpj5
 -1.239999999999999,SM04_micro003,SM04_micro002,SM04,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.78,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,ktpj5
 -3.36,SM07_micro004,SM07_micro006,SM07,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",2.72,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,ktpj5
 -0.4699999999999998,SM09_micro003,SM09_micro001,SM09,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.9,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,ktpj5
@@ -134,6 +149,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -1.1900000000000002,SM14_micro002,SM14_micro003,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",1.39,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,ktpj5
 -1.4900000000000002,SM15_micro002,SM15_micro003,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",3.21,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,ktpj5
 0.91,SM15_micro004,SM15_micro002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",9.85,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,ktpj5
+0.29000000000000004,SM02_micro002,SM02_micro004,SM02,OE Gaussian Process,5.32,5.03,SM02_pKa1,1.28,0.01,Caitlin Bannan,6tvf8
 0.7100000000000009,SM04_micro003,SM04_micro002,SM04,OE Gaussian Process,6.73,6.02,SM04_pKa1,1.37,0.01,Caitlin Bannan,6tvf8
 0.9699999999999998,SM07_micro004,SM07_micro006,SM07,OE Gaussian Process,7.05,6.08,SM07_pKa1,1.39,0.01,Caitlin Bannan,6tvf8
 0.7199999999999998,SM09_micro003,SM09_micro001,SM09,OE Gaussian Process,6.09,5.37,SM09_pKa1,1.28,0.01,Caitlin Bannan,6tvf8
@@ -143,20 +159,21 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 1.1800000000000006,SM14_micro001,SM14_micro002,SM14,OE Gaussian Process,6.48,5.3,SM14_pKa2,0.56,0.01,Caitlin Bannan,6tvf8
 0.7299999999999995,SM15_micro002,SM15_micro003,SM15,OE Gaussian Process,5.43,4.7,SM15_pKa1,0.45,0.01,Caitlin Bannan,6tvf8
 -0.2599999999999998,SM15_micro004,SM15_micro002,SM15,OE Gaussian Process,8.68,8.94,SM15_pKa2,0.19,0.01,Caitlin Bannan,6tvf8
+-0.9800000000000004,SM02_micro002,SM02_micro004,SM02,Epik Microscopic,4.05,5.03,SM02_pKa1,1.47,0.01,Bas Rustenburg,nb008
 -0.4199999999999999,SM04_micro003,SM04_micro002,SM04,Epik Microscopic,5.6,6.02,SM04_pKa1,1.13,0.01,Bas Rustenburg,nb008
--1.3200000000000005,SM09_micro003,SM09_micro001,SM09,Epik Microscopic,4.05,5.37,SM09_pKa1,1.47,0.01,Bas Rustenburg,nb008
 -1.5,SM13_micro005,SM13_micro001,SM13,Epik Microscopic,4.27,5.77,SM13_pKa1,2.22,0.01,Bas Rustenburg,nb008
 1.0499999999999998,SM14_micro001,SM14_micro002,SM14,Epik Microscopic,6.35,5.3,SM14_pKa2,2.22,0.01,Bas Rustenburg,nb008
 -2.3,SM14_micro002,SM14_micro003,SM14,Epik Microscopic,0.28,2.58,SM14_pKa1,0.92,0.01,Bas Rustenburg,nb008
 -0.22999999999999865,SM15_micro004,SM15_micro002,SM15,Epik Microscopic,8.71,8.94,SM15_pKa2,1.06,0.01,Bas Rustenburg,nb008
 1.12,SM15_micro002,SM15_micro003,SM15,Epik Microscopic,5.82,4.7,SM15_pKa1,2.22,0.01,Bas Rustenburg,nb008
+-0.14000000000000054,SM02_micro002,SM02_micro004,SM02,MoKa,4.89,5.03,SM02_pKa1,,0.01,Thomas Fox,nb016
 -0.9099999999999993,SM04_micro003,SM04_micro002,SM04,MoKa,5.11,6.02,SM04_pKa1,,0.01,Thomas Fox,nb016
--0.4800000000000004,SM09_micro003,SM09_micro001,SM09,MoKa,4.89,5.37,SM09_pKa1,,0.01,Thomas Fox,nb016
 -0.1299999999999999,SM13_micro005,SM13_micro001,SM13,MoKa,5.64,5.77,SM13_pKa1,,0.01,Thomas Fox,nb016
 0.79,SM14_micro001,SM14_micro002,SM14,MoKa,6.09,5.3,SM14_pKa2,,0.01,Thomas Fox,nb016
 0.3300000000000001,SM14_micro002,SM14_micro003,SM14,MoKa,2.91,2.58,SM14_pKa1,,0.01,Thomas Fox,nb016
 0.45000000000000107,SM15_micro004,SM15_micro002,SM15,MoKa,9.39,8.94,SM15_pKa2,,0.01,Thomas Fox,nb016
 0.25,SM15_micro002,SM15_micro003,SM15,MoKa,4.95,4.7,SM15_pKa1,,0.01,Thomas Fox,nb016
+-1.16,SM02_micro002,SM02_micro004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.87,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,cm2yq
 -1.5,SM04_micro003,SM04_micro002,SM04,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.52,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,cm2yq
 -3.5700000000000003,SM07_micro004,SM07_micro006,SM07,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",2.51,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,cm2yq
 -0.7599999999999998,SM09_micro003,SM09_micro001,SM09,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.61,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,cm2yq
@@ -166,6 +183,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -1.89,SM14_micro002,SM14_micro003,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",0.69,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,cm2yq
 -1.7200000000000002,SM15_micro002,SM15_micro003,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",2.98,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,cm2yq
 1.1400000000000006,SM15_micro004,SM15_micro002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",10.08,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,cm2yq
+0.8099999999999996,SM02_micro002,SM02_micro004,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",5.84,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,nxaaw
 0.7300000000000004,SM04_micro003,SM04_micro002,SM04,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",6.75,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,nxaaw
 -1.3100000000000005,SM07_micro004,SM07_micro006,SM07,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",4.77,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,nxaaw
 0.91,SM09_micro003,SM09_micro001,SM09,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",6.28,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,nxaaw
@@ -175,6 +193,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -4.83,SM14_micro002,SM14_micro003,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",-2.25,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,nxaaw
 0.6799999999999997,SM15_micro002,SM15_micro003,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",5.38,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,nxaaw
 -1.3499999999999996,SM15_micro004,SM15_micro002,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",7.59,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,nxaaw
+0.6799999999999997,SM02_micro002,SM02_micro004,SM02,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.71,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,ftc8w
 0.41000000000000014,SM04_micro003,SM04_micro002,SM04,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,6.43,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,ftc8w
 -1.3499999999999996,SM07_micro004,SM07_micro006,SM07,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,4.73,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,ftc8w
 0.7199999999999998,SM09_micro003,SM09_micro001,SM09,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,6.09,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,ftc8w
@@ -184,6 +203,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -0.46,SM14_micro002,SM14_micro003,SM14,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,2.12,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,ftc8w
 0.54,SM15_micro002,SM15_micro003,SM15,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.24,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,ftc8w
 0.75,SM15_micro004,SM15_micro002,SM15,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,9.69,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,ftc8w
+-37.66,SM02_micro002,SM02_micro004,SM02,Explicit solvent submission 2,-32.63,5.03,SM02_pKa1,,0.01,Samarjeet Prasad,z3btx
 -38.6,SM04_micro003,SM04_micro002,SM04,Explicit solvent submission 2,-32.58,6.02,SM04_pKa1,,0.01,Samarjeet Prasad,z3btx
 -20.52,SM07_micro004,SM07_micro006,SM07,Explicit solvent submission 2,-14.44,6.08,SM07_pKa1,,0.01,Samarjeet Prasad,z3btx
 -16.56,SM09_micro003,SM09_micro001,SM09,Explicit solvent submission 2,-11.19,5.37,SM09_pKa1,,0.01,Samarjeet Prasad,z3btx
@@ -193,6 +213,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -10.84,SM14_micro002,SM14_micro003,SM14,Explicit solvent submission 2,-8.26,2.58,SM14_pKa1,,0.01,Samarjeet Prasad,z3btx
 -1.0799999999999992,SM15_micro004,SM15_micro002,SM15,Explicit solvent submission 2,7.86,8.94,SM15_pKa2,,0.01,Samarjeet Prasad,z3btx
 -13.46,SM15_micro002,SM15_micro003,SM15,Explicit solvent submission 2,-8.76,4.7,SM15_pKa1,,0.01,Samarjeet Prasad,z3btx
+-43.77,SM02_micro002,SM02_micro004,SM02,Explicit solvent submission 4,-38.74,5.03,SM02_pKa1,,0.01,Samarjeet Prasad,hgn83
 -44.44,SM04_micro003,SM04_micro002,SM04,Explicit solvent submission 4,-38.42,6.02,SM04_pKa1,,0.01,Samarjeet Prasad,hgn83
 -26.47,SM07_micro004,SM07_micro006,SM07,Explicit solvent submission 4,-20.39,6.08,SM07_pKa1,,0.01,Samarjeet Prasad,hgn83
 -22.68,SM09_micro003,SM09_micro001,SM09,Explicit solvent submission 4,-17.31,5.37,SM09_pKa1,,0.01,Samarjeet Prasad,hgn83
@@ -202,6 +223,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -16.880000000000006,SM14_micro002,SM14_micro003,SM14,Explicit solvent submission 4,-14.3,2.58,SM14_pKa1,,0.01,Samarjeet Prasad,hgn83
 -7.1,SM15_micro004,SM15_micro002,SM15,Explicit solvent submission 4,1.84,8.94,SM15_pKa2,,0.01,Samarjeet Prasad,hgn83
 -19.3,SM15_micro002,SM15_micro003,SM15,Explicit solvent submission 4,-14.6,4.7,SM15_pKa1,,0.01,Samarjeet Prasad,hgn83
+0.040000000000000036,SM02_micro002,SM02_micro004,SM02,ACD/pKa GALAS,5.07,5.03,SM02_pKa1,,0.01,Kiril Lanevskij,v8qph
 -0.5299999999999994,SM04_micro003,SM04_micro002,SM04,ACD/pKa GALAS,5.49,6.02,SM04_pKa1,,0.01,Kiril Lanevskij,v8qph
 -0.5700000000000003,SM07_micro004,SM07_micro006,SM07,ACD/pKa GALAS,5.51,6.08,SM07_pKa1,,0.01,Kiril Lanevskij,v8qph
 0.03000000000000025,SM09_micro003,SM09_micro001,SM09,ACD/pKa GALAS,5.4,5.37,SM09_pKa1,,0.01,Kiril Lanevskij,v8qph
@@ -211,6 +233,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 0.9000000000000004,SM14_micro001,SM14_micro002,SM14,ACD/pKa GALAS,6.2,5.3,SM14_pKa2,,0.01,Kiril Lanevskij,v8qph
 2.55,SM15_micro002,SM15_micro003,SM15,ACD/pKa GALAS,7.25,4.7,SM15_pKa1,,0.01,Kiril Lanevskij,v8qph
 0.2599999999999998,SM15_micro004,SM15_micro002,SM15,ACD/pKa GALAS,9.2,8.94,SM15_pKa2,,0.01,Kiril Lanevskij,v8qph
+-1.0900000000000003,SM02_micro002,SM02_micro004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",3.94,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,kxztt
 -1.5,SM04_micro003,SM04_micro002,SM04,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",4.52,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,kxztt
 -3.49,SM07_micro004,SM07_micro006,SM07,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",2.59,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,kxztt
 -0.8899999999999997,SM09_micro003,SM09_micro001,SM09,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",4.48,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,kxztt
@@ -220,6 +243,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -3.97,SM14_micro002,SM14_micro003,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",-1.39,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,kxztt
 -1.37,SM15_micro002,SM15_micro003,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",3.33,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,kxztt
 -0.5899999999999999,SM15_micro004,SM15_micro002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",8.35,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,kxztt
+-33.05,SM02_micro002,SM02_micro004,SM02,Explicit solvent submission 1,-28.02,5.03,SM02_pKa1,,0.01,Samarjeet Prasad,0wfzo
 -34.0,SM04_micro003,SM04_micro002,SM04,Explicit solvent submission 1,-27.98,6.02,SM04_pKa1,,0.01,Samarjeet Prasad,0wfzo
 -15.92,SM07_micro004,SM07_micro006,SM07,Explicit solvent submission 1,-9.84,6.08,SM07_pKa1,,0.01,Samarjeet Prasad,0wfzo
 -11.96,SM09_micro003,SM09_micro001,SM09,Explicit solvent submission 1,-6.59,5.37,SM09_pKa1,,0.01,Samarjeet Prasad,0wfzo
@@ -229,6 +253,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -6.23,SM14_micro002,SM14_micro003,SM14,Explicit solvent submission 1,-3.65,2.58,SM14_pKa1,,0.01,Samarjeet Prasad,0wfzo
 3.5200000000000014,SM15_micro004,SM15_micro002,SM15,Explicit solvent submission 1,12.46,8.94,SM15_pKa2,,0.01,Samarjeet Prasad,0wfzo
 -8.86,SM15_micro002,SM15_micro003,SM15,Explicit solvent submission 1,-4.16,4.7,SM15_pKa1,,0.01,Samarjeet Prasad,0wfzo
+-0.5,SM02_micro002,SM02_micro004,SM02,S+pKa,4.53,5.03,SM02_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
 -0.6599999999999993,SM04_micro003,SM04_micro002,SM04,S+pKa,5.36,6.02,SM04_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
 -0.5,SM07_micro004,SM07_micro006,SM07,S+pKa,5.58,6.08,SM07_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
 -0.8700000000000001,SM09_micro003,SM09_micro001,SM09,S+pKa,4.5,5.37,SM09_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
@@ -238,15 +263,16 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 0.8999999999999999,SM14_micro002,SM14_micro003,SM14,S+pKa,3.48,2.58,SM14_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
 -0.3500000000000005,SM15_micro002,SM15_micro003,SM15,S+pKa,4.35,4.7,SM15_pKa1,,0.01,Robert Fraczkiewicz,hdiyq
 0.17999999999999972,SM15_micro004,SM15_micro002,SM15,S+pKa,9.12,8.94,SM15_pKa2,,0.01,Robert Fraczkiewicz,hdiyq
+-1.04,SM02_micro002,SM02_micro004,SM02,Vertical scheme for type I submission,3.99,5.03,SM02_pKa1,,0.01,Qiao Zeng,arcko
 1.2400000000000002,SM04_micro003,SM04_micro002,SM04,Vertical scheme for type I submission,7.26,6.02,SM04_pKa1,,0.01,Qiao Zeng,arcko
 0.41000000000000014,SM07_micro004,SM07_micro006,SM07,Vertical scheme for type I submission,6.49,6.08,SM07_pKa1,,0.01,Qiao Zeng,arcko
 -3.56,SM09_micro003,SM09_micro001,SM09,Vertical scheme for type I submission,1.81,5.37,SM09_pKa1,,0.01,Qiao Zeng,arcko
--1.29,SM12_micro012,SM12_micro006,SM12,Vertical scheme for type I submission,3.99,5.28,SM12_pKa1,,0.01,Qiao Zeng,arcko
 -5.72,SM13_micro005,SM13_micro001,SM13,Vertical scheme for type I submission,0.05,5.77,SM13_pKa1,,0.01,Qiao Zeng,arcko
 -1.25,SM14_micro001,SM14_micro002,SM14,Vertical scheme for type I submission,4.05,5.3,SM14_pKa2,,0.01,Qiao Zeng,arcko
 -3.15,SM14_micro002,SM14_micro003,SM14,Vertical scheme for type I submission,-0.57,2.58,SM14_pKa1,,0.01,Qiao Zeng,arcko
 -1.64,SM15_micro002,SM15_micro003,SM15,Vertical scheme for type I submission,3.06,4.7,SM15_pKa1,,0.01,Qiao Zeng,arcko
 -0.6999999999999993,SM15_micro004,SM15_micro002,SM15,Vertical scheme for type I submission,8.24,8.94,SM15_pKa2,,0.01,Qiao Zeng,arcko
+2.51,SM02_micro002,SM02_micro004,SM02,"PCM/B3LYP/6-311+G(d,p)",7.54,5.03,SM02_pKa1,2.58,0.01,Stefan Kast,gdqeg
 2.3600000000000008,SM04_micro003,SM04_micro002,SM04,"PCM/B3LYP/6-311+G(d,p)",8.38,6.02,SM04_pKa1,2.58,0.01,Stefan Kast,gdqeg
 1.0700000000000005,SM07_micro004,SM07_micro006,SM07,"PCM/B3LYP/6-311+G(d,p)",7.15,6.08,SM07_pKa1,2.58,0.01,Stefan Kast,gdqeg
 2.4399999999999995,SM09_micro003,SM09_micro001,SM09,"PCM/B3LYP/6-311+G(d,p)",7.81,5.37,SM09_pKa1,2.58,0.01,Stefan Kast,gdqeg
@@ -256,6 +282,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 0.5800000000000001,SM14_micro002,SM14_micro003,SM14,"PCM/B3LYP/6-311+G(d,p)",3.16,2.58,SM14_pKa1,2.58,0.01,Stefan Kast,gdqeg
 2.74,SM15_micro002,SM15_micro003,SM15,"PCM/B3LYP/6-311+G(d,p)",7.44,4.7,SM15_pKa1,2.58,0.01,Stefan Kast,gdqeg
 -3.2399999999999998,SM15_micro004,SM15_micro002,SM15,"PCM/B3LYP/6-311+G(d,p)",5.7,8.94,SM15_pKa2,2.58,0.01,Stefan Kast,gdqeg
+-39.17,SM02_micro002,SM02_micro004,SM02,Explicit solvent submission 3,-34.14,5.03,SM02_pKa1,,0.01,Samarjeet Prasad,758j8
 -39.84,SM04_micro003,SM04_micro002,SM04,Explicit solvent submission 3,-33.82,6.02,SM04_pKa1,,0.01,Samarjeet Prasad,758j8
 -21.86,SM07_micro004,SM07_micro006,SM07,Explicit solvent submission 3,-15.78,6.08,SM07_pKa1,,0.01,Samarjeet Prasad,758j8
 -18.08,SM09_micro003,SM09_micro001,SM09,Explicit solvent submission 3,-12.71,5.37,SM09_pKa1,,0.01,Samarjeet Prasad,758j8
@@ -265,6 +292,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -12.27,SM14_micro002,SM14_micro003,SM14,Explicit solvent submission 3,-9.69,2.58,SM14_pKa1,,0.01,Samarjeet Prasad,758j8
 -2.499999999999999,SM15_micro004,SM15_micro002,SM15,Explicit solvent submission 3,6.44,8.94,SM15_pKa2,,0.01,Samarjeet Prasad,758j8
 -14.69,SM15_micro002,SM15_micro003,SM15,Explicit solvent submission 3,-9.99,4.7,SM15_pKa1,,0.01,Samarjeet Prasad,758j8
+1.1799999999999995,SM02_micro002,SM02_micro004,SM02,COSMOlogic_FINE17,6.21,5.03,SM02_pKa1,0.65,0.01,Chris Loschen,t8ewk
 0.8700000000000001,SM04_micro003,SM04_micro002,SM04,COSMOlogic_FINE17,6.89,6.02,SM04_pKa1,0.65,0.01,Chris Loschen,t8ewk
 1.29,SM07_micro004,SM07_micro006,SM07,COSMOlogic_FINE17,7.37,6.08,SM07_pKa1,0.65,0.01,Chris Loschen,t8ewk
 1.0999999999999996,SM09_micro003,SM09_micro001,SM09,COSMOlogic_FINE17,6.47,5.37,SM09_pKa1,0.65,0.01,Chris Loschen,t8ewk
@@ -273,6 +301,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 0.0,SM14_micro001,SM14_micro002,SM14,COSMOlogic_FINE17,5.3,5.3,SM14_pKa2,0.65,0.01,Chris Loschen,t8ewk
 0.28000000000000114,SM15_micro004,SM15_micro002,SM15,COSMOlogic_FINE17,9.22,8.94,SM15_pKa2,0.65,0.01,Chris Loschen,t8ewk
 -0.1800000000000006,SM15_micro002,SM15_micro003,SM15,COSMOlogic_FINE17,4.52,4.7,SM15_pKa1,0.65,0.01,Chris Loschen,t8ewk
+-1.29,SM02_micro002,SM02_micro004,SM02,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.74,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,4o0ia
 -1.5699999999999994,SM04_micro003,SM04_micro002,SM04,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,4.45,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,4o0ia
 -3.16,SM07_micro004,SM07_micro006,SM07,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,2.92,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,4o0ia
 -1.16,SM09_micro003,SM09_micro001,SM09,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,4.21,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,4o0ia
@@ -282,6 +311,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -1.98,SM14_micro002,SM14_micro003,SM14,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,0.6,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,4o0ia
 -1.62,SM15_micro002,SM15_micro003,SM15,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.08,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,4o0ia
 1.5200000000000014,SM15_micro004,SM15_micro002,SM15,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,10.46,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,4o0ia
+1.04,SM02_micro002,SM02_micro004,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.07,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,0xi4b
 0.9200000000000008,SM04_micro003,SM04_micro002,SM04,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.94,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,0xi4b
 -1.2300000000000004,SM07_micro004,SM07_micro006,SM07,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.85,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,0xi4b
 1.2199999999999998,SM09_micro003,SM09_micro001,SM09,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.59,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,0xi4b
@@ -291,6 +321,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -2.17,SM14_micro002,SM14_micro003,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",0.41,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,0xi4b
 0.4500000000000002,SM15_micro002,SM15_micro003,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",5.15,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,0xi4b
 0.13000000000000078,SM15_micro004,SM15_micro002,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",9.07,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,0xi4b
+-1.1500000000000004,SM02_micro002,SM02_micro004,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",3.88,5.03,SM02_pKa1,1.77,0.01,Stefan Kast,2umai
 -1.489999999999999,SM04_micro003,SM04_micro002,SM04,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",4.53,6.02,SM04_pKa1,1.77,0.01,Stefan Kast,2umai
 -3.5700000000000003,SM07_micro004,SM07_micro006,SM07,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",2.51,6.08,SM07_pKa1,1.77,0.01,Stefan Kast,2umai
 -0.75,SM09_micro003,SM09_micro001,SM09,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",4.62,5.37,SM09_pKa1,1.77,0.01,Stefan Kast,2umai
@@ -300,7 +331,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 -1.89,SM14_micro002,SM14_micro003,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",0.69,2.58,SM14_pKa1,1.77,0.01,Stefan Kast,2umai
 -1.7200000000000002,SM15_micro002,SM15_micro003,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",2.98,4.7,SM15_pKa1,1.77,0.01,Stefan Kast,2umai
 1.17,SM15_micro004,SM15_micro002,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",10.11,8.94,SM15_pKa2,1.77,0.01,Stefan Kast,2umai
---,,,SM02,Jaguar,4.39,--,--,2.26,--,Bas Rustenburg,nb011
 --,,,SM02,Jaguar,1.74,--,--,0.51,--,Bas Rustenburg,nb011
 --,,,SM02,Jaguar,-6.71,--,--,0.36,--,Bas Rustenburg,nb011
 --,,,SM02,Jaguar,11.61,--,--,2.16,--,Bas Rustenburg,nb011
@@ -404,7 +434,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,Jaguar,7.1,--,--,0.66,--,Bas Rustenburg,nb011
 --,,,SM15,Jaguar,10.44,--,--,0.77,--,Bas Rustenburg,nb011
 --,,,SM15,Jaguar,3.67,--,--,0.66,--,Bas Rustenburg,nb011
---,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",3.69,--,--,1.77,--,Stefan Kast,z7fhp
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",2.13,--,--,1.77,--,Stefan Kast,z7fhp
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",-9.41,--,--,1.77,--,Stefan Kast,z7fhp
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",13.88,--,--,1.77,--,Stefan Kast,z7fhp
@@ -508,7 +537,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",4.61,--,--,1.77,--,Stefan Kast,z7fhp
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",9.22,--,--,1.77,--,Stefan Kast,z7fhp
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",4.51,--,--,1.77,--,Stefan Kast,z7fhp
---,,,SM02,Adiabatic scheme for type I submission,3.1,--,--,,--,Qiao Zeng,wcvnu
 --,,,SM02,Adiabatic scheme for type I submission,0.5,--,--,,--,Qiao Zeng,wcvnu
 --,,,SM02,Adiabatic scheme for type I submission,-13.15,--,--,,--,Qiao Zeng,wcvnu
 --,,,SM02,Adiabatic scheme for type I submission,13.47,--,--,,--,Qiao Zeng,wcvnu
@@ -612,7 +640,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,Adiabatic scheme for type I submission,5.43,--,--,,--,Qiao Zeng,wcvnu
 --,,,SM15,Adiabatic scheme for type I submission,14.54,--,--,,--,Qiao Zeng,wcvnu
 --,,,SM15,Adiabatic scheme for type I submission,1.16,--,--,,--,Qiao Zeng,wcvnu
---,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,3.95,--,--,1.77,--,Stefan Kast,xnoe0
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,2.21,--,--,1.77,--,Stefan Kast,xnoe0
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,-6.21,--,--,1.77,--,Stefan Kast,xnoe0
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,11.23,--,--,1.77,--,Stefan Kast,xnoe0
@@ -716,7 +743,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,5.42,--,--,1.77,--,Stefan Kast,xnoe0
 --,,,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,9.28,--,--,1.77,--,Stefan Kast,xnoe0
 --,,,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par,4.64,--,--,1.77,--,Stefan Kast,xnoe0
---,,,SM02,Adiabatic scheme with single point correction for type I submission,3.5,--,--,,--,Qiao Zeng,ko8yx
 --,,,SM02,Adiabatic scheme with single point correction for type I submission,0.92,--,--,,--,Qiao Zeng,ko8yx
 --,,,SM02,Adiabatic scheme with single point correction for type I submission,-12.51,--,--,,--,Qiao Zeng,ko8yx
 --,,,SM02,Adiabatic scheme with single point correction for type I submission,13.34,--,--,,--,Qiao Zeng,ko8yx
@@ -820,7 +846,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,Adiabatic scheme with single point correction for type I submission,5.11,--,--,,--,Qiao Zeng,ko8yx
 --,,,SM15,Adiabatic scheme with single point correction for type I submission,14.36,--,--,,--,Qiao Zeng,ko8yx
 --,,,SM15,Adiabatic scheme with single point correction for type I submission,0.72,--,--,,--,Qiao Zeng,ko8yx
---,,,SM02,Direct scheme for type I submission,3.95,--,--,,--,Qiao Zeng,wexjs
 --,,,SM02,Direct scheme for type I submission,0.27,--,--,,--,Qiao Zeng,wexjs
 --,,,SM02,Direct scheme for type I submission,-13.59,--,--,,--,Qiao Zeng,wexjs
 --,,,SM02,Direct scheme for type I submission,13.5,--,--,,--,Qiao Zeng,wexjs
@@ -925,7 +950,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM15,Direct scheme for type I submission,14.64,--,--,,--,Qiao Zeng,wexjs
 --,,,SM15,Direct scheme for type I submission,1.3,--,--,,--,Qiao Zeng,wexjs
 --,,,SM02,ReSCoSS conformations // COSMOtherm pKa,-4.04,--,--,,--,Rainer Wilcken,ccpmw
---,,,SM02,ReSCoSS conformations // COSMOtherm pKa,6.26,--,--,,--,Rainer Wilcken,ccpmw
 --,,,SM02,ReSCoSS conformations // COSMOtherm pKa,2.61,--,--,,--,Rainer Wilcken,ccpmw
 --,,,SM02,ReSCoSS conformations // COSMOtherm pKa,-9.16,--,--,,--,Rainer Wilcken,ccpmw
 --,,,SM02,ReSCoSS conformations // COSMOtherm pKa,12.82,--,--,,--,Rainer Wilcken,ccpmw
@@ -953,7 +977,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,ReSCoSS conformations // COSMOtherm pKa,5.17,--,--,,--,Rainer Wilcken,ccpmw
 --,,,SM14,ReSCoSS conformations // COSMOtherm pKa,20.82,--,--,,--,Rainer Wilcken,ccpmw
 --,,,SM02,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,-4.0,--,--,,--,Rainer Wilcken,eyetm
---,,,SM02,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,6.27,--,--,,--,Rainer Wilcken,eyetm
 --,,,SM02,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,2.62,--,--,,--,Rainer Wilcken,eyetm
 --,,,SM02,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,-9.04,--,--,,--,Rainer Wilcken,eyetm
 --,,,SM02,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,12.93,--,--,,--,Rainer Wilcken,eyetm
@@ -980,7 +1003,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,3.38,--,--,,--,Rainer Wilcken,eyetm
 --,,,SM14,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,5.17,--,--,,--,Rainer Wilcken,eyetm
 --,,,SM14,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,20.82,--,--,,--,Rainer Wilcken,eyetm
---,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",3.29,--,--,1.77,--,Stefan Kast,8toyp
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",1.7,--,--,1.77,--,Stefan Kast,8toyp
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",-9.89,--,--,1.77,--,Stefan Kast,8toyp
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",14.27,--,--,1.77,--,Stefan Kast,8toyp
@@ -1084,7 +1106,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",4.84,--,--,1.77,--,Stefan Kast,8toyp
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",9.33,--,--,1.77,--,Stefan Kast,8toyp
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",4.48,--,--,1.77,--,Stefan Kast,8toyp
---,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.18,--,--,1.77,--,Stefan Kast,cywyk
 --,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",4.17,--,--,1.77,--,Stefan Kast,cywyk
 --,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",-8.05,--,--,1.77,--,Stefan Kast,cywyk
 --,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",13.41,--,--,1.77,--,Stefan Kast,cywyk
@@ -1188,7 +1209,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.73,--,--,1.77,--,Stefan Kast,cywyk
 --,,,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",7.12,--,--,1.77,--,Stefan Kast,cywyk
 --,,,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",6.98,--,--,1.77,--,Stefan Kast,cywyk
---,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,3.75,--,--,1.77,--,Stefan Kast,epvmk
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,2.01,--,--,1.77,--,Stefan Kast,epvmk
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,-6.43,--,--,1.77,--,Stefan Kast,epvmk
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,11.05,--,--,1.77,--,Stefan Kast,epvmk
@@ -1294,7 +1314,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM15,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,4.44,--,--,1.77,--,Stefan Kast,epvmk
 --,,,SM15,microscopic pKa prediction with Gaussian and separate fitting for neutral to negative and for positive to neutral transformations,11.55,--,--,,--,Bogdan Iorga,qsicn
 --,,,SM15,microscopic pKa prediction with Gaussian and separate fitting for neutral to negative and for positive to neutral transformations,5.24,--,--,,--,Bogdan Iorga,qsicn
---,,,SM02,Direct scheme with single point correction for type I submission,3.43,--,--,,--,Qiao Zeng,w4z0e
 --,,,SM02,Direct scheme with single point correction for type I submission,-0.18,--,--,,--,Qiao Zeng,w4z0e
 --,,,SM02,Direct scheme with single point correction for type I submission,-14.29,--,--,,--,Qiao Zeng,w4z0e
 --,,,SM02,Direct scheme with single point correction for type I submission,14.55,--,--,,--,Qiao Zeng,w4z0e
@@ -1398,7 +1417,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,Direct scheme with single point correction for type I submission,6.27,--,--,,--,Qiao Zeng,w4z0e
 --,,,SM15,Direct scheme with single point correction for type I submission,13.9,--,--,,--,Qiao Zeng,w4z0e
 --,,,SM15,Direct scheme with single point correction for type I submission,2.25,--,--,,--,Qiao Zeng,w4z0e
---,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.13,--,--,1.77,--,Stefan Kast,wuuvc
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",2.97,--,--,1.77,--,Stefan Kast,wuuvc
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",-5.61,--,--,1.77,--,Stefan Kast,wuuvc
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",11.71,--,--,1.77,--,Stefan Kast,wuuvc
@@ -1502,7 +1520,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.81,--,--,1.77,--,Stefan Kast,wuuvc
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",8.24,--,--,1.77,--,Stefan Kast,wuuvc
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",4.74,--,--,1.77,--,Stefan Kast,wuuvc
---,,,SM02,microscopic pKa prediction with Gaussian and global fitting,6.21,--,--,,--,Bogdan Iorga,y4wws
 --,,,SM02,microscopic pKa prediction with Gaussian and global fitting,3.84,--,--,,--,Bogdan Iorga,y4wws
 --,,,SM02,microscopic pKa prediction with Gaussian and global fitting,-6.1,--,--,,--,Bogdan Iorga,y4wws
 --,,,SM02,microscopic pKa prediction with Gaussian and global fitting,13.44,--,--,,--,Bogdan Iorga,y4wws
@@ -1600,7 +1617,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,microscopic pKa prediction with Gaussian and global fitting,8.8,--,--,,--,Bogdan Iorga,y4wws
 --,,,SM15,microscopic pKa prediction with Gaussian and global fitting,12.32,--,--,,--,Bogdan Iorga,y4wws
 --,,,SM15,microscopic pKa prediction with Gaussian and global fitting,4.3,--,--,,--,Bogdan Iorga,y4wws
---,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",4.15,--,--,1.77,--,Stefan Kast,ktpj5
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",2.98,--,--,1.77,--,Stefan Kast,ktpj5
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",-5.66,--,--,1.77,--,Stefan Kast,ktpj5
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",11.79,--,--,1.77,--,Stefan Kast,ktpj5
@@ -1713,7 +1729,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM02,OE Gaussian Process,3.06,--,--,3.95,--,Caitlin Bannan,6tvf8
 --,,,SM02,OE Gaussian Process,3.3,--,--,4.14,--,Caitlin Bannan,6tvf8
 --,,,SM02,OE Gaussian Process,2.78,--,--,4.06,--,Caitlin Bannan,6tvf8
---,,,SM02,OE Gaussian Process,5.32,--,--,1.28,--,Caitlin Bannan,6tvf8
 --,,,SM02,OE Gaussian Process,4.0,--,--,1.54,--,Caitlin Bannan,6tvf8
 --,,,SM02,OE Gaussian Process,-1.13,--,--,1.95,--,Caitlin Bannan,6tvf8
 --,,,SM04,OE Gaussian Process,3.94,--,--,4.13,--,Caitlin Bannan,6tvf8
@@ -1777,7 +1792,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM15,OE Gaussian Process,7.61,--,--,1.69,--,Caitlin Bannan,6tvf8
 --,,,SM02,Epik Microscopic,13.21,--,--,0.73,--,Bas Rustenburg,nb008
 --,,,SM02,Epik Microscopic,5.9,--,--,0.86,--,Bas Rustenburg,nb008
---,,,SM02,Epik Microscopic,4.05,--,--,1.47,--,Bas Rustenburg,nb008
 --,,,SM02,Epik Microscopic,11.01,--,--,2.22,--,Bas Rustenburg,nb008
 --,,,SM02,Epik Microscopic,3.51,--,--,0.86,--,Bas Rustenburg,nb008
 --,,,SM02,Epik Microscopic,7.42,--,--,2.0,--,Bas Rustenburg,nb008
@@ -1801,6 +1815,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM07,Epik Microscopic,-0.47,--,--,0.92,--,Bas Rustenburg,nb008
 --,,,SM07,Epik Microscopic,-2.17,--,--,2.0,--,Bas Rustenburg,nb008
 --,,,SM09,Epik Microscopic,10.85,--,--,2.22,--,Bas Rustenburg,nb008
+--,,,SM09,Epik Microscopic,4.05,--,--,1.47,--,Bas Rustenburg,nb008
 --,,,SM09,Epik Microscopic,5.02,--,--,1.47,--,Bas Rustenburg,nb008
 --,,,SM09,Epik Microscopic,13.05,--,--,0.73,--,Bas Rustenburg,nb008
 --,,,SM09,Epik Microscopic,3.51,--,--,0.86,--,Bas Rustenburg,nb008
@@ -1837,16 +1852,15 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,Epik Microscopic,6.7,--,--,2.22,--,Bas Rustenburg,nb008
 --,,,SM15,Epik Microscopic,5.74,--,--,1.12,--,Bas Rustenburg,nb008
 --,,,SM15,Epik Microscopic,8.54,--,--,1.47,--,Bas Rustenburg,nb008
---,,,SM02,MoKa,4.89,--,--,,--,Thomas Fox,nb016
 --,,,SM02,MoKa,-1.87,--,--,,--,Thomas Fox,nb016
 --,,,SM04,MoKa,-1.51,--,--,,--,Thomas Fox,nb016
 --,,,SM07,MoKa,5.11,--,--,,--,Thomas Fox,nb016
 --,,,SM07,MoKa,-1.51,--,--,,--,Thomas Fox,nb016
+--,,,SM09,MoKa,4.89,--,--,,--,Thomas Fox,nb016
 --,,,SM09,MoKa,-1.87,--,--,,--,Thomas Fox,nb016
 --,,,SM12,MoKa,4.89,--,--,,--,Thomas Fox,nb016
 --,,,SM12,MoKa,-1.87,--,--,,--,Thomas Fox,nb016
 --,,,SM13,MoKa,-1.38,--,--,,--,Thomas Fox,nb016
---,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",3.87,--,--,1.77,--,Stefan Kast,cm2yq
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",2.7,--,--,1.77,--,Stefan Kast,cm2yq
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",-5.84,--,--,1.77,--,Stefan Kast,cm2yq
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",11.95,--,--,1.77,--,Stefan Kast,cm2yq
@@ -1950,7 +1964,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",5.01,--,--,1.77,--,Stefan Kast,cm2yq
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",8.32,--,--,1.77,--,Stefan Kast,cm2yq
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.74,--,--,1.77,--,Stefan Kast,cm2yq
---,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",5.84,--,--,1.77,--,Stefan Kast,nxaaw
 --,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",3.5,--,--,1.77,--,Stefan Kast,nxaaw
 --,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",-9.06,--,--,1.77,--,Stefan Kast,nxaaw
 --,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",14.13,--,--,1.77,--,Stefan Kast,nxaaw
@@ -2054,7 +2067,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",8.53,--,--,1.77,--,Stefan Kast,nxaaw
 --,,,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",5.87,--,--,1.77,--,Stefan Kast,nxaaw
 --,,,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",7.09,--,--,1.77,--,Stefan Kast,nxaaw
---,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.71,--,--,1.77,--,Stefan Kast,ftc8w
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,3.58,--,--,1.77,--,Stefan Kast,ftc8w
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,-5.45,--,--,1.77,--,Stefan Kast,ftc8w
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,12.61,--,--,1.77,--,Stefan Kast,ftc8w
@@ -2160,7 +2172,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM15,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,5.91,--,--,1.77,--,Stefan Kast,ftc8w
 --,,,SM02,Explicit solvent submission 2,4.08,--,--,,--,Samarjeet Prasad,z3btx
 --,,,SM02,Explicit solvent submission 2,-29.84,--,--,,--,Samarjeet Prasad,z3btx
---,,,SM02,Explicit solvent submission 2,-32.63,--,--,,--,Samarjeet Prasad,z3btx
 --,,,SM02,Explicit solvent submission 2,-8.63,--,--,,--,Samarjeet Prasad,z3btx
 --,,,SM02,Explicit solvent submission 2,-20.13,--,--,,--,Samarjeet Prasad,z3btx
 --,,,SM02,Explicit solvent submission 2,-34.4,--,--,,--,Samarjeet Prasad,z3btx
@@ -2264,7 +2275,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM15,Explicit solvent submission 2,13.11,--,--,,--,Samarjeet Prasad,z3btx
 --,,,SM02,Explicit solvent submission 4,-1.77,--,--,,--,Samarjeet Prasad,hgn83
 --,,,SM02,Explicit solvent submission 4,-36.26,--,--,,--,Samarjeet Prasad,hgn83
---,,,SM02,Explicit solvent submission 4,-38.74,--,--,,--,Samarjeet Prasad,hgn83
 --,,,SM02,Explicit solvent submission 4,-14.63,--,--,,--,Samarjeet Prasad,hgn83
 --,,,SM02,Explicit solvent submission 4,-25.78,--,--,,--,Samarjeet Prasad,hgn83
 --,,,SM02,Explicit solvent submission 4,-39.48,--,--,,--,Samarjeet Prasad,hgn83
@@ -2366,7 +2376,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,Explicit solvent submission 4,-14.78,--,--,,--,Samarjeet Prasad,hgn83
 --,,,SM15,Explicit solvent submission 4,-20.31,--,--,,--,Samarjeet Prasad,hgn83
 --,,,SM15,Explicit solvent submission 4,7.21,--,--,,--,Samarjeet Prasad,hgn83
---,,,SM02,ACD/pKa GALAS,5.07,--,--,,--,Kiril Lanevskij,v8qph
 --,,,SM02,ACD/pKa GALAS,4.91,--,--,,--,Kiril Lanevskij,v8qph
 --,,,SM09,ACD/pKa GALAS,-1.68,--,--,,--,Kiril Lanevskij,v8qph
 --,,,SM09,ACD/pKa GALAS,-2.13,--,--,,--,Kiril Lanevskij,v8qph
@@ -2381,7 +2390,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM13,ACD/pKa GALAS,4.87,--,--,,--,Kiril Lanevskij,v8qph
 --,,,SM15,ACD/pKa GALAS,8.76,--,--,,--,Kiril Lanevskij,v8qph
 --,,,SM15,ACD/pKa GALAS,7.69,--,--,,--,Kiril Lanevskij,v8qph
---,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",3.94,--,--,1.77,--,Stefan Kast,kxztt
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",2.37,--,--,1.77,--,Stefan Kast,kxztt
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",-6.32,--,--,1.77,--,Stefan Kast,kxztt
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",11.65,--,--,1.77,--,Stefan Kast,kxztt
@@ -2487,7 +2495,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",4.77,--,--,1.77,--,Stefan Kast,kxztt
 --,,,SM02,Explicit solvent submission 1,8.68,--,--,,--,Samarjeet Prasad,0wfzo
 --,,,SM02,Explicit solvent submission 1,-25.24,--,--,,--,Samarjeet Prasad,0wfzo
---,,,SM02,Explicit solvent submission 1,-28.02,--,--,,--,Samarjeet Prasad,0wfzo
 --,,,SM02,Explicit solvent submission 1,-4.03,--,--,,--,Samarjeet Prasad,0wfzo
 --,,,SM02,Explicit solvent submission 1,-15.53,--,--,,--,Samarjeet Prasad,0wfzo
 --,,,SM02,Explicit solvent submission 1,-29.8,--,--,,--,Samarjeet Prasad,0wfzo
@@ -2589,7 +2596,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,Explicit solvent submission 1,-4.48,--,--,,--,Samarjeet Prasad,0wfzo
 --,,,SM15,Explicit solvent submission 1,-9.75,--,--,,--,Samarjeet Prasad,0wfzo
 --,,,SM15,Explicit solvent submission 1,17.71,--,--,,--,Samarjeet Prasad,0wfzo
---,,,SM02,S+pKa,4.53,--,--,,--,Robert Fraczkiewicz,hdiyq
 --,,,SM02,S+pKa,2.93,--,--,,--,Robert Fraczkiewicz,hdiyq
 --,,,SM02,S+pKa,-0.29,--,--,,--,Robert Fraczkiewicz,hdiyq
 --,,,SM02,S+pKa,-1.25,--,--,,--,Robert Fraczkiewicz,hdiyq
@@ -2660,7 +2666,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,S+pKa,4.16,--,--,,--,Robert Fraczkiewicz,hdiyq
 --,,,SM15,S+pKa,8.89,--,--,,--,Robert Fraczkiewicz,hdiyq
 --,,,SM15,S+pKa,4.59,--,--,,--,Robert Fraczkiewicz,hdiyq
---,,,SM02,Vertical scheme for type I submission,3.99,--,--,,--,Qiao Zeng,arcko
 --,,,SM02,Vertical scheme for type I submission,1.15,--,--,,--,Qiao Zeng,arcko
 --,,,SM02,Vertical scheme for type I submission,-12.11,--,--,,--,Qiao Zeng,arcko
 --,,,SM02,Vertical scheme for type I submission,13.24,--,--,,--,Qiao Zeng,arcko
@@ -2732,6 +2737,7 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM12,Vertical scheme for type I submission,10.5,--,--,,--,Qiao Zeng,arcko
 --,,,SM12,Vertical scheme for type I submission,-22.86,--,--,,--,Qiao Zeng,arcko
 --,,,SM12,Vertical scheme for type I submission,11.69,--,--,,--,Qiao Zeng,arcko
+--,,,SM12,Vertical scheme for type I submission,3.99,--,--,,--,Qiao Zeng,arcko
 --,,,SM12,Vertical scheme for type I submission,-10.69,--,--,,--,Qiao Zeng,arcko
 --,,,SM12,Vertical scheme for type I submission,-6.51,--,--,,--,Qiao Zeng,arcko
 --,,,SM12,Vertical scheme for type I submission,-12.36,--,--,,--,Qiao Zeng,arcko
@@ -2764,7 +2770,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,Vertical scheme for type I submission,4.14,--,--,,--,Qiao Zeng,arcko
 --,,,SM15,Vertical scheme for type I submission,16.67,--,--,,--,Qiao Zeng,arcko
 --,,,SM15,Vertical scheme for type I submission,-1.24,--,--,,--,Qiao Zeng,arcko
---,,,SM02,"PCM/B3LYP/6-311+G(d,p)",7.54,--,--,2.58,--,Stefan Kast,gdqeg
 --,,,SM02,"PCM/B3LYP/6-311+G(d,p)",6.06,--,--,2.58,--,Stefan Kast,gdqeg
 --,,,SM02,"PCM/B3LYP/6-311+G(d,p)",-1.05,--,--,2.58,--,Stefan Kast,gdqeg
 --,,,SM02,"PCM/B3LYP/6-311+G(d,p)",6.72,--,--,2.58,--,Stefan Kast,gdqeg
@@ -2870,7 +2875,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM15,"PCM/B3LYP/6-311+G(d,p)",1.55,--,--,2.58,--,Stefan Kast,gdqeg
 --,,,SM02,Explicit solvent submission 3,2.83,--,--,,--,Samarjeet Prasad,758j8
 --,,,SM02,Explicit solvent submission 3,-31.66,--,--,,--,Samarjeet Prasad,758j8
---,,,SM02,Explicit solvent submission 3,-34.14,--,--,,--,Samarjeet Prasad,758j8
 --,,,SM02,Explicit solvent submission 3,-10.02,--,--,,--,Samarjeet Prasad,758j8
 --,,,SM02,Explicit solvent submission 3,-21.18,--,--,,--,Samarjeet Prasad,758j8
 --,,,SM02,Explicit solvent submission 3,-34.88,--,--,,--,Samarjeet Prasad,758j8
@@ -2972,7 +2976,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,Explicit solvent submission 3,-10.18,--,--,,--,Samarjeet Prasad,758j8
 --,,,SM15,Explicit solvent submission 3,-15.7,--,--,,--,Samarjeet Prasad,758j8
 --,,,SM15,Explicit solvent submission 3,11.81,--,--,,--,Samarjeet Prasad,758j8
---,,,SM02,COSMOlogic_FINE17,6.21,--,--,0.65,--,Chris Loschen,t8ewk
 --,,,SM02,COSMOlogic_FINE17,2.37,--,--,0.65,--,Chris Loschen,t8ewk
 --,,,SM04,COSMOlogic_FINE17,5.41,--,--,0.65,--,Chris Loschen,t8ewk
 --,,,SM07,COSMOlogic_FINE17,5.88,--,--,0.65,--,Chris Loschen,t8ewk
@@ -2980,7 +2983,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM12,COSMOlogic_FINE17,2.46,--,--,0.65,--,Chris Loschen,t8ewk
 --,,,SM13,COSMOlogic_FINE17,4.42,--,--,0.65,--,Chris Loschen,t8ewk
 --,,,SM14,COSMOlogic_FINE17,5.33,--,--,0.65,--,Chris Loschen,t8ewk
---,,,SM02,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,3.74,--,--,1.77,--,Stefan Kast,4o0ia
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,2.05,--,--,1.77,--,Stefan Kast,4o0ia
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,-6.09,--,--,1.77,--,Stefan Kast,4o0ia
 --,,,SM02,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,10.97,--,--,1.77,--,Stefan Kast,4o0ia
@@ -3083,7 +3085,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,5.35,--,--,1.77,--,Stefan Kast,4o0ia
 --,,,SM15,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,9.02,--,--,1.77,--,Stefan Kast,4o0ia
 --,,,SM15,EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par,4.52,--,--,1.77,--,Stefan Kast,4o0ia
---,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.07,--,--,1.77,--,Stefan Kast,0xi4b
 --,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",4.01,--,--,1.77,--,Stefan Kast,0xi4b
 --,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",-8.5,--,--,1.77,--,Stefan Kast,0xi4b
 --,,,SM02,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",13.72,--,--,1.77,--,Stefan Kast,0xi4b
@@ -3187,7 +3188,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",6.87,--,--,1.77,--,Stefan Kast,0xi4b
 --,,,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",7.2,--,--,1.77,--,Stefan Kast,0xi4b
 --,,,SM15,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par",7.02,--,--,1.77,--,Stefan Kast,0xi4b
---,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",3.88,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",2.7,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-5.87,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM02,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",11.99,--,--,1.77,--,Stefan Kast,2umai
@@ -3291,6 +3291,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",5.02,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",8.34,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",4.75,--,--,1.77,--,Stefan Kast,2umai
+--,,,SM14,ReSCoSS conformations // COSMOtherm pKa,--,SM14_pKa1,SM14_pKa1,--,0.01,Rainer Wilcken,ccpmw
 --,,,SM14,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,--,SM14_pKa1,SM14_pKa1,--,0.01,Rainer Wilcken,eyetm
 --,,,SM14,COSMOlogic_FINE17,--,SM14_pKa1,SM14_pKa1,--,0.01,Chris Loschen,t8ewk
---,,,SM14,ReSCoSS conformations // COSMOtherm pKa,--,SM14_pKa1,SM14_pKa1,--,0.01,Rainer Wilcken,ccpmw
