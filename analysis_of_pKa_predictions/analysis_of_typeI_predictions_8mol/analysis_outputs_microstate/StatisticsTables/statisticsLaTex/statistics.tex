@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage[a4paper,margin=0.005in,tmargin=0.5in,landscape]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\pagenumbering{gobble}
+\begin{document}
+\begin{center}
+\begin{longtable}{|ccccccc|}
+\toprule
+    ID &                                               name &                     RMSE &                      MAE &                       ME &                 R$^2$ &                       m \\
+\midrule
+\endhead
+\midrule
+\multicolumn{7}{r}{{Continued on next page}} \\
+\midrule
+\endfoot
+
+\bottomrule
+\endlastfoot
+ nb016 &                                               MoKa &     0.544 [0.321, 0.737] &     0.477 [0.293, 0.699] &   -0.043 [-0.413, 0.344] &  0.911 [0.029, 0.992] &   0.989 [-0.006, 1.220] \\
+ hdiyq &                                              S+pKa &     0.697 [0.494, 0.862] &     0.609 [0.398, 0.833] &    0.369 [-0.052, 0.719] &  0.858 [0.504, 0.989] &    0.905 [0.436, 1.297] \\
+ nb011 &                                             Jaguar &     0.730 [0.302, 1.121] &     0.527 [0.240, 0.910] &     0.433 [0.081, 0.833] &  0.862 [0.162, 0.987] &    0.925 [0.418, 1.260] \\
+ ftc8w &             EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par &     0.755 [0.493, 0.975] &     0.676 [0.471, 0.899] &   -0.273 [-0.694, 0.199] &  0.872 [0.011, 0.994] &   1.131 [-0.070, 1.403] \\
+ 6tvf8 &                                OE Gaussian Process &     0.799 [0.585, 0.973] &     0.723 [0.492, 0.933] &  -0.666 [-0.918, -0.357] &  0.919 [0.787, 0.994] &    0.932 [0.655, 1.289] \\
+ t8ewk &                                 COSMOlogic\_FINE17 &     0.923 [0.558, 1.209] &     0.763 [0.390, 1.135] &  -0.718 [-1.115, -0.281] &  0.811 [0.648, 0.969] &    0.993 [0.735, 2.440] \\
+ v8qph &                                      ACD/pKa GALAS &     1.040 [0.451, 1.585] &     0.738 [0.347, 1.270] &   -0.093 [-0.854, 0.533] &  0.677 [0.195, 0.973] &   0.963 [-1.533, 1.184] \\
+ ccpmw &            ReSCoSS conformations // COSMOtherm pKa &     1.045 [0.702, 1.290] &     0.911 [0.525, 1.286] &  -0.781 [-1.275, -0.268] &  0.746 [0.522, 0.991] &    0.979 [0.683, 2.515] \\
+ 0xi4b &  EC-RISM/B3LYP/6-311+G(d,p)-P3NI-phi-noThiols-2par &     1.156 [0.712, 1.536] &     0.972 [0.600, 1.400] &   -0.217 [-0.900, 0.534] &  0.784 [0.021, 0.983] &    1.283 [0.081, 2.082] \\
+ eyetm &  ReSCoSS conformations // DSD-BLYP-D3 reranking... &     1.162 [0.684, 1.563] &     0.971 [0.554, 1.443] &  -0.841 [-1.386, -0.274] &  0.674 [0.287, 0.971] &    0.948 [0.582, 3.075] \\
+ cywyk &    EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par &     1.173 [0.835, 1.433] &     1.048 [0.689, 1.377] &   -0.399 [-1.086, 0.324] &  0.744 [0.025, 0.984] &    1.173 [0.059, 2.004] \\
+ nb008 &                                   Epik Microscopic &     1.302 [0.820, 1.756] &     1.134 [0.667, 1.623] &    0.514 [-0.366, 1.356] &  0.775 [0.047, 0.993] &   1.208 [-1.450, 1.799] \\
+ y4wws &  microscopic pKa prediction with Gaussian and g... &     1.437 [0.892, 1.854] &     1.219 [0.711, 1.721] &   -0.661 [-1.473, 0.203] &  0.877 [0.049, 0.988] &    1.573 [0.419, 1.997] \\
+ ktpj5 &           EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par &     1.506 [0.811, 2.199] &     1.186 [0.637, 1.897] &     0.950 [0.181, 1.728] &  0.773 [0.017, 0.978] &   1.285 [-0.203, 1.702] \\
+ wuuvc &      EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par &     1.516 [0.836, 2.218] &     1.211 [0.658, 1.942] &     1.000 [0.258, 1.802] &  0.779 [0.013, 0.979] &   1.277 [-0.199, 1.640] \\
+ qsicn &  microscopic pKa prediction with Gaussian and s... &     1.575 [1.440, 1.700] &     1.570 [1.440, 1.700] &  -1.570 [-1.700, -1.440] &  1.000 [0.000, 1.000] &      1.061 [1.061, nan] \\
+ xnoe0 &                EC-RISM/MP2/cc-pVTZ-P2-phi-all-2par &     1.583 [1.060, 2.081] &     1.427 [0.977, 1.927] &     0.889 [0.053, 1.724] &  0.814 [0.015, 0.985] &   1.466 [-0.317, 1.847] \\
+ epvmk &           EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par &     1.701 [1.168, 2.220] &     1.521 [1.028, 2.026] &     1.103 [0.214, 1.907] &  0.822 [0.012, 0.983] &   1.473 [-0.294, 1.872] \\
+ 4o0ia &         EC-RISM/MP2/cc-pVTZ-P3NI-phi-noThiols-2par &     1.767 [1.357, 2.259] &     1.654 [1.292, 2.120] &     1.317 [0.438, 2.028] &  0.876 [0.056, 0.993] &    1.504 [0.205, 1.903] \\
+ ko8yx &  Adiabatic scheme with single point correction ... &     1.777 [1.023, 2.566] &     1.428 [0.816, 2.212] &     1.368 [0.694, 2.173] &  0.970 [0.881, 0.996] &    1.668 [1.448, 2.270] \\
+ 2umai &         EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par &     1.818 [1.215, 2.448] &     1.584 [1.043, 2.218] &     1.324 [0.454, 2.109] &  0.823 [0.009, 0.983] &   1.441 [-0.056, 1.836] \\
+ cm2yq &    EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par &     1.830 [1.243, 2.458] &     1.598 [1.049, 2.217] &     1.344 [0.551, 2.178] &  0.823 [0.030, 0.983] &    1.438 [0.148, 1.893] \\
+ nxaaw &    EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par &     1.879 [0.849, 2.962] &     1.397 [0.800, 2.397] &    0.268 [-0.741, 1.684] &  0.607 [0.013, 0.979] &   1.401 [-0.318, 2.899] \\
+ wcvnu &             Adiabatic scheme for type I submission &     1.893 [1.042, 2.693] &     1.527 [0.881, 2.257] &     1.389 [0.593, 2.209] &  0.974 [0.904, 0.996] &    1.775 [1.551, 2.529] \\
+ 0wfzo &                      Explicit solvent submission 1 &   16.377 [9.521, 22.679] &   13.879 [8.502, 19.896] &   13.097 [6.616, 19.676] &  0.087 [0.012, 0.801] &  1.930 [-14.561, 6.968] \\
+ kxztt &      EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par &     2.076 [1.156, 2.883] &     1.706 [1.014, 2.559] &     1.706 [1.014, 2.559] &  0.842 [0.021, 0.982] &   1.438 [-0.337, 1.991] \\
+ wexjs &                Direct scheme for type I submission &     2.128 [1.202, 3.041] &     1.721 [0.990, 2.571] &     1.519 [0.621, 2.502] &  0.965 [0.621, 0.996] &    1.888 [1.638, 2.475] \\
+ z7fhp &           EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par &     2.215 [1.363, 2.963] &     1.854 [1.090, 2.626] &    1.270 [-0.010, 2.404] &  0.776 [0.009, 0.980] &   1.716 [-0.670, 2.213] \\
+ gdqeg &                             PCM/B3LYP/6-311+G(d,p) &     2.364 [1.882, 2.728] &     2.224 [1.643, 2.699] &  -1.504 [-2.463, -0.170] &  0.104 [0.003, 0.984] &   0.326 [-0.627, 1.641] \\
+ arcko &              Vertical scheme for type I submission &     2.655 [1.322, 3.806] &     2.107 [1.156, 3.340] &     1.740 [0.478, 3.206] &  0.581 [0.048, 0.947] &    1.431 [0.669, 3.117] \\
+ 8toyp &         EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par &     2.709 [1.937, 3.416] &     2.401 [1.643, 3.218] &     1.781 [0.331, 2.971] &  0.823 [0.024, 0.983] &   1.950 [-0.166, 2.426] \\
+ w4z0e &  Direct scheme with single point correction for... &     2.719 [1.856, 3.663] &     2.418 [1.666, 3.354] &     1.760 [0.427, 3.120] &  0.982 [0.628, 0.999] &    2.295 [1.742, 2.464] \\
+ z3btx &                      Explicit solvent submission 2 &  20.246 [13.413, 27.102] &  17.699 [11.524, 24.853] &  17.699 [11.524, 24.853] &  0.087 [0.013, 0.785] &  1.931 [-14.669, 7.042] \\
+ 758j8 &                      Explicit solvent submission 3 &  21.368 [14.657, 28.109] &  18.981 [13.050, 25.849] &  18.981 [13.050, 25.849] &  0.086 [0.014, 0.814] &  1.921 [-14.933, 6.797] \\
+ hgn83 &                      Explicit solvent submission 4 &  25.545 [19.057, 32.214] &  23.586 [17.543, 30.479] &  23.586 [17.543, 30.479] &  0.087 [0.022, 0.799] &  1.923 [-15.305, 6.827] \\
+\end{longtable}
+\end{center}
+
+Notes
+
+- In this analysis we assumed well separated experimental macroscopic pKas represent microscopic pKas. Molecules with experimental pKa values at least 3 units apart were considered
+
+well-separated. SM14 and SM18 which do not satify this criteria are ignored in this analysis.
+
+- Mean and 95\% confidence intervals of statistic values were calculated by bootstrapping.
+
+- pKa predictions of Epik, Jaguar, Chemicalize, and MoKa were not blind (submission IDs noted as nbXXX). They were submitted after the submission deadline as reference methods.
+
+- pKas of the rest of the molecules in these submissions were blindly predicted before experimental data was released.
+
+\end{document}
