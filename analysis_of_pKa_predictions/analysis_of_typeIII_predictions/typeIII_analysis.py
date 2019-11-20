@@ -56,6 +56,11 @@ def rmse(data):
     rmse = np.sqrt((error**2).mean())
     return rmse
 
+def kendall_tau(data):
+    x, y = data.T
+    correlation, p_value = scipy.stats.kendalltau(x, y)
+    return correlation
+
 
 def compute_bootstrap_statistics(samples, stats_funcs, percentile=0.95, n_bootstrap_samples=10000):
     """Compute bootstrap confidence interval for the given statistics functions."""
@@ -499,7 +504,7 @@ class pKaTypeIIISubmission(SamplSubmission):
 
         # Create lists of stats functions to pass to compute_bootstrap_statistics.
         stats_funcs_names, stats_funcs = zip(*stats_funcs.items())
-        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=10000) # 10 000
+        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=1000) # 10 000
 
         # Return statistics as dict preserving the order.
         return collections.OrderedDict((stats_funcs_names[i], bootstrap_statistics[i])
@@ -1410,17 +1415,20 @@ if __name__ == '__main__':
         ('ME', me),
         ('R2', r2),
         ('m', slope),
+        ('kendall_tau', kendall_tau)
     ])
     ordering_functions = {
         'ME': lambda x: abs(x),
         'R2': lambda x: -x,
         'm': lambda x: abs(1 - x),
+        'kendall_tau': lambda x: -x
     }
     latex_header_conversions = {
         'R2': 'R$^2$',
         'RMSE': 'RMSE',
         'MAE': 'MAE',
         'ME': 'ME',
+        'kendall_tau': '$\\tau$'
     }
 
     # Load submissions data.
