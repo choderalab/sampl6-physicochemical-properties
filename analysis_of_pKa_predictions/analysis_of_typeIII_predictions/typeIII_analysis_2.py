@@ -308,7 +308,7 @@ def calc_MAE_for_molecules_across_all_predictions(collection_df, directory_path,
 
         # Calculate MAE and RMSE and their 95% confidence intervals
         bootstrap_statistics = compute_bootstrap_statistics(samples=data, stats_funcs=[mae, rmse], percentile=0.95,
-                                                                n_bootstrap_samples=1000) # 10 000
+                                                                n_bootstrap_samples=10000) # 10 000
         MAE = bootstrap_statistics[0][0]
         MAE_lower_CI = bootstrap_statistics[0][1][0]
         MAE_upper_CI = bootstrap_statistics[0][1][1]
