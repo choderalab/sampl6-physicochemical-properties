@@ -680,9 +680,14 @@ def create_error_distribution_plots_for_each_pKa(collection_df, directory_path, 
     data_ordered_by_pKa_ID = collection_df.sort_values(["pKa ID"], ascending=["True"])
     ridge_plot(data_ordered_by_pKa_ID, by="pKa ID", column='$\Delta$pKa error (calc - exp)',  figsize=(4,10),
                colormap=cm.plasma, x_range = [-11,21])
-    #sns.set(rc={'figure.figsize': (8.27, 11.7)})
-    #sns.violinplot(y='pKa ID', x='$\Delta$pKa error (calc - exp)', data=data_ordered_by_pKa_ID,
-    #               inner='point', linewidth=1, width=1.2)
+    plt.savefig(directory_path + "/" + file_base_name + ".pdf")
+
+
+def create_error_distribution_plots_for_each_method(collection_df, directory_path, file_base_name):
+
+    data_ordered_by_id = collection_df.sort_values(["receipt_id"], ascending=["True"])
+    ridge_plot(data_ordered_by_id, by="receipt_id", column='$\Delta$pKa error (calc - exp)',  figsize=(4,10),
+               colormap=cm.plasma, x_range = [-11,11])
     plt.savefig(directory_path + "/" + file_base_name + ".pdf")
 
 # =============================================================================
@@ -758,6 +763,11 @@ if __name__ == '__main__':
         create_error_distribution_plots_for_each_pKa(collection_df = collection_data,
                                                      directory_path = molecular_statistics_directory_path,
                                                      file_base_name = "error_distribution_for_each_macroscopic_pKa")
+
+        # Create ridge plots for showing error distribution for each method
+        create_error_distribution_plots_for_each_method(collection_df=collection_data,
+                                                        directory_path=statistics_directory_path,
+                                                        file_base_name="error_distribution_for_each_method")
 
 
 
