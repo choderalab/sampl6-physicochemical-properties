@@ -11,6 +11,8 @@ from typeIII_analysis import compute_bootstrap_statistics
 import shutil
 import seaborn as sns
 from matplotlib import pyplot as plt
+from matplotlib import cm
+import joypy
 
 # =============================================================================
 # PLOTTING FUNCTIONS
@@ -206,7 +208,33 @@ def box_plot(data_dict, labels):
     ax.boxplot(data, notch=True, labels=labels)
 
 
+def ridge_plot(df, by, column, figsize, colormap, x_range):
+    plt.rcParams['axes.labelsize'] = 14
+    plt.rcParams['xtick.labelsize'] = 14
+    plt.tight_layout()
 
+    # Make ridge plot
+    fig, axes = joypy.joyplot(data=df, by=by, column=column, figsize=figsize, colormap=colormap, linewidth=1,
+                              x_range=x_range, overlap = 1)
+    # Add x-axis label
+    axes[-1].set_xlabel(column, fontsize=14)
+
+    for ax in axes:
+        # Add vertical line passing 0
+        ax.axvline(x=0, color='k', linewidth=0.5)
+        # Adjust y-axis limits
+        ax.set_ylim((0, 1))
+
+
+def ridge_plot_wo_overlap(df, by, column, figsize, colormap):
+        plt.rcParams['axes.labelsize'] = 14
+        plt.rcParams['xtick.labelsize'] = 14
+        plt.tight_layout()
+
+        # Make ridge plot
+        fig, axes = joypy.joyplot(data=df, by=by, column=column, figsize=figsize, colormap=colormap, linewidth=1, overlap=0)
+        # Add x-axis label
+        axes[-1].set_xlabel(column)
 
 
 
@@ -647,6 +675,16 @@ def generate_pKa_error_trend_plots(collection_df, directory_path):
     plt.savefig(directory_path + "/absolute_prediction_error_vs_exp_pKa_boxplot.pdf")
 
 
+def create_error_distribution_plots_for_each_pKa(collection_df, directory_path, file_base_name):
+
+    data_ordered_by_pKa_ID = collection_df.sort_values(["pKa ID"], ascending=["True"])
+    ridge_plot(data_ordered_by_pKa_ID, by="pKa ID", column='$\Delta$pKa error (calc - exp)',  figsize=(4,10),
+               colormap=cm.plasma, x_range = [-11,21])
+    #sns.set(rc={'figure.figsize': (8.27, 11.7)})
+    #sns.violinplot(y='pKa ID', x='$\Delta$pKa error (calc - exp)', data=data_ordered_by_pKa_ID,
+    #               inner='point', linewidth=1, width=1.2)
+    plt.savefig(directory_path + "/" + file_base_name + ".pdf")
+
 # =============================================================================
 # MAIN
 # =============================================================================
@@ -715,6 +753,11 @@ if __name__ == '__main__':
         # Plot error vs experimental pKa value
         generate_pKa_error_trend_plots(collection_df = collection_data,
                                        directory_path= statistics_directory_path)
+
+        # Create ridge plots for showing error distribution for each pKa
+        create_error_distribution_plots_for_each_pKa(collection_df = collection_data,
+                                                     directory_path = molecular_statistics_directory_path,
+                                                     file_base_name = "error_distribution_for_each_macroscopic_pKa")
 
 
 
