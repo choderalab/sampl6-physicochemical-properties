@@ -1,0 +1,69 @@
+# Submission Type I
+#
+# Any line that begins with a # is considered a comment and will be ignored when parsing.
+#
+# PREDICTION SECTION
+#
+# Each submission (method) must have a completed `typeI_microscopic_pKas_and_microstates.csv` file for all molecules the prediction encompasses.
+# For each molecule, report as many microscopic pKas as your method predicts.
+# Add new lines for each microstate pair.
+# Report microscopic pKa values to two decimal places (e.g. 10.71).
+# Reporting the standard error of the mean (SEM) is optional, but if reported, two decimal places should be provided (e.g. 1.02).
+# For values which you don't have an estimate, leave that cell of the csv table empty.
+#
+# The data in each prediction line should be structured as follows:
+# microstate ID of protonated state(HA), microstate ID of deprotonated state(A), microscopic pKa, microscopic pKa SEM
+# The list of predictions must begin with the "Predictions:" keyword, as illustrated here.
+Predictions:
+SM09_micro001,SM09_micro002,0.24
+SM09_micro001,SM09_micro003,-6.59
+SM09_micro002,SM09_micro009,-1.23
+SM09_micro003,SM09_micro009,4.89
+SM09_micro005,SM09_micro003,1.81
+SM09_micro005,SM09_micro011,4.89
+SM09_micro006,SM09_micro003,-11.43
+SM09_micro008,SM09_micro001,-24.34
+SM09_micro008,SM09_micro006,-6.28
+SM09_micro011,SM09_micro009,-1.00
+SM09_micro013,SM09_micro001,-9.05
+SM09_micro013,SM09_micro005,-7.29
+SM09_micro014,SM09_micro005,-25.69
+SM09_micro014,SM09_micro006,-12.44
+SM09_micro015,SM09_micro008,-23.10
+SM09_micro015,SM09_micro013,-35.34
+SM09_micro015,SM09_micro014,-16.94
+
+
+
+
+# NAME SECTION
+#
+# Please provide an informal yet informative name of the method used.
+# The "Name:" keyword is required, as shown here.
+Name:
+Explicit solvent submission 1
+
+# SOFTWARE SECTION
+#
+# All major software packages used and their versions.
+# Create a new line for each software.
+# The "Software:" keyword is required.
+Software: 
+Gaussian 16 Rev. A.03
+CHARMM
+Antechamber
+
+# METHOD SECTION
+#
+# Methodology and computational details. 
+# Level of detail should be at least that used in a publication.  
+# Please include the values of key parameters, with units, and explain how any statistical uncertainties were estimated.
+# Use as many lines of text as you need. 
+# All text following the "Method:" keyword will be regarded as part of your free text methods description. 
+Method: 
+Similar as earlier methods except that the implicit solvent QM solvation of the molecule is replaced by an explicit solvent MM calculation.
+Geometries are optimized with MP2 method using 6-31G* basis set.
+Parameters are generated using Antechamber's resp method.
+Free energy difference is calculated using pert module of charmm
+solvation free energy of proton used is -265.6 kcal/mol.
+
