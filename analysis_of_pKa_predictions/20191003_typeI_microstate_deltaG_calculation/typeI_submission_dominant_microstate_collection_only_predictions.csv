@@ -1,9 +1,17 @@
-submission ID,Molecule ID,charge -4,charge -3,charge -2,charge -1,charge 0,charge 1,charge 2,charge 3,charge 4
-jaguar,SM12,,,,SM12_micro009,SM12_micro012,SM12_micro006,SM12_micro013,SM12_micro015,
-jaguar,SM02,,,,SM02_micro011,SM02_micro002,SM02_micro004,SM02_micro012,SM02_micro014,
-jaguar,SM09,,,,SM09_micro009,SM09_micro003,SM09_micro001,SM09_micro013,SM09_micro015,
-jaguar,SM13,,,,SM13_micro004,SM13_micro005,SM13_micro001,SM13_micro013,SM13_micro015,
-jaguar,SM04,,,,SM04_micro005,SM04_micro003,SM04_micro002,SM04_micro014,SM04_micro016,
-jaguar,SM14,,,,SM14_micro006,SM14_micro001,SM14_micro002,SM14_micro003,,
-jaguar,SM15,,,,SM15_micro004,SM15_micro002,SM15_micro003,,,
-jaguar,SM07,,,,SM07_micro012,SM07_micro004,SM07_micro006,SM07_micro014,SM07_micro016,
+Molecule ID,charge -1,charge -2,charge -3,charge -4,charge 0,charge 1,charge 2,charge 3,charge 4,receipt_id
+SM07,SM07_micro012,,,,SM07_micro004,SM07_micro006,SM07_micro014,SM07_micro016,,Jaguar
+SM13,SM13_micro004,,,,SM13_micro005,SM13_micro001,SM13_micro013,SM13_micro015,,Jaguar
+SM04,SM04_micro005,,,,SM04_micro003,SM04_micro002,SM04_micro014,SM04_micro016,,Jaguar
+SM02,SM02_micro011,,,,SM02_micro002,SM02_micro004,SM02_micro012,SM02_micro014,,Jaguar
+SM14,SM14_micro006,,,,SM14_micro001,SM14_micro002,SM14_micro003,,,Jaguar
+SM15,SM15_micro004,,,,SM15_micro002,SM15_micro003,,,,Jaguar
+SM12,SM12_micro009,,,,SM12_micro012,SM12_micro006,SM12_micro013,SM12_micro015,,Jaguar
+SM09,SM09_micro009,,,,SM09_micro003,SM09_micro001,SM09_micro013,SM09_micro015,,Jaguar
+SM07,SM07_micro012,,,,SM07_micro004,SM07_micro007,SM07_micro014,,,Epik
+SM13,SM13_micro004,,,,SM13_micro005,SM13_micro001,SM13_micro003,,,Epik
+SM04,SM04_micro005,,,,SM04_micro003,SM04_micro006,SM04_micro014,,,Epik
+SM02,SM02_micro011,,,,SM02_micro002,SM02_micro004,SM02_micro012,,,Epik
+SM14,SM14_micro006,,,,SM14_micro001,SM14_micro002,SM14_micro003,,,Epik
+SM15,SM15_micro004,,,,SM15_micro002,SM15_micro003,,,,Epik
+SM12,SM12_micro009,,,,SM12_micro012,SM12_micro006,SM12_micro013,,,Epik
+SM09,SM09_micro009,,,,SM09_micro003,SM09_micro001,SM09_micro008,,,Epik
