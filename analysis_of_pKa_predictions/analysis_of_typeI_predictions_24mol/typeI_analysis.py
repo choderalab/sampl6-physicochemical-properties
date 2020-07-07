@@ -20,7 +20,7 @@ import scipy.stats
 # =============================================================================
 
 # Paths to input data.
-PKA_TYPEI_SUBMISSIONS_DIR_PATH = './typeI_predictions_test'
+PKA_TYPEI_SUBMISSIONS_DIR_PATH = './typeI_predictions'
 EXPERIMENTAL_DATA_FILE_PATH = '../../experimental_data/pKa_experimental_values.csv'
 EXPERIMENTAL_MICROSTATE_DATA_FILE_PATH = '../../experimental_data/experimental_microstates.csv'
 
