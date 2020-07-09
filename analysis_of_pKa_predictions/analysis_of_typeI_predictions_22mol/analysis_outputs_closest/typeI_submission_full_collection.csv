@@ -14047,16 +14047,16 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM24,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",-22.76,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM06,OE Gaussian Process,--,SM06_pKa2,SM06_pKa2,--,0.01,Caitlin Bannan,6tvf8
 --,,,SM16,OE Gaussian Process,--,SM16_pKa2,SM16_pKa2,--,0.01,Caitlin Bannan,6tvf8
+--,,,SM16,Explicit solvent submission 3,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,758j8
 --,,,SM15,ACD/pKa GALAS,--,SM15_pKa1,SM15_pKa1,--,0.01,Kiril Lanevskij,v8qph
 --,,,SM16,ACD/pKa GALAS,--,SM16_pKa2,SM16_pKa2,--,0.01,Kiril Lanevskij,v8qph
+--,,,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",--,SM22_pKa2,SM22_pKa2,--,0.01,Stefan Kast,kxztt
 --,,,SM22,"PCM/B3LYP/6-311+G(d,p)",--,SM22_pKa1,SM22_pKa1,--,0.02,Stefan Kast,gdqeg
---,,,SM16,Explicit solvent submission 1,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,0wfzo
 --,,,SM16,Explicit solvent submission 2,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,z3btx
 --,,,SM06,Explicit solvent submission 4,--,SM06_pKa2,SM06_pKa2,--,0.01,Samarjeet Prasad,hgn83
 --,,,SM16,Explicit solvent submission 4,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,hgn83
 --,,,SM22,Explicit solvent submission 4,--,SM22_pKa2,SM22_pKa2,--,0.01,Samarjeet Prasad,hgn83
---,,,SM16,Explicit solvent submission 3,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,758j8
---,,,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",--,SM22_pKa2,SM22_pKa2,--,0.01,Stefan Kast,kxztt
 --,,,SM06,COSMOlogic_FINE17,--,SM06_pKa2,SM06_pKa2,--,0.01,Chris Loschen,t8ewk
+--,,,SM16,Explicit solvent submission 1,--,SM16_pKa2,SM16_pKa2,--,0.01,Samarjeet Prasad,0wfzo
 --,,,SM16,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,--,SM16_pKa2,SM16_pKa2,--,0.01,Stefan Kast,ftc8w
 --,,,SM22,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,--,SM22_pKa2,SM22_pKa2,--,0.01,Stefan Kast,ftc8w
