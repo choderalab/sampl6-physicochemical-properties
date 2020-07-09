@@ -3291,6 +3291,6 @@ $\Delta$pKa error (calc - exp),Microstate ID of A,Microstate ID of HA,Molecule I
 --,,,SM14,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",5.02,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",8.34,--,--,1.77,--,Stefan Kast,2umai
 --,,,SM15,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",4.75,--,--,1.77,--,Stefan Kast,2umai
---,,,SM14,ReSCoSS conformations // COSMOtherm pKa,--,SM14_pKa1,SM14_pKa1,--,0.01,Rainer Wilcken,ccpmw
 --,,,SM14,ReSCoSS conformations // DSD-BLYP-D3 reranking // COSMOtherm pKa,--,SM14_pKa1,SM14_pKa1,--,0.01,Rainer Wilcken,eyetm
 --,,,SM14,COSMOlogic_FINE17,--,SM14_pKa1,SM14_pKa1,--,0.01,Chris Loschen,t8ewk
+--,,,SM14,ReSCoSS conformations // COSMOtherm pKa,--,SM14_pKa1,SM14_pKa1,--,0.01,Rainer Wilcken,ccpmw
