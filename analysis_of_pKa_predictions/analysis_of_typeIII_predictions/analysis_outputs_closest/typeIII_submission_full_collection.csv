@@ -268,37 +268,37 @@ $\Delta$pKa error (calc - exp),Molecule ID,name,pKa (calc),pKa (exp),pKa ID,pKa 
 2.120000000000001,SM22,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",9.55,7.43,SM22_pKa2,1.77,0.01,Stefan Kast,np6b4
 0.3300000000000001,SM23,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",5.78,5.45,SM23_pKa1,1.77,0.01,Stefan Kast,np6b4
 1.44,SM24,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",4.04,2.6,SM24_pKa1,1.77,0.01,Stefan Kast,np6b4
-1.1900000000000013,SM01,moka,10.72,9.53,SM01_pKa1,,0.01,Thomas Fox,nb017
--0.14000000000000054,SM02,moka,4.89,5.03,SM02_pKa1,,0.01,Thomas Fox,nb017
--0.9399999999999996,SM03,moka,6.08,7.02,SM03_pKa1,,0.01,Thomas Fox,nb017
--0.9099999999999993,SM04,moka,5.11,6.02,SM04_pKa1,,0.01,Thomas Fox,nb017
--1.08,SM05,moka,3.51,4.59,SM05_pKa1,,0.01,Thomas Fox,nb017
--1.17,SM06,moka,10.57,11.74,SM06_pKa2,,0.01,Thomas Fox,nb017
-1.0500000000000005,SM06,moka,4.08,3.03,SM06_pKa1,,0.04,Thomas Fox,nb017
--0.9699999999999998,SM07,moka,5.11,6.08,SM07_pKa1,,0.01,Thomas Fox,nb017
--1.4699999999999998,SM08,moka,2.75,4.22,SM08_pKa1,,0.01,Thomas Fox,nb017
--0.4800000000000004,SM09,moka,4.89,5.37,SM09_pKa1,,0.01,Thomas Fox,nb017
-2.140000000000001,SM10,moka,11.16,9.02,SM10_pKa1,,0.01,Thomas Fox,nb017
-0.3400000000000003,SM11,moka,4.23,3.89,SM11_pKa1,,0.01,Thomas Fox,nb017
--0.39000000000000057,SM12,moka,4.89,5.28,SM12_pKa1,,0.01,Thomas Fox,nb017
--0.1299999999999999,SM13,moka,5.64,5.77,SM13_pKa1,,0.01,Thomas Fox,nb017
-0.79,SM14,moka,6.09,5.3,SM14_pKa2,,0.01,Thomas Fox,nb017
-0.3300000000000001,SM14,moka,2.91,2.58,SM14_pKa1,,0.01,Thomas Fox,nb017
-0.45000000000000107,SM15,moka,9.39,8.94,SM15_pKa2,,0.01,Thomas Fox,nb017
-0.25,SM15,moka,4.95,4.7,SM15_pKa1,,0.01,Thomas Fox,nb017
-0.16000000000000014,SM16,moka,10.81,10.65,SM16_pKa2,,0.01,Thomas Fox,nb017
-0.2400000000000002,SM16,moka,5.61,5.37,SM16_pKa1,,0.01,Thomas Fox,nb017
-2.1099999999999994,SM17,moka,5.27,3.16,SM17_pKa1,,0.01,Thomas Fox,nb017
--0.9800000000000004,SM18,moka,8.6,9.58,SM18_pKa2,,0.03,Thomas Fox,nb017
--0.35999999999999943,SM18,moka,10.66,11.02,SM18_pKa3,,0.04,Thomas Fox,nb017
-0.27,SM18,moka,2.42,2.15,SM18_pKa1,,0.02,Thomas Fox,nb017
-0.41000000000000014,SM19,moka,9.97,9.56,SM19_pKa1,,0.02,Thomas Fox,nb017
-1.0599999999999996,SM20,moka,6.76,5.7,SM20_pKa1,,0.03,Thomas Fox,nb017
-1.3100000000000005,SM21,moka,5.41,4.1,SM21_pKa1,,0.01,Thomas Fox,nb017
-0.23000000000000045,SM22,moka,7.66,7.43,SM22_pKa2,,0.01,Thomas Fox,nb017
--0.3999999999999999,SM22,moka,2.0,2.4,SM22_pKa1,,0.02,Thomas Fox,nb017
-0.6099999999999994,SM23,moka,6.06,5.45,SM23_pKa1,,0.01,Thomas Fox,nb017
-1.5100000000000002,SM24,moka,4.11,2.6,SM24_pKa1,,0.01,Thomas Fox,nb017
+1.1900000000000013,SM01,MoKa,10.72,9.53,SM01_pKa1,,0.01,Thomas Fox,nb017
+-0.14000000000000054,SM02,MoKa,4.89,5.03,SM02_pKa1,,0.01,Thomas Fox,nb017
+-0.9399999999999996,SM03,MoKa,6.08,7.02,SM03_pKa1,,0.01,Thomas Fox,nb017
+-0.9099999999999993,SM04,MoKa,5.11,6.02,SM04_pKa1,,0.01,Thomas Fox,nb017
+-1.08,SM05,MoKa,3.51,4.59,SM05_pKa1,,0.01,Thomas Fox,nb017
+-1.17,SM06,MoKa,10.57,11.74,SM06_pKa2,,0.01,Thomas Fox,nb017
+1.0500000000000005,SM06,MoKa,4.08,3.03,SM06_pKa1,,0.04,Thomas Fox,nb017
+-0.9699999999999998,SM07,MoKa,5.11,6.08,SM07_pKa1,,0.01,Thomas Fox,nb017
+-1.4699999999999998,SM08,MoKa,2.75,4.22,SM08_pKa1,,0.01,Thomas Fox,nb017
+-0.4800000000000004,SM09,MoKa,4.89,5.37,SM09_pKa1,,0.01,Thomas Fox,nb017
+2.140000000000001,SM10,MoKa,11.16,9.02,SM10_pKa1,,0.01,Thomas Fox,nb017
+0.3400000000000003,SM11,MoKa,4.23,3.89,SM11_pKa1,,0.01,Thomas Fox,nb017
+-0.39000000000000057,SM12,MoKa,4.89,5.28,SM12_pKa1,,0.01,Thomas Fox,nb017
+-0.1299999999999999,SM13,MoKa,5.64,5.77,SM13_pKa1,,0.01,Thomas Fox,nb017
+0.79,SM14,MoKa,6.09,5.3,SM14_pKa2,,0.01,Thomas Fox,nb017
+0.3300000000000001,SM14,MoKa,2.91,2.58,SM14_pKa1,,0.01,Thomas Fox,nb017
+0.45000000000000107,SM15,MoKa,9.39,8.94,SM15_pKa2,,0.01,Thomas Fox,nb017
+0.25,SM15,MoKa,4.95,4.7,SM15_pKa1,,0.01,Thomas Fox,nb017
+0.16000000000000014,SM16,MoKa,10.81,10.65,SM16_pKa2,,0.01,Thomas Fox,nb017
+0.2400000000000002,SM16,MoKa,5.61,5.37,SM16_pKa1,,0.01,Thomas Fox,nb017
+2.1099999999999994,SM17,MoKa,5.27,3.16,SM17_pKa1,,0.01,Thomas Fox,nb017
+-0.9800000000000004,SM18,MoKa,8.6,9.58,SM18_pKa2,,0.03,Thomas Fox,nb017
+-0.35999999999999943,SM18,MoKa,10.66,11.02,SM18_pKa3,,0.04,Thomas Fox,nb017
+0.27,SM18,MoKa,2.42,2.15,SM18_pKa1,,0.02,Thomas Fox,nb017
+0.41000000000000014,SM19,MoKa,9.97,9.56,SM19_pKa1,,0.02,Thomas Fox,nb017
+1.0599999999999996,SM20,MoKa,6.76,5.7,SM20_pKa1,,0.03,Thomas Fox,nb017
+1.3100000000000005,SM21,MoKa,5.41,4.1,SM21_pKa1,,0.01,Thomas Fox,nb017
+0.23000000000000045,SM22,MoKa,7.66,7.43,SM22_pKa2,,0.01,Thomas Fox,nb017
+-0.3999999999999999,SM22,MoKa,2.0,2.4,SM22_pKa1,,0.02,Thomas Fox,nb017
+0.6099999999999994,SM23,MoKa,6.06,5.45,SM23_pKa1,,0.01,Thomas Fox,nb017
+1.5100000000000002,SM24,MoKa,4.11,2.6,SM24_pKa1,,0.01,Thomas Fox,nb017
 -0.41000000000000014,SM01,Epik Microscopic,9.12,9.53,SM01_pKa1,1.09,0.01,Bas Rustenburg,nb010
 -0.8700000000000001,SM02,Epik Microscopic,4.16,5.03,SM02_pKa1,1.01,0.01,Bas Rustenburg,nb010
 0.10000000000000052,SM03,Epik Microscopic,7.12,7.02,SM03_pKa1,1.98,0.01,Bas Rustenburg,nb010
@@ -1322,12 +1322,12 @@ $\Delta$pKa error (calc - exp),Molecule ID,name,pKa (calc),pKa (exp),pKa ID,pKa 
 --,SM24,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",-21.59,--,--,1.77,--,Stefan Kast,np6b4
 --,SM24,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",-4.76,--,--,1.77,--,Stefan Kast,np6b4
 --,SM24,"EC-RISM/B3LYP/6-311+G(d,p)-P2-phi-noThiols-2par",14.47,--,--,1.77,--,Stefan Kast,np6b4
---,SM01,moka,11.37,--,--,,--,Thomas Fox,nb017
---,SM03,moka,3.08,--,--,,--,Thomas Fox,nb017
---,SM05,moka,10.35,--,--,,--,Thomas Fox,nb017
---,SM08,moka,11.87,--,--,,--,Thomas Fox,nb017
---,SM10,moka,11.7,--,--,,--,Thomas Fox,nb017
---,SM18,moka,3.3,--,--,,--,Thomas Fox,nb017
+--,SM01,MoKa,11.37,--,--,,--,Thomas Fox,nb017
+--,SM03,MoKa,3.08,--,--,,--,Thomas Fox,nb017
+--,SM05,MoKa,10.35,--,--,,--,Thomas Fox,nb017
+--,SM08,MoKa,11.87,--,--,,--,Thomas Fox,nb017
+--,SM10,MoKa,11.7,--,--,,--,Thomas Fox,nb017
+--,SM18,MoKa,3.3,--,--,,--,Thomas Fox,nb017
 --,SM01,Epik Microscopic,-0.48,--,--,1.9,--,Bas Rustenburg,nb010
 --,SM01,Epik Microscopic,13.29,--,--,0.9,--,Bas Rustenburg,nb010
 --,SM02,Epik Microscopic,-1.76,--,--,0.73,--,Bas Rustenburg,nb010
@@ -2302,46 +2302,46 @@ $\Delta$pKa error (calc - exp),Molecule ID,name,pKa (calc),pKa (exp),pKa ID,pKa 
 --,SM19,ReSCoSS conformations // COSMOtherm pKa,0.51,--,--,,--,Rainer Wilcken,yqkga
 --,SM21,ReSCoSS conformations // COSMOtherm pKa,13.51,--,--,,--,Rainer Wilcken,yqkga
 --,SM23,ReSCoSS conformations // COSMOtherm pKa,14.7,--,--,,--,Rainer Wilcken,yqkga
---,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,nb002
---,SM15,ACD/pKa GALAS,--,SM15_pKa1,SM15_pKa1,--,0.01,Kiril Lanevskij,37xm8
---,SM16,ACD/pKa GALAS,--,SM16_pKa2,SM16_pKa2,--,0.01,Kiril Lanevskij,37xm8
---,SM06,OE Gaussian Process Resampled,--,SM06_pKa2,SM06_pKa2,--,0.01,Caitlin Bannan,q3pfp
---,SM16,OE Gaussian Process Resampled,--,SM16_pKa2,SM16_pKa2,--,0.01,Caitlin Bannan,q3pfp
---,SM18,OE Gaussian Process Resampled,--,SM18_pKa2,SM18_pKa2,--,0.03,Caitlin Bannan,q3pfp
---,SM06,Analog_search,--,SM06_pKa2,SM06_pKa2,--,0.01,Geoff Skillman,pwn3m
---,SM16,Analog_search,--,SM16_pKa2,SM16_pKa2,--,0.01,Geoff Skillman,pwn3m
---,SM18,Analog_search,--,SM18_pKa3,SM18_pKa3,--,0.04,Geoff Skillman,pwn3m
---,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",--,SM22_pKa2,SM22_pKa2,--,0.01,Stefan Kast,ds62k
---,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,nb003
---,SM18,Adiabatic scheme with single point correction for type III submission,--,SM18_pKa3,SM18_pKa3,--,0.04,Qiao Zeng,ryzue
---,SM18,Adiabatic scheme for type III submission,--,SM18_pKa3,SM18_pKa3,--,0.04,Qiao Zeng,5byn6
---,SM14,Direct scheme with single point correction for type III submission,--,SM14_pKa2,SM14_pKa2,--,0.01,Qiao Zeng,xikp8
---,SM18,Direct scheme with single point correction for type III submission,--,SM18_pKa2,SM18_pKa2,--,0.03,Qiao Zeng,xikp8
 --,SM06,OE Gaussian Process,--,SM06_pKa2,SM06_pKa2,--,0.01,Caitlin Bannan,hytjn
 --,SM16,OE Gaussian Process,--,SM16_pKa2,SM16_pKa2,--,0.01,Caitlin Bannan,hytjn
 --,SM18,OE Gaussian Process,--,SM18_pKa2,SM18_pKa2,--,0.03,Caitlin Bannan,hytjn
 --,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-noThiols-2par",--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,nb004
---,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",--,SM18_pKa2,SM18_pKa2,--,0.03,Stefan Kast,ad5pu
---,SM18,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,ttjd0
---,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",--,SM18_pKa2,SM18_pKa2,--,0.03,Stefan Kast,nb006
---,SM18,ReSCoSS conformations // COSMOtherm pKa,--,SM18_pKa3,SM18_pKa3,--,0.04,Rainer Wilcken,yqkga
---,SM18,S+pKa,--,SM18_pKa3,SM18_pKa3,--,0.04,Robert Fraczkiewicz,gyuhx
---,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,nb001
 --,SM06,COSMOtherm_FINE17,--,SM06_pKa2,SM06_pKa2,--,0.01,Chris Loschen,0hxtm
 --,SM14,COSMOtherm_FINE17,--,SM14_pKa1,SM14_pKa1,--,0.01,Chris Loschen,0hxtm
 --,SM16,COSMOtherm_FINE17,--,SM16_pKa2,SM16_pKa2,--,0.01,Chris Loschen,0hxtm
 --,SM18,COSMOtherm_FINE17,--,SM18_pKa2,SM18_pKa2,--,0.03,Chris Loschen,0hxtm
 --,SM18,COSMOtherm_FINE17,--,SM18_pKa3,SM18_pKa3,--,0.04,Chris Loschen,0hxtm
+--,SM18,EC-RISM/MP2/cc-pVTZ-P2-phi-noThiols-2par,--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,ttjd0
+--,SM18,S+pKa,--,SM18_pKa3,SM18_pKa3,--,0.04,Robert Fraczkiewicz,gyuhx
+--,SM18,ReSCoSS conformations // COSMOtherm pKa,--,SM18_pKa3,SM18_pKa3,--,0.04,Rainer Wilcken,yqkga
+--,SM15,ACD/pKa GALAS,--,SM15_pKa1,SM15_pKa1,--,0.01,Kiril Lanevskij,37xm8
+--,SM16,ACD/pKa GALAS,--,SM16_pKa2,SM16_pKa2,--,0.01,Kiril Lanevskij,37xm8
+--,SM22,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,--,SM22_pKa2,SM22_pKa2,--,0.01,Stefan Kast,2ii2g
+--,SM18,"EC-RISM/B3LYP/6-311+G(d,p)-P3NI-q-noThiols-2par",--,SM18_pKa2,SM18_pKa2,--,0.03,Stefan Kast,ad5pu
+--,SM18,ACD/pKa Classic,--,SM18_pKa3,SM18_pKa3,--,0.04,Kiril Lanevskij,xmyhm
+--,SM14,Direct scheme for type III submission,--,SM14_pKa2,SM14_pKa2,--,0.01,Qiao Zeng,y75vj
+--,SM22,"EC-RISM/MP2/6-311+G(d,p)-P3NI-q-noThiols-2par",--,SM22_pKa2,SM22_pKa2,--,0.01,Stefan Kast,ds62k
 --,SM06,Substructure matches from experimental data,--,SM06_pKa1,SM06_pKa1,--,0.04,Caitlin Bannan,5nm4j
 --,SM15,Substructure matches from experimental data,--,SM15_pKa2,SM15_pKa2,--,0.01,Caitlin Bannan,5nm4j
 --,SM16,Substructure matches from experimental data,--,SM16_pKa2,SM16_pKa2,--,0.01,Caitlin Bannan,5nm4j
 --,SM18,Substructure matches from experimental data,--,SM18_pKa3,SM18_pKa3,--,0.04,Caitlin Bannan,5nm4j
---,SM18,Vertical scheme for type III submission,--,SM18_pKa3,SM18_pKa3,--,0.04,Qiao Zeng,w4iyd
---,SM14,Full quantum chemical calculation of free energies and fit to experimental pKa,--,SM14_pKa1,SM14_pKa1,--,0.01,Philipp Pracht,xvxzd
---,SM18,Full quantum chemical calculation of free energies and fit to experimental pKa,--,SM18_pKa3,SM18_pKa3,--,0.04,Philipp Pracht,xvxzd
---,SM22,EC-RISM/MP2/cc-pVTZ-P2-q-noThiols-2par,--,SM22_pKa2,SM22_pKa2,--,0.01,Stefan Kast,2ii2g
---,SM18,ACD/pKa Classic,--,SM18_pKa3,SM18_pKa3,--,0.04,Kiril Lanevskij,xmyhm
+--,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-2par",--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,nb001
+--,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",--,SM18_pKa2,SM18_pKa2,--,0.03,Stefan Kast,nb005
+--,SM06,Analog_search,--,SM06_pKa2,SM06_pKa2,--,0.01,Geoff Skillman,pwn3m
+--,SM16,Analog_search,--,SM16_pKa2,SM16_pKa2,--,0.01,Geoff Skillman,pwn3m
+--,SM18,Analog_search,--,SM18_pKa3,SM18_pKa3,--,0.04,Geoff Skillman,pwn3m
+--,SM14,Direct scheme with single point correction for type III submission,--,SM14_pKa2,SM14_pKa2,--,0.01,Qiao Zeng,xikp8
+--,SM18,Direct scheme with single point correction for type III submission,--,SM18_pKa2,SM18_pKa2,--,0.03,Qiao Zeng,xikp8
 --,SM16,"PCM/B3LYP/6-311+G(d,p)",--,SM16_pKa2,SM16_pKa2,--,0.01,Stefan Kast,yc70m
 --,SM18,"PCM/B3LYP/6-311+G(d,p)",--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,yc70m
---,SM14,Direct scheme for type III submission,--,SM14_pKa2,SM14_pKa2,--,0.01,Qiao Zeng,y75vj
---,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-all-1par",--,SM18_pKa2,SM18_pKa2,--,0.03,Stefan Kast,nb005
+--,SM18,Vertical scheme for type III submission,--,SM18_pKa3,SM18_pKa3,--,0.04,Qiao Zeng,w4iyd
+--,SM18,Adiabatic scheme for type III submission,--,SM18_pKa3,SM18_pKa3,--,0.04,Qiao Zeng,5byn6
+--,SM18,"EC-RISM/MP2/6-311+G(d,p)-P2-phi-noThiols-2par",--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,nb002
+--,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-2par",--,SM18_pKa3,SM18_pKa3,--,0.04,Stefan Kast,nb003
+--,SM18,"EC-RISM/MP2/6-311+G(d,p)-P3NI-phi-all-1par",--,SM18_pKa2,SM18_pKa2,--,0.03,Stefan Kast,nb006
+--,SM06,OE Gaussian Process Resampled,--,SM06_pKa2,SM06_pKa2,--,0.01,Caitlin Bannan,q3pfp
+--,SM16,OE Gaussian Process Resampled,--,SM16_pKa2,SM16_pKa2,--,0.01,Caitlin Bannan,q3pfp
+--,SM18,OE Gaussian Process Resampled,--,SM18_pKa2,SM18_pKa2,--,0.03,Caitlin Bannan,q3pfp
+--,SM18,Adiabatic scheme with single point correction for type III submission,--,SM18_pKa3,SM18_pKa3,--,0.04,Qiao Zeng,ryzue
+--,SM14,Full quantum chemical calculation of free energies and fit to experimental pKa,--,SM14_pKa1,SM14_pKa1,--,0.01,Philipp Pracht,xvxzd
+--,SM18,Full quantum chemical calculation of free energies and fit to experimental pKa,--,SM18_pKa3,SM18_pKa3,--,0.04,Philipp Pracht,xvxzd

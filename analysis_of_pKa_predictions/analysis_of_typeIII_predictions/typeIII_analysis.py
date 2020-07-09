@@ -7,6 +7,7 @@ import os
 import glob
 import io
 import collections
+import pickle
 
 import pandas as pd
 import numpy as np
@@ -512,16 +513,51 @@ class pKaTypeIIISubmission(SamplSubmission):
         self.data = sections['Predictions']  # This is a pandas DataFrame.
         self.name = sections['Name'][0]
 
-    def compute_pKa_statistics(self, experimental_data, stats_funcs):
+    def compute_pKa_statistics(self, experimental_data, stats_funcs, directory_path, receipt_id):
         data = self._create_comparison_dataframe('pKa mean', self.data_matched, experimental_data)
 
-        # Create lists of stats functions to pass to compute_bootstrap_statistics.
-        stats_funcs_names, stats_funcs = zip(*stats_funcs.items())
-        bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=10000) # 10 000
+        # Load cached bootstrap statistics if exists
+        (analysis_outputs_directory_path, tail) = os.path.split(directory_path)
+        cache_file_path = os.path.join(analysis_outputs_directory_path, 'CachedBootstrapDistributions',
+                                       '{}_cached_bootstrap_dist.pkl'.format(receipt_id))
+        # print("cache_file_path:\n", cache_file_path)
+
+        try:
+            with open(cache_file_path, 'rb') as f:
+                print('\nLoading cached bootstrap distributions from {}'.format(cache_file_path))
+                bootstrap_statistics_ordered_dict = pickle.load(f)
+                #print("bootstrap_statistics_ordered_dict_from_file:\n", bootstrap_statistics_ordered_dict)
+        except FileNotFoundError:
+            bootstrap_statistics_ordered_dict = None
+            #print("bootstrap_statistics_ordered_dict_from_file:\n", bootstrap_statistics_ordered_dict)
+
+
+        # If cached bootstrap statistics is missing, compute bootstrap statistics and cache
+        if bootstrap_statistics_ordered_dict is None:
+
+            # Create lists of stats functions to pass to compute_bootstrap_statistics.
+            stats_funcs_names, stats_funcs = zip(*stats_funcs.items())
+            bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=10000) #10000
+
+            # Save bootstrap statistics as dictionary preserving the order
+            bootstrap_statistics_ordered_dict =  collections.OrderedDict((stats_funcs_names[i], bootstrap_statistics[i])
+                                                                     for i in range(len(stats_funcs)))
+            #print("bootstrap_statistics_ordered_dict:\n",bootstrap_statistics_ordered_dict)
+
+            # Cashe bootstrap statistics
+            os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
+            with open(cache_file_path, 'wb') as f:
+                pickle.dump(bootstrap_statistics_ordered_dict, f)
+
+        # Making sure we can read back the pickle file
+        #with open(cache_file_path, 'rb') as file:
+        #    bootstrap_statistics_ordered_dict_from_file = pickle.load(file)
+        #print("bootstrap_statistics_ordered_dict_from_file_in_the_end:\n", bootstrap_statistics_ordered_dict_from_file)
 
         # Return statistics as dict preserving the order.
-        return collections.OrderedDict((stats_funcs_names[i], bootstrap_statistics[i])
-                                      for i in range(len(stats_funcs)))
+        return bootstrap_statistics_ordered_dict
+
+
 
 # =============================================================================
 # UTILITY FUNCTIONS
@@ -1254,7 +1290,7 @@ def generate_statistics_tables(submissions, stats_funcs, directory_path, file_ba
         print('\rGenerating bootstrap statistics for submission {} ({}/{})'
                   ''.format(receipt_id, i + 1, len(submissions)), end='')
 
-        bootstrap_statistics = submission.compute_pKa_statistics(experimental_data, stats_funcs)
+        bootstrap_statistics = submission.compute_pKa_statistics(experimental_data, stats_funcs, directory_path, receipt_id)
 
 
         record_csv = {}

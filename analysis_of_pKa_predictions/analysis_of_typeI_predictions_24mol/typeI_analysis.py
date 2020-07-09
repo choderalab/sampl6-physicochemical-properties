@@ -59,7 +59,7 @@ def rmse(data):
     return rmse
 
 
-def compute_bootstrap_statistics(samples, stats_funcs, percentile=0.95, n_bootstrap_samples=10000): #10000
+def compute_bootstrap_statistics(samples, stats_funcs, percentile=0.95, n_bootstrap_samples=1000): #10000
     """Compute bootstrap confidence interval for the given statistics functions."""
     # Handle case where only a single function is passed.
     try:
@@ -533,7 +533,7 @@ class pKaTypeISubmission(SamplSubmission):
 
             # Create lists of stats functions to pass to compute_bootstrap_statistics.
             stats_funcs_names, stats_funcs = zip(*stats_funcs.items())
-            bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=10000) #1000
+            bootstrap_statistics = compute_bootstrap_statistics(data.as_matrix(), stats_funcs, n_bootstrap_samples=1000) #1000
 
             # Save bootstrap statistics as dictionary preserving the order
             bootstrap_statistics_ordered_dict =  collections.OrderedDict((stats_funcs_names[i], bootstrap_statistics[i])
