@@ -1400,16 +1400,22 @@ class pKaTypeISubmissionFullCollection:
                 for molecule_ID in molecule_IDs:
                 #for molecule_ID in molecule_IDs:
                     df_1method_1mol = submission.data.loc[molecule_ID,:]
-                    #print("\ndf_1method_1mol: \n")
-                    #print(df_1method_1mol)
+                    print("\ndf_1method_1mol: \n")
+                    print(df_1method_1mol)
+
+                    #import pdb;
+                    #pdb.set_trace()
 
                     # Iterate through each predicted pKa and check if it exist in matched collection
 
                     try:
                         pred_pKas = df_1method_1mol["pKa mean"].values
+                        ms_IDs_HA =  df_1method_1mol["Microstate ID of HA"].values
+                        ms_IDs_A = df_1method_1mol["Microstate ID of A"].values
                     except:
                         pred_pKas = [df_1method_1mol["pKa mean"]]
-                        #print("pred_pKas:", pred_pKas)
+                        ms_IDs_HA =  [df_1method_1mol["Microstate ID of HA"]]
+                        ms_IDs_A = [df_1method_1mol["Microstate ID of A"]]
 
                     try:
                         pred_pKa_SEMs = df_1method_1mol["pKa SEM"].values
@@ -1440,7 +1446,9 @@ class pKaTypeISubmissionFullCollection:
                                 'pKa SEM (calc)': pred_pKa_SEM,
                                 'pKa (exp)': "--",
                                 'pKa SEM (exp)': "--",
-                                '$\Delta$pKa error (calc - exp)': "--"
+                                '$\Delta$pKa error (calc - exp)': "--",
+                                'Microstate ID of HA': ms_IDs_HA[i],
+                                'Microstate ID of A': ms_IDs_A[i]
                             })
 
             # Transform into Pandas DataFrame.
