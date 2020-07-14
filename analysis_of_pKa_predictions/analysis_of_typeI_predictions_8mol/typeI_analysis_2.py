@@ -8,9 +8,11 @@ import numpy as np
 import pandas as pd
 from typeI_analysis import mae, rmse, barplot_with_CI_errorbars
 from typeI_analysis import compute_bootstrap_statistics
+from titrato_sampl_pH_0_12 import SAMPL6DataProvider
 import shutil
 import seaborn as sns
 from matplotlib import pyplot as plt
+
 
 # =============================================================================
 # PLOTTING FUNCTIONS
@@ -163,6 +165,7 @@ def stacked_barplot_2groups(df, x_label, y_label1, y_label2, fig_size=(10, 7), i
 # =============================================================================
 
 # Paths to input data.
+EXPERIMENTAL_DOMINANT_MICROSTATE_DATA_FILE_PATH = '../../experimental_data/experimental_microstates_with_charge.csv'
 PKA_TYPEI_CLOSEST_COLLECTION_PATH = './analysis_outputs_closest/typeI_submission_collection.csv'
 PKA_TYPEI_HUNGARIAN_COLLECTION_PATH = './analysis_outputs_hungarian/typeI_submission_collection.csv'
 PKA_TYPEI_MICROSTATE_COLLECTION_PATH = './analysis_outputs_microstate/typeI_submission_collection.csv'
@@ -594,6 +597,84 @@ def generate_performance_comparison_plots_with_unmatched_pKa_statistics(statisti
     plt.savefig(directory_path + "/unmatched_pKa_vs_method_plot_narrow.pdf")
 
 
+#  # Calculate relative free energy of predicted microstates using neutral pH = 0 and a neutral state as reference
+# calculate_microstate_relative_free_energy(full_collection_df=full_collection_data,
+#                                                   directory_path = output_directory_path,
+#                                                   file_base_name = "relative_free_energy_of_predicted_microstates",
+#                                                   ref_pH = 0)
+
+
+
+def calculate_microstate_relative_free_energy(df_full_collection,  directory_path, file_base_name , ref_pH = 0):
+    """ Calculates relative microstate free energy of predicted microstates using the full collection dataframe and
+    outputs a table of microstates, relative free energies, and charge.
+    """
+    print("full_collection_df.head():\n", df_full_collection.head())
+
+    # Iterate over receipt_ids and calculate relative free energy of predicted microstates
+    receipt_ids= set(df_full_collection["receipt_id"].values)
+
+    #  Will store microstate and relative free energy data in a list and convert to dataframe
+    microstate_data = []
+
+    for receipt_id in receipt_ids:
+        # Slice collection by receipt ID
+        df_1submission = df_full_collection[df_full_collection.receipt_id == receipt_id]
+        print("receipt ID: ", df_1submission )
+        print("df_1submission: \n", df_1submission )
+
+        # Remove entries in the full collection that don't have predictions (entries of unmatched experimental values)
+        df_1submission_only_pred = df_1submission.dropna(subset=['pKa (calc)'])
+        df_1submission_only_pred = df_1submission_only_pred[df_1submission_only_pred["pKa SEM (calc)"] != '--']
+        df_1submission_only_pred = df_1submission_only_pred.reset_index()
+
+        # Extract Molecule ID list for each submission
+        pred_mol_IDs = set(df_1submission_only_pred["Molecule ID"].values)
+
+        # Take subset of columns to obtain raw prediction CSV that titrato expects
+        raw_columns = ['Microstate ID of HA', 'Microstate ID of A', 'pKa (calc)', 'pKa SEM (calc)']
+        df_1submission_raw = df_1submission_only_pred[raw_columns]
+        raw_submission_dir_path = os.path.join(directory_path, "RawPredictionTables")
+        if not os.path.exists(raw_submission_dir_path):
+            os.makedirs(raw_submission_dir_path)
+        raw_submission_file_name = "{}-typeI-raw.csv".format(receipt_id)
+        raw_submission_file_path = os.path.join(raw_submission_dir_path, raw_submission_file_name)
+        df_1submission_raw.to_csv(raw_submission_file_path, index=False)
+        print("df_1submission_raw: \n", df_1submission_raw)
+
+        # Load prediction data
+        pred_1submission = SAMPL6DataProvider(raw_submission_file_path, "typei", receipt_id, bootstrap_options={"n_samples": 1})
+
+        # Calculate relative free energy and add to relative free energy table
+        for mol_ID in pred_mol_IDs:
+            pred_1mol = pred_1submission.load(mol_ID)
+            microstate_IDs = pred_1mol.state_ids
+            charges_of_microstates = pred_1mol.charges
+            free_energies_of_microstates_pH0 = pred_1mol.free_energies[:, 0]
+
+            for i, microstate_ID in enumerate(microstate_IDs):
+                microstate_data.append({
+                    'receipt_id': receipt_id,
+                    'Molecule ID': mol_ID,
+                    'Microstate ID': microstate_ID,
+                    'Charge': charges_of_microstates[i],
+                    '$\Delta$G (pH=0)': free_energies_of_microstates_pH0[i]
+                })
+
+    # Convert microstate_data to Pandas DataFrame
+    df_microstate_data = pd.DataFrame(data=microstate_data)
+
+    # Output table file path
+    output_file_name = file_base_name + ".csv"
+    rel_free_energy_of_pred_ms_file_path = os.path.join(output_directory_path, output_file_name)
+    #print("rel_free_energy_of_pred_ms_file_path: ", rel_free_energy_of_pred_ms_file_path)
+    df_microstate_data.to_csv(rel_free_energy_of_pred_ms_file_path, index=False)
+
+
+# TO - DO: Complete this function
+# import pdb;
+# pdb.set_trace()
+
 # =============================================================================
 # MAIN
 # =============================================================================
@@ -658,3 +739,20 @@ if __name__ == '__main__':
         generate_performance_comparison_plots_with_unmatched_pKa_statistics(
             statistics_filename="statistics_with_unmatched_pKa_numbers.csv",
             directory_path=statistics_directory_path)
+
+
+        # Read dataset of experimentally determined dominant microstates
+        exp_dominant_microstate_data = pd.read_csv(EXPERIMENTAL_DOMINANT_MICROSTATE_DATA_FILE_PATH)
+        print("exp_dominant_microstate_data:\n", exp_dominant_microstate_data)
+
+        # Calculate relative free energy of predicted microstates using neutral pH = 0 and a neutral state as reference
+        calculate_microstate_relative_free_energy(df_full_collection=full_collection_data,
+                                                  directory_path = output_directory_path,
+                                                  file_base_name = "relative_free_energy_of_predicted_microstates",
+                                                  ref_pH = 0)
+
+        # Calculate dominant microstate accuracy statistics for each method
+
+        #calculate_dominant_microstate_statistics()
+
+        # Calculate dominant microstate accuracy statistics for each molecule across methods
