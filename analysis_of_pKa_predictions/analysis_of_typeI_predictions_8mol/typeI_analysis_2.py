@@ -15,6 +15,15 @@ from matplotlib import pyplot as plt
 
 
 # =============================================================================
+# STATS FUNCTIONS
+# =============================================================================
+
+def nanmean(data):
+    #x, y = data.T
+    return np.nanmean(data)
+
+
+# =============================================================================
 # PLOTTING FUNCTIONS
 # =============================================================================
 
@@ -673,10 +682,7 @@ class microstateRelativeFreeEnergy:
         #print("rel_free_energy_of_pred_ms_file_path: ", rel_free_energy_of_pred_ms_file_path)
         self.data.to_csv(rel_free_energy_of_pred_ms_file_path, index=False)
 
-# dominant_microstate_collection = pKaTypeIDominantMicrostateCollection(pred_microstates_data = pred_microstate_relative_free_energy,
-#                                                                               df_exp_dominant_microstates = exp_dominant_microstate_data,
-#                                                                               directory_path = output_directory_path,
-#                                                                               file_base_name = 'typeI_dominant_microstate_collection')
+
 class pKaTypeIDominantMicrostateCollection:
     """
     Dominant microstate collection is a table that records predicted and experimental dominant microstates
@@ -741,7 +747,6 @@ class pKaTypeIDominantMicrostateCollection:
         print("df_pred_dom_ms:\n", df_pred_dom_ms)
 
 
-
         # Organize experimental microstate in dominant microstate collection format
 
         # Create empty dataframe to store experimental dominant microstates from the experimental data
@@ -779,7 +784,6 @@ class pKaTypeIDominantMicrostateCollection:
                 df_exp_dom_ms.loc[mol_ID, "charge {}".format(charge)] = exp_dom_ms_ID
 
         print("df_exp_dom_ms:\n", df_exp_dom_ms)
-
 
 
         # Create a collection file with both experimental and predicted microstate IDs
@@ -828,6 +832,142 @@ class pKaTypeIDominantMicrostateCollection:
         collection_file_path = os.path.join(directory_path, collection_file_name)
         self.data.to_csv(collection_file_path, index=False)
 
+
+    def calculate_microstate_matches(self, charges_of_exp_ms):
+        columns = ["receipt_id", "Molecule ID"]
+        for charge in charges_of_exp_ms:
+            columns.append("charge {} (calc)".format(charge))
+            columns.append("charge {} (exp)".format(charge))
+        self.match_data = self.data[columns]
+
+        # Create empty columns to record match accuracy
+        for charge in charges_of_exp_ms:
+            self.match_data["charge {} match".format(str(charge))] = np.NaN
+
+        # Populate the dataframe with 0 (False) or 1 (True) based on match of predicted microstates to experimental.
+        # Iterate through submissions
+        receipt_id_list = set(self.match_data["receipt_id"].values)
+        for receipt_id in receipt_id_list:
+            df_1submission = self.match_data[self.match_data["receipt_id"] == receipt_id]
+
+            # Iterate through molecules
+            for i, row in enumerate(df_1submission.iterrows()):
+                mol_ID = row[1]["Molecule ID"]
+
+                # Iterate through charges
+                for charge in charges_of_exp_ms:
+                    # Compare predicted and experimental microstate
+                    pred_ms = df_1submission.loc[df_1submission["Molecule ID"] == mol_ID][
+                        "charge {} (calc)".format(str(charge))].values[0]
+                    exp_ms = df_1submission.loc[df_1submission["Molecule ID"] == mol_ID][
+                        "charge {} (exp)".format(str(charge))].values[0]
+
+                    # if experimental microstate doesn't exist for that charge state match value should be NaN
+                    if isinstance(exp_ms, str) == False:
+                        if np.isnan(exp_ms):
+                            match = np.NaN
+                    # if experimental and predicted microstate IDs are the same, match value should be 1 (True)
+                    elif pred_ms == exp_ms:
+                        match = 1
+                    else:
+                        match = 0
+
+                    # Record the match value to the dominant microstates collection dataframe
+                    self.match_data.loc[(self.match_data["Molecule ID"] == mol_ID) & (
+                                self.match_data["receipt_id"] == receipt_id), "charge {} match".format(
+                        str(charge))] = match
+
+        print("pKaTypeIDominantMicrostateCollection.match_data:\n", self.match_data)
+
+
+        # dominant_microstate_collection.generate_statistics_tables(directory_path = output_directory_path + '/StatisticsTables',
+        #                                                           file_base_name = 'dominant_microstate_statistics',
+        #                                                           sort_stat='Accuracy')
+    def generate_statistics_tables(self, directory_path, file_base_name, sort_stat, charges_of_exp_ms):
+
+        # Calculate table of microstate ID matches between experiments and predictions
+        self.calculate_microstate_matches(charges_of_exp_ms)
+
+
+        # Calculate overall dominant microstate accuracy for each method
+        # Save data in a list of dictionaries to convert to dataframe later
+        dom_ms_stats = []
+
+        receipt_ids = set(self.match_data["receipt_id"].values)
+        for receipt_id in receipt_ids:
+            # Take subset of dominant microstate collection based on submission ID
+            df_1submission = self.match_data[self.match_data["receipt_id"] == receipt_id]
+
+            match_values = []
+            for charge in charges_of_exp_ms:
+                match_values_of_1charge = df_1submission["charge {} match".format(charge)].values
+
+                for value in match_values_of_1charge:
+                    match_values.append(value)
+            match_values_array = np.array(match_values)
+
+
+            # Calculate overall dominant microstate match accuracy ignoring NaNs and 95% CI by bootstrapping
+            print('\rGenerating dominant microstate bootstrap statistics for submission {} ({}/{})'
+                  ''.format(receipt_id, i + 1, len(receipt_ids)), end='')
+            bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000)
+            accuracy = bootstrap_statistics[0][0]
+            accuracy_lower_bound, accuracy_upper_bound = bootstrap_statistics[0][1]
+
+
+            dom_ms_stats.append({
+                'receipt_id': receipt_id,
+                'Accuracy': accuracy,
+                'Accuracy lower bound': accuracy_lower_bound,
+                'Accuracy upper bound': accuracy_upper_bound
+            })
+
+        self.dom_ms_stats = pd.DataFrame(data=dom_ms_stats)
+
+        # Sort dominant microstate statistics table by overall accuracy value
+        self.dom_ms_stats.sort_values(by=sort_stat, inplace=True)
+        # Reorder columns
+        self.dom_ms_stats = self.dom_ms_stats[['receipt_id', 'Accuracy', 'Accuracy lower bound', 'Accuracy upper bound']]
+
+
+        # Calculate dominant microstate match accuracy for each method for neutral and +1 charge state separately
+
+        charges_to_be_calculated = [0, 1]
+
+        for charge in charges_to_be_calculated:
+            self.dom_ms_stats["Accuracy (Charge {})".format(str(charge))] = np.NaN
+            self.dom_ms_stats["Accuracy lower bound (Charge {})".format(str(charge))] = np.NaN
+            self.dom_ms_stats["Accuracy upper bound (Charge {})".format(str(charge))] = np.NaN
+
+            for receipt_id in receipt_ids:
+                # Take subset of dominant microstate collection based on submission ID
+                df_1submission = self.match_data[self.match_data["receipt_id"] == receipt_id]
+
+                match_values_of_1charge = df_1submission["charge {} match".format(charge)].values
+                match_values_array = np.array(match_values_of_1charge)
+
+                # Calculate overall dominant microstate match accuracy ignoring NaNs and 95% CI by bootstrapping
+                print('\rGenerating dominant microstate bootstrap statistics charge 0 and 1 for submission {} ({}/{})'
+                      ''.format(receipt_id, i + 1, len(receipt_ids)), end='')
+                bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000)
+                accuracy = bootstrap_statistics[0][0]
+                accuracy_lower_bound, accuracy_upper_bound = bootstrap_statistics[0][1]
+
+                # Record accuracy value to the dataframe
+                self.dom_ms_stats.loc[self.dom_ms_stats["receipt_id"] == receipt_id, "Accuracy (Charge {})".format(str(charge))] = accuracy
+                self.dom_ms_stats.loc[self.dom_ms_stats["receipt_id"] == receipt_id, "Accuracy lower bound (Charge {})".format(
+                    str(charge))] = accuracy_lower_bound
+                self.dom_ms_stats.loc[
+                    self.dom_ms_stats["receipt_id"] == receipt_id, "Accuracy upper bound (Charge {})".format(
+                        str(charge))] = accuracy_upper_bound
+
+
+        # Write dominant microstate statistics table
+        microstate_stats_file_name = file_base_name + ".csv"
+        microstate_stats_file_path = os.path.join(directory_path, microstate_stats_file_name )
+        self.dom_ms_stats.to_csv(microstate_stats_file_path, index=False)
+
+        #import pdb; pdb.set_trace()
 
 
 # =============================================================================
@@ -912,9 +1052,11 @@ if __name__ == '__main__':
                                                                               directory_path = output_directory_path,
                                                                               file_base_name = 'typeI_dominant_microstate_collection')
 
-
         # Calculate dominant microstate accuracy statistics for each method
+        dominant_microstate_collection.generate_statistics_tables(directory_path = output_directory_path + '/StatisticsTables',
+                                                                  file_base_name = 'dominant_microstate_statistics',
+                                                                  sort_stat='Accuracy',
+                                                                  charges_of_exp_ms=[-1, 0, 1, 2])
 
-        #calculate_dominant_microstate_statistics()
 
         # Calculate dominant microstate accuracy statistics for each molecule across methods
