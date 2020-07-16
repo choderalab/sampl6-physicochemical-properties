@@ -605,75 +605,230 @@ def generate_performance_comparison_plots_with_unmatched_pKa_statistics(statisti
 
 
 
-def calculate_microstate_relative_free_energy(df_full_collection,  directory_path, file_base_name , ref_pH = 0):
+class microstateRelativeFreeEnergy:
     """ Calculates relative microstate free energy of predicted microstates using the full collection dataframe and
     outputs a table of microstates, relative free energies, and charge.
     """
-    print("full_collection_df.head():\n", df_full_collection.head())
+    def __init__(self, df_full_collection,  directory_path, file_base_name , ref_pH = 0):
 
-    # Iterate over receipt_ids and calculate relative free energy of predicted microstates
-    receipt_ids= set(df_full_collection["receipt_id"].values)
 
-    #  Will store microstate and relative free energy data in a list and convert to dataframe
-    microstate_data = []
+        print("full_collection_df.head():\n", df_full_collection.head())
 
-    for receipt_id in receipt_ids:
-        # Slice collection by receipt ID
-        df_1submission = df_full_collection[df_full_collection.receipt_id == receipt_id]
-        print("receipt ID: ", df_1submission )
-        print("df_1submission: \n", df_1submission )
+        # Iterate over receipt_ids and calculate relative free energy of predicted microstates
+        receipt_ids= set(df_full_collection["receipt_id"].values)
 
-        # Remove entries in the full collection that don't have predictions (entries of unmatched experimental values)
-        df_1submission_only_pred = df_1submission.dropna(subset=['pKa (calc)'])
-        df_1submission_only_pred = df_1submission_only_pred[df_1submission_only_pred["pKa SEM (calc)"] != '--']
-        df_1submission_only_pred = df_1submission_only_pred.reset_index()
+        #  Will store microstate and relative free energy data in a list and convert to dataframe
+        microstate_data = []
 
-        # Extract Molecule ID list for each submission
-        pred_mol_IDs = set(df_1submission_only_pred["Molecule ID"].values)
+        for receipt_id in receipt_ids:
+            # Slice collection by receipt ID
+            df_1submission = df_full_collection[df_full_collection.receipt_id == receipt_id]
+            print("receipt ID: ", df_1submission )
+            print("df_1submission: \n", df_1submission )
 
-        # Take subset of columns to obtain raw prediction CSV that titrato expects
-        raw_columns = ['Microstate ID of HA', 'Microstate ID of A', 'pKa (calc)', 'pKa SEM (calc)']
-        df_1submission_raw = df_1submission_only_pred[raw_columns]
-        raw_submission_dir_path = os.path.join(directory_path, "RawPredictionTables")
-        if not os.path.exists(raw_submission_dir_path):
-            os.makedirs(raw_submission_dir_path)
-        raw_submission_file_name = "{}-typeI-raw.csv".format(receipt_id)
-        raw_submission_file_path = os.path.join(raw_submission_dir_path, raw_submission_file_name)
-        df_1submission_raw.to_csv(raw_submission_file_path, index=False)
-        print("df_1submission_raw: \n", df_1submission_raw)
+            # Remove entries in the full collection that don't have predictions (entries of unmatched experimental values)
+            df_1submission_only_pred = df_1submission.dropna(subset=['pKa (calc)'])
+            df_1submission_only_pred = df_1submission_only_pred[df_1submission_only_pred["pKa SEM (calc)"] != '--']
+            df_1submission_only_pred = df_1submission_only_pred.reset_index()
 
-        # Load prediction data
-        pred_1submission = SAMPL6DataProvider(raw_submission_file_path, "typei", receipt_id, bootstrap_options={"n_samples": 1})
+            # Extract Molecule ID list for each submission
+            pred_mol_IDs = set(df_1submission_only_pred["Molecule ID"].values)
 
-        # Calculate relative free energy and add to relative free energy table
-        for mol_ID in pred_mol_IDs:
-            pred_1mol = pred_1submission.load(mol_ID)
-            microstate_IDs = pred_1mol.state_ids
-            charges_of_microstates = pred_1mol.charges
-            free_energies_of_microstates_pH0 = pred_1mol.free_energies[:, 0]
+            # Take subset of columns to obtain raw prediction CSV that titrato expects
+            raw_columns = ['Microstate ID of HA', 'Microstate ID of A', 'pKa (calc)', 'pKa SEM (calc)']
+            df_1submission_raw = df_1submission_only_pred[raw_columns]
+            raw_submission_dir_path = os.path.join(directory_path, "RawPredictionTables")
+            if not os.path.exists(raw_submission_dir_path):
+                os.makedirs(raw_submission_dir_path)
+            raw_submission_file_name = "{}-typeI-raw.csv".format(receipt_id)
+            raw_submission_file_path = os.path.join(raw_submission_dir_path, raw_submission_file_name)
+            df_1submission_raw.to_csv(raw_submission_file_path, index=False)
+            print("df_1submission_raw: \n", df_1submission_raw)
 
-            for i, microstate_ID in enumerate(microstate_IDs):
-                microstate_data.append({
+            # Load prediction data
+            pred_1submission = SAMPL6DataProvider(raw_submission_file_path, "typei", receipt_id, bootstrap_options={"n_samples": 1})
+
+            # Calculate relative free energy and add to relative free energy table
+            for mol_ID in pred_mol_IDs:
+                pred_1mol = pred_1submission.load(mol_ID)
+                microstate_IDs = pred_1mol.state_ids
+                charges_of_microstates = pred_1mol.charges
+                free_energies_of_microstates_pH0 = pred_1mol.free_energies[:, ref_pH]
+
+                for i, microstate_ID in enumerate(microstate_IDs):
+                    microstate_data.append({
+                        'receipt_id': receipt_id,
+                        'Molecule ID': mol_ID,
+                        'Microstate ID': microstate_ID,
+                        'Charge': charges_of_microstates[i],
+                        '$\Delta$G (pH=0)': free_energies_of_microstates_pH0[i]
+                    })
+
+        # Convert microstate_data to Pandas DataFrame
+        self.data = pd.DataFrame(data=microstate_data)
+
+        # Output table file path
+        output_file_name = file_base_name + ".csv"
+        rel_free_energy_of_pred_ms_file_path = os.path.join(output_directory_path, output_file_name)
+        #print("rel_free_energy_of_pred_ms_file_path: ", rel_free_energy_of_pred_ms_file_path)
+        self.data.to_csv(rel_free_energy_of_pred_ms_file_path, index=False)
+
+# dominant_microstate_collection = pKaTypeIDominantMicrostateCollection(pred_microstates_data = pred_microstate_relative_free_energy,
+#                                                                               df_exp_dominant_microstates = exp_dominant_microstate_data,
+#                                                                               directory_path = output_directory_path,
+#                                                                               file_base_name = 'typeI_dominant_microstate_collection')
+class pKaTypeIDominantMicrostateCollection:
+    """
+    Dominant microstate collection is a table that records predicted and experimental dominant microstates
+    of charges from -4 to +4.
+    """
+
+    def __init__(self, pred_microstates_data, exp_dominant_microstates, directory_path, file_base_name):
+
+
+        df_pred_microstate_data =  pred_microstates_data.data
+        receipt_ids = set(df_pred_microstate_data["receipt_id"].values)
+        pred_mol_IDs = set(df_pred_microstate_data["Molecule ID"].values)
+
+        # Create a dataframe to stpre predicted dominant microstate of each charge and initialize microstate IDs as NaN
+        dominant_microstate_records = []
+
+        for receipt_id in receipt_ids:
+            for mol_ID in pred_mol_IDs:
+                # Append to a list to later save as a CSV
+                dominant_microstate_records.append({
                     'receipt_id': receipt_id,
                     'Molecule ID': mol_ID,
-                    'Microstate ID': microstate_ID,
-                    'Charge': charges_of_microstates[i],
-                    '$\Delta$G (pH=0)': free_energies_of_microstates_pH0[i]
+                    'charge -4': np.NaN,
+                    'charge -3': np.NaN,
+                    'charge -2': np.NaN,
+                    'charge -1': np.NaN,
+                    'charge 0': np.NaN,
+                    'charge 1': np.NaN,
+                    'charge 2': np.NaN,
+                    'charge 3': np.NaN,
+                    'charge 4': np.NaN
                 })
 
-    # Convert microstate_data to Pandas DataFrame
-    df_microstate_data = pd.DataFrame(data=microstate_data)
+        # Transform into Pandas DataFrame.
+        df_pred_dom_ms = pd.DataFrame(data=dominant_microstate_records)
 
-    # Output table file path
-    output_file_name = file_base_name + ".csv"
-    rel_free_energy_of_pred_ms_file_path = os.path.join(output_directory_path, output_file_name)
-    #print("rel_free_energy_of_pred_ms_file_path: ", rel_free_energy_of_pred_ms_file_path)
-    df_microstate_data.to_csv(rel_free_energy_of_pred_ms_file_path, index=False)
+        # Populate data frame with predicted dominant microstates.
+        # If prediction of a charge state is missing it will be recorded as NaN
+
+        for receipt_id in receipt_ids:
+
+            # Get set fo pred_mol_IDs from the predicted microstates table
+            df_1submission = df_pred_microstate_data[df_pred_microstate_data["receipt_id"] == receipt_id]
+            # print("df_1submission:\n", df_1submission.head())
 
 
-# TO - DO: Complete this function
-# import pdb;
-# pdb.set_trace()
+            pred_mol_IDs = set(df_1submission["Molecule ID"].values)
+
+            # Record dominant microstate series for each molecule
+            for mol_ID in pred_mol_IDs:
+                df_1mol = df_1submission[df_1submission["Molecule ID"] == mol_ID]
+                charges = set(df_1mol["Charge"].values)
+
+                for i, charge in enumerate(charges):
+                    df_1mol_1charge = df_1mol[df_1mol["Charge"] == charge]
+                    # dominant_microstate = df_1mol_1charge.loc[df_1mol_1charge['$\Delta$G (pH=0)'].idxmin()]["Microstate ID"]
+                    dominant_microstate = df_1mol_1charge.loc[
+                        df_1mol_1charge['$\Delta$G (pH=0)'].idxmin(), "Microstate ID"]
+                    df_pred_dom_ms.loc[(df_pred_dom_ms["Molecule ID"] == mol_ID) & (
+                                df_pred_dom_ms["receipt_id"] == receipt_id), "charge {}".format(charge)] = dominant_microstate
+
+        print("df_pred_dom_ms:\n", df_pred_dom_ms)
+
+
+
+        # Organize experimental microstate in dominant microstate collection format
+
+        # Create empty dataframe to store experimental dominant microstates from the experimental data
+        df_exp_dom_ms = pd.DataFrame(
+            columns=["Molecule ID", "charge -4", "charge -3", "charge -2", "charge -1", "charge 0",
+                     "charge 1", "charge 2", "charge 3", "charge 4"])
+        charges = np.arange(-4, 4, 1)
+        exp_mol_IDs = set(exp_dominant_microstates["Molecule ID"].values)
+
+        for i, mol_ID in enumerate(exp_mol_IDs):
+            df_exp_dom_ms.loc[i] = [mol_ID, np.NaN, np.NaN, np.NaN, np.NaN, np.NaN, np.NaN, np.NaN, np.NaN, np.NaN]
+
+        # Make molecule ID the index
+        df_exp_dom_ms = df_exp_dom_ms.set_index("Molecule ID", drop=False)
+
+        # Populate expermental dominant microstate collection
+        for i, mol_ID in enumerate(exp_mol_IDs):
+            for charge in charges:
+                exp_ms_1mol = exp_dominant_microstates[exp_dominant_microstates["Molecule ID"] == mol_ID]
+
+                # Check if charge exist in "Charge of A" column
+                exp_charge_of_A = exp_ms_1mol["Charge of A"].values
+                exp_charge_of_HA = exp_ms_1mol["Charge of HA"].values
+
+                if charge in exp_charge_of_A:
+                    # print("Charges match A.")
+                    exp_dom_ms_ID = exp_ms_1mol[exp_ms_1mol["Charge of A"] == charge]["Microstate ID of A"].values[0]
+                elif charge in exp_charge_of_HA:
+                    # print("Charges match HA.")
+                    exp_dom_ms_ID = exp_ms_1mol[exp_ms_1mol["Charge of HA"] == charge]["Microstate ID of HA"].values[0]
+                else:
+                    # print("Different charge")
+                    exp_dom_ms_ID = np.NaN
+
+                df_exp_dom_ms.loc[mol_ID, "charge {}".format(charge)] = exp_dom_ms_ID
+
+        print("df_exp_dom_ms:\n", df_exp_dom_ms)
+
+
+
+        # Create a collection file with both experimental and predicted microstate IDs
+
+        # Record data in a list to later convert to collection dataframe
+        dominant_microstate_records = []
+
+        receipt_id_list = set(df_pred_dom_ms["receipt_id"].values)
+
+        for receipt_id in receipt_id_list:
+            df_1method = df_pred_dom_ms[df_pred_dom_ms.receipt_id == receipt_id]
+            for i, row in df_1method.iterrows():
+                mol_ID = row["Molecule ID"]
+
+                # Find the matching row from experimental dominant microstate dataframe using the mol_ID
+                exp_row = df_exp_dom_ms[df_exp_dom_ms["Molecule ID"] == mol_ID]
+                # print(exp_row)
+                mol_ID_exp = exp_row["Molecule ID"].values[0]
+
+                # Append to a list to later save as a CSV
+                dominant_microstate_records.append({
+                    'receipt_id': receipt_id,
+                    'Molecule ID': row["Molecule ID"],
+                    'charge -4 (calc)': row["charge -4"],
+                    'charge -3 (calc)': row["charge -3"],
+                    'charge -2 (calc)': row["charge -2"],
+                    'charge -1 (calc)': row["charge -1"],
+                    'charge 0 (calc)': row["charge 0"],
+                    'charge 1 (calc)': row["charge 1"],
+                    'charge 2 (calc)': row["charge 2"],
+                    'charge 3 (calc)': row["charge 3"],
+                    'charge 4 (calc)': row["charge 4"],
+                    'charge -1 (exp)': exp_row["charge -1"].values[0],
+                    'charge 0 (exp)': exp_row["charge 0"].values[0],
+                    'charge 1 (exp)': exp_row["charge 1"].values[0],
+                    'charge 2 (exp)': exp_row["charge 2"].values[0],
+                })
+
+        # Transform into Pandas DataFrame.
+        self.data = pd.DataFrame(data=dominant_microstate_records)
+
+        print("pKaTypeIDominantMicrostateCollection:\n", self.data)
+
+        # Save collection file as CSV
+        collection_file_name = file_base_name + ".csv"
+        collection_file_path = os.path.join(directory_path, collection_file_name)
+        self.data.to_csv(collection_file_path, index=False)
+
+
 
 # =============================================================================
 # MAIN
@@ -746,10 +901,17 @@ if __name__ == '__main__':
         print("exp_dominant_microstate_data:\n", exp_dominant_microstate_data)
 
         # Calculate relative free energy of predicted microstates using neutral pH = 0 and a neutral state as reference
-        calculate_microstate_relative_free_energy(df_full_collection=full_collection_data,
+        pred_microstate_relative_free_energy = microstateRelativeFreeEnergy(df_full_collection=full_collection_data,
                                                   directory_path = output_directory_path,
                                                   file_base_name = "relative_free_energy_of_predicted_microstates",
                                                   ref_pH = 0)
+
+        # Create dominant microstates collection
+        dominant_microstate_collection = pKaTypeIDominantMicrostateCollection(pred_microstates_data = pred_microstate_relative_free_energy,
+                                                                              exp_dominant_microstates = exp_dominant_microstate_data,
+                                                                              directory_path = output_directory_path,
+                                                                              file_base_name = 'typeI_dominant_microstate_collection')
+
 
         # Calculate dominant microstate accuracy statistics for each method
 
