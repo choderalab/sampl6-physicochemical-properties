@@ -4,6 +4,7 @@
 # GLOBAL IMPORTS
 # =============================================================================
 import os
+import pickle
 import numpy as np
 import pandas as pd
 from typeI_analysis import mae, rmse, barplot_with_CI_errorbars
@@ -894,7 +895,7 @@ class pKaTypeIDominantMicrostateCollection:
         dom_ms_stats = []
 
         receipt_ids = set(self.match_data["receipt_id"].values)
-        for receipt_id in receipt_ids:
+        for i, receipt_id in enumerate(receipt_ids):
             # Take subset of dominant microstate collection based on submission ID
             df_1submission = self.match_data[self.match_data["receipt_id"] == receipt_id]
 
@@ -908,13 +909,33 @@ class pKaTypeIDominantMicrostateCollection:
 
 
             # Calculate overall dominant microstate match accuracy ignoring NaNs and 95% CI by bootstrapping
-            print('\rGenerating dominant microstate bootstrap statistics for submission {} ({}/{})'
-                  ''.format(receipt_id, i + 1, len(receipt_ids)), end='')
-            bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000)
+
+            # Load cached bootstrap statistics if exists
+            (analysis_outputs_directory_path, tail) = os.path.split(directory_path)
+            cache_file_path = os.path.join(analysis_outputs_directory_path, 'CachedBootstrapDistributions',
+                                           '{}_dominant_microstate_cached_bootstrap_dist.pkl'.format(receipt_id))
+            try:
+                with open(cache_file_path, 'rb') as f:
+                    print('Loading cached bootstrap distributions from {}'.format(cache_file_path))
+                    bootstrap_statistics = pickle.load(f)
+            except FileNotFoundError:
+                bootstrap_statistics = None
+
+            # If cached bootstrap statistics is missing, compute bootstrap statistics and cache
+            if bootstrap_statistics is None:
+                print('\rGenerating dominant microstate bootstrap statistics for submission {} ({}/{})'
+                      ''.format(receipt_id, i + 1, len(receipt_ids)), end='')
+                bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000)
+
+                # Cashe bootstrap statistics
+                os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
+                with open(cache_file_path, 'wb') as f:
+                    pickle.dump(bootstrap_statistics, f)
+
             accuracy = bootstrap_statistics[0][0]
             accuracy_lower_bound, accuracy_upper_bound = bootstrap_statistics[0][1]
 
-
+            # Record statistics to table
             dom_ms_stats.append({
                 'receipt_id': receipt_id,
                 'Accuracy': accuracy,
@@ -939,7 +960,7 @@ class pKaTypeIDominantMicrostateCollection:
             self.dom_ms_stats["Accuracy lower bound (Charge {})".format(str(charge))] = np.NaN
             self.dom_ms_stats["Accuracy upper bound (Charge {})".format(str(charge))] = np.NaN
 
-            for receipt_id in receipt_ids:
+            for i, receipt_id in enumerate(receipt_ids):
                 # Take subset of dominant microstate collection based on submission ID
                 df_1submission = self.match_data[self.match_data["receipt_id"] == receipt_id]
 
@@ -947,9 +968,29 @@ class pKaTypeIDominantMicrostateCollection:
                 match_values_array = np.array(match_values_of_1charge)
 
                 # Calculate overall dominant microstate match accuracy ignoring NaNs and 95% CI by bootstrapping
-                print('\rGenerating dominant microstate bootstrap statistics charge 0 and 1 for submission {} ({}/{})'
-                      ''.format(receipt_id, i + 1, len(receipt_ids)), end='')
-                bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000)
+
+                # Load cached bootstrap statistics if exists
+                (analysis_outputs_directory_path, tail) = os.path.split(directory_path)
+                cache_file_path = os.path.join(analysis_outputs_directory_path, 'CachedBootstrapDistributions',
+                                               '{}_dominant_microstate_charge{}_cached_bootstrap_dist.pkl'.format(receipt_id, charge))
+                try:
+                    with open(cache_file_path, 'rb') as f:
+                        print('Loading cached bootstrap distributions from {}'.format(cache_file_path))
+                        bootstrap_statistics = pickle.load(f)
+                except FileNotFoundError:
+                    bootstrap_statistics = None
+
+                # If cached bootstrap statistics is missing, compute bootstrap statistics and cache
+                if bootstrap_statistics is None:
+                    print('\rGenerating dominant microstate bootstrap statistics charge {} for submission {} ({}/{})'
+                        ''.format(charge, receipt_id, i + 1, len(receipt_ids)), end='')
+                    bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000)
+
+                    # Cashe bootstrap statistics
+                    os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
+                    with open(cache_file_path, 'wb') as f:
+                        pickle.dump(bootstrap_statistics, f)
+
                 accuracy = bootstrap_statistics[0][0]
                 accuracy_lower_bound, accuracy_upper_bound = bootstrap_statistics[0][1]
 
