@@ -7,7 +7,7 @@ import os
 import pickle
 import numpy as np
 import pandas as pd
-from typeI_analysis import mae, rmse, barplot_with_CI_errorbars
+from typeI_analysis import mae, rmse, barplot_with_CI_errorbars, barplot_with_CI_errorbars_colored_by_label
 from typeI_analysis import compute_bootstrap_statistics
 from titrato_sampl_pH_0_12 import SAMPL6DataProvider
 import shutil
@@ -607,13 +607,6 @@ def generate_performance_comparison_plots_with_unmatched_pKa_statistics(statisti
     plt.savefig(directory_path + "/unmatched_pKa_vs_method_plot_narrow.pdf")
 
 
-#  # Calculate relative free energy of predicted microstates using neutral pH = 0 and a neutral state as reference
-# calculate_microstate_relative_free_energy(full_collection_df=full_collection_data,
-#                                                   directory_path = output_directory_path,
-#                                                   file_base_name = "relative_free_energy_of_predicted_microstates",
-#                                                   ref_pH = 0)
-
-
 
 class microstateRelativeFreeEnergy:
     """ Calculates relative microstate free energy of predicted microstates using the full collection dataframe and
@@ -881,9 +874,7 @@ class pKaTypeIDominantMicrostateCollection:
         print("pKaTypeIDominantMicrostateCollection.match_data:\n", self.match_data)
 
 
-        # dominant_microstate_collection.generate_statistics_tables(directory_path = output_directory_path + '/StatisticsTables',
-        #                                                           file_base_name = 'dominant_microstate_statistics',
-        #                                                           sort_stat='Accuracy')
+
     def generate_statistics_tables(self, directory_path, file_base_name, sort_stat, charges_of_exp_ms):
 
         # Calculate table of microstate ID matches between experiments and predictions
@@ -946,7 +937,7 @@ class pKaTypeIDominantMicrostateCollection:
         self.dom_ms_stats = pd.DataFrame(data=dom_ms_stats)
 
         # Sort dominant microstate statistics table by overall accuracy value
-        self.dom_ms_stats.sort_values(by=sort_stat, inplace=True)
+        self.dom_ms_stats.sort_values(by=sort_stat, inplace=True, ascending=False)
         # Reorder columns
         self.dom_ms_stats = self.dom_ms_stats[['receipt_id', 'Accuracy', 'Accuracy lower bound', 'Accuracy upper bound']]
 
@@ -1008,7 +999,232 @@ class pKaTypeIDominantMicrostateCollection:
         microstate_stats_file_path = os.path.join(directory_path, microstate_stats_file_name )
         self.dom_ms_stats.to_csv(microstate_stats_file_path, index=False)
 
+
+
+        # dominant_microstate_collection.generate_molecular_statistics_tables(
+        #     directory_path=output_directory_path + '/StatisticsTables',
+        #     file_base_name='dominant_microstate_statistics',
+        #     sort_stat='Accuracy',
+        #     charges_of_exp_ms=[-1, 0, 1, 2])
+        #
+    def generate_molecular_statistics_tables(self, directory_path, file_base_name, sort_stat, charges_of_exp_ms):
+
+        # Calculate overall dominant microstate accuracy for each molecule averaged over all methods
+        # Save data in a list of dictionaries to convert to dataframe later
+        dom_ms_stats = []
+
+        mol_IDs = set(self.match_data["Molecule ID"].values)
+        for i, mol_ID in enumerate(mol_IDs ):
+            # Take subset of dominant microstate collection based on submission ID
+            df_1molecule = self.match_data[self.match_data["Molecule ID"] == mol_ID]
+
+            match_values = []
+            for charge in charges_of_exp_ms:
+                match_values_of_1charge = df_1molecule["charge {} match".format(charge)].values
+
+                for value in match_values_of_1charge:
+                    match_values.append(value)
+            match_values_array = np.array(match_values)
+
+            # Calculate overall dominant microstate match accuracy ignoring NaNs and 95% CI by bootstrapping
+
+            # Load cached bootstrap statistics if exists
+            (analysis_outputs_directory_path, tail) = os.path.split(directory_path)
+            cache_file_path = os.path.join(analysis_outputs_directory_path, 'CachedBootstrapDistributions',
+                                           '{}_molecular_dominant_microstate_cached_bootstrap_dist.pkl'.format(mol_ID))
+            try:
+                with open(cache_file_path, 'rb') as f:
+                    print('Loading cached bootstrap distributions from {}'.format(cache_file_path))
+                    bootstrap_statistics = pickle.load(f)
+            except FileNotFoundError:
+                bootstrap_statistics = None
+
+            # If cached bootstrap statistics is missing, compute bootstrap statistics and cache
+            if bootstrap_statistics is None:
+                print('\rGenerating dominant microstate bootstrap statistics for molecule {} ({}/{})'
+                      ''.format(mol_ID, i + 1, len(mol_IDs)), end='')
+                bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean,
+                                                                    n_bootstrap_samples=10000)
+
+                # Cashe bootstrap statistics
+                os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
+                with open(cache_file_path, 'wb') as f:
+                    pickle.dump(bootstrap_statistics, f)
+
+            accuracy = bootstrap_statistics[0][0]
+            accuracy_lower_bound, accuracy_upper_bound = bootstrap_statistics[0][1]
+
+            # Record statistics to table
+            dom_ms_stats.append({
+                'Molecule ID': mol_ID,
+                'Accuracy': accuracy,
+                'Accuracy lower bound': accuracy_lower_bound,
+                'Accuracy upper bound': accuracy_upper_bound
+            })
+
+        self.molecular_dom_ms_stats = pd.DataFrame(data=dom_ms_stats)
+
+        # Sort dominant microstate statistics table by overall accuracy value
+        self.molecular_dom_ms_stats.sort_values(by=sort_stat, inplace=True, ascending=False)
+        # Reorder columns
+        self.molecular_dom_ms_stats = self.molecular_dom_ms_stats[
+            ['Molecule ID', 'Accuracy', 'Accuracy lower bound', 'Accuracy upper bound']]
+
+
+        # Calculate dominant microstate match accuracy for each method for neutral and +1 charge state separately
+
+        charges_to_be_calculated = [0, 1]
+
+        for charge in charges_to_be_calculated:
+            self.molecular_dom_ms_stats["Accuracy (Charge {})".format(str(charge))] = np.NaN
+            self.molecular_dom_ms_stats["Accuracy lower bound (Charge {})".format(str(charge))] = np.NaN
+            self.molecular_dom_ms_stats["Accuracy upper bound (Charge {})".format(str(charge))] = np.NaN
+
+            for i, mol_ID in enumerate(mol_IDs):
+                # Take subset of dominant microstate collection based on submission ID
+                df_1molecule = self.match_data[self.match_data["Molecule ID"] == mol_ID]
+
+                match_values_of_1charge = df_1molecule["charge {} match".format(charge)].values
+                match_values_array = np.array(match_values_of_1charge)
+
+                # Calculate overall dominant microstate match accuracy ignoring NaNs and 95% CI by bootstrapping
+
+                # Load cached bootstrap statistics if exists
+                (analysis_outputs_directory_path, tail) = os.path.split(directory_path)
+                cache_file_path = os.path.join(analysis_outputs_directory_path, 'CachedBootstrapDistributions',
+                                               '{}_molecular_dominant_microstate_charge{}_cached_bootstrap_dist.pkl'.format(
+                                                   mol_ID, charge))
+                try:
+                    with open(cache_file_path, 'rb') as f:
+                        print('Loading cached bootstrap distributions from {}'.format(cache_file_path))
+                        bootstrap_statistics = pickle.load(f)
+                except FileNotFoundError:
+                    bootstrap_statistics = None
+
+                # If cached bootstrap statistics is missing, compute bootstrap statistics and cache
+                if bootstrap_statistics is None:
+                    print('\rGenerating dominant microstate bootstrap statistics charge {} for molecule {} ({}/{})'
+                          ''.format(charge, mol_ID, i + 1, len(mol_IDs)), end='')
+                    bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean,
+                                                                        n_bootstrap_samples=10000)
+
+                    # Cashe bootstrap statistics
+                    os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
+                    with open(cache_file_path, 'wb') as f:
+                        pickle.dump(bootstrap_statistics, f)
+
+                accuracy = bootstrap_statistics[0][0]
+                accuracy_lower_bound, accuracy_upper_bound = bootstrap_statistics[0][1]
+
+                # Record accuracy value to the dataframe
+                self.molecular_dom_ms_stats.loc[self.molecular_dom_ms_stats["Molecule ID"] == mol_ID, "Accuracy (Charge {})".format(
+                    str(charge))] = accuracy
+                self.molecular_dom_ms_stats.loc[
+                    self.molecular_dom_ms_stats["Molecule ID"] == mol_ID, "Accuracy lower bound (Charge {})".format(
+                        str(charge))] = accuracy_lower_bound
+                self.molecular_dom_ms_stats.loc[
+                    self.molecular_dom_ms_stats["Molecule ID"] == mol_ID, "Accuracy upper bound (Charge {})".format(
+                        str(charge))] = accuracy_upper_bound
+
+        # Write dominant microstate statistics table
+        microstate_stats_file_name = file_base_name + ".csv"
+        microstate_stats_file_path = os.path.join(directory_path, microstate_stats_file_name)
+        self.molecular_dom_ms_stats.to_csv(microstate_stats_file_path, index=False)
+
+
+
+
+
+
+
+
         #import pdb; pdb.set_trace()
+
+def generate_dominant_microstate_accuracy_plots(statistics_filename, directory_path, df_method):
+
+    # Read statistics table
+    statistics_file_path = os.path.join(directory_path, statistics_filename)
+    df_statistics = pd.read_csv(statistics_file_path)
+
+    # Create new column to save categories
+    df_statistics["category"] = np.NaN
+    #print("\n df_statistics \n", df_statistics)
+
+    # Get category labels for coloring form method map dataframe and record it in df_statistics
+    # Column label: Category For Plot Colors
+    receipt_IDs = df_statistics["receipt_id"]
+
+    for i, receipt_ID in enumerate(receipt_IDs):
+        # find the line in method map to record it's coloring category
+        category = df_method[df_method["typeI submission ID"] == receipt_ID]["Category For Plot Colors"].values[0]
+        df_statistics.loc[i, "category"] = category
+
+    # Overall dominant microstate accuracy comparison plot
+    barplot_with_CI_errorbars_colored_by_label(df=df_statistics, x_label="receipt_id", y_label="Accuracy", y_lower_label="Accuracy lower bound",
+                              y_upper_label="Accuracy upper bound", color_label="category", figsize=(10, 7))
+    plt.ylim(0, 1)
+    plt.savefig(directory_path + "/dominant_microstate_accuracy_vs_method_plot.pdf")
+
+    # Plot dominant microstate accuracy of charge 0 and 1 separately
+    df_charge0 = df_statistics[["receipt_id", "Accuracy (Charge 0)", "Accuracy lower bound (Charge 0)", "Accuracy upper bound (Charge 0)"]]
+    df_charge0 = df_charge0.rename(columns={
+        "Accuracy (Charge 0)" : "Accuracy",
+        "Accuracy lower bound (Charge 0)" : "Accuracy lower bound",
+        "Accuracy upper bound (Charge 0)" : "Accuracy upper bound"
+    })
+
+    df_charge1 = df_statistics[
+        ["receipt_id", "Accuracy (Charge 1)", "Accuracy lower bound (Charge 1)", "Accuracy upper bound (Charge 1)"]]
+    df_charge1 = df_charge1.rename(columns={
+        "Accuracy (Charge 1)": "Accuracy",
+        "Accuracy lower bound (Charge 1)": "Accuracy lower bound",
+        "Accuracy upper bound (Charge 1)": "Accuracy upper bound"
+    })
+
+    barplot_with_CI_errorbars_and_2groups(df1=df_charge0, df2=df_charge1, x_label='receipt_id',
+                                          y_label='Accuracy', y_lower_label='Accuracy lower bound',
+                                          y_upper_label='Accuracy lower bound')
+    plt.ylim(0,1)
+    plt.legend(bbox_to_anchor=(1.05, 0, 0.5, 1))
+    plt.savefig(directory_path + "/dominant_microstate_accuracy_vs_method_plot_with_separate_charges.pdf")
+
+
+
+def generate_molecular_dominant_microstate_accuracy_plots(statistics_filename, directory_path):
+
+    # Read statistics table
+    statistics_file_path = os.path.join(directory_path, statistics_filename)
+    df_statistics = pd.read_csv(statistics_file_path)
+
+    # Overall dominant microstate accuracy comparison plot
+    barplot_with_CI_errorbars(df=df_statistics, x_label="Molecule ID", y_label="Accuracy", y_lower_label="Accuracy lower bound",
+                              y_upper_label="Accuracy upper bound")
+    plt.ylim(0, 1)
+    plt.savefig(directory_path + "/molecular_dominant_microstate_accuracy_vs_method_plot.pdf")
+
+    # Plot dominant microstate accuracy of charge 0 and 1 separately
+    df_charge0 = df_statistics[["Molecule ID", "Accuracy (Charge 0)", "Accuracy lower bound (Charge 0)", "Accuracy upper bound (Charge 0)"]]
+    df_charge0 = df_charge0.rename(columns={
+        "Accuracy (Charge 0)" : "Accuracy",
+        "Accuracy lower bound (Charge 0)" : "Accuracy lower bound",
+        "Accuracy upper bound (Charge 0)" : "Accuracy upper bound"
+    })
+
+    df_charge1 = df_statistics[
+        ["Molecule ID", "Accuracy (Charge 1)", "Accuracy lower bound (Charge 1)", "Accuracy upper bound (Charge 1)"]]
+    df_charge1 = df_charge1.rename(columns={
+        "Accuracy (Charge 1)": "Accuracy",
+        "Accuracy lower bound (Charge 1)": "Accuracy lower bound",
+        "Accuracy upper bound (Charge 1)": "Accuracy upper bound"
+    })
+
+    barplot_with_CI_errorbars_and_2groups(df1=df_charge0, df2=df_charge1, x_label='Molecule ID',
+                                          y_label='Accuracy', y_lower_label='Accuracy lower bound',
+                                          y_upper_label='Accuracy lower bound')
+    plt.ylim(0,1)
+    plt.legend(bbox_to_anchor=(1.05, 0, 0.5, 1))
+    plt.savefig(directory_path + "/molecular_dominant_microstate_accuracy_vs_method_plot_with_separate_charges.pdf")
+
 
 
 # =============================================================================
@@ -1099,5 +1315,19 @@ if __name__ == '__main__':
                                                                   sort_stat='Accuracy',
                                                                   charges_of_exp_ms=[-1, 0, 1, 2])
 
+        # Plot dominant microstate accuracy to compare methods
+        generate_dominant_microstate_accuracy_plots(statistics_filename="dominant_microstate_statistics.csv",
+                                                    directory_path=statistics_directory_path,
+                                                    df_method = method_map)
+
 
         # Calculate dominant microstate accuracy statistics for each molecule across methods
+        dominant_microstate_collection.generate_molecular_statistics_tables(
+                                                    directory_path=molecular_statistics_directory_path,
+                                                    file_base_name='molecular_dominant_microstate_statistics',
+                                                    sort_stat='Accuracy',
+                                                    charges_of_exp_ms=[-1, 0, 1, 2])
+
+        # Plot dominant microstate accuracy to compare molecules
+        generate_molecular_dominant_microstate_accuracy_plots(statistics_filename="molecular_dominant_microstate_statistics.csv",
+                                                directory_path=molecular_statistics_directory_path)
