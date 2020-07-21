@@ -610,7 +610,7 @@ def generate_performance_comparison_plots_with_unmatched_pKa_statistics(statisti
 
 class microstateRelativeFreeEnergy:
     """ Calculates relative microstate free energy of predicted microstates using the full collection dataframe and
-    outputs a table of microstates, relative free energies, and charge.
+    outputs a table of microstates, relative free energies, and charge. Relative free energies are reported as kcal/mol.
     """
     def __init__(self, df_full_collection,  directory_path, file_base_name , ref_pH = 0):
 
@@ -656,7 +656,8 @@ class microstateRelativeFreeEnergy:
                 pred_1mol = pred_1submission.load(mol_ID)
                 microstate_IDs = pred_1mol.state_ids
                 charges_of_microstates = pred_1mol.charges
-                free_energies_of_microstates_pH0 = pred_1mol.free_energies[:, ref_pH]
+                RT_constant = 0.593 # kcal/mol, Boltzmann constant RT for 298 K
+                free_energies_of_microstates_pH0 = pred_1mol.free_energies[:, ref_pH] * RT_constant
 
                 for i, microstate_ID in enumerate(microstate_IDs):
                     microstate_data.append({
@@ -664,7 +665,7 @@ class microstateRelativeFreeEnergy:
                         'Molecule ID': mol_ID,
                         'Microstate ID': microstate_ID,
                         'Charge': charges_of_microstates[i],
-                        '$\Delta$G (pH=0)': free_energies_of_microstates_pH0[i]
+                        'DeltaG (kcal/mol, pH=0)': free_energies_of_microstates_pH0[i]
                     })
 
         # Convert microstate_data to Pandas DataFrame
@@ -732,9 +733,8 @@ class pKaTypeIDominantMicrostateCollection:
 
                 for i, charge in enumerate(charges):
                     df_1mol_1charge = df_1mol[df_1mol["Charge"] == charge]
-                    # dominant_microstate = df_1mol_1charge.loc[df_1mol_1charge['$\Delta$G (pH=0)'].idxmin()]["Microstate ID"]
                     dominant_microstate = df_1mol_1charge.loc[
-                        df_1mol_1charge['$\Delta$G (pH=0)'].idxmin(), "Microstate ID"]
+                        df_1mol_1charge['DeltaG (kcal/mol, pH=0)'].idxmin(), "Microstate ID"]
                     df_pred_dom_ms.loc[(df_pred_dom_ms["Molecule ID"] == mol_ID) & (
                                 df_pred_dom_ms["receipt_id"] == receipt_id), "charge {}".format(charge)] = dominant_microstate
 
