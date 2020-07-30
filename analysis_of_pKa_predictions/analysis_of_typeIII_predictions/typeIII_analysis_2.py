@@ -14,6 +14,7 @@ from matplotlib import pyplot as plt
 from matplotlib import cm
 import joypy
 
+
 # =============================================================================
 # PLOTTING FUNCTIONS
 # =============================================================================
@@ -196,6 +197,7 @@ def box_plot(data_dict, labels):
     :param labels: Dictionary keys (of each set of values)
     :return:
     """
+    plt.close('all')
 
     fig = plt.figure()
     ax = fig.add_subplot(111)
@@ -209,6 +211,7 @@ def box_plot(data_dict, labels):
 
 
 def ridge_plot(df, by, column, figsize, colormap, x_range):
+    plt.close('all')
     plt.rcParams['axes.labelsize'] = 14
     plt.rcParams['xtick.labelsize'] = 14
     plt.tight_layout()
@@ -227,14 +230,15 @@ def ridge_plot(df, by, column, figsize, colormap, x_range):
 
 
 def ridge_plot_wo_overlap(df, by, column, figsize, colormap):
-        plt.rcParams['axes.labelsize'] = 14
-        plt.rcParams['xtick.labelsize'] = 14
-        plt.tight_layout()
+    plt.close('all')
+    plt.rcParams['axes.labelsize'] = 14
+    plt.rcParams['xtick.labelsize'] = 14
+    plt.tight_layout()
 
-        # Make ridge plot
-        fig, axes = joypy.joyplot(data=df, by=by, column=column, figsize=figsize, colormap=colormap, linewidth=1, overlap=0)
-        # Add x-axis label
-        axes[-1].set_xlabel(column)
+    # Make ridge plot
+    fig, axes = joypy.joyplot(data=df, by=by, column=column, figsize=figsize, colormap=colormap, linewidth=1, overlap=0)
+    # Add x-axis label
+    axes[-1].set_xlabel(column)
 
 
 
@@ -679,7 +683,7 @@ def create_error_distribution_plots_for_each_pKa(collection_df, directory_path, 
 
     data_ordered_by_pKa_ID = collection_df.sort_values(["pKa ID"], ascending=["True"])
     ridge_plot(data_ordered_by_pKa_ID, by="pKa ID", column='$\Delta$pKa error (calc - exp)',  figsize=(4,10),
-               colormap=cm.plasma, x_range = [-11,21])
+               colormap=cm.plasma, x_range = [-11,11])
     plt.savefig(directory_path + "/" + file_base_name + ".pdf")
 
 

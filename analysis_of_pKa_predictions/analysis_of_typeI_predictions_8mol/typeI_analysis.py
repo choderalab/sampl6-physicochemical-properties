@@ -58,6 +58,10 @@ def rmse(data):
     rmse = np.sqrt((error**2).mean())
     return rmse
 
+def kendall_tau(data):
+    x, y = data.T
+    correlation, p_value = scipy.stats.kendalltau(x, y)
+    return correlation
 
 def compute_bootstrap_statistics(samples, stats_funcs, percentile=0.95, n_bootstrap_samples=10000): #10000
     """Compute bootstrap confidence interval for the given statistics functions."""
@@ -94,6 +98,8 @@ def compute_bootstrap_statistics(samples, stats_funcs, percentile=0.95, n_bootst
 # =============================================================================
 
 def plot_correlation(x, y, data, title=None, color=None, kind='joint', ax=None):
+    plt.close('all')
+
     # Extract only pKa values.
     data = data[[x, y]]
 
@@ -123,6 +129,8 @@ def plot_correlation(x, y, data, title=None, color=None, kind='joint', ax=None):
 
 
 def plot_correlation_with_SEM(x_lab, y_lab, x_err_lab, y_err_lab, data, title=None, color=None, ax=None):
+    plt.close('all')
+
     # Extract only pKa values.
     x_error = data.loc[:, x_err_lab]
     y_error = data.loc[:, y_err_lab]
@@ -163,7 +171,7 @@ def plot_correlation_with_SEM(x_lab, y_lab, x_err_lab, y_err_lab, data, title=No
     plt.ylim(axes_limits)
 
 
-def barplot_with_CI_errorbars(df, x_label, y_label, y_lower_label, y_upper_label):
+def barplot_with_CI_errorbars(df, x_label, y_label, y_lower_label, y_upper_label, figsize=False):
     """Creates bar plot of a given dataframe with asymmetric error bars for y axis.
 
     Args:
@@ -194,6 +202,10 @@ def barplot_with_CI_errorbars(df, x_label, y_label, y_lower_label, y_upper_label
     plt.rcParams['ytick.labelsize'] = 16
     #plt.tight_layout()
 
+    # If figsize is specified
+    if figsize != False:
+        plt.figure(figsize=figsize)
+
     # Plot
     x = range(len(data[y_label]))
     y = data[y_label]
@@ -223,10 +235,19 @@ def barplot_with_CI_errorbars_colored_by_label(df, x_label, y_label, y_lower_lab
     data.loc[:, delta_lower_yerr_label] = data.loc[:, y_label] - data.loc[:, y_lower_label]
     data.loc[:, delta_upper_yerr_label] = data.loc[:, y_upper_label] - data.loc[:, y_label]
 
-     # Color
-    current_palette = sns.color_palette()
+    # Color
+    #current_palette = sns.color_palette()
     # Error bar color
-    sns_color = current_palette[2]
+    #sns_color = current_palette[2]
+
+    # Zesty colorblind-friendly color palette
+    color0 = "#0F2080"
+    color1 = "#85C0F9"
+    color2 = "#A95AA1"
+    color3 = "#F5793A"
+    current_palette = [color0, color1, color2, color3]
+    error_color = 'gray'
+
     # Bar colors
     if color_label == "category":
         category_list = ["QM", "DL", "LFER", "QSPR/ML"]
@@ -262,11 +283,11 @@ def barplot_with_CI_errorbars_colored_by_label(df, x_label, y_label, y_lower_lab
 
     plt.xticks(x, data[x_label], rotation=90)
     plt.errorbar(x, y, yerr=(data[delta_lower_yerr_label], data[delta_upper_yerr_label]),
-                  fmt="none", ecolor='gray', capsize=3, elinewidth=2, capthick=True)
+                  fmt="none", ecolor=error_color, capsize=3, elinewidth=2, capthick=True)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
 
-    # Reset color of bars ased on color label
+    # Reset color of bars based on color label
     #print("data.columns:\n",data.columns)
     for i, c_label in enumerate(data.loc[:, color_label]):
         barlist[i].set_color(bar_color_dict[c_label])
@@ -1572,9 +1593,6 @@ def generate_statistics_tables(submissions, stats_funcs, directory_path, file_ba
         statistics_latex.to_latex(f, column_format='|ccccccc|', escape=False, index=False, longtable=True)
         f.write('\end{center}\n' 
                 '\nNotes\n\n'
-                '- In this analysis we assumed well separated experimental macroscopic pKas represent microscopic pKas. '
-                'Molecules with experimental pKa values at least 3 units apart were considered\n\n' 
-                'well-separated. SM14 and SM18 which do not satify this criteria are ignored in this analysis.\n\n'
                 '- Mean and 95\% confidence intervals of statistic values were calculated by bootstrapping.\n\n'
                 '- pKa predictions of Epik, Jaguar, Chemicalize, and MoKa were not blind (submission IDs noted as nbXXX). They were submitted after the submission deadline as reference methods.\n\n'
                 '- pKas of the rest of the molecules in these submissions were blindly predicted before experimental data was released.\n\n'
@@ -1645,6 +1663,64 @@ def generate_performance_comparison_plots(statistics_filename, directory_path, m
         plt.ylim(0.0, 7.0)
         plt.savefig(directory_path + "/MAE_vs_method_plot_colored_by_method_category.pdf")
 
+        # Mean error comparison plot
+        # Reorder based on mean error
+        df_statistics_ME = df_statistics.sort_values(by="ME", inplace=False, ascending=False)
+
+        barplot_with_CI_errorbars(df=df_statistics_ME, x_label="ID", y_label="ME",
+                                  y_lower_label="ME_lower_bound",
+                                  y_upper_label="ME_upper_bound",
+                                  figsize=(10, 4))
+        plt.ylim(-2.2, 2.2)
+        plt.savefig(directory_path + "/ME_vs_method_plot.pdf", bbox_inches='tight')
+
+        # Mean error comparison plot with each category colored separately
+        barplot_with_CI_errorbars_colored_by_label(df=df_statistics_ME, x_label="ID", y_label="ME",
+                                                   y_lower_label="ME_lower_bound",
+                                                   y_upper_label="ME_upper_bound", color_label="category",
+                                                   figsize=(10, 4))
+        plt.ylim(-2.2, 2.2)
+        plt.savefig(directory_path + "/ME_vs_method_plot_colored_by_method_category.pdf", bbox_inches='tight')
+
+
+        # Kendall's Tau comparison plot
+        # Reorder based on Kendall's Tau value
+        df_statistics_tau = df_statistics.sort_values(by="kendall_tau", inplace=False, ascending=False)
+
+        barplot_with_CI_errorbars(df=df_statistics_tau, x_label="ID", y_label="kendall_tau",
+                                  y_lower_label="kendall_tau_lower_bound",
+                                  y_upper_label="kendall_tau_upper_bound",
+                                  figsize=(10, 4))
+        plt.savefig(directory_path + "/kendalls_tau_vs_method_plot.pdf", bbox_inches='tight')
+
+        # Kendall's Tau  comparison plot with each category colored separately
+        barplot_with_CI_errorbars_colored_by_label(df=df_statistics_tau, x_label="ID", y_label="kendall_tau",
+                                                   y_lower_label="kendall_tau_lower_bound",
+                                                   y_upper_label="kendall_tau_upper_bound", color_label="category",
+                                                   figsize=(10, 4))
+        plt.savefig(directory_path + "/kendalls_tau_vs_method_plot_colored_by_method_category.pdf", bbox_inches='tight')
+
+
+        # R-squared comparison plot
+        # Reorder based on R-squared
+        df_statistics_R2 = df_statistics.sort_values(by="R2", inplace=False, ascending=False)
+
+        barplot_with_CI_errorbars(df=df_statistics_R2, x_label="ID", y_label="R2",
+                                  y_lower_label="R2_lower_bound",
+                                  y_upper_label="R2_upper_bound",
+                                  figsize=(10, 4))
+        #plt.ylim(0, 1.0)
+        plt.savefig(directory_path + "/Rsquared_vs_method_plot.pdf", bbox_inches='tight')
+
+        # R-squared comparison plot with each category colored separately
+        barplot_with_CI_errorbars_colored_by_label(df=df_statistics_R2, x_label="ID", y_label="R2",
+                                                   y_lower_label="R2_lower_bound",
+                                                   y_upper_label="R2_upper_bound", color_label="category",
+                                                   figsize=(10, 4))
+        #plt.ylim(0, 1.0)
+        plt.savefig(directory_path + "/Rsquared_vs_method_plot_colored_by_method_category.pdf", bbox_inches='tight')
+
+
 
 # =============================================================================
 # MAIN
@@ -1696,17 +1772,20 @@ if __name__ == '__main__':
         ('ME', me),
         ('R2', r2),
         ('m', slope),
+        ('kendall_tau', kendall_tau),
     ])
     ordering_functions = {
         'ME': lambda x: abs(x),
         'R2': lambda x: -x,
         'm': lambda x: abs(1 - x),
+        'kendall_tau': lambda x: -x,
     }
     latex_header_conversions = {
         'R2': 'R$^2$',
         'RMSE': 'RMSE',
         'MAE': 'MAE',
         'ME': 'ME',
+        'kendall_tau': '$\\tau$',
     }
 
     # This analysis will be performed only for 8 molecules for which microstates were assigned

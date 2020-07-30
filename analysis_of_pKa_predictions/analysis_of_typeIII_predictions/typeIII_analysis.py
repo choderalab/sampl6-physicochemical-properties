@@ -98,6 +98,7 @@ def compute_bootstrap_statistics(samples, stats_funcs, percentile=0.95, n_bootst
 # =============================================================================
 
 def plot_correlation(x, y, data, title=None, color=None, kind='joint', ax=None):
+    plt.close('all')
     # Extract only pKa values.
     data = data[[x, y]]
 
@@ -127,6 +128,8 @@ def plot_correlation(x, y, data, title=None, color=None, kind='joint', ax=None):
 
 
 def plot_correlation_with_SEM(x_lab, y_lab, x_err_lab, y_err_lab, data, title=None, color=None, ax=None):
+    plt.close('all')
+
     # Extract only pKa values.
     x_error = data.loc[:, x_err_lab]
     y_error = data.loc[:, y_err_lab]
@@ -1032,12 +1035,15 @@ class pKaTypeIIISubmissionCollection:
         for receipt_id in self.data.receipt_id.unique():
             data = self.data[self.data.receipt_id == receipt_id]
             title = '{} ({})'.format(receipt_id, data.name.unique()[0])
+            #title = receipt_id # Only for paper figures
 
             plt.close('all')
             plot_correlation_with_SEM(x_lab='pKa (exp)', y_lab='pKa (calc)',
                                       x_err_lab='pKa SEM (exp)', y_err_lab='pKa SEM (calc)',
                                       data=data, title=title)
             plt.tight_layout()
+            #plt.xlim(-3, 15) # Only for paper figures
+            #plt.ylim(-3, 15) # Only for paper figures
             # plt.show()
             output_path = os.path.join(output_dir_path, '{}.pdf'.format(receipt_id))
             plt.savefig(output_path)
@@ -1433,14 +1439,14 @@ def generate_performance_comparison_plots(statistics_filename, directory_path, m
         plt.ylim(0.0, 4.5)
         plt.savefig(directory_path + "/MAE_vs_method_plot_colored_by_method_category.pdf", bbox_inches='tight')
 
-
         # Mean error comparison plot
         # Reorder based on mean error
         df_statistics_ME = df_statistics.sort_values(by="ME", inplace=False, ascending=False)
 
         barplot_with_CI_errorbars(df=df_statistics_ME, x_label="ID", y_label="ME",
                                   y_lower_label="ME_lower_bound",
-                                  y_upper_label="ME_upper_bound",
+                                  y
+        _upper_label="ME_upper_bound",
                                   figsize=(10, 4))
         plt.ylim(-2.2, 2.2)
         plt.savefig(directory_path + "/ME_vs_method_plot.pdf", bbox_inches='tight')

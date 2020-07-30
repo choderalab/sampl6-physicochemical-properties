@@ -916,7 +916,7 @@ class pKaTypeIDominantMicrostateCollection:
             if bootstrap_statistics is None:
                 print('\rGenerating dominant microstate bootstrap statistics for submission {} ({}/{})'
                       ''.format(receipt_id, i + 1, len(receipt_ids)), end='')
-                bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000)
+                bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000) #10000
 
                 # Cashe bootstrap statistics
                 os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
@@ -975,7 +975,7 @@ class pKaTypeIDominantMicrostateCollection:
                 if bootstrap_statistics is None:
                     print('\rGenerating dominant microstate bootstrap statistics charge {} for submission {} ({}/{})'
                         ''.format(charge, receipt_id, i + 1, len(receipt_ids)), end='')
-                    bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000)
+                    bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean, n_bootstrap_samples=10000) #10000
 
                     # Cashe bootstrap statistics
                     os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
@@ -1044,7 +1044,7 @@ class pKaTypeIDominantMicrostateCollection:
                 print('\rGenerating dominant microstate bootstrap statistics for molecule {} ({}/{})'
                       ''.format(mol_ID, i + 1, len(mol_IDs)), end='')
                 bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean,
-                                                                    n_bootstrap_samples=10000)
+                                                                    n_bootstrap_samples=10000) #10000
 
                 # Cashe bootstrap statistics
                 os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
@@ -1106,7 +1106,7 @@ class pKaTypeIDominantMicrostateCollection:
                     print('\rGenerating dominant microstate bootstrap statistics charge {} for molecule {} ({}/{})'
                           ''.format(charge, mol_ID, i + 1, len(mol_IDs)), end='')
                     bootstrap_statistics = compute_bootstrap_statistics(match_values_array, stats_funcs=nanmean,
-                                                                        n_bootstrap_samples=10000)
+                                                                        n_bootstrap_samples=10000) #10000
 
                     # Cashe bootstrap statistics
                     os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
