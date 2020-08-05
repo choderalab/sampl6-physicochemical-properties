@@ -1659,8 +1659,8 @@ def generate_performance_comparison_plots(statistics_filename, directory_path, m
         barplot_with_CI_errorbars_colored_by_label(df=df_statistics, x_label="ID", y_label="MAE",
                                                    y_lower_label="MAE_lower_bound",
                                                    y_upper_label="MAE_upper_bound", color_label="category",
-                                                   figsize=(10, 7))
-        plt.ylim(0.0, 7.0)
+                                                   figsize=(10, 4))
+        plt.ylim(0.0, 4.0)
         plt.savefig(directory_path + "/MAE_vs_method_plot_colored_by_method_category.pdf")
 
         # Mean error comparison plot

@@ -28,7 +28,7 @@ def nanmean(data):
 # PLOTTING FUNCTIONS
 # =============================================================================
 
-def barplot_with_CI_errorbars_and_2groups(df1, df2, x_label, y_label, y_lower_label, y_upper_label):
+def barplot_with_CI_errorbars_and_2groups(df1, df2, x_label, y_label, y_lower_label, y_upper_label, figsize=False):
     """Creates bar plot of a given dataframe with asymmetric error bars for y axis.
 
     Args:
@@ -56,6 +56,10 @@ def barplot_with_CI_errorbars_and_2groups(df1, df2, x_label, y_label, y_lower_la
     plt.rcParams['ytick.labelsize'] = 16
     plt.tight_layout()
     bar_width = 0.45
+
+    # If figsize is specified
+    if figsize != False:
+        plt.figure(figsize=figsize)
 
     # Plot 1st group of data
     data = df1  # Pandas DataFrame
@@ -1132,12 +1136,6 @@ class pKaTypeIDominantMicrostateCollection:
         self.molecular_dom_ms_stats.to_csv(microstate_stats_file_path, index=False)
 
 
-
-
-
-
-
-
         #import pdb; pdb.set_trace()
 
 def generate_dominant_microstate_accuracy_plots(statistics_filename, directory_path, df_method):
@@ -1161,7 +1159,7 @@ def generate_dominant_microstate_accuracy_plots(statistics_filename, directory_p
 
     # Overall dominant microstate accuracy comparison plot
     barplot_with_CI_errorbars_colored_by_label(df=df_statistics, x_label="receipt_id", y_label="Accuracy", y_lower_label="Accuracy lower bound",
-                              y_upper_label="Accuracy upper bound", color_label="category", figsize=(10, 7))
+                              y_upper_label="Accuracy upper bound", color_label="category", figsize=(10, 4))
     plt.ylim(0, 1)
     plt.savefig(directory_path + "/dominant_microstate_accuracy_vs_method_plot.pdf")
 
@@ -1183,7 +1181,7 @@ def generate_dominant_microstate_accuracy_plots(statistics_filename, directory_p
 
     barplot_with_CI_errorbars_and_2groups(df1=df_charge0, df2=df_charge1, x_label='receipt_id',
                                           y_label='Accuracy', y_lower_label='Accuracy lower bound',
-                                          y_upper_label='Accuracy lower bound')
+                                          y_upper_label='Accuracy lower bound', figsize=(10, 4))
     plt.ylim(0,1)
     plt.legend(bbox_to_anchor=(1.05, 0, 0.5, 1))
     plt.savefig(directory_path + "/dominant_microstate_accuracy_vs_method_plot_with_separate_charges.pdf")
@@ -1200,7 +1198,7 @@ def generate_molecular_dominant_microstate_accuracy_plots(statistics_filename, d
     barplot_with_CI_errorbars(df=df_statistics, x_label="Molecule ID", y_label="Accuracy", y_lower_label="Accuracy lower bound",
                               y_upper_label="Accuracy upper bound")
     plt.ylim(0, 1)
-    plt.savefig(directory_path + "/molecular_dominant_microstate_accuracy_vs_method_plot.pdf")
+    plt.savefig(directory_path + "/molecular_dominant_microstate_accuracy_vs_mol_plot.pdf")
 
     # Plot dominant microstate accuracy of charge 0 and 1 separately
     df_charge0 = df_statistics[["Molecule ID", "Accuracy (Charge 0)", "Accuracy lower bound (Charge 0)", "Accuracy upper bound (Charge 0)"]]
@@ -1220,10 +1218,10 @@ def generate_molecular_dominant_microstate_accuracy_plots(statistics_filename, d
 
     barplot_with_CI_errorbars_and_2groups(df1=df_charge0, df2=df_charge1, x_label='Molecule ID',
                                           y_label='Accuracy', y_lower_label='Accuracy lower bound',
-                                          y_upper_label='Accuracy lower bound')
+                                          y_upper_label='Accuracy lower bound', figsize=(10, 4))
     plt.ylim(0,1)
     plt.legend(bbox_to_anchor=(1.05, 0, 0.5, 1))
-    plt.savefig(directory_path + "/molecular_dominant_microstate_accuracy_vs_method_plot_with_separate_charges.pdf")
+    plt.savefig(directory_path + "/molecular_dominant_microstate_accuracy_vs_mol_plot_with_separate_charges.pdf")
 
 
 
@@ -1300,7 +1298,7 @@ if __name__ == '__main__':
         # Calculate relative free energy of predicted microstates using neutral pH = 0 and a neutral state as reference
         pred_microstate_relative_free_energy = microstateRelativeFreeEnergy(df_full_collection=full_collection_data,
                                                   directory_path = output_directory_path,
-                                                  file_base_name = "relative_free_energy_of_predicted_microstates",
+                                                  file_base_name = "relative_free_energy_of_predicted_microstates_at_pH_0",
                                                   ref_pH = 0)
 
         # Create dominant microstates collection
@@ -1331,3 +1329,18 @@ if __name__ == '__main__':
         # Plot dominant microstate accuracy to compare molecules
         generate_molecular_dominant_microstate_accuracy_plots(statistics_filename="molecular_dominant_microstate_statistics.csv",
                                                 directory_path=molecular_statistics_directory_path)
+
+        # Calculate relative free energy of predicted microstates using pH = 7 and a neutral state as reference
+        #pred_microstate_relative_free_energy_pH_7 = microstateRelativeFreeEnergy(df_full_collection=full_collection_data,
+        #                                                                directory_path=output_directory_path,
+        #                                                                file_base_name="relative_free_energy_of_predicted_microstates_at_pH_7_4",
+        #                                                                ref_pH=7)
+
+        # TO-DO: This class below needs to be built
+        #
+        # Create collection for pH 7.4 dominant state prediction
+        #dominant_microstate_collection = pKaTypeIpH74DominantMicrostateCollection(
+        #                                        pred_microstates_data=pred_microstate_relative_free_energy_pH_7,
+        #                                        exp_dominant_microstates=exp_dominant_microstate_data,
+        #                                        directory_path=output_directory_path,
+        #                                        file_base_name='typeI_dominant_microstate_collection')
